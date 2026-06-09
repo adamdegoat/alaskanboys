@@ -1,14 +1,14 @@
 {
-  "day": 1,
-  "cycle": "night",
+  "day": 2,
+  "cycle": "morning",
   "weather": "clear",
   "season": {
     "name": "summer",
-    "day_in_season": 1
+    "day_in_season": 2
   },
   "resources": {
-    "food": 19,
-    "water": 80,
+    "food": 21,
+    "water": 76,
     "wood": 33,
     "medicine": 18,
     "materials": 36,
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 59,
+      "condition": 57,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 94,
+      "condition": 92,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,7 +46,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 8
   },
   "build": {
     "project": "cabin_repair",
@@ -60,22 +60,27 @@
   "snowmachine": {
     "present": false
   },
-  "last_run_date": "2026-06-09",
-  "pulse": "A first victory pulls them closer: Finn proved right, Cole already planning, the cabin warm and full.",
-  "scene": "The spring flows clear where Finn found it on the ridge. Now the family settles in the warm cabin—Cole at the table planning, Maggie clearing bowls, Sawyer by the stove, Finn pacing, Bear nestled sleepy against his mother.",
+  "last_run_date": "2026-06-10",
+  "pulse": "The warm cabin and clear morning settle the family into their first real day of work; water systems, lessons, and the season's push ahead.",
+  "scene": "Morning light fills the cabin as Cole tends the stove and Maggie starts pancakes; Sawyer checks the weather outside, while Finn bounces in asking what's next and Bear shuffles to the table, ready for breakfast.",
   "resources_prev": {
-    "food": 46,
-    "water": 90,
-    "wood": 36,
+    "food": 19,
+    "water": 80,
+    "wood": 33,
     "medicine": 18,
-    "materials": 40,
+    "materials": 36,
     "money": 60,
-    "power": 40
+    "power": 32
   },
-  "camp_climate": "content",
+  "camp_climate": "steady",
   "discoveries": [],
-  "last_cycle_key": "2026-06-09:night",
+  "last_cycle_key": "2026-06-10:morning",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be."
+  },
+  "lean": {
+    "id": "push_work",
+    "label": "Work the list",
+    "desc": "Tackle the cabin water system or foundation now—winter won't wait, and every hour of daylight counts."
   }
 }

@@ -1,25 +1,28 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-09",
+    "id": "2026-06-10",
     "closes": "tonight",
-    "question": "Cole's got the cabin water system and foundation calling, but Maggie spots the boys eyeing the fishing hole they found—and she's right, they're exhausted from the drive i",
+    "question": "Tomorrow, Cole wants to hit the water system while the iron's hot—but Maggie's seeing exhaustion settling in. Spend the day running the line before winter closes in, or g",
     "options": [
       {
-        "id": "push_work",
-        "label": "Work the list",
-        "desc": "Tackle the cabin water system or foundation now—winter won't wait, and every hour of daylight counts."
+        "id": "push_the_water",
+        "label": "Push the water system",
+        "desc": "Winter waits for no one. Get that line running while the weather holds and the spring's fresh."
       },
       {
-        "id": "rest_explore",
-        "label": "Settle in & fish",
-        "desc": "Let the boys rest, explore, and catch dinner at the fishing hole—build morale before the grind really begins."
-      },
-      {
-        "id": "split_day",
-        "label": "Work then play",
-        "desc": "Morning work on the priority cabin task, afternoon fishing trip with Sawyer and Finn—best of both."
+        "id": "rest_and_fish",
+        "label": "Rest day—maybe fishing",
+        "desc": "The boys need to feel the victory settle. Work's endless; these moments with the family aren't."
       }
     ]
+  },
+  "in_play": {
+    "id": "push_work",
+    "label": "Work the list",
+    "desc": "Tackle the cabin water system or foundation now—winter won't wait, and every hour of daylight counts.",
+    "decided": "2026-06-10",
+    "votes": 0,
+    "tally": {}
   }
 }
