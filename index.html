@@ -770,6 +770,22 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 <g fill="#6b6438" opacity=".4">
   <ellipse cx="430" cy="500" rx="180" ry="40"/><ellipse cx="640" cy="470" rx="120" ry="26"/>
 </g>
+<!-- tonal variation across the clearing (lighter & darker grass patches) so it isn't a flat green -->
+<g opacity=".5">
+  <ellipse cx="250" cy="400" rx="120" ry="26" fill="#6e7c44"/><ellipse cx="760" cy="408" rx="140" ry="28" fill="#6e7c44"/>
+  <ellipse cx="520" cy="392" rx="160" ry="24" fill="#54622f"/><ellipse cx="380" cy="452" rx="130" ry="26" fill="#6a784a"/>
+  <ellipse cx="700" cy="500" rx="150" ry="30" fill="#54622f"/><ellipse cx="150" cy="430" rx="90" ry="20" fill="#6a784a"/>
+</g>
+<!-- scattered grass tufts + pebbles across the yard (texture) -->
+<g stroke="#5f7042" stroke-width="1.6" stroke-linecap="round" opacity=".7" fill="none">
+  <path d="M 280 430 q -2 -8 0 -12 M 284 430 q 1 -8 3 -11 M 288 430 q 3 -7 6 -10"/>
+  <path d="M 560 414 q -2 -8 0 -12 M 564 414 q 1 -8 3 -11"/>
+  <path d="M 720 446 q -2 -8 0 -12 M 724 446 q 1 -8 3 -11 M 728 446 q 3 -7 6 -10"/>
+  <path d="M 180 462 q -2 -8 0 -12 M 184 462 q 1 -8 3 -11"/>
+  <path d="M 840 470 q -2 -8 0 -12 M 844 470 q 1 -8 3 -11 M 848 470 q 3 -7 6 -10"/>
+  <path d="M 460 430 q -2 -8 0 -12 M 464 430 q 1 -8 3 -11"/>
+</g>
+<g fill="#7a7e84" opacity=".8"><circle cx="320" cy="438" r="2.4"/><circle cx="600" cy="450" r="2.2"/><circle cx="470" cy="496" r="2.6"/><circle cx="760" cy="438" r="2.2"/><circle cx="240" cy="486" r="2.4"/></g>
 
 <!-- ══ THE HOMESTEAD — hand-drawn, grounded on the clearing ══ -->
 <g id="homestead">
@@ -820,6 +836,15 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <rect x="586" y="448" width="24" height="32" rx="1" fill="#4a3018"/><rect x="589" y="451" width="18" height="29" fill="#5c3d22"/><circle cx="604" cy="464" r="1.6" fill="#caa05a"/>
     <rect x="532" y="428" width="22" height="19" rx="1" fill="#3a2a18"/><rect x="534" y="430" width="18" height="15" fill="#ffd98a"/><line x1="543" y1="430" x2="543" y2="445" stroke="#3a2a18" stroke-width="1.4"/><line x1="534" y1="437" x2="552" y2="437" stroke="#3a2a18" stroke-width="1.4"/>
     <rect x="640" y="428" width="22" height="19" rx="1" fill="#3a2a18"/><rect x="642" y="430" width="18" height="15" fill="#ffd98a"/><line x1="651" y1="430" x2="651" y2="445" stroke="#3a2a18" stroke-width="1.4"/><line x1="642" y1="437" x2="660" y2="437" stroke="#3a2a18" stroke-width="1.4"/>
+    <!-- antlers mounted on the gable -->
+    <g stroke="#d8cdb8" stroke-width="2" stroke-linecap="round" fill="none" opacity=".85">
+      <path d="M 600 372 q -10 -4 -16 -1 M 590 371 q -3 -5 -8 -5 M 600 372 q 10 -4 16 -1 M 610 371 q 3 -5 8 -5"/>
+    </g>
+    <!-- firewood stacked against the cabin wall -->
+    <g fill="#c08a4a" stroke="#7a5230" stroke-width="0.7">
+      <circle cx="500" cy="474" r="4"/><circle cx="500" cy="466" r="4"/><circle cx="500" cy="458" r="4"/>
+      <circle cx="509" cy="474" r="4"/><circle cx="509" cy="466" r="4"/><circle cx="509" cy="458" r="4"/>
+    </g>
     <!-- porch -->
     <rect x="576" y="480" width="44" height="4" fill="#6b4a2e"/>
     <line x1="580" y1="480" x2="580" y2="490" stroke="#5c3d22" stroke-width="2.6" stroke-linecap="round"/><line x1="616" y1="480" x2="616" y2="490" stroke="#5c3d22" stroke-width="2.6" stroke-linecap="round"/>
@@ -850,6 +875,21 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <line x1="706" y1="486" x2="788" y2="490" stroke-width="2" opacity=".85"/>
   </g>
 
+  <!-- clothesline strung between two posts (homestead life) -->
+  <g>
+    <line x1="700" y1="500" x2="700" y2="456" stroke="#6b4a2e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="772" y1="502" x2="772" y2="458" stroke="#6b4a2e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 700 460 Q 736 468 772 462" stroke="#d8cdb8" stroke-width="1" fill="none" opacity=".8"/>
+    <rect x="712" y="462" width="11" height="16" rx="1" fill="#9fb4c8"/>
+    <rect x="730" y="463" width="9" height="14" rx="1" fill="#c87a6a"/>
+    <rect x="746" y="462" width="12" height="15" rx="1" fill="#cdbb8e"/>
+  </g>
+  <!-- a beached canoe by the creek -->
+  <g transform="translate(688,516)">
+    <ellipse cx="32" cy="14" rx="34" ry="8" fill="#9a3b2e"/>
+    <ellipse cx="32" cy="12" rx="30" ry="6" fill="#7a2e22"/>
+    <ellipse cx="32" cy="11" rx="26" ry="4" fill="#5c241a"/>
+  </g>
   <!-- foreground DETAIL: rocks, grass tufts, a mossy stump -->
   <g>
     <ellipse cx="70" cy="556" rx="26" ry="12" fill="#6a7058"/><ellipse cx="62" cy="551" rx="16" ry="8" fill="#7e8466"/>
@@ -863,6 +903,64 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
   </g>
 </g>
 
+<!-- ══ WORN PATHS (lived-in dirt trails between cabin, fire, woodpile, creek) ══ -->
+<g stroke="#6e6440" fill="none" stroke-linecap="round" opacity=".42">
+  <path d="M 600 482 Q 552 498 504 506" stroke-width="11"/>
+  <path d="M 500 510 Q 380 510 250 504" stroke-width="10"/>
+  <path d="M 504 508 Q 500 528 488 540" stroke-width="9"/>
+  <path d="M 600 482 Q 680 488 736 486" stroke-width="9"/>
+</g>
+<g stroke="#857a4e" fill="none" stroke-linecap="round" opacity=".3" stroke-dasharray="2 10">
+  <path d="M 600 482 Q 552 498 504 506" stroke-width="4"/><path d="M 500 510 Q 380 510 250 504" stroke-width="4"/>
+</g>
+
+<!-- ══ CLEARING VEGETATION — willow/alder bushes, fireweed (iconic Alaska), berry shrubs ══ -->
+<g id="veg-mid">
+  <!-- bush clumps along the treeline + clearing (depth transition forest->yard) -->
+  <g>
+    <g fill="#2f6b46"><ellipse cx="120" cy="404" rx="20" ry="13"/><ellipse cx="138" cy="398" rx="14" ry="10"/></g>
+    <g fill="#3a7a52"><ellipse cx="128" cy="400" rx="11" ry="8"/></g>
+    <g fill="#2f6b46"><ellipse cx="350" cy="392" rx="18" ry="12"/><ellipse cx="366" cy="388" rx="12" ry="9"/></g>
+    <g fill="#356b4a"><ellipse cx="828" cy="398" rx="22" ry="13"/><ellipse cx="846" cy="392" rx="14" ry="10"/></g>
+    <g fill="#2f6b46"><ellipse cx="690" cy="402" rx="16" ry="11"/></g>
+    <g fill="#3a7a52"><ellipse cx="300" cy="470" rx="15" ry="10"/><ellipse cx="312" cy="466" rx="10" ry="7"/></g>
+    <g fill="#356b4a"><ellipse cx="800" cy="486" rx="17" ry="11"/></g>
+  </g>
+  <!-- fireweed: tall magenta spikes (Alaska's signature summer flower) -->
+  <g id="fireweed">
+    <g stroke="#3a6b40" stroke-width="2" stroke-linecap="round">
+      <line x1="92" y1="500" x2="90" y2="456"/><line x1="100" y1="502" x2="99" y2="462"/><line x1="108" y1="500" x2="110" y2="458"/>
+      <line x1="858" y1="510" x2="856" y2="462"/><line x1="868" y1="512" x2="869" y2="468"/><line x1="878" y1="510" x2="881" y2="466"/>
+      <line x1="430" y1="500" x2="429" y2="464"/><line x1="438" y1="502" x2="440" y2="468"/>
+    </g>
+    <g fill="#c84a8a">
+      <ellipse cx="90" cy="458" rx="3.4" ry="4.6"/><ellipse cx="91" cy="466" rx="3" ry="4"/><ellipse cx="89" cy="474" rx="2.4" ry="3.4"/>
+      <ellipse cx="99" cy="464" rx="3.2" ry="4.4"/><ellipse cx="100" cy="472" rx="2.6" ry="3.6"/>
+      <ellipse cx="110" cy="460" rx="3.4" ry="4.6"/><ellipse cx="109" cy="468" rx="2.8" ry="3.8"/>
+      <ellipse cx="856" cy="464" rx="3.4" ry="4.6"/><ellipse cx="857" cy="472" rx="2.8" ry="3.8"/>
+      <ellipse cx="869" cy="470" rx="3.2" ry="4.4"/><ellipse cx="868" cy="478" rx="2.6" ry="3.6"/>
+      <ellipse cx="881" cy="468" rx="3.4" ry="4.6"/><ellipse cx="880" cy="476" rx="2.8" ry="3.8"/>
+      <ellipse cx="429" cy="466" rx="3.2" ry="4.4"/><ellipse cx="430" cy="474" rx="2.6" ry="3.6"/>
+      <ellipse cx="440" cy="470" rx="3.2" ry="4.4"/>
+    </g>
+    <g fill="#e87ab0"><ellipse cx="90" cy="456" rx="2" ry="2.6"/><ellipse cx="110" cy="458" rx="2" ry="2.6"/><ellipse cx="856" cy="462" rx="2" ry="2.6"/><ellipse cx="881" cy="466" rx="2" ry="2.6"/><ellipse cx="429" cy="464" rx="2" ry="2.6"/></g>
+  </g>
+  <!-- a moose grazing near the treeline (calm wildlife) -->
+  <g id="moose" fill="#241a12" opacity=".92">
+    <ellipse cx="206" cy="430" rx="26" ry="14"/>
+    <rect x="186" y="430" width="4" height="20" rx="1.5"/><rect x="196" y="432" width="4" height="18" rx="1.5"/>
+    <rect x="216" y="431" width="4" height="19" rx="1.5"/><rect x="226" y="430" width="4" height="20" rx="1.5"/>
+    <path d="M 232 424 q 14 -2 18 8 q 1 6 -3 9 l -6 -2 q 2 -6 -2 -9 q -5 -3 -9 -1 z"/>
+    <path d="M 240 416 q -4 -8 2 -12 M 246 416 q 2 -9 9 -10 M 235 416 q -7 -6 -7 -12"/>
+  </g>
+  <!-- cut stumps (this land was cleared) -->
+  <g><ellipse cx="660" cy="440" rx="8" ry="3" fill="#8a5f38"/><rect x="652" y="435" width="16" height="5" fill="#6b4a2e"/><ellipse cx="660" cy="435" rx="8" ry="2.8" fill="#b9854a"/></g>
+  <g><ellipse cx="438" cy="462" rx="7" ry="2.6" fill="#8a5f38"/><rect x="431" y="458" width="14" height="4" fill="#6b4a2e"/><ellipse cx="438" cy="458" rx="7" ry="2.4" fill="#b9854a"/></g>
+  <!-- scattered rocks on the clearing -->
+  <g fill="#7a7e84"><ellipse cx="660" cy="512" rx="9" ry="4.5"/><ellipse cx="656" cy="509" rx="6" ry="3.4" fill="#8a8e94"/>
+    <ellipse cx="360" cy="520" rx="7" ry="3.6"/><ellipse cx="210" cy="468" rx="6" ry="3.2"/></g>
+</g>
+
 <!-- birds drifting high -->
 <g id="hs-birds" fill="none" stroke="#33445a" stroke-width="2" stroke-linecap="round" opacity=".5">
   <path class="cl2" d="M 300 96 q 7 -6 13 0 q 7 -6 13 0"/>
@@ -873,6 +971,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 <!-- ══ THE CREEK (winds across the foreground) ══ -->
 <path d="M -20 540 Q 180 516 360 536 Q 560 558 760 524 Q 900 500 1020 520 L 1020 580 Q 880 560 760 580 Q 560 612 360 588 Q 180 568 -20 590 Z" fill="url(#ocean-g)"/>
 <path d="M 0 540 Q 200 520 380 538 Q 580 558 780 528" stroke="#cfeaf2" stroke-width="1.4" fill="none" opacity=".5"/>
+<g fill="#6a7480"><ellipse cx="300" cy="552" rx="9" ry="3.4"/><ellipse cx="296" cy="550" rx="6" ry="2.4" fill="#828c98"/>
+  <ellipse cx="620" cy="546" rx="8" ry="3" /><ellipse cx="624" cy="544" rx="5" ry="2.2" fill="#828c98"/>
+  <ellipse cx="470" cy="560" rx="7" ry="2.8"/></g>
+<g stroke="#cfeaf2" stroke-width="1" fill="none" opacity=".4"><ellipse cx="360" cy="556" rx="22" ry="3"/><ellipse cx="700" cy="548" rx="26" ry="3"/></g>
 
 <!-- ══ THE DRIVEWAY / ROAD heading off toward town ══ -->
 <path d="M 120 600 Q 180 470 150 360" stroke="#6b6438" stroke-width="20" fill="none" opacity=".55" stroke-linecap="round"/>
@@ -880,6 +982,23 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 
 <!-- ══ FOREGROUND SPRUCE (framing the scene left + right) ══ -->
 <g id="treeline-near" fill="url(#spruce-near)"></g>
+<!-- foreground fireweed + bracken + a low bush (depth + Alaska colour at the very front) -->
+<g id="veg-fg">
+  <g fill="#274a36"><ellipse cx="40" cy="588" rx="34" ry="20"/><ellipse cx="68" cy="580" rx="22" ry="15"/></g>
+  <g fill="#2f5840"><ellipse cx="958" cy="592" rx="38" ry="22"/><ellipse cx="930" cy="582" rx="24" ry="16"/></g>
+  <g stroke="#3a6b40" stroke-width="2.6" stroke-linecap="round">
+    <line x1="190" y1="600" x2="186" y2="544"/><line x1="202" y1="600" x2="205" y2="548"/><line x1="214" y1="600" x2="212" y2="552"/>
+    <line x1="800" y1="600" x2="796" y2="548"/><line x1="812" y1="600" x2="815" y2="552"/>
+  </g>
+  <g fill="#c84a8a">
+    <ellipse cx="186" cy="546" rx="4" ry="5.4"/><ellipse cx="187" cy="556" rx="3.4" ry="4.6"/><ellipse cx="185" cy="566" rx="2.8" ry="3.8"/>
+    <ellipse cx="205" cy="550" rx="4" ry="5.4"/><ellipse cx="206" cy="560" rx="3.2" ry="4.4"/>
+    <ellipse cx="212" cy="554" rx="3.6" ry="4.8"/>
+    <ellipse cx="796" cy="550" rx="4" ry="5.4"/><ellipse cx="797" cy="560" rx="3.2" ry="4.4"/>
+    <ellipse cx="815" cy="554" rx="3.8" ry="5"/>
+  </g>
+  <g fill="#e87ab0"><ellipse cx="186" cy="544" rx="2.2" ry="3"/><ellipse cx="205" cy="548" rx="2.2" ry="3"/><ellipse cx="796" cy="548" rx="2.2" ry="3"/></g>
+</g>
 
 <!-- ══ SNOW COVER (winter; toggled by season in JS) ══ -->
 <g id="snow-ground" opacity="0">
