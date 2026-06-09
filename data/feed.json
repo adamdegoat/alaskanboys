@@ -396,5 +396,208 @@
       }
     ],
     "timestamp": "2026-06-09T18:01:47.281303"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "cole",
+    "action": "He settles at the table with his rough sketch of tomorrow's water-system layout, pencil in hand.",
+    "thought": "Water on day one. The land gives back.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-09T23:02:23.654063"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "She clears soup bowls from the table, listening to Cole's sketches and the boys' chatter, settling in alongside Bear who leans against her.",
+    "thought": "Finn found the spring. We're actually doing this.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-09T23:02:23.654063"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "He listens to Cole's plan from near the stove, turning the logistics in his mind—less water haul means more hours for building.",
+    "thought": "Less water work. More time for building.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "thoughtful",
+    "timestamp": "2026-06-09T23:02:23.654063"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "finn",
+    "action": "He paces the small cabin, buzzing with the spring's discovery still fresh, asking Cole questions about pipe routing and when they start laying it.",
+    "thought": "I knew that spot was right all along.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "buzzing",
+    "timestamp": "2026-06-09T23:02:23.654063"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "character": "bear",
+    "action": "He nestles against his mother's side, eyes heavy with the day's excitement and exhaustion, listening to talk of springs and systems and tomorrow's early light.",
+    "thought": "Best day ever. Best first day.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "drowsy",
+    "timestamp": "2026-06-09T23:02:23.654063"
+  },
+  {
+    "day": 1,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Evening gathers the family in the warm cabin, the water find bright in their minds—Finn buzzing, Cole planning, Maggie tending the quiet joy, Sawyer thinking logistics, Bear going sleepy.",
+    "dialogue": [
+      {
+        "speaker": "finn",
+        "line": "Did you see how clear it was?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Finn had the eye for it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "So we don't haul from the creek?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Not for drinking and cooking, no."
+      },
+      {
+        "speaker": "cole",
+        "line": "Cuts our daily work in half easily."
+      },
+      {
+        "speaker": "finn",
+        "line": "That spot felt right from the start."
+      },
+      {
+        "speaker": "bear",
+        "line": "It was so cold."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Cold and clean. That's what we need."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "When do we build the system?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Tank tomorrow, pipes the day after."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we check it at first light?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You and me both. Need the flow."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Not in darkness."
+      },
+      {
+        "speaker": "cole",
+        "line": "First light. I'm thinking around five."
+      },
+      {
+        "speaker": "bear",
+        "line": "Bears come out at first light."
+      },
+      {
+        "speaker": "finn",
+        "line": "So do we."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Smart, not fearless."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat more before anyone goes anywhere."
+      },
+      {
+        "speaker": "cole",
+        "line": "She's right about everything."
+      },
+      {
+        "speaker": "finn",
+        "line": "I want to see the spring tomorrow night."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we all go together?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "If the work allows, we will."
+      },
+      {
+        "speaker": "cole",
+        "line": "We'll make it happen. Days like this—you remember them."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Water on day one. That's not luck."
+      },
+      {
+        "speaker": "finn",
+        "line": "I knew where to look."
+      },
+      {
+        "speaker": "cole",
+        "line": "And we trusted you. That matters."
+      },
+      {
+        "speaker": "bear",
+        "line": "Best day."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Best first day ever."
+      }
+    ],
+    "timestamp": "2026-06-09T23:02:23.654063"
   }
 ]

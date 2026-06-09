@@ -1,19 +1,19 @@
 {
   "day": 1,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "summer",
     "day_in_season": 1
   },
   "resources": {
-    "food": 46,
-    "water": 90,
-    "wood": 36,
+    "food": 19,
+    "water": 80,
+    "wood": 33,
     "medicine": 18,
-    "materials": 40,
+    "materials": 36,
     "money": 60,
-    "power": 40
+    "power": 32
   },
   "pending_events": [],
   "started": "2026-06-09",
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 61,
+      "condition": 59,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 96,
+      "condition": 94,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,12 +46,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 14
+    "fuel": 2
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 9
+    "progress": 14
   },
   "truck": {
     "present": true,
@@ -61,18 +61,21 @@
     "present": false
   },
   "last_run_date": "2026-06-09",
-  "pulse": "The spring is found, the family is close, and as the long day winds down, the cabin feels like home.",
-  "scene": "The spring breaks through on the ridge where Finn insisted; now as evening settles golden and warm, the family sits muddy and grinning over soup, all five together in the cabin.",
+  "pulse": "A first victory pulls them closer: Finn proved right, Cole already planning, the cabin warm and full.",
+  "scene": "The spring flows clear where Finn found it on the ridge. Now the family settles in the warm cabin—Cole at the table planning, Maggie clearing bowls, Sawyer by the stove, Finn pacing, Bear nestled sleepy against his mother.",
   "resources_prev": {
-    "food": 50,
-    "water": 70,
-    "wood": 35,
+    "food": 46,
+    "water": 90,
+    "wood": 36,
     "medicine": 18,
     "materials": 40,
     "money": 60,
-    "power": 43
+    "power": 40
   },
-  "camp_climate": "steady",
+  "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-09:evening"
+  "last_cycle_key": "2026-06-09:night",
+  "day_summaries": {
+    "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be."
+  }
 }
