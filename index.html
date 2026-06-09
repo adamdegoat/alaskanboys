@@ -1018,6 +1018,32 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 <rect width="1000" height="600" fill="url(#vignette-g)" pointer-events="none"/>
 
 <!-- NIGHT OVERLAY -->
+<!-- ══ WINTER LAYER — snow caps on everything + frozen creek + cool light (toggled by season) ══ -->
+<rect id="fall-tint" width="1000" height="600" opacity="0" fill="#d98a3a" style="mix-blend-mode:soft-light" pointer-events="none"/>
+<rect id="spring-tint" width="1000" height="600" opacity="0" fill="#8aa0b8" style="mix-blend-mode:soft-light" pointer-events="none"/>
+<g id="winter-extras" opacity="0">
+  <!-- snow capping the cabin roof -->
+  <path d="M 500 410 L 600 360 L 700 410 L 686 410 Q 600 372 514 410 Z" fill="#f4f8fd"/>
+  <path d="M 596 360 L 612 372 L 588 372 Z" fill="#ffffff"/>
+  <!-- snow on the woodpile, garden, fence rail, chopping block, stumps, fire ring rim, canoe -->
+  <path d="M 226 487 Q 248 479 270 487 L 270 491 Q 248 483 226 491 Z" fill="#f4f8fd"/>
+  <path d="M 716 481 Q 750 476 784 482 L 784 486 Q 750 480 716 486 Z" fill="#eef4fb"/>
+  <path d="M 700 485 L 788 489" stroke="#f4f8fd" stroke-width="2.4" stroke-linecap="round"/>
+  <ellipse cx="392" cy="474" rx="13" ry="3.4" fill="#f4f8fd"/>
+  <ellipse cx="340" cy="492.5" rx="10" ry="2.6" fill="#eef4fb"/><ellipse cx="660" cy="438" rx="8" ry="2.2" fill="#eef4fb"/>
+  <path d="M 480 500 Q 500 495 520 500" stroke="#eef4fb" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="720" cy="527" rx="32" ry="5" fill="#eef4fb" opacity=".8"/>
+  <!-- snow on the foreground spruce tips (the big near trees) -->
+  <g fill="#eef4fb" opacity=".92">
+    <path d="M 40 452 l 7 14 l -14 0 z"/><path d="M 95 476 l 8 16 l -16 0 z"/><path d="M 150 486 l 6 13 l -13 0 z"/>
+    <path d="M 965 448 l 7 14 l -14 0 z"/><path d="M 915 472 l 8 16 l -16 0 z"/><path d="M 860 490 l 6 13 l -13 0 z"/>
+  </g>
+  <!-- frozen creek (pale ice sheen + cracks) -->
+  <path d="M -20 520 Q 220 500 460 516 Q 720 536 1020 506 L 1020 560 Q 760 588 460 568 Q 220 552 -20 572 Z" fill="#dde8f2" opacity=".82"/>
+  <g stroke="#b6cadd" stroke-width="1" fill="none" opacity=".55"><path d="M 80 540 L 280 533 L 360 545"/><path d="M 520 552 L 700 538 L 820 548"/></g>
+  <!-- cool winter light wash over the whole scene -->
+  <rect width="1000" height="600" fill="#bcd6ee" opacity=".14" style="mix-blend-mode:soft-light"/>
+</g>
 <rect id="night-overlay" width="1000" height="600" fill="#020617" opacity="0"/>
 
 <!-- ══ CAMPFIRE LIGHT — rendered ABOVE the night overlay so the fire glows warm at night instead
@@ -1281,8 +1307,12 @@ function applySeason(){
   const sn = (S.world && S.world.season && S.world.season.name) || 'summer'
   const winter = sn==='winter'
   document.getElementById('snow-ground')?.setAttribute('opacity', winter?'1':'0')
-  document.getElementById('world')?.classList.toggle('season-winter', winter)
-  document.getElementById('world')?.classList.toggle('season-'+sn, true)
+  document.getElementById('winter-extras')?.setAttribute('opacity', winter?'1':'0')
+  document.getElementById('fall-tint')?.setAttribute('opacity', sn==='fall'?'0.5':'0')
+  document.getElementById('spring-tint')?.setAttribute('opacity', sn==='spring'?'0.35':'0')
+  // fall + winter green up the clearing less; tint handled via class below
+  const w=document.getElementById('world')
+  if(w){ ['summer','fall','winter','spring'].forEach(x=>w.classList.toggle('season-'+x, x===sn)) }
 }
 
 // Engine-driven weather: read S.world.weather (already produced each cycle) and show
