@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alaskan Boys — the story so far</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
-<meta name="description" content="The story so far on Alaskan Boys — a wholesome, never-ending homestead family story (an unofficial AI-dramatised fan tribute). Day-by-day recaps, the full Homestead Log, and the family, told four times a day with no script.">
+<meta name="description" content="The story so far on Alaskan Boys — a wholesome, never-ending homestead family story (an unofficial AI-dramatised fan tribute). Day-by-day recaps, the full Homestead Log, and the family, told five times a day with no script.">
 <meta name="theme-color" content="#0a1410">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Never Ending Story Project">
@@ -165,6 +165,7 @@ h1,h2,h3{font-family:'Playfair Display',serif}
 .cycle-btn.active{background:rgba(255,255,255,.08);color:#fff}
 .cycle-btn[data-cycle="morning"].active{color:#93c5fd;box-shadow:inset 0 -2px 0 #93c5fd}
 .cycle-btn[data-cycle="midday"].active{color:#fde68a;box-shadow:inset 0 -2px 0 #fde68a}
+.cycle-btn[data-cycle="afternoon"].active{color:#7dd3fc;box-shadow:inset 0 -2px 0 #7dd3fc}
 .cycle-btn[data-cycle="evening"].active{color:#fb923c;box-shadow:inset 0 -2px 0 #fb923c}
 .cycle-btn[data-cycle="night"].active{color:#c084fc;box-shadow:inset 0 -2px 0 #c084fc}
 
@@ -362,10 +363,10 @@ footer span{color:var(--muted);font-weight:600}
   <!-- Hero Intro -->
   <div class="hero-intro reveal">
     <div class="hero-tagline" id="hero-tagline">One family. One Alaskan homestead. No script.</div>
-    <div class="hero-body" id="hero-body">Alaskan Boys is a warm, never-ending story about the Wilder family building an off-grid homestead in remote interior Alaska, four times a day, with no script. An unofficial, fictional, AI-dramatised fan tribute — not affiliated with the Wilder family.</div>
+    <div class="hero-body" id="hero-body">Alaskan Boys is a warm, never-ending story about the Wilder family building an off-grid homestead in remote interior Alaska, five times a day, with no script. An unofficial, fictional, AI-dramatised fan tribute — not affiliated with the Wilder family.</div>
     <div class="hero-stats">
       <div class="hero-stat-chip">Day <strong id="hsc-day">—</strong></div>
-      <div class="hero-stat-chip">Updated <strong>4×</strong> a day</div>
+      <div class="hero-stat-chip">Updated <strong>5×</strong> a day</div>
       <div class="hero-stat-chip">Zero human input</div>
     </div>
   </div>
@@ -417,7 +418,7 @@ function syncCharMaps(){
     if(!CHAR_NAMES[k]) CHAR_NAMES[k] = v.name||cap(k)
   })
 }
-const CYCLE_ORDER = ['morning','midday','evening','night']
+const CYCLE_ORDER = ['morning','midday','afternoon','evening','night']
 const WX = {clear:'☀️',rain:'🌧️',storm:'⛈️',overcast:'☁️',foggy:'🌫️'}
 const MOOD_EMOJI = {happy:'😊',cheerful:'😊',free:'😌',calm:'😌',content:'🙂',peaceful:'😌',neutral:'😐',
   guarded:'😶',distant:'😶',sad:'😔',lonely:'😔',angry:'😤',frustrated:'😤',restless:'😕',hopeful:'🙂',warm:'🙂'}
@@ -493,7 +494,7 @@ function render() {
   const tagline = document.getElementById('hero-tagline')
   if(tagline) tagline.textContent = `The Wilder family. One Alaskan homestead. No script.`
   const hbody = document.getElementById('hero-body')
-  if(hbody) hbody.innerHTML = `Alaskan Boys is a warm, never-ending story about the Wilder family — Cole, Maggie and their boys — building an off-grid homestead in remote interior Alaska. The story unfolds four times a day; the family works, grows, and surprises you as the seasons turn — no one controls them. Each day <strong style="color:#7fb8cc">the Almanac</strong> deals what frontier life brings — weather, the wild, the build, a long town haul. This entire world runs at zero cost. ✦ <em>An unofficial, fictional, AI-dramatised fan tribute — not affiliated with or endorsed by the Wilder family.</em>`
+  if(hbody) hbody.innerHTML = `Alaskan Boys is a warm, never-ending story about the Wilder family — Cole, Maggie and their boys — building an off-grid homestead in remote interior Alaska. The story unfolds five times a day; the family works, grows, and surprises you as the seasons turn — no one controls them. Each day <strong style="color:#7fb8cc">the Almanac</strong> deals what frontier life brings — weather, the wild, the build, a long town haul. This entire world runs at zero cost. ✦ <em>An unofficial, fictional, AI-dramatised fan tribute — not affiliated with or endorsed by the Wilder family.</em>`
   renderDayChips()
   renderProfiles()
   renderWorldState()
@@ -611,7 +612,7 @@ function dogProfileCard(cid, c){
   </div>`
 }
 
-const CYCLE_HOUR_S = {morning:'7am',midday:'12:30pm',evening:'6pm',night:'11pm'}
+const CYCLE_HOUR_S = {morning:'7am',midday:'11:30am',afternoon:'3pm',evening:'6:30pm',night:'10:30pm'}
 
 function fmtSGTS(ts) {
   if(!ts) return ''
@@ -756,8 +757,8 @@ async function init() {
     render()
     // Sync sky to real SGT time
     const sgt=new Date(Date.now()+new Date().getTimezoneOffset()*60000+8*3600000)
-    const h=sgt.getHours()
-    const sky=h>=23||h<7?'night':h<12?'morning':h<18?'midday':'evening'
+    const h=sgt.getHours()+sgt.getMinutes()/60
+    const sky=h>=22.5||h<7?'night':h<11.5?'morning':h<15?'midday':h<18.5?'afternoon':'evening'
     document.getElementById('sky-bg')?.setAttribute('fill',`url(#sky-${sky})`)
     const isNight=sky==='night'||sky==='dawn'
     document.getElementById('sun-group')?.setAttribute('opacity',isNight?'0':'1')
