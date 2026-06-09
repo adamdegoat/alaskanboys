@@ -28,7 +28,8 @@
       "builder": "cole",
       "day": 1,
       "label": "The Cabin",
-      "stage": "weathered"
+      "stage": "weathered",
+      "baked": true
     },
     {
       "id": "wood_stove",
