@@ -23,6 +23,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=VT323&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="theme.css"><!-- shared Never Ending Story house-style tokens -->
 <style>
+/* ── Alaska ambient motion ── */
+@keyframes hsSmoke{0%{opacity:.18;transform:translate(0,0)}50%{opacity:.5;transform:translate(3px,-6px)}100%{opacity:.18;transform:translate(0,0)}}
+@keyframes hsAurora{0%,100%{opacity:.45;transform:translateX(0)}50%{opacity:.9;transform:translateX(26px)}}
+@keyframes hsShimmer{0%{opacity:.25;transform:translateX(0)}50%{opacity:.6;transform:translateX(14px)}100%{opacity:.25;transform:translateX(0)}}
+@keyframes hsGraze{0%,100%{transform:translateY(0)}50%{transform:translateY(2px)}}
+@keyframes hsSoar{0%{transform:translate(0,0)}50%{transform:translate(70px,14px)}100%{transform:translate(0,0)}}
+.hs-soar{transform-box:fill-box;animation:hsSoar 26s ease-in-out infinite}
+.hs-smoke{transform-box:fill-box;transform-origin:bottom;animation:hsSmoke 5.5s ease-in-out infinite}
+.hs-aurora{transform-box:fill-box;animation:hsAurora 14s ease-in-out infinite}
+.hs-shimmer{animation:hsShimmer 7s ease-in-out infinite}
+.hs-graze{transform-box:fill-box;transform-origin:center bottom;animation:hsGraze 6s ease-in-out infinite}
+
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--above-hud:62px;--stage-bottom:96px}
 html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans',sans-serif;background:#020617}
@@ -693,8 +705,8 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 
 <!-- AURORA (night only; toggled by applySky) -->
 <g id="aurora" opacity="0" style="mix-blend-mode:screen">
-  <path class="cl1" d="M 60 70 Q 300 20 520 64 Q 760 110 980 50 L 980 150 Q 760 200 520 150 Q 300 110 60 165 Z" fill="url(#aurora-g)" opacity=".7"/>
-  <path class="cl3" d="M 40 120 Q 320 70 560 116 Q 800 160 990 104 L 990 196 Q 800 240 560 198 Q 320 158 40 210 Z" fill="url(#aurora-g)" opacity=".5"/>
+  <path class="hs-aurora" d="M 60 70 Q 300 20 520 64 Q 760 110 980 50 L 980 150 Q 760 200 520 150 Q 300 110 60 165 Z" fill="url(#aurora-g)" opacity=".7"/>
+  <path class="hs-aurora" style="animation-delay:-5s" d="M 40 120 Q 320 70 560 116 Q 800 160 990 104 L 990 196 Q 800 240 560 198 Q 320 158 40 210 Z" fill="url(#aurora-g)" opacity=".5"/>
 </g>
 
 <!-- NIGHT STARS -->
@@ -727,7 +739,41 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <path d="M 620 160 L 654 196 L 632 200 L 600 192 Z"/>
     <path d="M 880 150 L 916 190 L 892 196 L 858 186 Z"/>
   </g>
-  <rect y="200" width="1000" height="150" fill="url(#depth-haze)" opacity=".7"/>
+  <!-- shadowed right faces (3-D depth) -->
+  <g fill="#5d7290" opacity=".45">
+    <path d="M 130 150 L 250 250 L 196 250 L 130 168 Z"/>
+    <path d="M 360 130 L 500 270 L 436 270 L 360 156 Z"/>
+    <path d="M 620 160 L 760 270 L 700 270 L 620 182 Z"/>
+    <path d="M 880 150 L 1020 280 L 956 280 L 880 172 Z"/>
+  </g>
+  <!-- sunlit left faces -->
+  <g fill="#e2ebf4" opacity=".3">
+    <path d="M 360 130 L 250 250 L 300 250 L 360 156 Z"/>
+    <path d="M 620 160 L 500 270 L 552 270 L 620 182 Z"/>
+  </g>
+  <!-- snow streaks / couloirs running down the gullies -->
+  <g fill="#eef4fb" opacity=".6">
+    <path d="M 360 148 L 366 196 L 360 196 L 353 214 L 357 166 Z"/>
+    <path d="M 620 176 L 626 216 L 620 216 L 614 230 L 617 192 Z"/>
+    <path d="M 130 166 L 135 202 L 130 202 L 124 214 L 127 182 Z"/>
+    <path d="M 880 168 L 886 206 L 880 206 L 874 218 L 877 184 Z"/>
+    <path d="M 250 252 L 254 280 L 248 280 L 244 296 Z"/>
+  </g>
+  <!-- ridge rock texture -->
+  <g stroke="#6e8298" stroke-width="0.7" opacity=".4" fill="none">
+    <path d="M 360 150 L 384 178 M 372 168 L 392 188 M 620 180 L 642 206 M 632 196 L 652 218"/>
+  </g>
+  <!-- a hanging glacier spilling into the high valley -->
+  <path d="M 494 268 Q 512 226 534 218 Q 546 244 540 276 Q 522 292 500 282 Z" fill="#c2dded" opacity=".68"/>
+  <g stroke="#9fc4d8" stroke-width="0.8" opacity=".5" fill="none"><path d="M 510 240 L 522 270 M 524 232 L 532 262"/></g>
+  <!-- spruce treeline creeping up the lower slopes -->
+  <g fill="#3a5446" opacity=".62">
+    <path d="M 60 318 l 4 -10 l 4 10 z"/><path d="M 72 320 l 5 -12 l 5 12 z"/><path d="M 110 314 l 4 -10 l 4 10 z"/>
+    <path d="M 300 322 l 5 -12 l 5 12 z"/><path d="M 318 320 l 4 -10 l 4 10 z"/>
+    <path d="M 560 322 l 4 -10 l 4 10 z"/><path d="M 576 320 l 5 -12 l 5 12 z"/>
+    <path d="M 840 320 l 4 -10 l 4 10 z"/><path d="M 856 322 l 5 -12 l 5 12 z"/><path d="M 900 318 l 4 -10 l 4 10 z"/>
+  </g>
+  <rect y="200" width="1000" height="150" fill="url(#depth-haze)" opacity=".62"/>
 </g>
 
 <!-- ══ MID RIDGE (snowy shoulder + spruce line) ══ -->
@@ -831,7 +877,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <path d="M 516 408 Q 600 374 684 408 L 684 412 Q 600 380 516 412 Z" fill="#eef4fb" opacity=".7"/>
     <rect x="648" y="376" width="15" height="30" rx="1" fill="#6a6e74"/>
     <g stroke="#54585e" stroke-width="0.8"><line x1="648" y1="384" x2="663" y2="384"/><line x1="648" y1="392" x2="663" y2="392"/><line x1="655" y1="376" x2="655" y2="406"/></g>
-    <path id="cabin-smoke" class="cl3" d="M 655 374 Q 647 360 657 346 Q 665 334 657 320" stroke="#cdd9e8" stroke-width="4" fill="none" opacity=".4" stroke-linecap="round"/>
+    <path id="cabin-smoke" class="hs-smoke" d="M 655 374 Q 647 360 657 346 Q 665 334 657 320" stroke="#cdd9e8" stroke-width="4" fill="none" opacity=".4" stroke-linecap="round"/>
+    <!-- a pair of ravens on the ridge -->
+    <g fill="#16161c"><ellipse cx="548" cy="386" rx="4" ry="2.6"/><path d="M 545 386 l -4 -4 l 2 4 z"/><circle cx="551" cy="384" r="1.8"/>
+      <ellipse cx="564" cy="384" rx="3.6" ry="2.4"/><path d="M 561 384 l -3 -3 l 1.5 3 z"/><circle cx="567" cy="382" r="1.6"/></g>
     <!-- door + windows (warm light) -->
     <rect x="586" y="448" width="24" height="32" rx="1" fill="#4a3018"/><rect x="589" y="451" width="18" height="29" fill="#5c3d22"/><circle cx="604" cy="464" r="1.6" fill="#caa05a"/>
     <rect x="532" y="428" width="22" height="19" rx="1" fill="#3a2a18"/><rect x="534" y="430" width="18" height="15" fill="#ffd98a"/><line x1="543" y1="430" x2="543" y2="445" stroke="#3a2a18" stroke-width="1.4"/><line x1="534" y1="437" x2="552" y2="437" stroke="#3a2a18" stroke-width="1.4"/>
@@ -850,6 +899,15 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <line x1="580" y1="480" x2="580" y2="490" stroke="#5c3d22" stroke-width="2.6" stroke-linecap="round"/><line x1="616" y1="480" x2="616" y2="490" stroke="#5c3d22" stroke-width="2.6" stroke-linecap="round"/>
   </g>
 
+  <!-- cabin REPAIR rig (shows while the cabin is being worked on; gone once finished) -->
+  <g id="cabin-wip">
+    <path d="M 540 392 L 588 368 L 612 380 L 564 404 Z" fill="#3a6478" opacity=".82"/>
+    <g stroke="#9a7a4a" stroke-width="2.2" stroke-linecap="round">
+      <line x1="690" y1="478" x2="676" y2="406"/><line x1="698" y1="478" x2="684" y2="406"/>
+      <line x1="688" y1="466" x2="695" y2="466"/><line x1="686" y1="452" x2="693" y2="452"/><line x1="684" y1="438" x2="691" y2="438"/><line x1="682" y1="424" x2="689" y2="424"/>
+    </g>
+    <g fill="#caa05a" stroke="#7a5230" stroke-width="0.7"><rect x="700" y="470" width="38" height="4" rx="1"/><rect x="702" y="464" width="38" height="4" rx="1"/><rect x="700" y="458" width="38" height="4" rx="1"/></g>
+  </g>
   <!-- CHOPPING BLOCK + AXE + a couple of cut stumps (the build/work area) -->
   <g>
     <ellipse cx="392" cy="490" rx="13" ry="5" fill="#6b4a2e"/><rect x="380" y="476" width="24" height="14" rx="1" fill="#8a5f38"/><ellipse cx="392" cy="476" rx="12" ry="4" fill="#b9854a"/>
@@ -946,12 +1004,23 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <g fill="#e87ab0"><ellipse cx="90" cy="456" rx="2" ry="2.6"/><ellipse cx="110" cy="458" rx="2" ry="2.6"/><ellipse cx="856" cy="462" rx="2" ry="2.6"/><ellipse cx="881" cy="466" rx="2" ry="2.6"/><ellipse cx="429" cy="464" rx="2" ry="2.6"/></g>
   </g>
   <!-- a moose grazing near the treeline (calm wildlife) -->
-  <g id="moose" fill="#241a12" opacity=".92">
+  <g id="moose" class="hs-graze" fill="#241a12" opacity=".92">
     <ellipse cx="206" cy="430" rx="26" ry="14"/>
     <rect x="186" y="430" width="4" height="20" rx="1.5"/><rect x="196" y="432" width="4" height="18" rx="1.5"/>
     <rect x="216" y="431" width="4" height="19" rx="1.5"/><rect x="226" y="430" width="4" height="20" rx="1.5"/>
     <path d="M 232 424 q 14 -2 18 8 q 1 6 -3 9 l -6 -2 q 2 -6 -2 -9 q -5 -3 -9 -1 z"/>
     <path d="M 240 416 q -4 -8 2 -12 M 246 416 q 2 -9 9 -10 M 235 416 q -7 -6 -7 -12"/>
+  </g>
+  <!-- a red fox trotting the treeline -->
+  <g id="fox" transform="translate(806,408)">
+    <path d="M -9 5 Q -22 3 -25 -6 Q -17 -1 -8 3 Z" fill="#c8702a"/>
+    <path d="M -23 -5 l 5 3" stroke="#efe6d8" stroke-width="2.2" stroke-linecap="round"/>
+    <ellipse cx="0" cy="5" rx="10" ry="4" fill="#c8702a"/>
+    <circle cx="9" cy="1" r="4" fill="#c8702a"/>
+    <path d="M 7 -2 l -1 -5 l 3 3 z M 12 -2 l 1 -5 l -3 3 z" fill="#9a531e"/>
+    <path d="M 8 2 l 4 0" stroke="#efe6d8" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="-3" y1="8" x2="-3" y2="14" stroke="#7a431a" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="4" y1="8" x2="4" y2="14" stroke="#7a431a" stroke-width="1.6" stroke-linecap="round"/>
   </g>
   <!-- cut stumps (this land was cleared) -->
   <g><ellipse cx="660" cy="440" rx="8" ry="3" fill="#8a5f38"/><rect x="652" y="435" width="16" height="5" fill="#6b4a2e"/><ellipse cx="660" cy="435" rx="8" ry="2.8" fill="#b9854a"/></g>
@@ -962,6 +1031,14 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 </g>
 
 <!-- birds drifting high -->
+<!-- a bald eagle soaring -->
+<g id="eagle" class="hs-soar">
+  <ellipse cx="556" cy="120" rx="9" ry="3.4" fill="#2e2218"/>
+  <path d="M 556 119 Q 528 107 502 114 Q 526 120 540 121 Z" fill="#241a12"/>
+  <path d="M 556 119 Q 584 107 610 114 Q 586 120 572 121 Z" fill="#241a12"/>
+  <circle cx="568" cy="119" r="2.6" fill="#ece8e0"/>
+  <path d="M 546 120 l -7 1.5 l 7 1 z" fill="#ece8e0"/>
+</g>
 <g id="hs-birds" fill="none" stroke="#33445a" stroke-width="2" stroke-linecap="round" opacity=".5">
   <path class="cl2" d="M 300 96 q 7 -6 13 0 q 7 -6 13 0"/>
   <path class="cl1" d="M 372 116 q 6 -5 11 0 q 6 -5 11 0"/>
@@ -970,7 +1047,13 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 
 <!-- ══ THE CREEK (winds across the foreground) ══ -->
 <path d="M -20 540 Q 180 516 360 536 Q 560 558 760 524 Q 900 500 1020 520 L 1020 580 Q 880 560 760 580 Q 560 612 360 588 Q 180 568 -20 590 Z" fill="url(#ocean-g)"/>
-<path d="M 0 540 Q 200 520 380 538 Q 580 558 780 528" stroke="#cfeaf2" stroke-width="1.4" fill="none" opacity=".5"/>
+<path class="hs-shimmer" d="M 0 540 Q 200 520 380 538 Q 580 558 780 528" stroke="#cfeaf2" stroke-width="1.4" fill="none" opacity=".5"/>
+<g id="salmon" fill="#8a9aa6">
+  <path d="M 392 544 q 7 -5 14 0 q -3 3.5 -7 3.5 q -4 0 -7 -3.5 z"/><path d="M 406 544 l 6 -2.5 l -1 5 z" fill="#7a8a96"/>
+  <path d="M 392 545 q 7 4 14 0" stroke="#c87a6a" stroke-width="1" fill="none" opacity=".7"/>
+  <path d="M 596 538 q 6 -7 12 -2 q -2 4 -6 4.5 q -4 0 -6 -2.5 z" fill="#9aa8b4"/><path d="M 608 536 l 5 -3 l 0 5 z" fill="#8a98a4"/>
+</g>
+<g stroke="#cfeaf2" stroke-width="0.8" fill="none" opacity=".5"><ellipse cx="399" cy="548" rx="12" ry="2"/><ellipse cx="602" cy="542" rx="11" ry="2"/></g>
 <g fill="#6a7480"><ellipse cx="300" cy="552" rx="9" ry="3.4"/><ellipse cx="296" cy="550" rx="6" ry="2.4" fill="#828c98"/>
   <ellipse cx="620" cy="546" rx="8" ry="3" /><ellipse cx="624" cy="544" rx="5" ry="2.2" fill="#828c98"/>
   <ellipse cx="470" cy="560" rx="7" ry="2.8"/></g>
@@ -1313,6 +1396,14 @@ function applySeason(){
   // fall + winter green up the clearing less; tint handled via class below
   const w=document.getElementById('world')
   if(w){ ['summer','fall','winter','spring'].forEach(x=>w.classList.toggle('season-'+x, x===sn)) }
+  applyBuildStage()
+}
+// Cabin repair rig shows while the cabin is being worked on; hides once it's finished (high condition, no active cabin build).
+function applyBuildStage(){
+  const st = ((S.world&&S.world.structures)||[]).find(s=>s.id==='cabin')
+  const b = S.world && S.world.build
+  const working = (st && (st.condition==null || st.condition < 85)) || (b && /cabin/.test(b.project||''))
+  document.getElementById('cabin-wip')?.setAttribute('opacity', working ? '1' : '0')
 }
 
 // Engine-driven weather: read S.world.weather (already produced each cycle) and show
