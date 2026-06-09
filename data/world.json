@@ -1,19 +1,19 @@
 {
   "day": 1,
-  "cycle": "midday",
+  "cycle": "evening",
   "weather": "clear",
   "season": {
     "name": "summer",
     "day_in_season": 1
   },
   "resources": {
-    "food": 50,
-    "water": 70,
-    "wood": 35,
+    "food": 46,
+    "water": 90,
+    "wood": 36,
     "medicine": 18,
     "materials": 40,
     "money": 60,
-    "power": 43
+    "power": 40
   },
   "pending_events": [],
   "started": "2026-06-09",
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 63,
+      "condition": 61,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 98,
+      "condition": 96,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,12 +46,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 26
+    "fuel": 14
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 5
+    "progress": 9
   },
   "truck": {
     "present": true,
@@ -61,18 +61,18 @@
     "present": false
   },
   "last_run_date": "2026-06-09",
-  "pulse": "On their first real day, the Wilders discover a cold spring where Finn insisted they dig—a stroke of good luck that shifts everything.",
-  "scene": "The spring breaks through on the ridge, and the family gathers muddy and grinning—Cole and Sawyer assessing the flow, Finn vindicated, Bear splashing, Maggie arriving from the cabin with buckets.",
+  "pulse": "The spring is found, the family is close, and as the long day winds down, the cabin feels like home.",
+  "scene": "The spring breaks through on the ridge where Finn insisted; now as evening settles golden and warm, the family sits muddy and grinning over soup, all five together in the cabin.",
   "resources_prev": {
-    "food": 55,
-    "water": 50,
-    "wood": 30,
+    "food": 50,
+    "water": 70,
+    "wood": 35,
     "medicine": 18,
     "materials": 40,
     "money": 60,
-    "power": 45
+    "power": 43
   },
   "camp_climate": "steady",
   "discoveries": [],
-  "last_cycle_key": "2026-06-09:midday"
+  "last_cycle_key": "2026-06-09:evening"
 }
