@@ -29,6 +29,7 @@
 @keyframes hsShimmer{0%{opacity:.25;transform:translateX(0)}50%{opacity:.6;transform:translateX(14px)}100%{opacity:.25;transform:translateX(0)}}
 @keyframes hsGraze{0%,100%{transform:translateY(0)}50%{transform:translateY(2px)}}
 @keyframes hsSoar{0%{transform:translate(0,0)}50%{transform:translate(70px,14px)}100%{transform:translate(0,0)}}
+@keyframes townTruck{0%{transform:translate(0,0);opacity:0}8%{opacity:.9}92%{opacity:.9}100%{transform:translate(120px,18px);opacity:0}}
 .hs-soar{transform-box:fill-box;animation:hsSoar 26s ease-in-out infinite}
 .hs-smoke{transform-box:fill-box;transform-origin:bottom;animation:hsSmoke 5.5s ease-in-out infinite}
 .hs-aurora{transform-box:fill-box;animation:hsAurora 14s ease-in-out infinite}
@@ -663,6 +664,11 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <stop offset="70%" stop-color="#5ad0ff" stop-opacity=".35"/>
     <stop offset="100%" stop-color="#5ad0ff" stop-opacity="0"/>
   </linearGradient>
+  <linearGradient id="aurora-g2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#b86ad8" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#c87ae8" stop-opacity=".4"/>
+    <stop offset="100%" stop-color="#7a9aff" stop-opacity="0"/>
+  </linearGradient>
   <linearGradient id="mist-g" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#e8f0f6" stop-opacity=".5"/>
     <stop offset="100%" stop-color="#e8f0f6" stop-opacity="0"/>
@@ -707,6 +713,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 <g id="aurora" opacity="0" style="mix-blend-mode:screen">
   <path class="hs-aurora" d="M 60 70 Q 300 20 520 64 Q 760 110 980 50 L 980 150 Q 760 200 520 150 Q 300 110 60 165 Z" fill="url(#aurora-g)" opacity=".7"/>
   <path class="hs-aurora" style="animation-delay:-5s" d="M 40 120 Q 320 70 560 116 Q 800 160 990 104 L 990 196 Q 800 240 560 198 Q 320 158 40 210 Z" fill="url(#aurora-g)" opacity=".5"/>
+  <path class="hs-aurora" style="animation-delay:-9s" d="M 80 40 Q 340 4 600 44 Q 820 78 1000 30 L 1000 96 Q 820 132 600 92 Q 340 56 80 110 Z" fill="url(#aurora-g2)" opacity=".42"/>
+  <!-- vertical aurora rays -->
+  <g stroke="#6dffc0" stroke-width="2" opacity=".3"><line x1="300" y1="40" x2="300" y2="150"/><line x1="520" y1="56" x2="520" y2="168"/><line x1="740" y1="44" x2="740" y2="156"/></g>
 </g>
 
 <!-- NIGHT STARS -->
@@ -1144,6 +1153,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
     <ellipse cx="492" cy="429" rx="11" ry="5" fill="#fff3c4" opacity=".7"/>
   </g>
 </g>
+<g id="town-truck" style="animation:townTruck 28s linear infinite"><rect x="232" y="318" width="7" height="3.5" rx="1" fill="#3a4a58"/><rect x="238" y="316" width="3" height="3" fill="#2a3642"/><circle cx="234" cy="322" r="1.1" fill="#1a1a1e"/><circle cx="239" cy="322" r="1.1" fill="#1a1a1e"/></g>
 </svg>
 
 <script>

@@ -72,7 +72,7 @@
   "maggie": {
     "name": "Maggie",
     "age": 45,
-    "archetype": "the anchor",
+    "archetype": "anchor",
     "color": "#3f7d6e",
     "scores": {
       "trust": 83,
@@ -138,7 +138,7 @@
   "sawyer": {
     "name": "Sawyer",
     "age": 14,
-    "archetype": "the eldest",
+    "archetype": "eldest",
     "color": "#2f5d8a",
     "scores": {
       "trust": 73,
@@ -202,7 +202,7 @@
   "finn": {
     "name": "Finn",
     "age": 11,
-    "archetype": "the spark",
+    "archetype": "spark",
     "color": "#c9772e",
     "scores": {
       "trust": 72,
@@ -267,7 +267,7 @@
   "bear": {
     "name": "Bear",
     "age": 8,
-    "archetype": "the wild one",
+    "archetype": "wild one",
     "color": "#caa83a",
     "scores": {
       "trust": 74,
