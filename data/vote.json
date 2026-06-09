@@ -1,0 +1,25 @@
+{
+  "world": "alaskanboys",
+  "poll": {
+    "id": "2026-06-09",
+    "closes": "tonight",
+    "question": "Cole's got the cabin water system and foundation calling, but Maggie spots the boys eyeing the fishing hole they found—and she's right, they're exhausted from the drive i",
+    "options": [
+      {
+        "id": "push_work",
+        "label": "Work the list",
+        "desc": "Tackle the cabin water system or foundation now—winter won't wait, and every hour of daylight counts."
+      },
+      {
+        "id": "rest_explore",
+        "label": "Settle in & fish",
+        "desc": "Let the boys rest, explore, and catch dinner at the fishing hole—build morale before the grind really begins."
+      },
+      {
+        "id": "split_day",
+        "label": "Work then play",
+        "desc": "Morning work on the priority cabin task, afternoon fishing trip with Sawyer and Finn—best of both."
+      }
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "cole": {
+    "name": "Cole",
+    "age": 47,
+    "archetype": "homesteader",
+    "color": "#9a3b2e",
+    "scores": {
+      "trust": 81,
+      "openness": 66,
+      "ambition": 80,
+      "loneliness": 10,
+      "resilience": 92,
+      "health": 100,
+      "hunger": 61,
+      "thirst": 59,
+      "energy": 57
+    },
+    "mood": "content",
+    "where": "home",
+    "location": {
+      "waypoint": "creek",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "relationships": {
+      "maggie": {
+        "closeness": 96,
+        "tension": 4,
+        "attraction": 0
+      },
+      "sawyer": {
+        "closeness": 89,
+        "tension": 6,
+        "attraction": 0
+      },
+      "finn": {
+        "closeness": 88,
+        "tension": 4,
+        "attraction": 0
+      },
+      "bear": {
+        "closeness": 88,
+        "tension": 3,
+        "attraction": 0
+      }
+    },
+    "bio": "47, a former attorney who traded the courtroom for the wild. Calm, dry-witted, and endlessly capable — fire, framing, fishing, fixing — he's the builder and the patient teacher, faith and family at his core. He bought this weathered, long-abandoned homestead deep in interior Alaska and intends to make it home, one project at a time. Relentlessly optimistic, which the country will test.",
+    "appearance": {
+      "skin": "#d8a878",
+      "hair": {
+        "style": "short",
+        "color": "#5a4632"
+      },
+      "accessory": "cap",
+      "outfit": "#9a3b2e",
+      "accColor": "#3a2a1a",
+      "pants": "#3f4a3a",
+      "boots": "#3a2a18",
+      "gear": [
+        "axe",
+        "tool_belt"
+      ],
+      "beard": true
+    },
+    "interaction": {
+      "with": "finn",
+      "state": "talking"
+    },
+    "memories": []
+  },
+  "maggie": {
+    "name": "Maggie",
+    "age": 45,
+    "archetype": "the anchor",
+    "color": "#3f7d6e",
+    "scores": {
+      "trust": 83,
+      "openness": 70,
+      "ambition": 58,
+      "loneliness": 12,
+      "resilience": 86,
+      "health": 100,
+      "hunger": 61,
+      "thirst": 59,
+      "energy": 57
+    },
+    "mood": "warm",
+    "where": "home",
+    "location": {
+      "waypoint": "creek",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "relationships": {
+      "cole": {
+        "closeness": 96,
+        "tension": 4,
+        "attraction": 0
+      },
+      "sawyer": {
+        "closeness": 90,
+        "tension": 5,
+        "attraction": 0
+      },
+      "finn": {
+        "closeness": 90,
+        "tension": 6,
+        "attraction": 0
+      },
+      "bear": {
+        "closeness": 93,
+        "tension": 3,
+        "attraction": 0
+      }
+    },
+    "bio": "45, the heart of the homestead and the steady realist who keeps everyone fed, warm and on track. She runs the boys' lessons, turns a rough cabin into a real home, and quietly stress-tests the dream against money, weather and what the kids actually need. Warm, grounded, and the reason it all holds together.",
+    "appearance": {
+      "skin": "#ead0b4",
+      "hair": {
+        "style": "bun",
+        "color": "#6b4a2e"
+      },
+      "outfit": "#3f7d6e",
+      "pants": "#4a5a64",
+      "boots": "#4a3320",
+      "gear": [
+        "apron"
+      ]
+    },
+    "interaction": {
+      "with": "cole",
+      "state": "helping"
+    },
+    "memories": []
+  },
+  "sawyer": {
+    "name": "Sawyer",
+    "age": 14,
+    "archetype": "the eldest",
+    "color": "#2f5d8a",
+    "scores": {
+      "trust": 73,
+      "openness": 59,
+      "ambition": 65,
+      "loneliness": 20,
+      "resilience": 70,
+      "health": 100,
+      "hunger": 61,
+      "thirst": 59,
+      "energy": 57
+    },
+    "mood": "steady",
+    "where": "home",
+    "location": {
+      "waypoint": "creek",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "relationships": {
+      "cole": {
+        "closeness": 89,
+        "tension": 6,
+        "attraction": 0
+      },
+      "maggie": {
+        "closeness": 90,
+        "tension": 5,
+        "attraction": 0
+      },
+      "finn": {
+        "closeness": 77,
+        "tension": 14,
+        "attraction": 0
+      },
+      "bear": {
+        "closeness": 74,
+        "tension": 8,
+        "attraction": 0
+      }
+    },
+    "bio": "14, the eldest son, growing into real responsibility and quietly proud when his dad trusts him with a man's job. Capable and a little serious, learning leadership and patience the hard way — and that the homestead doesn't care how grown-up you feel.",
+    "appearance": {
+      "skin": "#e0b890",
+      "hair": {
+        "style": "short",
+        "color": "#4a3724"
+      },
+      "accessory": "cap",
+      "outfit": "#2f5d8a",
+      "pants": "#394150",
+      "boots": "#34281c"
+    },
+    "interaction": {
+      "with": "cole",
+      "state": "working_together"
+    },
+    "memories": []
+  },
+  "finn": {
+    "name": "Finn",
+    "age": 11,
+    "archetype": "the spark",
+    "color": "#c9772e",
+    "scores": {
+      "trust": 72,
+      "openness": 80,
+      "ambition": 62,
+      "loneliness": 16,
+      "resilience": 62,
+      "health": 100,
+      "hunger": 61,
+      "thirst": 59,
+      "energy": 57
+    },
+    "mood": "buzzing",
+    "where": "home",
+    "location": {
+      "waypoint": "creek",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "relationships": {
+      "cole": {
+        "closeness": 88,
+        "tension": 4,
+        "attraction": 0
+      },
+      "maggie": {
+        "closeness": 90,
+        "tension": 6,
+        "attraction": 0
+      },
+      "sawyer": {
+        "closeness": 77,
+        "tension": 14,
+        "attraction": 0
+      },
+      "bear": {
+        "closeness": 83,
+        "tension": 7,
+        "attraction": 0
+      }
+    },
+    "bio": "11, the spirited middle son — all energy, always in the thick of the action, forever one idea ahead of his own two hands. Eager, funny, sometimes bites off more than he can chew, and slowly turning that fire into real skill.",
+    "appearance": {
+      "skin": "#e6c098",
+      "hair": {
+        "style": "short",
+        "color": "#6b4a2e"
+      },
+      "accessory": "beanie",
+      "accColor": "#c9772e",
+      "outfit": "#c9772e",
+      "pants": "#3a4450",
+      "boots": "#34281c"
+    },
+    "interaction": {
+      "with": "cole",
+      "state": "talking"
+    },
+    "memories": []
+  },
+  "bear": {
+    "name": "Bear",
+    "age": 8,
+    "archetype": "the wild one",
+    "color": "#caa83a",
+    "scores": {
+      "trust": 74,
+      "openness": 84,
+      "ambition": 40,
+      "loneliness": 13,
+      "resilience": 60,
+      "health": 100,
+      "hunger": 61,
+      "thirst": 59,
+      "energy": 57
+    },
+    "mood": "delighted",
+    "where": "home",
+    "location": {
+      "waypoint": "creek",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "relationships": {
+      "cole": {
+        "closeness": 88,
+        "tension": 3,
+        "attraction": 0
+      },
+      "maggie": {
+        "closeness": 93,
+        "tension": 3,
+        "attraction": 0
+      },
+      "sawyer": {
+        "closeness": 74,
+        "tension": 8,
+        "attraction": 0
+      },
+      "finn": {
+        "closeness": 83,
+        "tension": 7,
+        "attraction": 0
+      }
+    },
+    "bio": "8, the youngest — fearless, funny, and wide-eyed at everything the wild puts in front of him. The true 'outdoor boy', the comic relief and the heart, forever keeping up with his brothers and surprising everyone with small, brave moments.",
+    "appearance": {
+      "skin": "#eccaa2",
+      "hair": {
+        "style": "short",
+        "color": "#7a5836"
+      },
+      "accessory": "beanie",
+      "accColor": "#caa83a",
+      "outfit": "#caa83a",
+      "pants": "#3a4450",
+      "boots": "#34281c"
+    },
+    "interaction": {
+      "with": "maggie",
+      "state": "sitting_together"
+    },
+    "memories": []
+  }
+}

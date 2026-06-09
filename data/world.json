@@ -1,0 +1,77 @@
+{
+  "day": 1,
+  "cycle": "midday",
+  "weather": "clear",
+  "season": {
+    "name": "summer",
+    "day_in_season": 1
+  },
+  "resources": {
+    "food": 50,
+    "water": 70,
+    "wood": 35,
+    "medicine": 18,
+    "materials": 40,
+    "money": 60,
+    "power": 43
+  },
+  "pending_events": [],
+  "started": "2026-06-09",
+  "structures": [
+    {
+      "id": "cabin",
+      "type": "cabin",
+      "level": 1,
+      "condition": 63,
+      "x": 56,
+      "y": 40,
+      "builder": "cole",
+      "day": 1,
+      "label": "The Cabin",
+      "stage": "weathered"
+    },
+    {
+      "id": "wood_stove",
+      "type": "wood_stove",
+      "level": 1,
+      "condition": 98,
+      "x": 58,
+      "y": 50,
+      "builder": "cole",
+      "day": 1,
+      "label": "Wood Stove",
+      "baked": true
+    }
+  ],
+  "fire": {
+    "lit": true,
+    "fuel": 26
+  },
+  "build": {
+    "project": "cabin_repair",
+    "label": "Patching up the cabin",
+    "progress": 5
+  },
+  "truck": {
+    "present": true,
+    "at": "home"
+  },
+  "snowmachine": {
+    "present": false
+  },
+  "last_run_date": "2026-06-09",
+  "pulse": "On their first real day, the Wilders discover a cold spring where Finn insisted they dig—a stroke of good luck that shifts everything.",
+  "scene": "The spring breaks through on the ridge, and the family gathers muddy and grinning—Cole and Sawyer assessing the flow, Finn vindicated, Bear splashing, Maggie arriving from the cabin with buckets.",
+  "resources_prev": {
+    "food": 55,
+    "water": 50,
+    "wood": 30,
+    "medicine": 18,
+    "materials": 40,
+    "money": 60,
+    "power": 45
+  },
+  "camp_climate": "steady",
+  "discoveries": [],
+  "last_cycle_key": "2026-06-09:midday"
+}
