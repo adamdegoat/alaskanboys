@@ -1,27 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-10",
+    "id": "2026-06-11",
     "closes": "tonight",
-    "question": "Tomorrow, Cole wants to hit the water system while the iron's hot—but Maggie's seeing exhaustion settling in. Spend the day running the line before winter closes in, or g",
+    "question": "Cole wants to start the foundation right away—six weeks till winter, and time is tight. But Maggie's counting three meals left, and the boys are running on fumes. Fish an",
     "options": [
       {
-        "id": "push_the_water",
-        "label": "Push the water system",
-        "desc": "Winter waits for no one. Get that line running while the weather holds and the spring's fresh."
+        "id": "foundation_now",
+        "label": "Push foundation now",
+        "desc": "Get the shelter work started while weather holds—winter won't wait"
       },
       {
-        "id": "rest_and_fish",
-        "label": "Rest day—maybe fishing",
-        "desc": "The boys need to feel the victory settle. Work's endless; these moments with the family aren't."
+        "id": "fish_first",
+        "label": "Fish and rest first",
+        "desc": "Secure food and let the family recharge before the hard work"
+      },
+      {
+        "id": "balance",
+        "label": "Fish tomorrow, build after",
+        "desc": "Trust the rhythm—salmon first, then the foundation push"
       }
     ]
   },
   "in_play": {
-    "id": "push_work",
-    "label": "Work the list",
-    "desc": "Tackle the cabin water system or foundation now—winter won't wait, and every hour of daylight counts.",
-    "decided": "2026-06-10",
+    "id": "push_the_water",
+    "label": "Push the water system",
+    "desc": "Winter waits for no one. Get that line running while the weather holds and the spring's fresh.",
+    "decided": "2026-06-11",
     "votes": 0,
     "tally": {}
   }

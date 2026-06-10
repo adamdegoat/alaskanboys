@@ -7,15 +7,15 @@
     "scores": {
       "trust": 83,
       "openness": 70,
-      "ambition": 87,
+      "ambition": 88,
       "loneliness": 0,
       "resilience": 95,
-      "health": 100,
-      "hunger": 31,
-      "thirst": 46,
-      "energy": 92
+      "health": 93,
+      "hunger": 25,
+      "thirst": 55,
+      "energy": 76
     },
-    "mood": "satisfied",
+    "mood": "focused",
     "where": "home",
     "location": {
       "waypoint": "cabin_porch",
@@ -30,7 +30,7 @@
         "attraction": 0
       },
       "sawyer": {
-        "closeness": 98,
+        "closeness": 99,
         "tension": 2,
         "attraction": 0
       },
@@ -85,13 +85,13 @@
       "openness": 76,
       "ambition": 61,
       "loneliness": 0,
-      "resilience": 89,
-      "health": 100,
-      "hunger": 31,
-      "thirst": 46,
-      "energy": 92
+      "resilience": 90,
+      "health": 93,
+      "hunger": 25,
+      "thirst": 55,
+      "energy": 76
     },
-    "mood": "steady",
+    "mood": "pragmatic",
     "where": "home",
     "location": {
       "waypoint": "cabin_front",
@@ -136,8 +136,8 @@
       ]
     },
     "interaction": {
-      "with": "bear",
-      "state": "sitting_together"
+      "with": "cole",
+      "state": "talking"
     },
     "memories": [
       {
@@ -153,17 +153,17 @@
     "archetype": "eldest",
     "color": "#2f5d8a",
     "scores": {
-      "trust": 78,
+      "trust": 79,
       "openness": 64,
       "ambition": 69,
-      "loneliness": 2,
+      "loneliness": 0,
       "resilience": 75,
-      "health": 100,
-      "hunger": 31,
-      "thirst": 46,
-      "energy": 92
+      "health": 93,
+      "hunger": 25,
+      "thirst": 55,
+      "energy": 76
     },
-    "mood": "proud",
+    "mood": "determined",
     "where": "home",
     "location": {
       "waypoint": "cabin_porch",
@@ -173,7 +173,7 @@
     "shelter": "cabin",
     "relationships": {
       "cole": {
-        "closeness": 98,
+        "closeness": 99,
         "tension": 2,
         "attraction": 0
       },
@@ -218,14 +218,14 @@
     "color": "#c9772e",
     "scores": {
       "trust": 74,
-      "openness": 87,
+      "openness": 88,
       "ambition": 64,
       "loneliness": 0,
       "resilience": 63,
-      "health": 100,
-      "hunger": 31,
-      "thirst": 46,
-      "energy": 92
+      "health": 93,
+      "hunger": 25,
+      "thirst": 55,
+      "energy": 76
     },
     "mood": "eager",
     "where": "home",
@@ -289,16 +289,16 @@
       "openness": 87,
       "ambition": 40,
       "loneliness": 0,
-      "resilience": 64,
-      "health": 100,
-      "hunger": 31,
-      "thirst": 46,
-      "energy": 92
+      "resilience": 65,
+      "health": 93,
+      "hunger": 25,
+      "thirst": 55,
+      "energy": 76
     },
-    "mood": "cheerful",
+    "mood": "hungry",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "cabin_front",
       "x": 54,
       "y": 64
     },
