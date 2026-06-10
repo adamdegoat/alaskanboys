@@ -985,5 +985,192 @@
       }
     ],
     "timestamp": "2026-06-10T11:32:26.762387"
+  },
+  {
+    "day": 2,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Cole crouches by the spring with Sawyer, clearing stones and marking where the intake line will dive into clean water.",
+    "thought": "Water first, then food catches up.",
+    "location": {
+      "waypoint": "creek",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-10T15:02:12.756821"
+  },
+  {
+    "day": 2,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Maggie spreads the remaining stores on the porch table, counting rations and planning how to stretch them through tomorrow.",
+    "thought": "Three days left. Then Finn fishes.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "calm",
+    "timestamp": "2026-06-10T15:02:12.756821"
+  },
+  {
+    "day": 2,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Sawyer follows Cole's lead, learning where the water flows fastest and how to position the intake for clean, cold supply.",
+    "thought": "Dad trusts me. I can do this work.",
+    "location": {
+      "waypoint": "creek",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-10T15:02:12.756821"
+  },
+  {
+    "day": 2,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finn splashes downstream from the intake, calling back findings and pulling back willows that block the line's path.",
+    "thought": "Fish are here. I know they are.",
+    "location": {
+      "waypoint": "creek",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "buzzing",
+    "timestamp": "2026-06-10T15:02:12.756821"
+  },
+  {
+    "day": 2,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Bear sorts through the supply box for cordage and helps Maggie check the dry goods and cans, asking when dinner is.",
+    "thought": "There's always something to do out here.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "cheerful",
+    "timestamp": "2026-06-10T15:02:12.756821"
+  },
+  {
+    "day": 2,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "sawyer",
+      "finn",
+      "maggie",
+      "bear"
+    ],
+    "description": "Cole and Sawyer work the spring intake by the creek while Finn helps clear willows downstream; at the cabin, Maggie sits on the porch with the stores laid out, counting meals left, Bear nearby sorting tools.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Water flows good here. We can dig down."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How deep do we need to go?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Just below the surface. Keep it clean, let gravity do the work."
+      },
+      {
+        "speaker": "finn",
+        "line": "There's shadows down here. Fish, I think."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's your dinner, friend. Be patient."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Cole, we're down to three days of stores."
+      },
+      {
+        "speaker": "cole",
+        "line": "I know. Finn's going to fish. You good?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "We're good. Just need to be efficient now."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Like that time you caught trout at the North Fork?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Similar idea. Slow, patient, let the creek provide."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I fish too?"
+      },
+      {
+        "speaker": "finn",
+        "line": "You fall in every time."
+      },
+      {
+        "speaker": "bear",
+        "line": "So?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "After we eat, buddy. Before dark."
+      },
+      {
+        "speaker": "cole",
+        "line": "All of you are learning where home feeds itself."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That's weird and cool at the same time."
+      },
+      {
+        "speaker": "finn",
+        "line": "It's just cool."
+      },
+      {
+        "speaker": "cole",
+        "line": "Give it time, Saw. Weird becomes normal fast."
+      },
+      {
+        "speaker": "maggie",
+        "line": "The cans we brought will help us through next week."
+      },
+      {
+        "speaker": "cole",
+        "line": "By then the garden's up. Finn catches fish."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "What about before the garden's big?"
+      },
+      {
+        "speaker": "cole",
+        "line": "The land around here is generous. We just have to be smart."
+      },
+      {
+        "speaker": "bear",
+        "line": "Is it dark yet?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Still hours of light, buddy. Help me with the water barrel."
+      }
+    ],
+    "timestamp": "2026-06-10T15:02:12.756821"
   }
 ]
