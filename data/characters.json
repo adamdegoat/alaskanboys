@@ -5,20 +5,20 @@
     "archetype": "homesteader",
     "color": "#9a3b2e",
     "scores": {
-      "trust": 82,
-      "openness": 68,
-      "ambition": 83,
-      "loneliness": 2,
+      "trust": 83,
+      "openness": 69,
+      "ambition": 84,
+      "loneliness": 0,
       "resilience": 94,
       "health": 100,
-      "hunger": 46,
+      "hunger": 49,
       "thirst": 55,
-      "energy": 74
+      "energy": 68
     },
     "mood": "satisfied",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "creek",
       "x": 44,
       "y": 52
     },
@@ -30,12 +30,12 @@
         "attraction": 0
       },
       "sawyer": {
-        "closeness": 94,
-        "tension": 4,
+        "closeness": 95,
+        "tension": 3,
         "attraction": 0
       },
       "finn": {
-        "closeness": 93,
+        "closeness": 94,
         "tension": 2,
         "attraction": 0
       },
@@ -64,7 +64,7 @@
       "beard": true
     },
     "interaction": {
-      "with": "maggie",
+      "with": "sawyer",
       "state": "working_together"
     },
     "memories": [
@@ -81,15 +81,15 @@
     "archetype": "anchor",
     "color": "#3f7d6e",
     "scores": {
-      "trust": 84,
-      "openness": 73,
-      "ambition": 59,
-      "loneliness": 5,
+      "trust": 85,
+      "openness": 74,
+      "ambition": 60,
+      "loneliness": 2,
       "resilience": 88,
       "health": 100,
-      "hunger": 46,
+      "hunger": 49,
       "thirst": 55,
-      "energy": 74
+      "energy": 68
     },
     "mood": "warm",
     "where": "home",
@@ -136,8 +136,8 @@
       ]
     },
     "interaction": {
-      "with": "cole",
-      "state": "working_together"
+      "with": "bear",
+      "state": "helping"
     },
     "memories": [
       {
@@ -153,28 +153,28 @@
     "archetype": "eldest",
     "color": "#2f5d8a",
     "scores": {
-      "trust": 74,
-      "openness": 60,
-      "ambition": 66,
-      "loneliness": 13,
-      "resilience": 73,
+      "trust": 76,
+      "openness": 61,
+      "ambition": 67,
+      "loneliness": 10,
+      "resilience": 74,
       "health": 100,
-      "hunger": 46,
+      "hunger": 49,
       "thirst": 55,
-      "energy": 74
+      "energy": 68
     },
-    "mood": "thoughtful",
+    "mood": "proud",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "creek",
       "x": 30,
       "y": 58
     },
     "shelter": "cabin",
     "relationships": {
       "cole": {
-        "closeness": 94,
-        "tension": 4,
+        "closeness": 95,
+        "tension": 3,
         "attraction": 0
       },
       "maggie": {
@@ -183,7 +183,7 @@
         "attraction": 0
       },
       "finn": {
-        "closeness": 79,
+        "closeness": 80,
         "tension": 12,
         "attraction": 0
       },
@@ -207,7 +207,7 @@
     },
     "interaction": {
       "with": "cole",
-      "state": "talking"
+      "state": "working_together"
     },
     "memories": []
   },
@@ -218,26 +218,26 @@
     "color": "#c9772e",
     "scores": {
       "trust": 74,
-      "openness": 83,
+      "openness": 84,
       "ambition": 63,
-      "loneliness": 9,
+      "loneliness": 6,
       "resilience": 64,
       "health": 100,
-      "hunger": 46,
+      "hunger": 49,
       "thirst": 55,
-      "energy": 74
+      "energy": 68
     },
     "mood": "buzzing",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "creek",
       "x": 78,
       "y": 60
     },
     "shelter": "cabin",
     "relationships": {
       "cole": {
-        "closeness": 93,
+        "closeness": 94,
         "tension": 2,
         "attraction": 0
       },
@@ -247,7 +247,7 @@
         "attraction": 0
       },
       "sawyer": {
-        "closeness": 79,
+        "closeness": 80,
         "tension": 12,
         "attraction": 0
       },
@@ -271,7 +271,7 @@
       "boots": "#34281c"
     },
     "interaction": {
-      "with": "maggie",
+      "with": "cole",
       "state": "helping"
     },
     "memories": [
@@ -291,12 +291,12 @@
       "trust": 75,
       "openness": 86,
       "ambition": 40,
-      "loneliness": 4,
-      "resilience": 63,
+      "loneliness": 1,
+      "resilience": 64,
       "health": 100,
-      "hunger": 46,
+      "hunger": 49,
       "thirst": 55,
-      "energy": 74
+      "energy": 68
     },
     "mood": "cheerful",
     "where": "home",
