@@ -1,6 +1,6 @@
 {
   "day": 2,
-  "cycle": "afternoon",
+  "cycle": "evening",
   "weather": "clear",
   "season": {
     "name": "summer",
@@ -8,12 +8,12 @@
   },
   "resources": {
     "food": 0,
-    "water": 67,
+    "water": 63,
     "wood": 39,
     "medicine": 18,
-    "materials": 24,
+    "materials": 23,
     "money": 60,
-    "power": 31
+    "power": 30
   },
   "pending_events": [],
   "started": "2026-06-09",
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 53,
+      "condition": 51,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 88,
+      "condition": 86,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,7 +46,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 8
   },
   "build": {
     "project": "cabin_repair",
@@ -61,20 +61,20 @@
     "present": false
   },
   "last_run_date": "2026-06-10",
-  "pulse": "Cole and Sawyer push the water system forward while Maggie counts the meals left and Finn scouts for fish downstream.",
-  "scene": "Cole and Sawyer dig into the spring intake by the creek while Finn helps clear the line; at the cabin, Maggie sits on the porch with the stores laid out, counting meals left, Bear nearby sorting tools.",
+  "pulse": "Spring intake is solid, Sawyer's becoming a builder, food is critical but spirit is steady, and the foundation waits for tomorrow.",
+  "scene": "The cabin porch holds the family in the endless evening: Cole and Sawyer talk the day's water work, Maggie rations dinner onto plates, and the boys—tired, hungry, happy—sit together.",
   "resources_prev": {
     "food": 0,
-    "water": 71,
-    "wood": 34,
+    "water": 67,
+    "wood": 39,
     "medicine": 18,
-    "materials": 34,
+    "materials": 24,
     "money": 60,
     "power": 31
   },
   "camp_climate": "steady",
   "discoveries": [],
-  "last_cycle_key": "2026-06-10:afternoon",
+  "last_cycle_key": "2026-06-10:evening",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be."
   },
