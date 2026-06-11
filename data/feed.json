@@ -2009,5 +2009,200 @@
       }
     ],
     "timestamp": "2026-06-11T11:31:57.400182"
+  },
+  {
+    "day": 3,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Cole finishes securing the water line to the cabin porch, testing the flow and overflow while Sawyer watches for leaks.",
+    "thought": "Water line's flowing. We built something real.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "accomplished",
+    "timestamp": "2026-06-11T15:03:03.680936"
+  },
+  {
+    "day": 3,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Maggie readies the cast-iron skillet on the cabin stove, sets out salt and herbs, and waits for Finn's salmon to cook.",
+    "thought": "The plan held. We're going to be okay.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "pragmatic",
+    "timestamp": "2026-06-11T15:03:03.680936"
+  },
+  {
+    "day": 3,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Sawyer holds the water line steady at the porch connection while Cole tightens it, then tests the pressure with a careful hand.",
+    "thought": "I did the work right. Dad trusts me.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-11T15:03:03.680936"
+  },
+  {
+    "day": 3,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finn casts his rod at the dock, lands his second salmon of the afternoon, and wades in to net it with growing confidence.",
+    "thought": "I knew I could. Salmon's no mystery.",
+    "location": {
+      "waypoint": "dock",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "triumphant",
+    "timestamp": "2026-06-11T15:03:03.680936"
+  },
+  {
+    "day": 3,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Bear helps Maggie tend the cabin fire and prepare the skillet, jumping at every glint in the creek where Finn might be catching dinner.",
+    "thought": "Salmon's almost here. I can smell it cooking.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-11T15:03:03.680936"
+  },
+  {
+    "day": 3,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The water line runs down the slope while Finn lands his second salmon at the dock. Cole and Sawyer finish the porch connection; Maggie and Bear prepare the fire to cook.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Water's flowing. No leaks, steady pressure."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The spring's giving us everything."
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's get the overflow sorted, then we're done."
+      },
+      {
+        "speaker": "finn",
+        "line": "Dad, I got one! It's big!"
+      },
+      {
+        "speaker": "bear",
+        "line": "Finn caught a fish! Finn caught a fish!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "How big, sweetie?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Like this!"
+      },
+      {
+        "speaker": "cole",
+        "line": "More than a few hours' work, then. You eating?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Just the three so far, but they're hitting."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We've got the main line, Dad. What's next?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Secure it to the porch. Maggie can fill whatever she's got."
+      },
+      {
+        "speaker": "maggie",
+        "line": "I have the buckets ready."
+      },
+      {
+        "speaker": "bear",
+        "line": "Mom, can we eat soon? I'm starving."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Soon as Finn brings us three good ones, we cook."
+      },
+      {
+        "speaker": "finn",
+        "line": "One more on! One more!"
+      },
+      {
+        "speaker": "cole",
+        "line": "You're the meal ticket tonight, Finn."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Where do you want the overflow, Dad?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Down the slope, away from the cabin. Let the ground drink."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Bear, help me get the skillet hot."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'll help! I'll help!"
+      },
+      {
+        "speaker": "finn",
+        "line": "Second salmon! Two big ones!"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's supper sorted."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Water line's done, Dad."
+      },
+      {
+        "speaker": "cole",
+        "line": "Good. We built something that'll last."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Salmon's coming, water's running, the family's fed."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the whole day right there."
+      }
+    ],
+    "timestamp": "2026-06-11T15:03:03.680936"
   }
 ]
