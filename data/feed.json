@@ -2204,5 +2204,216 @@
       }
     ],
     "timestamp": "2026-06-11T15:03:03.680936"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Cole tends the cooked salmon over the warm stove, his shoulders finally relaxing as the family gathers inside.",
+    "thought": "Water flows. The plan works. We're really here.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-11T18:32:41.734350"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Maggie fills plates and watches Finn settle heavily by the stove, her attention divided between feeding everyone and monitoring her tired son.",
+    "thought": "He gave everything he had. He needs rest.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "attentive",
+    "timestamp": "2026-06-11T18:32:41.734350"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Sawyer sits at the table, his hands still callused from gripping tools, listening to Cole recount the day with quiet pride.",
+    "thought": "I did the work right. Dad trusted me.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-11T18:32:41.734350"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Finn eats mechanically, the day's triumph fading as exhaustion settles into his bones, his eyes half-closed.",
+    "thought": "I caught them. I actually did it.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "drained",
+    "timestamp": "2026-06-11T18:32:41.734350"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Bear devours his salmon with the single-minded focus of a starving kid, his questions about tomorrow spilling out between bites.",
+    "thought": "We have food. We have water. We're safe.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "joyful",
+    "timestamp": "2026-06-11T18:32:41.734350"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The family sits down to eat their first salmon as the water line ticks quietly outside—Cole and Maggie settle the boys, Finn pale but present.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Alright. First salmon supper on the homestead."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come on, boys. Set yourselves down."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm so hungry I could eat a moose."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "A moose would eat YOU first."
+      },
+      {
+        "speaker": "bear",
+        "line": "Not if Dad was with me."
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's start with the salmon, buddy."
+      },
+      {
+        "speaker": "finn",
+        "line": "It's hot."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat some, honey. You need it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The water from the tap is so cold."
+      },
+      {
+        "speaker": "cole",
+        "line": "Cold and clear. Good water."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And fast—we got it done in a day."
+      },
+      {
+        "speaker": "finn",
+        "line": "Because Sawyer did the math right."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "And Dad showed me how."
+      },
+      {
+        "speaker": "cole",
+        "line": "You both did the work."
+      },
+      {
+        "speaker": "bear",
+        "line": "This is so good."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Don't talk with your mouth full."
+      },
+      {
+        "speaker": "bear",
+        "line": "But it IS good."
+      },
+      {
+        "speaker": "cole",
+        "line": "It is."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're pale, sweetheart. How are you feeling?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Just tired. Really tired."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat what you can. Then you rest."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Tomorrow we patch the cabin inside?"
+      },
+      {
+        "speaker": "cole",
+        "line": "If the weather holds. And if Finn rests."
+      },
+      {
+        "speaker": "finn",
+        "line": "I can still—"
+      },
+      {
+        "speaker": "maggie",
+        "line": "No. Tomorrow you rest. That's final."
+      },
+      {
+        "speaker": "cole",
+        "line": "The work'll be here. We're not in a rush."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we have salmon again tomorrow?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "If Finn keeps fishing, we can."
+      },
+      {
+        "speaker": "cole",
+        "line": "And if he rests first."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'll sleep."
+      }
+    ],
+    "timestamp": "2026-06-11T18:32:41.734350"
   }
 ]
