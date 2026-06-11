@@ -105,6 +105,14 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 #rain-layer.storm::before{background-image:repeating-linear-gradient(104deg,rgba(212,230,242,.62) 0 2px,transparent 2px 8px);animation-duration:.42s}
 #rain-layer.storm::after{animation-duration:.66s;opacity:.85}
 @keyframes rainfall{from{transform:translateY(-14%)}to{transform:translateY(14%)}}
+/* ── WINTER: drifting snowfall (toggled by season) ── */
+#snow-fall{position:fixed;inset:0;z-index:21;pointer-events:none;opacity:0;transition:opacity .9s ease}
+#snow-fall.on{opacity:1}
+#snow-fall::before,#snow-fall::after{content:"";position:absolute;inset:-20% -10% -10%;will-change:transform;
+  background-image:radial-gradient(2.6px 2.6px at 30px 40px,#fff,transparent),radial-gradient(2px 2px at 130px 90px,#fff,transparent),radial-gradient(2.4px 2.4px at 210px 160px,#fff,transparent),radial-gradient(1.8px 1.8px at 290px 60px,#fff,transparent),radial-gradient(2.2px 2.2px at 360px 200px,#fff,transparent);
+  background-size:300px 300px;animation:snowFall 9.5s linear infinite}
+#snow-fall::after{background-size:230px 230px;animation-duration:6.5s;opacity:.7}
+@keyframes snowFall{from{transform:translateY(-12%) translateX(0)}to{transform:translateY(112%) translateX(34px)}}
 #lightning{position:fixed;inset:0;z-index:23;pointer-events:none;background:#e6f0ff;opacity:0;mix-blend-mode:screen}
 #lightning.on{animation:lightning 8s steps(1) infinite}
 @keyframes lightning{0%,100%{opacity:0}2%{opacity:.62}2.6%{opacity:.06}3.2%{opacity:.5}3.8%{opacity:0}48.4%{opacity:.42}49%{opacity:0}}
@@ -592,6 +600,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Plus Jakarta Sans'
 <div id="structures-layer"></div>
 <div id="vignette"></div>
 <div id="rain-layer"></div>
+<div id="snow-fall"></div>
 <div id="lightning"></div>
 <div id="color-wash"></div>
 <div id="fire-chip"></div>
@@ -1406,6 +1415,7 @@ function applySeason(){
   const winter = sn==='winter'
   document.getElementById('snow-ground')?.setAttribute('opacity', winter?'1':'0')
   document.getElementById('winter-extras')?.setAttribute('opacity', winter?'1':'0')
+  document.getElementById('snow-fall')?.classList.toggle('on', winter)
   document.getElementById('fall-tint')?.setAttribute('opacity', sn==='fall'?'0.5':'0')
   document.getElementById('spring-tint')?.setAttribute('opacity', sn==='spring'?'0.35':'0')
   // fall + winter green up the clearing less; tint handled via class below
@@ -3289,6 +3299,369 @@ document.addEventListener('click', e=>{
   }
 });
 loadVote();
+
+/* ══════════════════════════════════════════════════════════════════════════
+   INTERIORS — clickable first-person scenes (Cabin + Ridge Lookout), built to
+   the redesign standard: parallax depth layers, per-cycle light, season + weather
+   behaviour, living view, honest occupancy. Front-end only; reads S.* read-only.
+   ══════════════════════════════════════════════════════════════════════════ */
+(function(){
+  const css = `
+  #hotspots{position:absolute;inset:0;z-index:16;pointer-events:none}
+  #hotspots .hotspot,#hotspots .actcue{pointer-events:auto}
+  .hotspot{position:absolute;transform:translate(-50%,-50%);cursor:pointer}
+  .hotspot .hs-glow{position:absolute;left:50%;top:50%;width:74px;height:54px;transform:translate(-50%,-50%);border-radius:50%;
+    background:radial-gradient(closest-side,rgba(255,209,128,.34),transparent);opacity:0;transition:opacity .35s;pointer-events:none}
+  .hotspot.occupied .hs-glow{opacity:1;animation:hsGlow 3.4s ease-in-out infinite}
+  @keyframes hsGlow{0%,100%{opacity:.6}50%{opacity:1}}
+  .hotspot .hs-badge{position:absolute;left:50%;top:-22px;transform:translateX(-50%);white-space:nowrap;
+    background:rgba(10,16,22,.86);border:1px solid rgba(150,200,255,.4);color:#dcecff;
+    font:700 9px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.2px;padding:3px 7px;border-radius:999px;
+    box-shadow:0 2px 7px rgba(0,0,0,.45);display:inline-flex;align-items:center;gap:3px}
+  .hotspot .hs-badge .em{font-size:9px}
+  .hotspot:not(.occupied) .hs-badge{opacity:.84;background:rgba(10,16,22,.74);border-color:rgba(180,210,235,.26);color:#e6eff7}
+  .hotspot .hs-tap{position:absolute;left:50%;top:-18px;transform:translateX(-50%);white-space:nowrap;
+    font:800 8px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.6px;text-transform:uppercase;color:rgba(255,255,255,.55);opacity:0;transition:opacity .2s}
+  .hotspot:hover .hs-tap{opacity:1}
+  .actcue{position:absolute;transform:translate(-50%,-50%);z-index:17;cursor:pointer;white-space:nowrap;
+    background:rgba(10,16,18,.86);border:1px solid rgba(255,255,255,.22);color:#eaf3ff;
+    font:700 8px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.2px;padding:3px 7px;border-radius:999px;box-shadow:0 2px 7px rgba(0,0,0,.45)}
+  .actcue .ac-do{opacity:.62;font-weight:600;font-style:italic}
+  @media (max-width:640px){.actcue{font-size:7px;padding:2px 6px}.hotspot .hs-badge{font-size:7.5px;padding:2px 6px;top:-15px}.hotspot .hs-glow{width:56px;height:42px}}
+  #interior{position:fixed;inset:0;z-index:100000;background:#070d12;overflow:hidden;
+    opacity:0;visibility:hidden;transform:scale(1.05);pointer-events:none;
+    transition:opacity .42s ease,transform .55s cubic-bezier(.22,.8,.3,1),visibility .42s}
+  #interior.show{opacity:1;visibility:visible;transform:scale(1);pointer-events:auto}
+  #interior-scene{position:absolute;inset:0;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  #interior-scene::-webkit-scrollbar{display:none}
+  #interior-scene svg{display:block;height:100%;width:auto;max-width:none}
+  #interior-chars{position:absolute;inset:0;z-index:100002;pointer-events:none}
+  #interior-chars .ioc{position:absolute;transform:translateX(-50%);bottom:10%}
+  #interior-exit{position:fixed;top:12px;left:12px;z-index:100003;background:rgba(12,18,22,.74);backdrop-filter:blur(7px);
+    -webkit-backdrop-filter:blur(7px);border:1px solid rgba(255,255,255,.22);color:#eef5ff;
+    font:700 13px/1 'Plus Jakarta Sans',sans-serif;padding:9px 15px;border-radius:19px;cursor:pointer}
+  #interior-scrim{position:fixed;left:0;right:0;bottom:0;height:170px;z-index:100001;pointer-events:none;
+    background:linear-gradient(to top,rgba(5,10,14,.82),rgba(5,10,14,.42) 42%,rgba(5,10,14,0))}
+  #interior-cap{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:100003;max-width:88vw;text-align:center;
+    color:#eef6ff;font:600 13px/1.4 'Plus Jakarta Sans',sans-serif;letter-spacing:.2px;text-shadow:0 1px 7px rgba(0,0,0,.95)}
+  #interior-title{position:fixed;top:14px;right:14px;z-index:100003;display:flex;align-items:center;gap:8px;
+    background:rgba(12,18,22,.74);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+    border:1px solid rgba(150,200,255,.34);border-radius:14px;padding:8px 14px;box-shadow:0 4px 16px rgba(0,0,0,.4)}
+  #interior-title .it-ico{font-size:17px}
+  #interior-title .it-main{font:800 13.5px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.4px;color:#cfe6ff;text-transform:uppercase}
+  #interior-title .it-sub{font:600 10.5px/1 'Plus Jakarta Sans',sans-serif;color:rgba(255,255,255,.62);margin-top:3px}
+  #interior-hint{position:fixed;left:50%;bottom:78px;transform:translateX(-50%);z-index:100004;pointer-events:none;
+    background:rgba(12,18,22,.74);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.2);
+    color:#dfeeff;font:700 11px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.5px;padding:7px 13px;border-radius:999px;opacity:0;white-space:nowrap}
+  #interior-hint.show{animation:iwHint 3.2s ease-in-out forwards}
+  @keyframes iwHint{0%{opacity:0;transform:translateX(-50%) translateY(6px)}14%{opacity:1;transform:translateX(-50%) translateY(0)}72%{opacity:1}100%{opacity:0;transform:translateX(-50%) translateY(-5px)}}
+  .iw-fire{transform-box:fill-box;transform-origin:50% 100%;animation:iwFire .42s ease-in-out infinite alternate}
+  @keyframes iwFire{from{transform:scaleY(.9) scaleX(1.05)}to{transform:scaleY(1.12) scaleX(.95)}}
+  .iw-ember{transform-box:fill-box;transform-origin:center;animation:iwEmber 2.6s ease-out infinite}
+  @keyframes iwEmber{0%{opacity:0;transform:translateY(0)}20%{opacity:.9}100%{opacity:0;transform:translateY(-52px) translateX(8px)}}
+  .iw-glow{animation:iwGlow 2.8s ease-in-out infinite}
+  @keyframes iwGlow{0%,100%{opacity:.42}50%{opacity:.8}}
+  .iw-steam{transform-box:fill-box;transform-origin:bottom center;animation:iwSteam 3.6s ease-in-out infinite}
+  @keyframes iwSteam{0%{opacity:0;transform:translateY(0) scaleX(1)}30%{opacity:.5}100%{opacity:0;transform:translateY(-26px) scaleX(1.6)}}
+  .iw-smoke{transform-box:fill-box;transform-origin:50% 100%;animation:iwSmoke 6s ease-in-out infinite}
+  @keyframes iwSmoke{0%{opacity:0;transform:translateY(8px) scaleY(.85)}30%{opacity:.4}100%{opacity:0;transform:translateY(-26px) scaleY(1.25)}}
+  .iw-twinkle{animation:iwTwk 3.4s ease-in-out infinite}
+  @keyframes iwTwk{0%,100%{opacity:.4}50%{opacity:1}}
+  .iw-aur{transform-box:fill-box;animation:iwAur 16s ease-in-out infinite}
+  @keyframes iwAur{0%,100%{opacity:.5;transform:translateX(0)}50%{opacity:.95;transform:translateX(34px)}}
+  .iw-bird{animation:iwBird 18s linear infinite}
+  @keyframes iwBird{0%{opacity:0;transform:translate(0,0)}6%{opacity:.7}94%{opacity:.7}100%{opacity:0;transform:translate(320px,-26px)}}
+  .iw-snow{animation:iwSnow linear infinite}
+  @keyframes iwSnow{0%{transform:translateY(-30px) translateX(0);opacity:0}10%{opacity:.9}100%{transform:translateY(560px) translateX(40px);opacity:.2}}
+  .iw-rain{animation:iwRain .7s linear infinite}
+  @keyframes iwRain{from{transform:translateY(-14px)}to{transform:translateY(16px)}}
+  .iw-lamp{animation:iwGlow 4s ease-in-out infinite}
+  `;
+  const st=document.createElement('style'); st.textContent=css; document.head.appendChild(st);
+  const world=document.getElementById('world');
+  if(world && !document.getElementById('hotspots')){ const h=document.createElement('div'); h.id='hotspots'; world.appendChild(h); }
+  if(!document.getElementById('interior')){
+    const intr=document.createElement('div'); intr.id='interior';
+    intr.innerHTML=`<div id="interior-scene"></div><div id="interior-chars"></div>
+      <div id="interior-title"><span class="it-ico"></span><div><div class="it-main"></div><div class="it-sub"></div></div></div>
+      <div id="interior-scrim"></div>
+      <button id="interior-exit" onclick="exitInterior()">↩ step out</button><div id="interior-cap"></div>
+      <div id="interior-hint">⟷ drag to look around</div>`;
+    document.body.appendChild(intr);
+  }
+})();
+
+const INTERIORS = {
+  cabin:  { wps:['cabin_porch','cabin_front','cabin_side','cabin'], hx:600, hy:452, tag:"The Cabin", name:"the cabin", look:"the wood-stove warmth and a window on the wild", icon:"🛖", badge:"🛖", pov:"Inside the homestead cabin", tapHint:"tap to step inside" },
+  lookout:{ scenery:true, hx:812, hy:150, tag:"Ridge Lookout", name:"ridge lookout", look:"the whole homestead and the valley laid out below", icon:"🏔️", badge:"🏔️", pov:"High on the ridge above the homestead", lead:"From the ridge", tapHint:"tap for the view" },
+};
+const _F = n => (+n).toFixed(1);
+function _present(key){ const w=INTERIORS[key].wps; if(!w) return []; return Object.keys(S.chars||{}).filter(c=>S.chars[c]&&w.indexOf((S.chars[c].location||{}).waypoint)>=0); }
+function _fname(cid){ const n=(S.chars[cid]&&S.chars[cid].name)||cid; return n.split(' ')[0]; }
+function _isAnimal(cid){ const c=S.chars[cid]||{}; return (c.species&&c.species!=='human')||c.kind==='animal'; }
+function _activity(cid){ const c=S.chars[cid]||{}; const m=(c.mood||'').toLowerCase();
+  if(/sleep|rest|tired|exhaust/.test(m)) return 'resting'; if(/cook|eat|meal/.test(m)) return 'by the stove';
+  if(/cold|frozen|freez/.test(m)) return 'warming up'; if(/happy|content|warm|cosy/.test(m)) return 'settling in'; return 'inside'; }
+// current environment (mirrors the live main stage): cycle, night, season, weather
+function _envNow(){
+  const cls=((document.getElementById('world')||{}).className||'midday').trim().split(' ').pop()||'midday';
+  const sky=['morning','midday','afternoon','evening','night','dawn'].indexOf(cls)>=0?cls:'midday';
+  const night=sky==='night'||sky==='dawn';
+  const season=(S.world&&S.world.season&&S.world.season.name)||'summer';
+  const w=((S.world&&S.world.weather)||'').toLowerCase();
+  const storm=/storm|thunder|squall|gale|deluge|lightning|blizzard/.test(w);
+  const rain=!storm&&/rain|drizzle|shower|downpour|pour|wet|sleet/.test(w);
+  return {sky,night,season,storm,rain,snow:season==='winter'};
+}
+function _skyPal(env){
+  const P={night:['#0b1733','#1d2c49','#42577e'],dawn:['#332a52','#7e5685','#e6a981'],
+    morning:['#7ea8cf','#bcd2e0','#f0dcb0'],midday:['#4f93cf','#9fc4e2','#dcecf4'],
+    afternoon:['#6f9ccb','#aac6df','#ecd6a8'],evening:['#28335a','#6f5188','#ec9258']};
+  return P[env.sky]||P.midday;
+}
+
+// ── parallax driver: .lkL groups drift by depth from ambient breath + pointer ──
+let _iRaf=null,_iOff=null;
+function startInteriorParallax(){ stopInteriorParallax();
+  const scene=document.getElementById('interior-scene'); if(!scene) return;
+  const layers=[...scene.querySelectorAll('.lkL')]; if(!layers.length) return;
+  let mx=0,my=0; const onMove=e=>{ const r=scene.getBoundingClientRect(); if(!r.width) return;
+    mx=((e.clientX-r.left)/r.width-0.5)*2; my=((e.clientY-r.top)/r.height-0.5)*2; };
+  scene.addEventListener('pointermove',onMove); _iOff=()=>scene.removeEventListener('pointermove',onMove);
+  let t0=null; const tick=ts=>{ if(t0==null)t0=ts; const t=(ts-t0)/1000, drift=Math.sin(t*0.45)*0.4, AX=13, AY=5;
+    for(const g of layers){ const px=parseFloat(g.getAttribute('data-px'))||0;
+      g.setAttribute('transform',`translate(${((mx+drift)*AX*px).toFixed(2)} ${(my*AY*px).toFixed(2)})`); }
+    _iRaf=requestAnimationFrame(tick); }; _iRaf=requestAnimationFrame(tick);
+}
+function stopInteriorParallax(){ if(_iRaf){cancelAnimationFrame(_iRaf);_iRaf=null;} if(_iOff){_iOff();_iOff=null;}
+  const scene=document.getElementById('interior-scene'); if(scene) scene.querySelectorAll('.lkL').forEach(g=>g.removeAttribute('transform')); }
+
+function renderInteriorOccupants(key){
+  const box=document.getElementById('interior-chars'); if(!box) return; box.innerHTML='';
+  if(INTERIORS[key].scenery) return;
+  const present=_present(key).filter(c=>!_isAnimal(c)); if(!present.length) return;
+  const n=present.length, spread=Math.min(46, 14*n);
+  present.slice(0,4).forEach((cid,i)=>{
+    const x = 50 + (n>1 ? (-spread/2 + spread*(i/(n-1||1))) : 0);
+    const d=document.createElement('div'); d.className='ioc';
+    d.style.left=x+'%'; d.style.width='150px'; d.style.opacity='.97';
+    try{ d.innerHTML=makeGenericCharSVG(cid, getCharColor(cid)); }catch(e){ d.textContent=''; }
+    box.appendChild(d);
+  });
+}
+
+function enterInterior(key){
+  const I=INTERIORS[key]; if(!I) return;
+  const env=_envNow();
+  const scene=document.getElementById('interior-scene');
+  scene.innerHTML = key==='lookout'? ridgeLookoutSVG(env) : cabinSVG(env);
+  requestAnimationFrame(()=>{ try{
+    scene.scrollLeft=(scene.scrollWidth-scene.clientWidth)/2;
+    const hint=document.getElementById('interior-hint'); if(hint){ hint.classList.remove('show'); void hint.offsetWidth;
+      if(scene.scrollWidth-scene.clientWidth>40) hint.classList.add('show'); } }catch(e){} });
+  document.querySelector('#interior-title .it-ico').textContent=I.icon||'';
+  document.querySelector('#interior-title .it-main').textContent=I.name;
+  document.querySelector('#interior-title .it-sub').textContent=I.pov||'';
+  renderInteriorOccupants(key);
+  if(I.scenery){
+    document.getElementById('interior-cap').textContent=`${I.lead||('At the '+I.name)} — ${I.look}.`;
+  } else {
+    const present=_present(key).filter(c=>!_isAnimal(c)); let who;
+    if(present.length){ const ns=present.map(_fname); who=(ns.length<=2?ns.join(' & '):ns.length+' of them')+' here right now'; }
+    else who='no one inside right now';
+    document.getElementById('interior-cap').textContent=`Inside ${I.name} — ${I.look}. ${who}.`;
+  }
+  document.getElementById('interior').classList.add('show');
+  requestAnimationFrame(startInteriorParallax);
+}
+function exitInterior(){ stopInteriorParallax(); document.getElementById('interior').classList.remove('show'); }
+
+// ── outdoor view shared by the cabin window + the ridge sky (per-cycle, season, weather) ──
+function _outdoor(env, x, y, w, h){
+  const F=_F, pal=_skyPal(env), N=env.night;
+  const spruce=N?'#16271d':'#214a2f', snow=N?'#b9c7da':'#eef4fb', rock=N?'#2c3a4a':'#5d6f86';
+  let s=`<defs><linearGradient id="osky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${pal[0]}"/><stop offset=".6" stop-color="${pal[1]}"/><stop offset="1" stop-color="${pal[2]}"/></linearGradient></defs>`;
+  s+=`<rect x="${F(x)}" y="${F(y)}" width="${F(w)}" height="${F(h)}" fill="url(#osky)"/>`;
+  if(N){ s+=`<g fill="#eaf2ff">${[...Array(14)].map((_,i)=>`<circle class="iw-twinkle" style="animation-delay:${(i%5)*0.4}s" cx="${F(x+18+((i*53)%(w-30)))}" cy="${F(y+12+((i*31)%(h*0.45)))}" r="${1+(i%2)*0.6}"/>`).join('')}</g>`;
+    // aurora ribbons
+    s+=`<g opacity=".85">${[0,1].map(k=>`<path class="iw-aur" style="animation-delay:${k*-6}s" d="M ${F(x)} ${F(y+h*0.3+k*16)} Q ${F(x+w*0.3)} ${F(y+h*0.16+k*10)} ${F(x+w*0.55)} ${F(y+h*0.3+k*14)} T ${F(x+w)} ${F(y+h*0.28+k*12)}" stroke="${k?'#7ad9b0':'#9b8ce0'}" stroke-width="${10-k*3}" fill="none" stroke-linecap="round" opacity=".5"/>`).join('')}</g>`;
+    s+=`<circle cx="${F(x+w*0.78)}" cy="${F(y+h*0.24)}" r="16" fill="#eef3ff"/><circle cx="${F(x+w*0.78)}" cy="${F(y+h*0.24)}" r="30" fill="#eef3ff" opacity=".2"/>`;
+  } else {
+    s+=`<circle cx="${F(x+w*0.74)}" cy="${F(y+h*0.26)}" r="20" fill="#fff3cf"/><circle cx="${F(x+w*0.74)}" cy="${F(y+h*0.26)}" r="40" fill="#fff3cf" opacity=".22"/>`;
+  }
+  // snow-capped mountains
+  s+=`<path d="M ${F(x)} ${F(y+h*0.66)} L ${F(x+w*0.16)} ${F(y+h*0.34)} L ${F(x+w*0.3)} ${F(y+h*0.6)} L ${F(x+w*0.46)} ${F(y+h*0.3)} L ${F(x+w*0.62)} ${F(y+h*0.62)} L ${F(x+w*0.8)} ${F(y+h*0.36)} L ${F(x+w)} ${F(y+h*0.64)} L ${F(x+w)} ${F(y+h)} L ${F(x)} ${F(y+h)} Z" fill="${N?'#34465f':'#6f86a6'}"/>`;
+  s+=`<g fill="${snow}" opacity=".95"><path d="M ${F(x+w*0.16)} ${F(y+h*0.34)} l ${F(w*0.05)} ${F(h*0.1)} l ${F(-w*0.1)} 0 Z"/><path d="M ${F(x+w*0.46)} ${F(y+h*0.3)} l ${F(w*0.055)} ${F(h*0.11)} l ${F(-w*0.11)} 0 Z"/><path d="M ${F(x+w*0.8)} ${F(y+h*0.36)} l ${F(w*0.05)} ${F(h*0.1)} l ${F(-w*0.1)} 0 Z"/></g>`;
+  // spruce treeline along the base
+  let tl=`<g fill="${spruce}">`;
+  for(let i=0;i<Math.ceil(w/26);i++){ const tx=x+8+i*26, th=20+((i*13)%14), ty=y+h*0.72;
+    tl+=`<path d="M ${F(tx)} ${F(ty)} l ${F(7)} ${F(-th)} l ${F(7)} ${F(th)} Z"/><path d="M ${F(tx)} ${F(ty+8)} l ${F(8)} ${F(-th*0.8)} l ${F(8)} ${F(th*0.8)} Z"/>`; }
+  tl+='</g>'; s+=tl;
+  if(env.snow){ s+=`<rect x="${F(x)}" y="${F(y+h*0.78)}" width="${F(w)}" height="${F(h*0.22)}" fill="${snow}" opacity=".88"/>`; }
+  return s;
+}
+// weather streaks over a window/scene region
+function _precip(env,x,y,w,h){ if(!env.snow&&!env.rain&&!env.storm) return '';
+  const F=_F; let s='<g>';
+  if(env.snow){ for(let i=0;i<40;i++){ const sx=x+((i*Math.PI*37)%w); s+=`<circle class="iw-snow" style="animation-duration:${(5+(i%5))}s;animation-delay:${-(i%7)}s" cx="${F(sx)}" cy="${F(y)}" r="${1.4+(i%3)*0.7}" fill="#fff" opacity=".9"/>`; } }
+  else { const o=env.storm?0.6:0.4; for(let i=0;i<46;i++){ const rx=x+((i*53)%w); s+=`<line class="iw-rain" style="animation-delay:${-(i%6)*0.12}s" x1="${F(rx)}" y1="${F(y)}" x2="${F(rx-5)}" y2="${F(y+22)}" stroke="#cfe0ee" stroke-width="1.4" opacity="${o}"/>`; } }
+  return s+'</g>';
+}
+
+function cabinSVG(env){
+  const F=_F, N=env.night;
+  const wLit=N?'#5b3f26':'#73502f', wShd=N?'#3a2817':'#4d3620', floor=N?'#4a3320':'#5e4127', floorL=N?'#241a10':'#3a2817';
+  const iron=N?'#26262c':'#2c2c33', glow='#ffce7a';
+  let s=`<svg viewBox="0 0 1400 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">`;
+  s+=`<defs>
+    <linearGradient id="cwall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${wLit}"/><stop offset="1" stop-color="${wShd}"/></linearGradient>
+    <linearGradient id="cfloor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${floor}"/><stop offset="1" stop-color="${floorL}"/></linearGradient>
+    <radialGradient id="clamp" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="${glow}" stop-opacity="${N?'.5':'.28'}"/><stop offset="1" stop-color="${glow}" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cfireg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffb24d" stop-opacity="${N?'.8':'.5'}"/><stop offset="1" stop-color="#ffb24d" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cvig" cx="50%" cy="44%" r="72%"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#05080c" stop-opacity="${N?'.6':'.46'}"/></radialGradient></defs>`;
+  // static base: ceiling beams + floor
+  s+=`<rect width="1400" height="600" fill="url(#cwall)"/>`;
+  s+=`<g stroke="${wShd}" stroke-width="3" opacity=".5">${[120,210,300,390].map(y=>`<line x1="0" y1="${y}" x2="1400" y2="${y}"/>`).join('')}</g>`;
+  s+=`<rect x="0" y="70" width="1400" height="26" fill="${wShd}"/>`;
+  s+=`<rect x="0" y="462" width="1400" height="138" fill="url(#cfloor)"/>`;
+  s+=`<g stroke="${floorL}" stroke-width="2" opacity=".6">${[0,200,400,600,800,1000,1200,1400].map(x=>`<line x1="${x}" y1="462" x2="${x+40}" y2="600"/>`).join('')}${[486,512,544,580].map(y=>`<line x1="0" y1="${y}" x2="1400" y2="${y}"/>`).join('')}</g>`;
+  // ── Layer A: the world OUTSIDE, seen through the windows (deep parallax) ──
+  s+=`<g class="lkL" data-px=".05">`;
+  s+=_outdoor(env, 200, 120, 1000, 200);
+  s+='</g>';
+  // ── Layer B: log wall with two window holes + frames ──
+  s+=`<g class="lkL" data-px=".14">`;
+  // wall bands leaving holes at win1 (240..460) win2 (950..1170), y 138..300
+  s+=`<g fill="url(#cwall)">
+    <rect x="0" y="96" width="1400" height="46"/>
+    <rect x="0" y="300" width="1400" height="162"/>
+    <rect x="0" y="138" width="240" height="164"/>
+    <rect x="460" y="138" width="490" height="164"/>
+    <rect x="1170" y="138" width="230" height="164"/></g>`;
+  s+=`<g stroke="${wShd}" stroke-width="2.5" opacity=".4">${[170,250,330,410].map(y=>`<line x1="0" y1="${y}" x2="1400" y2="${y}"/>`).join('')}</g>`;
+  // window frames + mullions + sills + rain/frost
+  [[240,460],[950,1170]].forEach(([x1,x2])=>{ const cx=(x1+x2)/2;
+    s+=`<rect x="${x1-8}" y="130" width="${x2-x1+16}" height="180" fill="none" stroke="${wShd}" stroke-width="10"/>`;
+    s+=`<line x1="${cx}" y1="138" x2="${cx}" y2="300" stroke="${wShd}" stroke-width="6"/><line x1="${x1}" y1="220" x2="${x2}" y2="220" stroke="${wShd}" stroke-width="6"/>`;
+    s+=`<rect x="${x1-14}" y="300" width="${x2-x1+28}" height="12" fill="${wLit}" stroke="${wShd}" stroke-width="2"/>`;
+    if(env.snow){ s+=`<rect x="${x1-14}" y="296" width="${x2-x1+28}" height="9" rx="4" fill="#eef4fb"/><g fill="#dce8f5" opacity=".7"><path d="M ${x1-4} 140 q 14 4 18 18 l -18 0 Z"/><path d="M ${x2+4} 140 q -14 4 -18 18 l 18 0 Z"/></g>`; }
+  });
+  s+='</g>';
+  // ── Layer C: mid-room — stove, shelves, pelts, table ──
+  s+=`<g class="lkL" data-px=".26">`;
+  // wood stove (centre)
+  s+=`<ellipse cx="660" cy="470" rx="150" ry="40" fill="url(#cfireg)"/>`;
+  s+=`<rect x="600" y="360" width="120" height="110" rx="10" fill="${iron}"/><rect x="592" y="452" width="136" height="14" rx="4" fill="#15151a"/>`;
+  s+=`<rect x="640" y="120" width="22" height="246" fill="${iron}"/>`; // stove pipe
+  s+=`<circle cx="660" cy="408" r="26" fill="#120d09"/>`;
+  s+=`<g class="iw-fire"><path d="M 660 430 q -16 -22 -4 -40 q 6 14 12 8 q 8 -10 2 -24 q 20 14 16 40 q -2 14 -26 16 Z" fill="#ff8a3c"/><path d="M 660 428 q -8 -14 -1 -26 q 4 10 9 4 q 3 12 -8 22 Z" fill="#ffd24d"/></g>`;
+  s+=`<g fill="#ffb24d">${[0,1,2].map(i=>`<circle class="iw-ember" style="animation-delay:${i*0.8}s" cx="${648+i*12}" cy="404" r="2"/>`).join('')}</g>`;
+  s+=`<rect x="636" y="356" width="48" height="10" rx="3" fill="#1a1a20"/>`; // kettle base
+  s+=`<path d="M 642 356 q 18 -22 36 0 Z" fill="#23232a"/><rect x="656" y="330" width="8" height="8" fill="#23232a"/>`;
+  s+=`<g class="iw-steam"><ellipse cx="664" cy="320" rx="9" ry="14" fill="#fff" opacity=".4"/></g>`;
+  // firewood stack
+  s+=`<g fill="#6b4a2c" stroke="#3f2c1a" stroke-width="1.5">${[0,1,2,3].map(i=>`<circle cx="${500+i%2*16}" cy="${446-Math.floor(i/2)*15}" r="9"/>`).join('')}</g>`;
+  // shelves + lantern (left)
+  s+=`<g><rect x="120" y="250" width="150" height="9" fill="${wShd}"/><rect x="120" y="320" width="150" height="9" fill="${wShd}"/>${[140,180,220].map((x,i)=>`<rect x="${x}" y="${222+ (i%2)*0}" width="14" height="28" rx="3" fill="#9c7b4e"/>`).join('')}</g>`;
+  s+=`<g><rect x="196" y="296" width="20" height="24" rx="3" fill="#3a3026"/><circle cx="206" cy="308" r="6" fill="${glow}" class="iw-lamp"/><ellipse cx="206" cy="308" rx="${N?34:18}" ry="${N?40:22}" fill="${glow}" opacity="${N?'.3':'.16'}"/></g>`;
+  // pelts / snowshoes / antlers on the wall
+  s+=`<path d="M 1240 150 q 30 -6 40 30 q 8 40 -16 60 q -30 14 -44 -16 q -10 -50 20 -74 Z" fill="#8a6b43" opacity=".9"/>`;
+  s+=`<g stroke="#caa46a" stroke-width="4" fill="none"><path d="M 540 150 q 6 30 -10 46 M 540 150 q -6 30 10 46 M 528 168 q -14 -4 -18 -16 M 552 168 q 14 -4 18 -16"/></g>`;
+  // table (right of stove)
+  s+=`<rect x="930" y="420" width="170" height="14" rx="3" fill="#8a6a40"/><rect x="940" y="434" width="12" height="40" fill="#6b4a2c"/><rect x="1078" y="434" width="12" height="40" fill="#6b4a2c"/>`;
+  s+=`<ellipse cx="980" cy="420" rx="14" ry="6" fill="#caa46a"/><rect x="1030" y="404" width="16" height="18" rx="2" fill="#3a3026"/><circle cx="1038" cy="410" r="4" fill="${glow}"/>`;
+  // window valances / curtains (warm cloth)
+  [[240,460],[950,1170]].forEach(([x1,x2])=>{ s+=`<path d="M ${x1-12} 130 L ${x2+12} 130 L ${x2+12} 150 Q ${(x1+x2)/2} 168 ${x1-12} 150 Z" fill="#9c5038" opacity=".92"/>`;
+    s+=`<rect x="${x1-12}" y="130" width="10" height="120" fill="#9c5038" opacity=".7"/><rect x="${x2+2}" y="130" width="10" height="120" fill="#9c5038" opacity=".7"/>`; });
+  // wall décor — framed photo, hung coat, a clock, a horseshoe, herb bundle
+  s+=`<g><rect x="346" y="180" width="46" height="40" rx="2" fill="#2a1f14" stroke="#caa46a" stroke-width="2"/><rect x="352" y="186" width="34" height="28" fill="${N?'#4a5a6a':'#7d93a8'}"/></g>`;
+  s+=`<g transform="translate(420 176)"><circle r="20" fill="#1c1812" stroke="#caa46a" stroke-width="3"/><line x1="0" y1="0" x2="0" y2="-12" stroke="#e8d9b0" stroke-width="2"/><line x1="0" y1="0" x2="8" y2="4" stroke="#e8d9b0" stroke-width="2"/></g>`;
+  s+=`<g transform="translate(800 168)"><rect x="-3" y="0" width="6" height="14" fill="#6b4a2c"/><path d="M -16 14 q 16 -10 32 0 l -4 56 q -12 8 -24 0 Z" fill="#3f5a4a"/></g>`;
+  s+=`<path d="M 880 178 a 16 16 0 1 0 32 0" fill="none" stroke="#9aa0a6" stroke-width="5"/>`;
+  s+=`<g stroke="#5a7a3a" stroke-width="3" fill="none" opacity=".8"><path d="M 1300 150 q -6 26 -2 44 M 1306 150 q 2 24 0 42 M 1312 150 q 6 26 2 44"/></g>`;
+  // a few more jars + a book on the shelf
+  s+=`<g>${[156,176,196].map((x,i)=>`<rect x="${x}" y="${300+(i%2)*2}" width="13" height="20" rx="2" fill="${['#7c9a6a','#b9694a','#c2a04a'][i]}"/>`).join('')}<rect x="222" y="304" width="24" height="16" rx="1" fill="#6b4a2c"/></g>`;
+  s+='</g>';
+  // ── Layer D: foreground — rug, stool, hanging lamp, glow ──
+  s+=`<g class="lkL" data-px=".5">`;
+  s+=`<ellipse cx="700" cy="556" rx="300" ry="46" fill="#7a3b2e" opacity=".85"/><ellipse cx="700" cy="556" rx="230" ry="34" fill="#9c5038" opacity=".7"/><ellipse cx="700" cy="556" rx="150" ry="22" fill="#b9694a" opacity=".6"/>`;
+  s+=`<g><rect x="300" y="520" width="70" height="14" rx="4" fill="#6b4a2c"/><rect x="306" y="534" width="10" height="30" fill="#4d3620"/><rect x="354" y="534" width="10" height="30" fill="#4d3620"/></g>`;
+  // hanging oil lamp front
+  s+=`<line x1="980" y1="70" x2="980" y2="150" stroke="#2a2118" stroke-width="3"/><rect x="966" y="150" width="28" height="34" rx="6" fill="#2a2118"/><ellipse cx="980" cy="168" rx="8" ry="11" fill="${glow}"/><ellipse cx="980" cy="168" rx="${N?52:30}" ry="${N?60:36}" fill="url(#clamp)" class="iw-lamp"/>`;
+  s+='</g>';
+  // static overlays: warm light wash + vignette (no parallax, no pointer)
+  s+=`<rect width="1400" height="600" fill="${N?'#ffb454':'#bfe0ff'}" opacity="${N?'.10':'.05'}" pointer-events="none"/>`;
+  s+=`<rect width="1400" height="600" fill="url(#cvig)" pointer-events="none"/>`;
+  return s+'</svg>';
+}
+
+function ridgeLookoutSVG(env){
+  const F=_F, N=env.night, pal=_skyPal(env);
+  const peak=N?'#33455e':'#6f86a6', snow=N?'#bccadb':'#eef4fb', spruceF=N?'#16271d':'#214a2f', spruceN=N?'#0f1d15':'#193b25', rock=N?'#222d3a':'#41505f', valley=N?'#1a2a22':'#2f5238';
+  let s=`<svg viewBox="0 0 1400 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">`;
+  s+=`<defs><linearGradient id="rsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${pal[0]}"/><stop offset=".55" stop-color="${pal[1]}"/><stop offset="1" stop-color="${pal[2]}"/></linearGradient>
+    <radialGradient id="rfire" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffbe5c" stop-opacity="${N?'.9':'0'}"/><stop offset="1" stop-color="#ffbe5c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="rvig" cx="50%" cy="40%" r="74%"><stop offset=".5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#050a0e" stop-opacity="${N?'.6':'.42'}"/></radialGradient></defs>`;
+  // ── Layer A: sky ──
+  s+=`<g class="lkL" data-px=".04"><rect width="1400" height="430" fill="url(#rsky)"/>`;
+  if(N){ s+=`<g fill="#eaf2ff">${[...Array(40)].map((_,i)=>`<circle class="iw-twinkle" style="animation-delay:${(i%6)*0.4}s" cx="${F(20+((i*71)%1360))}" cy="${F(14+((i*37)%240))}" r="${0.7+(i%3)*0.5}"/>`).join('')}</g>`;
+    s+=`<circle cx="1120" cy="92" r="26" fill="#eef3ff"/><circle cx="1120" cy="92" r="50" fill="#eef3ff" opacity=".18"/>`;
+    s+=`<g>${[0,1,2].map(k=>`<path class="iw-aur" style="animation-delay:${k*-5}s" d="M 0 ${150+k*30} Q 360 ${90+k*20} 720 ${150+k*26} T 1400 ${140+k*22}" stroke="${['#8b7be0','#6fd6a8','#7ab8e6'][k]}" stroke-width="${16-k*4}" fill="none" stroke-linecap="round" opacity=".5"/>`).join('')}</g>`;
+  } else { s+=`<circle cx="1130" cy="96" r="32" fill="#fff3cf"/><circle cx="1130" cy="96" r="64" fill="#fff3cf" opacity=".2"/>`; }
+  s+='</g>';
+  // ── Layer B: far snow peaks ──
+  s+=`<g class="lkL" data-px=".09"><path d="M 0 300 L 180 150 L 320 270 L 470 130 L 640 280 L 820 150 L 1000 270 L 1200 160 L 1400 290 L 1400 430 L 0 430 Z" fill="${peak}"/>`;
+  s+=`<g fill="${snow}">${[[180,150],[470,130],[820,150],[1200,160]].map(([x,y])=>`<path d="M ${x} ${y} l 34 56 l -68 0 Z"/>`).join('')}</g></g>`;
+  // ── Layer C: mid ridge + distant spruce band + mist ──
+  s+=`<g class="lkL" data-px=".18"><path d="M 0 330 Q 300 290 600 326 Q 950 296 1400 330 L 1400 440 L 0 440 Z" fill="${N?'#1d3326':'#2c5237'}"/>`;
+  let band=`<g fill="${spruceF}">`; for(let i=0;i<60;i++){ const tx=i*24, th=22+((i*17)%16); band+=`<path d="M ${tx} 360 l 9 ${-th} l 9 ${th} Z"/>`; } band+='</g>'; s+=band;
+  s+=`<rect x="0" y="320" width="1400" height="40" fill="#cfe0ee" opacity=".12"/></g>`;
+  // ── Layer D: the valley + the homestead below ──
+  s+=`<g class="lkL" data-px=".32">`;
+  s+=`<path d="M 0 380 Q 400 350 700 372 Q 1000 352 1400 384 L 1400 600 L 0 600 Z" fill="${valley}"/>`;
+  if(env.snow) s+=`<path d="M 0 380 Q 400 350 700 372 Q 1000 352 1400 384 L 1400 460 L 0 460 Z" fill="${snow}" opacity=".8"/>`;
+  // creek
+  s+=`<path d="M 120 600 Q 360 500 520 470 Q 700 436 980 452" stroke="${N?'#3a5a72':'#7fb6d6'}" stroke-width="10" fill="none" opacity=".8" stroke-linecap="round"/>`;
+  s+=`<path d="M 120 600 Q 360 500 520 470 Q 700 436 980 452" stroke="#dff1ff" stroke-width="3" fill="none" opacity=".5"/>`;
+  // the cabin below (with smoke + window glow at night)
+  s+=`<g transform="translate(640 408)"><ellipse cx="20" cy="40" rx="60" ry="14" fill="url(#rfire)"/><rect x="-26" y="6" width="92" height="34" fill="${N?'#3a2a1c':'#5e4127'}"/><path d="M -32 8 L 20 -18 L 72 8 Z" fill="${N?'#2a1f14':'#46321f'}"/>${env.snow?`<path d="M -32 8 L 20 -18 L 72 8 Z" fill="#eef4fb" opacity=".85"/>`:''}<rect x="-6" y="16" width="16" height="16" fill="${N?'#ffce7a':'#2a2018'}"/>${N?`<rect x="-6" y="16" width="16" height="16" fill="#ffce7a"/>`:''}<rect x="44" y="-14" width="10" height="22" fill="#2a1f14"/><g class="iw-smoke"><ellipse cx="49" cy="-22" rx="7" ry="12" fill="#cdd6dd" opacity=".5"/></g></g>`;
+  // a couple of outbuildings + spruce clusters
+  s+=`<g fill="${N?'#33271a':'#4a3320'}">${[[470,452],[860,440]].map(([x,y])=>`<rect x="${x}" y="${y}" width="40" height="22"/>`).join('')}</g>`;
+  let vsp=`<g fill="${spruceN}">`; [180,260,1040,1180,1280].forEach(x=>{ vsp+=`<path d="M ${x} 470 l 16 -44 l 16 44 Z"/><path d="M ${x} 452 l 14 -34 l 14 34 Z"/>`; }); vsp+='</g>'; s+=vsp;
+  s+='</g>';
+  // ── Layer E: near foreground ridge + spruce + raven ──
+  s+=`<g class="lkL" data-px=".58">`;
+  s+=`<path d="M 0 600 L 0 470 Q 220 510 460 500 Q 520 560 600 600 Z" fill="${rock}"/>`;
+  s+=`<path d="M 1400 600 L 1400 480 Q 1180 520 980 512 Q 900 566 820 600 Z" fill="${rock}"/>`;
+  if(env.snow){ s+=`<path d="M 0 470 Q 220 510 460 500 L 440 512 Q 220 522 0 484 Z" fill="${snow}" opacity=".85"/>`; }
+  // foreground spruces framing
+  s+=`<g fill="${spruceN}"><path d="M 90 600 l 0 -120 l -40 30 l 30 -50 l -26 14 l 36 -54 l 36 54 l -26 -14 l 30 50 l -40 -30 l 0 120 Z"/><path d="M 1300 600 l 0 -130 l -44 32 l 32 -54 l -28 16 l 40 -60 l 40 60 l -28 -16 l 32 54 l -44 -32 l 0 130 Z"/></g>`;
+  // a cairn + a gliding raven
+  s+=`<g fill="${N?'#1a222c':'#33414f'}"><ellipse cx="300" cy="540" rx="22" ry="12"/><ellipse cx="300" cy="522" rx="16" ry="10"/><ellipse cx="300" cy="508" rx="10" ry="7"/></g>`;
+  s+=`<g class="iw-bird" fill="#0d1116"><path d="M 500 220 q 14 -8 26 0 q -14 4 -26 0 Z M 526 220 q 14 -8 26 0 q -14 4 -26 0 Z"/></g>`;
+  s+='</g>';
+  // weather + per-cycle wash + vignette (static overlays)
+  if(env.snow||env.rain||env.storm) s+=_precip(env,0,0,1400,0).replace(/cy="0"/g,'cy="0"');
+  s+=`<rect width="1400" height="600" fill="${N?'#2b3f6e':'#bfe0ff'}" opacity="${N?'.12':'.05'}" pointer-events="none"/>`;
+  s+=`<rect width="1400" height="600" fill="url(#rvig)" pointer-events="none"/>`;
+  return s+'</svg>';
+}
+
+function renderInteriorHotspots(){
+  const layer=document.getElementById('hotspots'); if(!layer) return; layer.innerHTML='';
+  Object.keys(INTERIORS).forEach(key=>{
+    const I=INTERIORS[key]; let top='50%'; try{ top=svgToViewport(I.hx,I.hy).top; }catch(e){}
+    const left=(I.hx/10)+'%';
+    const present=_present(key).filter(c=>!_isAnimal(c));
+    const d=document.createElement('div'); d.className='hotspot'+(present.length?' occupied':''); d.style.left=left; d.style.top=top;
+    d.innerHTML=`<div class="hs-glow"></div><div class="hs-badge"><span class="em">${I.badge||'🛖'}</span>${I.tag||I.name}</div><div class="hs-tap">${I.tapHint||'tap to look'}</div><div style="width:80px;height:60px"></div>`;
+    d.onclick=()=>enterInterior(key);
+    layer.appendChild(d);
+  });
+}
+// keep hotspots in sync with each world refresh (front-end only)
+if(typeof updateWorld==='function'){ const _origUW=updateWorld;
+  updateWorld=function(){ const r=_origUW.apply(this,arguments); try{ renderInteriorHotspots(); }catch(e){} return r; }; }
 </script>
 </body>
 </html>
