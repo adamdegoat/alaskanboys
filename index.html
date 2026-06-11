@@ -1516,7 +1516,7 @@ const WAYPOINTS = {
   // ── the cabin (centre-right; the build/structures render around here). sy sits the
   //    family on the GRASS at the cabin's base — NOT up on the raised deck (that read as floating). ──
   cabin_porch:    {sx:600,sy:486}, cabin_front:   {sx:560,sy:494},
-  cabin_side:     {sx:648,sy:488},
+  cabin_side:     {sx:648,sy:488}, cabin_inside:  {sx:600,sy:482},
   // ── the build site / workshop (left of the cabin) ──
   build_site:     {sx:420,sy:466}, sawhorse:      {sx:372,sy:482},
   // ── firewood ──
@@ -2830,22 +2830,17 @@ function ensureCharDom(cid) {
   document.getElementById('world').appendChild(div)
 }
 
-// at NIGHT, anyone asleep INSIDE the cabin is hidden from the homestead, shown as a 💤 + a warm
-// window glow on the cabin (they still appear in the interior peek). Daytime = visible as normal.
-const INDOOR_SHELTERS = { cabin: {sx:600, sy:482, wps:['cabin_porch','cabin_front','cabin_side','cabin']} }
+// Anyone INDOORS (see _isIndoors) is hidden from the homestead and shown only inside the cabin
+// peek — a warm window glow stands in for them: 💤 when asleep at night, a "X inside" pill by day.
+const INDOOR_SHELTERS = { cabin: {sx:600, sy:482} }
 let _indoorShelters = {}
 function markIndoors(positions){
   _indoorShelters = {}
-  const night = !!(S.world && S.world.cycle==='night'); if(!night) return
-  positions.forEach(p=>{ const c=S.chars[p.id]; if(!c) return
-    if(typeof _isAnimal==='function' && _isAnimal(p.id)) return        // the dog roams, never "asleep inside"
-    const wp=(c.location||{}).waypoint
-    let atSh=null; for(const sh in INDOOR_SHELTERS){ if(INDOOR_SHELTERS[sh].wps.indexOf(wp)>=0){ atSh=sh; break } }
-    if(!atSh) return
-    if(c.interaction && c.interaction.with) return                     // mid-conversation → keep visible
-    p.indoors=true; const S2=INDOOR_SHELTERS[atSh]
-    const e=_indoorShelters[atSh]||(_indoorShelters[atSh]={sx:S2.sx,sy:S2.sy,names:[]})
-    e.names.push((((c&&c.name)||'').split(' ')[0])) })
+  const night = !!(S.world && S.world.cycle==='night')
+  positions.forEach(p=>{ const key=_isIndoors(p.id); if(!key) return
+    p.indoors=true; const S2=INDOOR_SHELTERS[key]; if(!S2) return
+    const e=_indoorShelters[key]||(_indoorShelters[key]={sx:S2.sx,sy:S2.sy,names:[],night})
+    e.names.push((((S.chars[p.id]||{}).name||'').split(' ')[0])) })
 }
 function renderSleepCues(){
   let layer=document.getElementById('sleep-layer')
@@ -2854,7 +2849,8 @@ function renderSleepCues(){
   Object.keys(_indoorShelters||{}).forEach(sh=>{ const s=_indoorShelters[sh]
     const left=(s.sx/10)+'%', top=svgToViewport(s.sx, s.sy-34).top
     const d=document.createElement('div'); d.className='sleepcue'; d.style.left=left; d.style.top=top
-    d.innerHTML=`<div class="sc-glow"></div><div class="sc-z">💤</div>`
+    const who=(s.names||[]).filter(Boolean); const lbl=who.length<=2?who.join(' & '):who.length+' inside'
+    d.innerHTML=`<div class="sc-glow"></div>`+(s.night?`<div class="sc-z">💤</div>`:(who.length?`<div class="sc-in">🛖 ${lbl}${who.length<=2?' inside':''}</div>`:''))
     layer.appendChild(d) })
 }
 function updateWorld() {
@@ -3225,7 +3221,8 @@ function setHudVar(){
   const sb = Math.max(0, Math.round(window.innerHeight - top))
   if(sb) document.documentElement.style.setProperty('--stage-bottom', sb+'px')
 }
-window.addEventListener('resize', ()=>{ setHudVar(); if(S && Object.keys(S.chars||{}).length) updateWorld() })
+window.addEventListener('resize', ()=>{ setHudVar(); if(S && Object.keys(S.chars||{}).length) updateWorld()
+  const intr=document.getElementById('interior'); if(intr && intr.classList.contains('show')) fitInteriorScene() })
 
 // ── ZOOM-AWARE RE-SYNC (mobile pinch-zoom) ──────────────────────────────────
 // Mobile browsers (esp. iOS Safari) let users pinch-zoom even though our viewport asks them
@@ -3345,6 +3342,8 @@ loadVote();
   @keyframes scGlow{0%,100%{opacity:.45}50%{opacity:.85}}
   .sleepcue .sc-z{position:absolute;left:62%;top:-52px;transform:translateX(-50%);font-size:17px;opacity:.92;text-shadow:0 1px 4px rgba(0,0,0,.6);animation:scZ 3.6s ease-in-out infinite}
   @keyframes scZ{0%,100%{opacity:.45;transform:translateX(-50%) translateY(2px)}50%{opacity:1;transform:translateX(-50%) translateY(-5px)}}
+  .sleepcue .sc-in{position:absolute;left:50%;top:-30px;transform:translateX(-50%);white-space:nowrap;background:rgba(10,16,22,.74);border:1px solid rgba(255,206,128,.4);color:#ffe6c2;font:700 9px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.2px;padding:3px 7px;border-radius:999px;box-shadow:0 2px 7px rgba(0,0,0,.4)}
+  @media (max-width:640px){.sleepcue .sc-in{font-size:7.5px;padding:2px 6px;top:-22px}}
   #hotspots .hotspot,#hotspots .actcue{pointer-events:auto}
   .hotspot{position:absolute;transform:translate(-50%,-50%);cursor:pointer}
   .hotspot .hs-glow{position:absolute;left:50%;top:50%;width:74px;height:54px;transform:translate(-50%,-50%);border-radius:50%;
@@ -3434,11 +3433,26 @@ loadVote();
 })();
 
 const INTERIORS = {
-  cabin:  { wps:['cabin_porch','cabin_front','cabin_side','cabin'], hx:600, hy:452, tag:"The Cabin", name:"the cabin", look:"the wood-stove warmth and a window on the wild", icon:"🛖", badge:"🛖", pov:"Inside the homestead cabin", tapHint:"tap to step inside" },
+  cabin:  { wps:['cabin_porch','cabin_front','cabin_side','cabin'], insideWps:['cabin_inside'], hx:600, hy:452, tag:"The Cabin", name:"the cabin", look:"the wood-stove warmth and a window on the wild", icon:"🛖", badge:"🛖", pov:"Inside the homestead cabin", tapHint:"tap to step inside" },
   lookout:{ scenery:true, hx:620, hy:172, tag:"Ridge Lookout", name:"ridge lookout", look:"the whole homestead and the valley laid out below", icon:"🏔️", badge:"🏔️", pov:"High on the ridge above the homestead", lead:"From the ridge", tapHint:"tap for the view" },
 };
 const _F = n => (+n).toFixed(1);
-function _present(key){ const w=INTERIORS[key].wps; if(!w) return []; return Object.keys(S.chars||{}).filter(c=>S.chars[c]&&w.indexOf((S.chars[c].location||{}).waypoint)>=0); }
+// SINGLE source of truth for "who is indoors right now" — read by BOTH the homestead map
+// (hides the avatar) and the interior peek (shows them), so a character is NEVER in two places.
+// Indoors = literally inside (an *_inside waypoint, any cycle) OR asleep inside at night
+// (at the shelter's approach waypoint, not mid-conversation). Standing out front = NOT indoors.
+function _isIndoors(cid){
+  const c=S.chars[cid]; if(!c) return null
+  if(typeof _isAnimal==='function' && _isAnimal(cid)) return null   // pets roam, never "inside"
+  const wp=(c.location||{}).waypoint
+  const night=!!(S.world && S.world.cycle==='night')
+  const interacting=!!(c.interaction && c.interaction.with)
+  for(const key in INTERIORS){ const I=INTERIORS[key]; if(I.scenery) continue
+    if((I.insideWps||[]).indexOf(wp)>=0) return key
+    if(night && (I.wps||[]).indexOf(wp)>=0 && !interacting) return key }
+  return null
+}
+function _present(key){ return Object.keys(S.chars||{}).filter(c=>S.chars[c] && _isIndoors(c)===key); }
 function _fname(cid){ const n=(S.chars[cid]&&S.chars[cid].name)||cid; return n.split(' ')[0]; }
 function _isAnimal(cid){ const c=S.chars[cid]||{}; return (c.species&&c.species!=='human')||c.kind==='animal'; }
 function _activity(cid){ const c=S.chars[cid]||{}; const m=(c.mood||'').toLowerCase();
@@ -3492,12 +3506,28 @@ function renderInteriorOccupants(key){
   });
 }
 
+// Make the interior panorama always COVER the viewport — no black gaps. Narrow screens fill the
+// height and pan horizontally; wide desktops fill the width (cover) and centre vertically.
+function fitInteriorScene(){
+  const sc=document.getElementById('interior-scene'); if(!sc) return;
+  const svg=sc.querySelector('svg'); if(!svg) return;
+  let aspect=0;
+  try{ const vb=svg.viewBox.baseVal; if(vb&&vb.width&&vb.height) aspect=vb.width/vb.height; }catch(e){}
+  if(!aspect){ const a=(svg.getAttribute('viewBox')||'').split(/[ ,]+/); if(a.length===4&&+a[3]) aspect=(+a[2])/(+a[3]); }
+  if(!aspect) return;
+  const H=sc.clientHeight, W=sc.clientWidth;
+  let w=H*aspect, h=H, mt=0;
+  if(w < W-0.5){ w=W; h=W/aspect; mt=(H-h)/2; }
+  svg.style.width=w+'px'; svg.style.height=h+'px'; svg.style.marginTop=mt+'px';
+}
 function enterInterior(key){
   const I=INTERIORS[key]; if(!I) return;
   const env=_envNow();
   const scene=document.getElementById('interior-scene');
   scene.innerHTML = key==='lookout'? ridgeLookoutSVG(env) : cabinSVG(env);
+  setTimeout(fitInteriorScene, 60);
   requestAnimationFrame(()=>{ try{
+    fitInteriorScene();
     scene.scrollLeft=(scene.scrollWidth-scene.clientWidth)/2;
     const hint=document.getElementById('interior-hint'); if(hint){ hint.classList.remove('show'); void hint.offsetWidth;
       if(scene.scrollWidth-scene.clientWidth>40) hint.classList.add('show'); } }catch(e){} });
