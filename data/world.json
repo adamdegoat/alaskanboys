@@ -8,12 +8,12 @@
   },
   "resources": {
     "food": 0,
-    "water": 47,
-    "wood": 43,
-    "medicine": 17,
-    "materials": 9,
+    "water": 51,
+    "wood": 42,
+    "medicine": 15,
+    "materials": 8,
     "money": 60,
-    "power": 25
+    "power": 23
   },
   "pending_events": [],
   "started": "2026-06-09",
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 41,
+      "condition": 39,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 76,
+      "condition": 74,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,12 +46,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 8
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 33
+    "progress": 35
   },
   "truck": {
     "present": true,
@@ -61,14 +61,14 @@
     "present": false
   },
   "last_run_date": "2026-06-11",
-  "pulse": "Three gambles came through—water, food, proof—and the family ate together at the warm stove.",
-  "scene": "Finn caught two salmon at the creek while Cole finished the water line, and now they gather inside—Cole and Maggie by the warm stove, Sawyer and Bear at the table, Finn settling nearby to eat.",
+  "pulse": "The water line is flowing, the salmon are caught, and the family gathers at dusk—strained but holding, satisfied the plan works, knowing tomorrow brings more to build.",
+  "scene": "As evening light softens over the homestead, the family settles exhausted but satisfied—Cole by the fire with Bear, Maggie keeping Finn close at the porch, Sawyer tending the woodpile, all riding the quiet certainty that fresh water flows from their own land and real food fills their belly.",
   "resources_prev": {
     "food": 0,
-    "water": 50,
-    "wood": 39,
-    "medicine": 18,
-    "materials": 10,
+    "water": 47,
+    "wood": 43,
+    "medicine": 17,
+    "materials": 9,
     "money": 60,
     "power": 25
   },

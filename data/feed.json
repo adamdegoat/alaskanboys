@@ -2415,5 +2415,208 @@
       }
     ],
     "timestamp": "2026-06-11T18:32:41.734350"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Checks the water line one final time, satisfied it's running clean, then settles by the fire with Bear and a long, satisfied sigh.",
+    "thought": "Water flows. The plan works. We're here.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-11T18:58:15.672102"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Settles Finn at the cabin porch with a blanket, keeping steady watch on his breathing and color as the light softens.",
+    "thought": "He's pale but present. We're holding.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "attentive",
+    "timestamp": "2026-06-11T18:58:15.672102"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Gathers firewood at the woodpile with steady rhythm against the fading light, quietly proud of a day's real work.",
+    "thought": "Dad trusted me. I did it right.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-11T18:58:15.672102"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Rests against the cabin wall exhausted, holding onto the memory of landing two salmon as the long summer light finally begins to fade.",
+    "thought": "I caught them. I really did it.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "drained",
+    "timestamp": "2026-06-11T18:58:15.672102"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Sits with Cole at the fire still buzzing with the day's excitement, reluctant to settle despite the light easing toward dusk.",
+    "thought": "Best day yet. Water and fish.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "joyful",
+    "timestamp": "2026-06-11T18:58:15.672102"
+  },
+  {
+    "day": 3,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "As evening softens over the homestead, the family gathers—Cole by the fire with Bear, satisfied the water line runs clean; Maggie settling Finn at the porch, watching his tired face; Sawyer gathering wood with quiet pride—exhausted but holding to the day's victories: fresh water flowing, two salmon caught, the cabin's patches holding tight.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Water's still running clean."
+      },
+      {
+        "speaker": "bear",
+        "line": "We caught SALMON and we have WATER!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Yes, buddy, we did."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The porch held good all day."
+      },
+      {
+        "speaker": "cole",
+        "line": "It did. Finn, you good?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Yeah. Just tired."
+      },
+      {
+        "speaker": "bear",
+        "line": "We cooked the salmon on the fire!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "And now you need to sleep."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long until the line reaches the tanks?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Week or two, if we push and weather holds."
+      },
+      {
+        "speaker": "finn",
+        "line": "Worth it though. Water from our own land."
+      },
+      {
+        "speaker": "bear",
+        "line": "Our own COLD, CLEAN water."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the dream. That's how you homestead."
+      },
+      {
+        "speaker": "maggie",
+        "line": "One day at a time. Speaking of which—bed soon."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Can we push the cabin tomorrow?"
+      },
+      {
+        "speaker": "cole",
+        "line": "If Finn's better and the weather holds."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'll be better. I promise."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You will. You just need rest."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm not tired."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Sure you're not."
+      },
+      {
+        "speaker": "cole",
+        "line": "Even the toughest need sleep."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Let's bank the fire soon."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I'll do the wood."
+      },
+      {
+        "speaker": "finn",
+        "line": "Water's working though. That's the thing."
+      },
+      {
+        "speaker": "cole",
+        "line": "It is. You all built that."
+      },
+      {
+        "speaker": "bear",
+        "line": "Tomorrow more fishing?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "One day at a time, buddy."
+      },
+      {
+        "speaker": "cole",
+        "line": "Tomorrow brings what it brings."
+      }
+    ],
+    "timestamp": "2026-06-11T18:58:15.672102"
   }
 ]
