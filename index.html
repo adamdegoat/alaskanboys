@@ -2888,6 +2888,20 @@ function updateWorld() {
   separateChars(positions)
   markIndoors(positions)   // flag anyone asleep inside the cabin at night
 
+  // keep characters OFF the lit campfire flames (the fire sits at viewBox x≈500)
+  if(S.world && S.world.fire && S.world.fire.lit){
+    positions.forEach(p=>{
+      if(p.indoors) return
+      const vx = p.px/W*1000
+      if(vx<=482 || vx>=518) return
+      const others = positions.filter(q=>q!==p && !q.indoors).map(q=>q.px/W*1000)
+      let tgt
+      if(vx<500){ const ls=others.filter(x=>x>=400 && x<482); tgt=ls.length?Math.min(...ls)-28:470 }
+      else      { const rs=others.filter(x=>x>518 && x<=600); tgt=rs.length?Math.max(...rs)+28:530 }
+      p.px = tgt/1000*W
+    })
+  }
+
   positions.forEach(p=>{
     const el=document.getElementById('char-'+p.id); if(!el) return
     el.style.left=(p.px/W*100)+'%'
