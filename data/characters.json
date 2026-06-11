@@ -6,19 +6,19 @@
     "color": "#9a3b2e",
     "scores": {
       "trust": 83,
-      "openness": 70,
-      "ambition": 88,
+      "openness": 71,
+      "ambition": 89,
       "loneliness": 0,
       "resilience": 95,
-      "health": 93,
-      "hunger": 25,
+      "health": 86,
+      "hunger": 19,
       "thirst": 55,
-      "energy": 76
+      "energy": 60
     },
     "mood": "focused",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "creek",
       "x": 44,
       "y": 52
     },
@@ -30,7 +30,7 @@
         "attraction": 0
       },
       "sawyer": {
-        "closeness": 99,
+        "closeness": 100,
         "tension": 2,
         "attraction": 0
       },
@@ -65,7 +65,7 @@
     },
     "interaction": {
       "with": "sawyer",
-      "state": "talking"
+      "state": "working_together"
     },
     "memories": [
       {
@@ -82,14 +82,14 @@
     "color": "#3f7d6e",
     "scores": {
       "trust": 86,
-      "openness": 76,
+      "openness": 77,
       "ambition": 61,
       "loneliness": 0,
-      "resilience": 90,
-      "health": 93,
-      "hunger": 25,
+      "resilience": 91,
+      "health": 86,
+      "hunger": 19,
       "thirst": 55,
-      "energy": 76
+      "energy": 60
     },
     "mood": "pragmatic",
     "where": "home",
@@ -106,13 +106,13 @@
         "attraction": 0
       },
       "sawyer": {
-        "closeness": 94,
+        "closeness": 95,
         "tension": 3,
         "attraction": 0
       },
       "finn": {
         "closeness": 96,
-        "tension": 4,
+        "tension": 5,
         "attraction": 0
       },
       "bear": {
@@ -136,8 +136,8 @@
       ]
     },
     "interaction": {
-      "with": "cole",
-      "state": "talking"
+      "with": "bear",
+      "state": "sitting_together"
     },
     "memories": [
       {
@@ -153,32 +153,32 @@
     "archetype": "eldest",
     "color": "#2f5d8a",
     "scores": {
-      "trust": 79,
+      "trust": 80,
       "openness": 64,
-      "ambition": 69,
+      "ambition": 70,
       "loneliness": 0,
-      "resilience": 75,
-      "health": 93,
-      "hunger": 25,
+      "resilience": 76,
+      "health": 86,
+      "hunger": 19,
       "thirst": 55,
-      "energy": 76
+      "energy": 60
     },
     "mood": "determined",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "creek",
       "x": 30,
       "y": 58
     },
     "shelter": "cabin",
     "relationships": {
       "cole": {
-        "closeness": 99,
+        "closeness": 100,
         "tension": 2,
         "attraction": 0
       },
       "maggie": {
-        "closeness": 94,
+        "closeness": 95,
         "tension": 3,
         "attraction": 0
       },
@@ -207,7 +207,7 @@
     },
     "interaction": {
       "with": "cole",
-      "state": "talking"
+      "state": "working_together"
     },
     "memories": []
   },
@@ -218,19 +218,19 @@
     "color": "#c9772e",
     "scores": {
       "trust": 74,
-      "openness": 88,
-      "ambition": 64,
-      "loneliness": 0,
+      "openness": 89,
+      "ambition": 65,
+      "loneliness": 3,
       "resilience": 63,
-      "health": 93,
-      "hunger": 25,
+      "health": 86,
+      "hunger": 19,
       "thirst": 55,
-      "energy": 76
+      "energy": 60
     },
     "mood": "eager",
     "where": "home",
     "location": {
-      "waypoint": "cabin_front",
+      "waypoint": "dock",
       "x": 78,
       "y": 60
     },
@@ -243,7 +243,7 @@
       },
       "maggie": {
         "closeness": 96,
-        "tension": 4,
+        "tension": 5,
         "attraction": 0
       },
       "sawyer": {
@@ -285,15 +285,15 @@
     "archetype": "wild one",
     "color": "#caa83a",
     "scores": {
-      "trust": 76,
+      "trust": 77,
       "openness": 87,
       "ambition": 40,
       "loneliness": 0,
-      "resilience": 65,
-      "health": 93,
-      "hunger": 25,
+      "resilience": 64,
+      "health": 86,
+      "hunger": 19,
       "thirst": 55,
-      "energy": 76
+      "energy": 60
     },
     "mood": "hungry",
     "where": "home",
