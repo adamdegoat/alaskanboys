@@ -3307,7 +3307,7 @@ loadVote();
    ══════════════════════════════════════════════════════════════════════════ */
 (function(){
   const css = `
-  #hotspots{position:absolute;inset:0;z-index:16;pointer-events:none}
+  #hotspots{position:absolute;inset:0;z-index:26;pointer-events:none}
   #hotspots .hotspot,#hotspots .actcue{pointer-events:auto}
   .hotspot{position:absolute;transform:translate(-50%,-50%);cursor:pointer}
   .hotspot .hs-glow{position:absolute;left:50%;top:50%;width:74px;height:54px;transform:translate(-50%,-50%);border-radius:50%;
@@ -3398,7 +3398,7 @@ loadVote();
 
 const INTERIORS = {
   cabin:  { wps:['cabin_porch','cabin_front','cabin_side','cabin'], hx:600, hy:452, tag:"The Cabin", name:"the cabin", look:"the wood-stove warmth and a window on the wild", icon:"🛖", badge:"🛖", pov:"Inside the homestead cabin", tapHint:"tap to step inside" },
-  lookout:{ scenery:true, hx:812, hy:150, tag:"Ridge Lookout", name:"ridge lookout", look:"the whole homestead and the valley laid out below", icon:"🏔️", badge:"🏔️", pov:"High on the ridge above the homestead", lead:"From the ridge", tapHint:"tap for the view" },
+  lookout:{ scenery:true, hx:620, hy:172, tag:"Ridge Lookout", name:"ridge lookout", look:"the whole homestead and the valley laid out below", icon:"🏔️", badge:"🏔️", pov:"High on the ridge above the homestead", lead:"From the ridge", tapHint:"tap for the view" },
 };
 const _F = n => (+n).toFixed(1);
 function _present(key){ const w=INTERIORS[key].wps; if(!w) return []; return Object.keys(S.chars||{}).filter(c=>S.chars[c]&&w.indexOf((S.chars[c].location||{}).waypoint)>=0); }
@@ -3708,6 +3708,18 @@ function renderInteriorHotspots(){
     d.onclick=()=>enterInterior(key);
     layer.appendChild(d);
   });
+  // nudge each label horizontally clear of speech bubbles / the narrator strip so it's never buried
+  requestAnimationFrame(()=>{ try{
+    const obst=[...document.querySelectorAll('#world .bubble')].filter(b=>b.offsetParent!==null && getComputedStyle(b).opacity!=='0');
+    const pulse=document.getElementById('pulse'); if(pulse&&pulse.textContent.trim()&&pulse.offsetParent!==null) obst.push(pulse);
+    [...layer.querySelectorAll('.hs-badge')].forEach(el=>{ const cap=30; let shift=0;
+      for(let pass=0; pass<4; pass++){ const br=el.getBoundingClientRect(); let worst=0;
+        obst.forEach(o=>{ const r=o.getBoundingClientRect();
+          const ovX=Math.min(br.right,r.right)-Math.max(br.left,r.left), ovY=Math.min(br.bottom,r.bottom)-Math.max(br.top,r.top);
+          if(ovX>0&&ovY>0){ const dir=(br.left+br.right)/2<=(r.left+r.right)/2?-1:1, need=dir*(ovX+8); if(Math.abs(need)>Math.abs(worst)) worst=need; } });
+        if(!worst) break; shift=Math.max(-cap,Math.min(cap,shift+worst)); el.style.left=`calc(50% + ${Math.round(shift)}px)`; if(Math.abs(shift)>=cap) break; }
+      obst.push(el); });
+  }catch(e){} });
 }
 // keep hotspots in sync with each world refresh (front-end only)
 if(typeof updateWorld==='function'){ const _origUW=updateWorld;
