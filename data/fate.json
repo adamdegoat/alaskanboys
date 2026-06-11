@@ -1,10 +1,10 @@
 {
-  "day": 2,
-  "text": "The well pump needs replacement; Sawyer and Finn drive to town.",
-  "flavor": "the long road to town",
-  "cycle": "evening",
-  "happens_at": "6pm",
+  "day": 3,
+  "text": "Maggie's soil test finds permafrost where they planned the root cellar.",
+  "flavor": "the build is tested",
+  "cycle": "midday",
+  "happens_at": "12:30pm",
   "status": "upcoming",
-  "revealed_at": "2026-06-11T00:00:33.252657",
+  "revealed_at": "2026-06-12T00:00:31.042421",
   "activated_at": null
 }
