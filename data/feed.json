@@ -2618,5 +2618,220 @@
       }
     ],
     "timestamp": "2026-06-11T18:58:15.672102"
+  },
+  {
+    "day": 3,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Cole tends the fire as night falls, watching the boys settle, the day's work and their effort still warm in his chest.",
+    "thought": "We built something real today here.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-11T22:32:47.506048"
+  },
+  {
+    "day": 3,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Maggie settles Finn near the stove's warmth with a blanket, checking his temperature, her hands gentle and sure.",
+    "thought": "He'll sleep and heal. We're safe.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "attentive",
+    "timestamp": "2026-06-11T22:32:47.506048"
+  },
+  {
+    "day": 3,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Sawyer stacks a few more pieces of wood by the stove and settles with his family, too tired to do more, too alive to sleep yet.",
+    "thought": "Dad trusted me. I got it right.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-11T22:32:47.506048"
+  },
+  {
+    "day": 3,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Finn eats quietly at the porch edge, pale but present, his exhaustion a weight he can finally set down.",
+    "thought": "I caught fish. Everything's going dark.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "drained",
+    "timestamp": "2026-06-11T22:32:47.506048"
+  },
+  {
+    "day": 3,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Bear bounces near the fire with Cole, still flushed with the day's excitement, his joy a counterweight to everyone else's tiredness.",
+    "thought": "Best day ever. I'm not tired!",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "joyful",
+    "timestamp": "2026-06-11T22:32:47.506048"
+  },
+  {
+    "day": 3,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "As night falls, the family gathers by firelight—Cole and Bear at the fire, Maggie with Finn, Sawyer settling in, the day's salmon eaten, their water line running solid.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "How are you holding up, Finn?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Tired. But I caught them, Mom."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You did. Rest now."
+      },
+      {
+        "speaker": "cole",
+        "line": "The water line's running solid tonight."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We got the joints sealed right."
+      },
+      {
+        "speaker": "cole",
+        "line": "You did that work right, Sawyer."
+      },
+      {
+        "speaker": "bear",
+        "line": "I found the spot! Remember?"
+      },
+      {
+        "speaker": "finn",
+        "line": "I caught them, not you."
+      },
+      {
+        "speaker": "bear",
+        "line": "But I was there, cheering!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You both did your part."
+      },
+      {
+        "speaker": "cole",
+        "line": "Tomorrow that line holds steady. Tonight, rest."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We could push the cabin patching further?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "One thing at a time, love."
+      },
+      {
+        "speaker": "finn",
+        "line": "Sorry, I'm about done."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's what rest looks like."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we fish again tomorrow?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "If the salmon keep running, maybe."
+      },
+      {
+        "speaker": "cole",
+        "line": "For now, we sleep."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "It's cold out past the porch."
+      },
+      {
+        "speaker": "maggie",
+        "line": "The stove's holding the cabin warm."
+      },
+      {
+        "speaker": "bear",
+        "line": "I like sleeping by the fire."
+      },
+      {
+        "speaker": "cole",
+        "line": "Fire, family, and a full belly. That's everything."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come on. Let's get to sleep."
+      },
+      {
+        "speaker": "finn",
+        "line": "I could sleep for days."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Your body's asking for it."
+      },
+      {
+        "speaker": "cole",
+        "line": "Tomorrow we make the water backup better."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Sleep first. Work after."
+      },
+      {
+        "speaker": "bear",
+        "line": "And more fish?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "We'll see what the creek offers."
+      },
+      {
+        "speaker": "cole",
+        "line": "We held it together today."
+      },
+      {
+        "speaker": "maggie",
+        "line": "All of us did. All of us."
+      }
+    ],
+    "timestamp": "2026-06-11T22:32:47.506048"
   }
 ]

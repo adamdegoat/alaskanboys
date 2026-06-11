@@ -1,6 +1,6 @@
 {
   "day": 3,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "summer",
@@ -8,12 +8,12 @@
   },
   "resources": {
     "food": 0,
-    "water": 51,
-    "wood": 42,
-    "medicine": 15,
-    "materials": 8,
+    "water": 66,
+    "wood": 39,
+    "medicine": 13,
+    "materials": 5,
     "money": 60,
-    "power": 23
+    "power": 20
   },
   "pending_events": [],
   "started": "2026-06-09",
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 39,
+      "condition": 37,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 74,
+      "condition": 72,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,12 +46,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 8
+    "fuel": 14
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 35
+    "progress": 40
   },
   "truck": {
     "present": true,
@@ -61,23 +61,24 @@
     "present": false
   },
   "last_run_date": "2026-06-11",
-  "pulse": "The water line is flowing, the salmon are caught, and the family gathers at dusk—strained but holding, satisfied the plan works, knowing tomorrow brings more to build.",
-  "scene": "As evening light softens over the homestead, the family settles exhausted but satisfied—Cole by the fire with Bear, Maggie keeping Finn close at the porch, Sawyer tending the woodpile, all riding the quiet certainty that fresh water flows from their own land and real food fills their belly.",
+  "pulse": "The salmon fed them tonight; Finn is sick but the family held; water flows and they know they belong.",
+  "scene": "As night falls, the family gathers by firelight—Cole and Bear at the fire, Maggie with Finn, Sawyer settling in, the day's salmon eaten, their water line running solid.",
   "resources_prev": {
     "food": 0,
-    "water": 47,
-    "wood": 43,
-    "medicine": 17,
-    "materials": 9,
+    "water": 51,
+    "wood": 42,
+    "medicine": 15,
+    "materials": 8,
     "money": 60,
-    "power": 25
+    "power": 23
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-11:evening",
+  "last_cycle_key": "2026-06-11:night",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
-    "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day."
+    "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
+    "3": "Day 3 brought the family's first salmon—Finn caught them with pride; Cole's water system came online, spring flowing clean. Exhausted but settling in, they know they're not just surviving now. Finn is sick and drained, but the day drew them closer; tonight they rest whole."
   },
   "lean": {
     "id": "push_the_water",
