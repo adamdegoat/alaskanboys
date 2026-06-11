@@ -3496,11 +3496,14 @@ function renderInteriorOccupants(key){
   const box=document.getElementById('interior-chars'); if(!box) return; box.innerHTML='';
   if(INTERIORS[key].scenery) return;
   const present=_present(key).filter(c=>!_isAnimal(c)); if(!present.length) return;
-  const n=present.length, spread=Math.min(58, 17*n);
-  present.slice(0,4).forEach((cid,i)=>{
-    const x = 50 + (n>1 ? (-spread/2 + spread*(i/(n-1||1))) : 0);
+  const n=present.length;
+  const spread=Math.min(84, 15*n);                       // wider spread for a fuller cabin
+  const scale=n<=3?1:(n===4?0.85:0.72);                  // shrink avatars so 4-5+ fit without overlap
+  present.forEach((cid,i)=>{                             // show EVERYONE inside (no 4-person cap)
+    const x = 50 + (n>1 ? (-spread/2 + spread*(i/(n-1))) : 0);
     const d=document.createElement('div'); d.className='ioc';
     d.style.left=x+'%'; d.style.width='150px'; d.style.opacity='.97';
+    d.style.transform=`translateX(-50%) scale(${scale})`; d.style.transformOrigin='bottom center';
     try{ d.innerHTML=makeGenericCharSVG(cid, getCharColor(cid)); }catch(e){ d.textContent=''; }
     box.appendChild(d);
   });
