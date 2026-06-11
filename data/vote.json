@@ -1,32 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-11",
+    "id": "2026-06-12",
     "closes": "tonight",
-    "question": "Cole wants to start the foundation right away—six weeks till winter, and time is tight. But Maggie's counting three meals left, and the boys are running on fumes. Fish an",
+    "question": "Tomorrow—Sawyer's proud from today, Finn's healing. Should the brothers go fishing, or help Cole weatherproof the cabin before winter?",
     "options": [
       {
-        "id": "foundation_now",
-        "label": "Push foundation now",
-        "desc": "Get the shelter work started while weather holds—winter won't wait"
+        "id": "fishing_brothers",
+        "label": "Fishing trip",
+        "desc": "Sawyer teaches, Finn heals, they rest."
       },
       {
-        "id": "fish_first",
-        "label": "Fish and rest first",
-        "desc": "Secure food and let the family recharge before the hard work"
+        "id": "weatherproof_push",
+        "label": "Cabin work",
+        "desc": "Seize momentum—winterproofing before cold hits."
       },
       {
-        "id": "balance",
-        "label": "Fish tomorrow, build after",
-        "desc": "Trust the rhythm—salmon first, then the foundation push"
+        "id": "split_day",
+        "label": "Fish, then work",
+        "desc": "Morning easy, afternoon building. Finn's pace."
       }
     ]
   },
   "in_play": {
-    "id": "push_the_water",
-    "label": "Push the water system",
-    "desc": "Winter waits for no one. Get that line running while the weather holds and the spring's fresh.",
-    "decided": "2026-06-11",
+    "id": "foundation_now",
+    "label": "Push foundation now",
+    "desc": "Get the shelter work started while weather holds—winter won't wait",
+    "decided": "2026-06-12",
     "votes": 0,
     "tally": {}
   }
