@@ -3498,13 +3498,18 @@ function _outdoor(env, x, y, w, h){
     tl+=`<path d="M ${F(tx)} ${F(ty)} l ${F(7)} ${F(-th)} l ${F(7)} ${F(th)} Z"/><path d="M ${F(tx)} ${F(ty+8)} l ${F(8)} ${F(-th*0.8)} l ${F(8)} ${F(th*0.8)} Z"/>`; }
   tl+='</g>'; s+=tl;
   if(env.snow){ s+=`<rect x="${F(x)}" y="${F(y+h*0.78)}" width="${F(w)}" height="${F(h*0.22)}" fill="${snow}" opacity=".88"/>`; }
+  // a raven/eagle drifting past on a clear day
+  if(!N && !env.rain && !env.storm){ s+=`<g class="iw-bird" fill="${N?'#22303f':'#33414f'}"><path d="M ${F(x+w*0.22)} ${F(y+h*0.2)} q 9 -6 18 0 q -9 3 -18 0 Z M ${F(x+w*0.22+18)} ${F(y+h*0.2)} q 9 -6 18 0 q -9 3 -18 0 Z"/></g>`; }
+  // weather seen THROUGH the window: snow / rain falling outside
+  s+=_precip(env, x, y, w, h*0.9);
   return s;
 }
 // weather streaks over a window/scene region
 function _precip(env,x,y,w,h){ if(!env.snow&&!env.rain&&!env.storm) return '';
   const F=_F; let s='<g>';
-  if(env.snow){ for(let i=0;i<40;i++){ const sx=x+((i*Math.PI*37)%w); s+=`<circle class="iw-snow" style="animation-duration:${(5+(i%5))}s;animation-delay:${-(i%7)}s" cx="${F(sx)}" cy="${F(y)}" r="${1.4+(i%3)*0.7}" fill="#fff" opacity=".9"/>`; } }
-  else { const o=env.storm?0.6:0.4; for(let i=0;i<46;i++){ const rx=x+((i*53)%w); s+=`<line class="iw-rain" style="animation-delay:${-(i%6)*0.12}s" x1="${F(rx)}" y1="${F(y)}" x2="${F(rx-5)}" y2="${F(y+22)}" stroke="#cfe0ee" stroke-width="1.4" opacity="${o}"/>`; } }
+  const cnt=Math.max(40,Math.round(w/16));
+  if(env.snow){ for(let i=0;i<cnt;i++){ const sx=x+((i*Math.PI*37)%w); s+=`<circle class="iw-snow" style="animation-duration:${(5+(i%5))}s;animation-delay:${-(i%7)}s" cx="${F(sx)}" cy="${F(y)}" r="${1.4+(i%3)*0.7}" fill="#fff" opacity=".9"/>`; } }
+  else { const o=env.storm?0.6:0.4; for(let i=0;i<cnt;i++){ const rx=x+((i*53)%w); s+=`<line class="iw-rain" style="animation-delay:${-(i%6)*0.12}s" x1="${F(rx)}" y1="${F(y)}" x2="${F(rx-5)}" y2="${F(y+22)}" stroke="#cfe0ee" stroke-width="1.4" opacity="${o}"/>`; } }
   return s+'</g>';
 }
 
@@ -3525,6 +3530,10 @@ function cabinSVG(env){
   s+=`<rect x="0" y="70" width="1400" height="26" fill="${wShd}"/>`;
   s+=`<rect x="0" y="462" width="1400" height="138" fill="url(#cfloor)"/>`;
   s+=`<g stroke="${floorL}" stroke-width="2" opacity=".6">${[0,200,400,600,800,1000,1200,1400].map(x=>`<line x1="${x}" y1="462" x2="${x+40}" y2="600"/>`).join('')}${[486,512,544,580].map(y=>`<line x1="0" y1="${y}" x2="1400" y2="${y}"/>`).join('')}</g>`;
+  // daylight/moonlight POOLS where each window's light falls on the floor (brighter on winter snow-glow)
+  { const wl=N?'#a9c0e0':'#eaf1fb', wo=(N?0.16:0.26)+(env.snow?0.08:0);
+    s+=`<defs><radialGradient id="cwin" cx="50%" cy="36%" r="62%"><stop offset="0" stop-color="${wl}" stop-opacity="${wo.toFixed(2)}"/><stop offset="1" stop-color="${wl}" stop-opacity="0"/></radialGradient></defs>`;
+    s+=`<ellipse cx="350" cy="486" rx="190" ry="58" fill="url(#cwin)"/><ellipse cx="1060" cy="486" rx="190" ry="58" fill="url(#cwin)"/>`; }
   // ── Layer A: the world OUTSIDE, seen through the windows (deep parallax) ──
   s+=`<g class="lkL" data-px=".05">`;
   s+=_outdoor(env, 200, 120, 1000, 200);
