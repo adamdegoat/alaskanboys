@@ -3776,5 +3776,196 @@
       }
     ],
     "timestamp": "2026-06-12T22:32:33.240533"
+  },
+  {
+    "day": 5,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Steps outside at first light to check the roof and assess the day's weather, mind already shifting from pushing hard to pacing the family.",
+    "thought": "Roof can wait. Family needs rest first.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "pragmatic",
+    "timestamp": "2026-06-13T07:02:57.558195"
+  },
+  {
+    "day": 5,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "Tends the warm stove, laying fresh salmon over the flames to cook for the family's first real meal in days.",
+    "thought": "Feed them. They're running on fumes.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-13T07:02:57.558195"
+  },
+  {
+    "day": 5,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Wakes slowly and comes to help Maggie, his sore side reminding him of yesterday's effort but his mind already thinking ahead.",
+    "thought": "Can I teach Finn to cast today?",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "cautious",
+    "timestamp": "2026-06-13T07:02:57.558195"
+  },
+  {
+    "day": 5,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Bounces awake and hovers near the stove, eager to help and already thinking about fishing again.",
+    "thought": "Need to get better. Sawyer can teach me.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-13T07:02:57.558195"
+  },
+  {
+    "day": 5,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Seeks out Maggie and the warm stove, drawn by hunger and the promise of salmon for breakfast.",
+    "thought": "When can we eat? Smells so good.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "gleeful",
+    "timestamp": "2026-06-13T07:02:57.558195"
+  },
+  {
+    "day": 5,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "After yesterday's fishing success, the family gathers for salmon breakfast—Maggie at the stove, Sawyer carefully helping, Finn hovering eager, Bear seeking food, Cole coming in from his morning check.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Coffee's hot. Salmon's ready in a minute."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm so hungry. Is it done yet?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Two minutes, buddy. Get the table set?"
+      },
+      {
+        "speaker": "bear",
+        "line": "I'll do it! Come on, Finn!"
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we fish again today?"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the plan. Sawyer's going to teach you."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "If my side lets me. Feels stiff this morning."
+      },
+      {
+        "speaker": "maggie",
+        "line": "We're taking it easy today. Real easy."
+      },
+      {
+        "speaker": "cole",
+        "line": "Roof can wait. You all need rest first."
+      },
+      {
+        "speaker": "finn",
+        "line": "So no building? Just fishing and healing?"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's exactly what we're doing."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Fair. I could use the break, honestly."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You caught good food yesterday. That's enough."
+      },
+      {
+        "speaker": "finn",
+        "line": "Sawyer, will you show me the casting grip again?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Yeah. After breakfast and a rest."
+      },
+      {
+        "speaker": "bear",
+        "line": "Table's set! Can we eat now?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Right now. Bring your plates."
+      },
+      {
+        "speaker": "cole",
+        "line": "Good work yesterday, all of you."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We were lucky with that spot Finn found."
+      },
+      {
+        "speaker": "finn",
+        "line": "I just knew it felt right, you know?"
+      },
+      {
+        "speaker": "bear",
+        "line": "And I spotted them! I was watching the water!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You were all watching. That's why it worked."
+      },
+      {
+        "speaker": "cole",
+        "line": "Today's about holding that together. Eat and heal."
+      },
+      {
+        "speaker": "finn",
+        "line": "Healing days sound pretty good right now."
+      },
+      {
+        "speaker": "maggie",
+        "line": "They are. Eat up. Family day."
+      }
+    ],
+    "timestamp": "2026-06-13T07:02:57.558195"
   }
 ]

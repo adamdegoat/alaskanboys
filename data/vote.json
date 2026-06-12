@@ -1,32 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-12",
+    "id": "2026-06-13",
     "closes": "tonight",
-    "question": "Tomorrow—Sawyer's proud from today, Finn's healing. Should the brothers go fishing, or help Cole weatherproof the cabin before winter?",
+    "question": "Tomorrow, Cole says the roof needs patching before winter. Maggie watches Sawyer and Finn fading at the salmon, watches you wince at your side. One more good fishing day ",
     "options": [
       {
-        "id": "fishing_brothers",
-        "label": "Fishing trip",
-        "desc": "Sawyer teaches, Finn heals, they rest."
+        "id": "patch_roof",
+        "label": "Patch the roof",
+        "desc": "Winter won't wait. Shelter before anything else."
       },
       {
-        "id": "weatherproof_push",
-        "label": "Cabin work",
-        "desc": "Seize momentum—winterproofing before cold hits."
+        "id": "fish_creek",
+        "label": "Back to the creek",
+        "desc": "Rested bodies and full bellies make for stronger hands when it matters."
       },
       {
-        "id": "split_day",
-        "label": "Fish, then work",
-        "desc": "Morning easy, afternoon building. Finn's pace."
+        "id": "split_effort",
+        "label": "Split the day",
+        "desc": "Morning creek, afternoon roof—but they'll all be running on empty."
       }
     ]
   },
   "in_play": {
-    "id": "foundation_now",
-    "label": "Push foundation now",
-    "desc": "Get the shelter work started while weather holds—winter won't wait",
-    "decided": "2026-06-12",
+    "id": "fishing_brothers",
+    "label": "Fishing trip",
+    "desc": "Sawyer teaches, Finn heals, they rest.",
+    "decided": "2026-06-13",
     "votes": 0,
     "tally": {}
   }
