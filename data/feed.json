@@ -3402,5 +3402,180 @@
       }
     ],
     "timestamp": "2026-06-12T15:02:11.707725"
+  },
+  {
+    "day": 4,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "He sits heavily on the cabin porch, watching the boys with quiet gratitude, his sick body demanding rest.",
+    "thought": "We made it through today. That's something.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-12T18:32:04.107286"
+  },
+  {
+    "day": 4,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "She works the stove inside, turning the day's catch into hot food, keeping her family alive another day.",
+    "thought": "They're holding on. We're holding on.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "pragmatic",
+    "timestamp": "2026-06-12T18:32:04.107286"
+  },
+  {
+    "day": 4,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "He helps Maggie with cooking prep, steady despite the injury, proving to himself and his father that he can.",
+    "thought": "My side hurts, but we caught fish.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "steadfast",
+    "timestamp": "2026-06-12T18:32:04.107286"
+  },
+  {
+    "day": 4,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "He buzzes between the cabin and the yard, animated and hungry, still alight from the creek work.",
+    "thought": "I did it. I actually helped catch them.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-12T18:32:04.107286"
+  },
+  {
+    "day": 4,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "He recounts the creek day with animated pride, hovering near Maggie's cooking, caught between hunger and joy.",
+    "thought": "That was so cool. I spotted one!",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "cheerful",
+    "timestamp": "2026-06-12T18:32:04.107286"
+  },
+  {
+    "day": 4,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "cole",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "As evening light circles the horizon, Maggie prepares the day's catch by the warm stove while Cole and the boys gather on the porch, hungry and spent, the fishing haul now their lifeline.",
+    "dialogue": [
+      {
+        "speaker": "bear",
+        "line": "Dad, did you see when I spotted that big one?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You were our eyes out there, buddy."
+      },
+      {
+        "speaker": "finn",
+        "line": "How much longer? I'm starving!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Fish is coming. Five more minutes."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Want me to set the plates?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Yes. And grab the water jug."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm hungry like a moose!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's hope you don't eat like one."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we fish again tomorrow?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's eat first. We'll see."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Here. Hot and fresh."
+      },
+      {
+        "speaker": "bear",
+        "line": "That smells so good."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "My arms are dead."
+      },
+      {
+        "speaker": "finn",
+        "line": "This is the best thing I've ever eaten."
+      },
+      {
+        "speaker": "cole",
+        "line": "You did good today."
+      },
+      {
+        "speaker": "maggie",
+        "line": "We all did. Every one of us."
+      },
+      {
+        "speaker": "bear",
+        "line": "Tomorrow same thing?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "If the fish are still there."
+      },
+      {
+        "speaker": "cole",
+        "line": "One day at a time."
+      },
+      {
+        "speaker": "finn",
+        "line": "Right now is pretty good."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Yes. It really is."
+      }
+    ],
+    "timestamp": "2026-06-12T18:32:04.107286"
   }
 ]
