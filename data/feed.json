@@ -3020,5 +3020,196 @@
       }
     ],
     "timestamp": "2026-06-12T07:03:07.135709"
+  },
+  {
+    "day": 4,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "He's at the foundation line measuring corner posts with Sawyer, working through the fever, pushing to mark the north edge before lunch.",
+    "thought": "Two weeks of sun. Can't waste it.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-12T11:32:10.366024"
+  },
+  {
+    "day": 4,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "She's working at the cabin porch, doing the hard math on zero food and realizing the family must fish this afternoon, not later.",
+    "thought": "No stores left. Fish or nothing.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "pragmatic",
+    "timestamp": "2026-06-12T11:32:10.366024"
+  },
+  {
+    "day": 4,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "He's at the build site with Cole, notebook in hand, learning to mark the corners and measure the line for the patched cabin foundation.",
+    "thought": "Dad needs me today. I'm ready.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-12T11:32:10.366024"
+  },
+  {
+    "day": 4,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "He's slumped on the cabin front steps, bone-tired from yesterday's fishing, knowing the family needs him to fish again but fighting exhaustion and guilt.",
+    "thought": "Can I do it again today?",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "drained",
+    "timestamp": "2026-06-12T11:32:10.366024"
+  },
+  {
+    "day": 4,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "He's hauling small pieces of wood to the woodpile with fierce determination, singing off-key and completely unbothered by the family's tight circumstances.",
+    "thought": "I'm helping! I'm really really helping!",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "cheerful",
+    "timestamp": "2026-06-12T11:32:10.366024"
+  },
+  {
+    "day": 4,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Maggie breaks the food crisis to Cole at the foundation line, and the family recalibrates: Sawyer steps up to lead the morning work while afternoon fishing becomes the day's priority, Finn finds permission to rest, and Bear's joy keeps despair at bay.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Cole, we need to talk."
+      },
+      {
+        "speaker": "cole",
+        "line": "Give me five minutes. I want the corners marked."
+      },
+      {
+        "speaker": "maggie",
+        "line": "No. Food's gone."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We have to fish today."
+      },
+      {
+        "speaker": "cole",
+        "line": "We can fish tonight. The foundation—"
+      },
+      {
+        "speaker": "maggie",
+        "line": "The foundation won't feed us tonight."
+      },
+      {
+        "speaker": "cole",
+        "line": "All right. You're right."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can mark the posts first, get it clean."
+      },
+      {
+        "speaker": "cole",
+        "line": "Good man. Show me you've been listening."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'll fish again. I can do it."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Not yet. Rest now, fish at two."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "By two, the north corner will be solid."
+      },
+      {
+        "speaker": "cole",
+        "line": "And we'll have salmon for dinner."
+      },
+      {
+        "speaker": "bear",
+        "line": "Look! I found a stick! A BIG one!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "This is how we do it now, Cole."
+      },
+      {
+        "speaker": "cole",
+        "line": "Build and eat. Not one instead of the other."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Exactly."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Come on, Finn. Food first, then work, then creek."
+      },
+      {
+        "speaker": "finn",
+        "line": "Okay. I trust that."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm REALLY good at finding sticks!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's mark the line before we eat, Sawyer."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Lunch is bread and scraps. Then everyone moves."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We can do both. Foundation and food."
+      },
+      {
+        "speaker": "cole",
+        "line": "Two weeks of sun left. We will."
+      },
+      {
+        "speaker": "bear",
+        "line": "And so many sticks to find!"
+      }
+    ],
+    "timestamp": "2026-06-12T11:32:10.366024"
   }
 ]
