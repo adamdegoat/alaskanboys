@@ -1,6 +1,6 @@
 {
   "day": 4,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "summer",
@@ -8,9 +8,9 @@
   },
   "resources": {
     "food": 0,
-    "water": 36,
-    "wood": 45,
-    "medicine": 4,
+    "water": 46,
+    "wood": 46,
+    "medicine": 3,
     "materials": 5,
     "money": 60,
     "power": 18
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 29,
+      "condition": 27,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 64,
+      "condition": 62,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,7 +46,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 8
   },
   "build": {
     "project": "cabin_repair",
@@ -61,24 +61,25 @@
     "present": false
   },
   "last_run_date": "2026-06-12",
-  "pulse": "Exhausted from the creek but fed by it, the family gathers in evening light—a small triumph in a day of hunger.",
-  "scene": "As the sun circles the horizon, Maggie prepares the day's catch by the warm stove while Cole and the boys gather on the porch, hungry and spent, the fishing haul now their lifeline.",
+  "pulse": "The family eases into quiet pride—the first real meal holds them through another night, and resolve settles for tomorrow's work.",
+  "scene": "Evening settles as Maggie serves salmon by the warm stove. Cole and Sawyer rest on the porch, Finn comes in hungry, and Bear glows beside his mother.",
   "resources_prev": {
     "food": 0,
-    "water": 40,
-    "wood": 42,
-    "medicine": 7,
+    "water": 36,
+    "wood": 45,
+    "medicine": 4,
     "materials": 5,
     "money": 60,
-    "power": 19
+    "power": 18
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-12:evening",
+  "last_cycle_key": "2026-06-12:night",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
-    "3": "Day 3 brought the family's first salmon—Finn caught them with pride; Cole's water system came online, spring flowing clean. Exhausted but settling in, they know they're not just surviving now. Finn is sick and drained, but the day drew them closer; tonight they rest whole."
+    "3": "Day 3 brought the family's first salmon—Finn caught them with pride; Cole's water system came online, spring flowing clean. Exhausted but settling in, they know they're not just surviving now. Finn is sick and drained, but the day drew them closer; tonight they rest whole.",
+    "4": "Day 4 broke: Cole, Sawyer, Finn, and Bear fished the creek and landed salmon—their first real meal. As evening settles, the family gathers warm by the stove, fed and hopeful, the strain easing. Tomorrow Cole will push the roof patch while weather holds."
   },
   "lean": {
     "id": "foundation_now",

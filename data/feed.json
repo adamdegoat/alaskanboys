@@ -3577,5 +3577,204 @@
       }
     ],
     "timestamp": "2026-06-12T18:32:04.107286"
+  },
+  {
+    "day": 4,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Sits on the cabin porch with arms crossed, watching the evening light fade over the tree line.",
+    "thought": "Tomorrow we patch the roof. While we can.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-12T22:32:33.240533"
+  },
+  {
+    "day": 4,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Divides the fresh-caught salmon into portions at the hot stove, steam rising from the pan.",
+    "thought": "Feed them. Make this fish stretch.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-12T22:32:33.240533"
+  },
+  {
+    "day": 4,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Settles beside Cole on the porch bench, his left side tender from the day's wading.",
+    "thought": "Caught real food. My side can wait.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-12T22:32:33.240533"
+  },
+  {
+    "day": 4,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Bounds in from the yard, already talking, drawn by the smell of cooking fish.",
+    "thought": "Best day ever. Salmon for dinner!",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-12T22:32:33.240533"
+  },
+  {
+    "day": 4,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Stands on a low stool beside Maggie at the stove, watching the salmon sizzle, barely containing his excitement.",
+    "thought": "I spotted them. I really helped.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "gleeful",
+    "timestamp": "2026-06-12T22:32:33.240533"
+  },
+  {
+    "day": 4,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Maggie plates the day's salmon at the warm stove—the first real meal in days. Cole and Sawyer settle at the table, Finn rushes in, and Bear hovers at Maggie's elbow.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Fish is on. Everyone in."
+      },
+      {
+        "speaker": "bear",
+        "line": "I spotted the biggest one, I told you!"
+      },
+      {
+        "speaker": "cole",
+        "line": "You did, buddy. That was sharp spotting."
+      },
+      {
+        "speaker": "finn",
+        "line": "And I almost had the second one! My hands were so close—"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You both did great. Needed every one."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Here, Sawyer, eat first. Your side's been working all day."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Mom, I'm fine. Share it around."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're sharing it around by eating your fill. That's how this works."
+      },
+      {
+        "speaker": "cole",
+        "line": "Maggie's right. Can't rebuild a day on half rations."
+      },
+      {
+        "speaker": "bear",
+        "line": "When can we fish again tomorrow? The creek was so cool!"
+      },
+      {
+        "speaker": "finn",
+        "line": "We should go first thing. Before the sun gets high."
+      },
+      {
+        "speaker": "cole",
+        "line": "We will. But first thing tomorrow, I need Finn and Sawyer on the cabin."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The patch?"
+      },
+      {
+        "speaker": "cole",
+        "line": "The roof patch. Can't wait for September to think about it."
+      },
+      {
+        "speaker": "maggie",
+        "line": "One meal at a time, Cole. Tonight is salmon."
+      },
+      {
+        "speaker": "cole",
+        "line": "You're right. Tonight is salmon. Good work out there, all of you."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we do it again?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Every single day, if there's fish like that."
+      },
+      {
+        "speaker": "cole",
+        "line": "If we're lucky. But luck is work and waiting and knowing where to look."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Like you and the timber. You knew that grove had good standing dead."
+      },
+      {
+        "speaker": "cole",
+        "line": "Exactly. Same idea."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Less philosophy, more eating. It'll get cold."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm eating! This is so good."
+      },
+      {
+        "speaker": "finn",
+        "line": "This might be the best dinner ever."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Wait till the garden comes in. Then you'll talk."
+      },
+      {
+        "speaker": "cole",
+        "line": "Garden's five weeks out. We live on this and firewood until then."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We can do it."
+      }
+    ],
+    "timestamp": "2026-06-12T22:32:33.240533"
   }
 ]
