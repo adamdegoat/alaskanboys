@@ -3211,5 +3211,196 @@
       }
     ],
     "timestamp": "2026-06-12T11:32:10.366024"
+  },
+  {
+    "day": 4,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Leads the boys down to the creek with fishing gear, moving with quiet determination despite the exhaustion pressing on him.",
+    "thought": "Fish first. Everything else follows after.",
+    "location": {
+      "waypoint": "creek",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-12T15:02:11.707725"
+  },
+  {
+    "day": 4,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Settles on the cabin porch with the kindling pile, splitting wood slowly while keeping watch on the boys at the creek below.",
+    "thought": "Keep them safe. Bring them home full.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "pragmatic",
+    "timestamp": "2026-06-12T15:02:11.707725"
+  },
+  {
+    "day": 4,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Moves carefully down the path to the creek, favoring his uninjured side, but every step is steady and sure.",
+    "thought": "I can do this. Dad's counting on me.",
+    "location": {
+      "waypoint": "creek",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-12T15:02:11.707725"
+  },
+  {
+    "day": 4,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Bounces alongside his brothers toward the creek, the prospect of fishing energizing him despite the bone-deep tiredness.",
+    "thought": "Come on, salmon. Please be here today.",
+    "location": {
+      "waypoint": "creek",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-12T15:02:11.707725"
+  },
+  {
+    "day": 4,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Trails behind toward the creek, his high spirits undiminished by hunger, ready to spot fish for his older brothers.",
+    "thought": "I'm the spotter! I'm really helping!",
+    "location": {
+      "waypoint": "creek",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "cheerful",
+    "timestamp": "2026-06-12T15:02:11.707725"
+  },
+  {
+    "day": 4,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The creek is the day's only hope: Cole wades into the shallows with Sawyer and Finn, Bear spots from the bank, and Maggie keeps watch from the porch.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Gear's sorted. Who's taking which stretch of bank?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I'll work the left side. Finn can take the middle."
+      },
+      {
+        "speaker": "finn",
+        "line": "What about Bear? Can he fish too?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Bear's our spotter. Eyes on the runs. Right, buddy?"
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm really really good at spotting!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Bring dinner home, you four. We need it."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the whole plan."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Water's cold today. But that's good, right?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Is it too cold? For fish?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Salmon love cold water. They're hunting, same as us."
+      },
+      {
+        "speaker": "bear",
+        "line": "What if they're all sleeping?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Fish don't sleep, dummy."
+      },
+      {
+        "speaker": "bear",
+        "line": "They close their eyes sometimes!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Fair point, Bear. But they're moving. Count on it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I'm wading out. Slow and steady."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I try the deep pool first? Two minutes?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Good instinct. You've got two. Then Sawyer goes."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I get in the water and help?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You stay on the bank. Signal when you see them running."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Water first, fish second. Don't get dehydrated out there."
+      },
+      {
+        "speaker": "cole",
+        "line": "Will do. Boys, we need two fish for tonight. Focus."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We'll get it done, Dad."
+      },
+      {
+        "speaker": "finn",
+        "line": "I can feel it. They're coming. I know it."
+      },
+      {
+        "speaker": "bear",
+        "line": "I see something! Wait—that's just a rock."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the spotter job right there, buddy. Keep looking."
+      }
+    ],
+    "timestamp": "2026-06-12T15:02:11.707725"
   }
 ]
