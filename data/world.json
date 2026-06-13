@@ -1,6 +1,6 @@
 {
   "day": 5,
-  "cycle": "morning",
+  "cycle": "midday",
   "weather": "clear",
   "season": {
     "name": "summer",
@@ -8,9 +8,9 @@
   },
   "resources": {
     "food": 0,
-    "water": 30,
-    "wood": 46,
-    "medicine": 2,
+    "water": 25,
+    "wood": 49,
+    "medicine": 0,
     "materials": 5,
     "money": 60,
     "power": 18
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 25,
+      "condition": 23,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 60,
+      "condition": 58,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,12 +46,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 14
+    "fuel": 2
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 44
+    "progress": 47
   },
   "truck": {
     "present": true,
@@ -61,20 +61,20 @@
     "present": false
   },
   "last_run_date": "2026-06-13",
-  "pulse": "Exhausted but holding, the family takes a gentle day—food first, healing second, the heavy work can wait.",
-  "scene": "After yesterday's fishing success, the family gathers for salmon breakfast—Maggie at the stove, Sawyer carefully helping, Finn hovering eager, Bear seeking food, Cole coming in from his morning check.",
+  "pulse": "Sawyer finds his footing as a teacher while Finn learns to cast, and the family's hunger turns into hope.",
+  "scene": "Midday at the creek: Sawyer coaches Finn's casting while Bear cheers and Cole watches. Maggie tends salmon soup at the cabin fire, the family spread and moving.",
   "resources_prev": {
     "food": 0,
-    "water": 46,
+    "water": 30,
     "wood": 46,
-    "medicine": 3,
+    "medicine": 2,
     "materials": 5,
     "money": 60,
     "power": 18
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-13:morning",
+  "last_cycle_key": "2026-06-13:midday",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
