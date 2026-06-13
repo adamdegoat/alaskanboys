@@ -4523,5 +4523,184 @@
       }
     ],
     "timestamp": "2026-06-13T18:32:14.857555"
+  },
+  {
+    "day": 5,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Checks the cabin stove and steps back onto the porch, watching his family settle in by the firelight.",
+    "thought": "Fed now. We're still moving right.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-13T22:32:21.559869"
+  },
+  {
+    "day": 5,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Settles the boys with blankets and hot water near the cabin warmth, checking each for the night.",
+    "thought": "Four of us hurt. We're holding together.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-13T22:32:21.559869"
+  },
+  {
+    "day": 5,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Sits quietly by the fire outside, turning the teaching moment over in his mind as twilight fades.",
+    "thought": "Teaching felt realer than building tools.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-13T22:32:21.559869"
+  },
+  {
+    "day": 5,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Rests by the fire near Sawyer, his catch replaying in his head, tired but still smiling.",
+    "thought": "I caught real fish. I'm part of this.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "happy",
+    "timestamp": "2026-06-13T22:32:21.559869"
+  },
+  {
+    "day": 5,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Curls up by Maggie with blankets, his day bright in his eyes, already half-asleep and happy.",
+    "thought": "Best day ever. The real thing is mine.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-13T22:32:21.559869"
+  },
+  {
+    "day": 5,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "bear",
+      "cole",
+      "sawyer",
+      "finn"
+    ],
+    "description": "The family settles near the cabin fire as twilight fades, the stove's warmth glowing through the windows—a day of real fishing and real teaching behind them, everyone full and tired and together.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Finn caught one today. Did you see his face?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Didn't miss it. He's a fisherman now."
+      },
+      {
+        "speaker": "finn",
+        "line": "Is a fisherman someone who catches just one fish?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "One real fish beats no fish any day."
+      },
+      {
+        "speaker": "bear",
+        "line": "I almost caught one. Did you see how close?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You did the work right. That's what matters."
+      },
+      {
+        "speaker": "maggie",
+        "line": "All of you did. Real work, real fish."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we go again tomorrow? Please please please?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The sun'll be high. We can manage it."
+      },
+      {
+        "speaker": "maggie",
+        "line": "After breakfast, yes. But first, sleep."
+      },
+      {
+        "speaker": "bear",
+        "line": "Tell the story about my almost-fish?"
+      },
+      {
+        "speaker": "finn",
+        "line": "You didn't catch one, Bear. You almost did."
+      },
+      {
+        "speaker": "bear",
+        "line": "Almost is basically the same thing, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Not quite, buddy. But close counts."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Teaching you both today felt different. Real."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You showed up as a real teacher."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's what you do when someone needs it."
+      },
+      {
+        "speaker": "finn",
+        "line": "Will you teach us again tomorrow?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "If you want to learn, I'll teach."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Starting after sleep. That's the rule."
+      },
+      {
+        "speaker": "cole",
+        "line": "One good day at a time. That's how."
+      },
+      {
+        "speaker": "bear",
+        "line": "This was the best day ever."
+      }
+    ],
+    "timestamp": "2026-06-13T22:32:21.559869"
   }
 ]
