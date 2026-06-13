@@ -4352,5 +4352,176 @@
       }
     ],
     "timestamp": "2026-06-13T15:02:16.031211"
+  },
+  {
+    "day": 5,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "settles on the cabin porch steps, cradling his injured side, watching Maggie and the boys prepare dinner",
+    "thought": "My sons are learning. Becoming themselves.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-13T18:32:14.857555"
+  },
+  {
+    "day": 5,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "cleans and fillets the fresh-caught fish at a table near the cabin, working with practiced efficiency to get dinner started",
+    "thought": "Three fish. Real protein. We stretch it into tomorrow.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-13T18:32:14.857555"
+  },
+  {
+    "day": 5,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "sits by the fire bundled in a blanket, his cough still present, watching the evening settle around his family",
+    "thought": "Teaching them today felt more real than any build.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-13T18:32:14.857555"
+  },
+  {
+    "day": 5,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "darts between the cabin porch and the fire with buckets of water and armfuls of dry wood, buzzing with leftover energy",
+    "thought": "I caught a fish. I actually caught one myself.",
+    "location": {
+      "waypoint": "yard_mid",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-13T18:32:14.857555"
+  },
+  {
+    "day": 5,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "plops down near the fire exhausted but gleeful, watching the flames dance and the family move around him",
+    "thought": "Best day ever. I did the real thing with them.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "gleeful",
+    "timestamp": "2026-06-13T18:32:14.857555"
+  },
+  {
+    "day": 5,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "With three fresh-caught fish sizzling over the fire—Sawyer's mentoring now turned to food on the table—the family gathers at evening, the strain of hunger giving way to something warmer as they prepare to eat together.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Fish is ready. Come sit while it's hot."
+      },
+      {
+        "speaker": "finn",
+        "line": "I caught one. I actually caught one!"
+      },
+      {
+        "speaker": "bear",
+        "line": "And Sawyer taught us how. He's so cool."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You both did the work. I just showed you how."
+      },
+      {
+        "speaker": "cole",
+        "line": "Boys are learning. That's what matters tonight."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat. We'll have broth from the bones tomorrow."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we fish again tomorrow? Please?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "If my cough lets up, sure. The deeper hole."
+      },
+      {
+        "speaker": "bear",
+        "line": "I want to do it again. Over and over."
+      },
+      {
+        "speaker": "cole",
+        "line": "Easy, buddy. This meal is just the start."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat slow. Make it last. Three fish, five people."
+      },
+      {
+        "speaker": "finn",
+        "line": "We caught it though. We made this happen."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You did. You both did. I was just here."
+      },
+      {
+        "speaker": "cole",
+        "line": "You taught them something real today, son."
+      },
+      {
+        "speaker": "maggie",
+        "line": "He's right. And that's worth something real."
+      },
+      {
+        "speaker": "bear",
+        "line": "This is the best night ever."
+      },
+      {
+        "speaker": "finn",
+        "line": "Best day. Best everything."
+      },
+      {
+        "speaker": "cole",
+        "line": "Days like this remind us why we came."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "For fish and brothers and the woods?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "For this. For all of it. Now eat."
+      }
+    ],
+    "timestamp": "2026-06-13T18:32:14.857555"
   }
 ]
