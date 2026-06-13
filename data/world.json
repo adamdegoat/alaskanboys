@@ -1,15 +1,15 @@
 {
-  "day": 5,
-  "cycle": "night",
+  "day": 6,
+  "cycle": "morning",
   "weather": "clear",
   "season": {
     "name": "summer",
-    "day_in_season": 5
+    "day_in_season": 6
   },
   "resources": {
     "food": 0,
-    "water": 29,
-    "wood": 49,
+    "water": 14,
+    "wood": 50,
     "medicine": 0,
     "materials": 5,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 17,
+      "condition": 15,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 52,
+      "condition": 50,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,7 +46,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 2
+    "fuel": 8
   },
   "build": {
     "project": "cabin_repair",
@@ -60,13 +60,13 @@
   "snowmachine": {
     "present": false
   },
-  "last_run_date": "2026-06-13",
-  "pulse": "Full bellies and easy hearts tonight: the boys caught real fish, Sawyer became a teacher, and scarcity loosened its grip for one honest day.",
-  "scene": "The family settles near the cabin fire as twilight fades, the stove's warmth glowing through the windows—a day of real fishing and real teaching behind them, everyone full and tired and together.",
+  "last_run_date": "2026-06-14",
+  "pulse": "The family starts the morning hungry but whole, warmed by stove and each other—the pressing work of winter waiting.",
+  "scene": "The cabin porch glows with early light: Maggie rations thin bowls of oats, Cole assesses the weathering roof, Sawyer tidies for school, Finn fidgets, Bear jokes. The stove is warm, but the cabin's decay is pressing into focus.",
   "resources_prev": {
     "food": 0,
-    "water": 19,
-    "wood": 45,
+    "water": 29,
+    "wood": 49,
     "medicine": 0,
     "materials": 5,
     "money": 60,
@@ -74,7 +74,7 @@
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-13:night",
+  "last_cycle_key": "2026-06-14:morning",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -83,8 +83,8 @@
     "5": "Day 5 brought the first real catch—three fish pulled from the creek, Sawyer teaching with patience he didn't know he had, Finn proud of his own hook, and Bear gleeful in the work. With real food in their bellies and the cabin warm, the family faces nightfall stronger than in days."
   },
   "lean": {
-    "id": "fishing_brothers",
-    "label": "Fishing trip",
-    "desc": "Sawyer teaches, Finn heals, they rest."
+    "id": "patch_roof",
+    "label": "Patch the roof",
+    "desc": "Winter won't wait. Shelter before anything else."
   }
 }
