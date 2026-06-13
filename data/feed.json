@@ -4178,5 +4178,179 @@
       }
     ],
     "timestamp": "2026-06-13T11:32:11.883588"
+  },
+  {
+    "day": 5,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Settles on a flat rock at the creek's edge, watching Sawyer position Bear for his first real cast; his shoulder aches but he's content to supervise and let his eldest lead.",
+    "thought": "My eldest is a teacher now. That's beautiful.",
+    "location": {
+      "waypoint": "creek",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-13T15:02:16.031211"
+  },
+  {
+    "day": 5,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Stands at the cabin porch with the morning's salmon, methodically cleaning and splitting the fish into portions—some for tonight's dinner, some to smoke and store for the days ahead.",
+    "thought": "Fresh fish. We're eating well tonight.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-13T15:02:16.031211"
+  },
+  {
+    "day": 5,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Despite his fever, positions Bear at the water's edge and patiently guides his rod and cast, calling out technique tips and steadying the boy's grip with a calm, firm hand.",
+    "thought": "Can mentor them even sick. That's what matters.",
+    "location": {
+      "waypoint": "creek",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-13T15:02:16.031211"
+  },
+  {
+    "day": 5,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Waits his turn by the bank, eyes bright with remembered joy from his own catch, calling out encouragement as Bear attempts his first serious cast.",
+    "thought": "Caught one, now helping Bear. This is real.",
+    "location": {
+      "waypoint": "creek",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-13T15:02:16.031211"
+  },
+  {
+    "day": 5,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Grips the fishing rod with all the concentration he can muster, feet planted in the creek-side mud, watching Sawyer's hands guide his own as he casts for the first time with real intent.",
+    "thought": "First time fishing for real. Sawyer's got me.",
+    "location": {
+      "waypoint": "creek",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "gleeful",
+    "timestamp": "2026-06-13T15:02:16.031211"
+  },
+  {
+    "day": 5,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "sawyer",
+      "bear",
+      "finn",
+      "cole"
+    ],
+    "description": "Bear makes his first real fishing attempt at the creek with Sawyer's guidance, Finn cheering nearby while Cole watches from a rock—Maggie at the cabin porch, processing the morning's catch for dinner.",
+    "dialogue": [
+      {
+        "speaker": "sawyer",
+        "line": "Alright, Bear, cast easy—let the rod do the work."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm doing it! I'm really doing it!"
+      },
+      {
+        "speaker": "finn",
+        "line": "You got this, Bear! Like I did!"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Watch the tip. Just like I showed you."
+      },
+      {
+        "speaker": "cole",
+        "line": "Steady hands, buddy. You're doing fine."
+      },
+      {
+        "speaker": "bear",
+        "line": "Will I catch one? Did Finn catch one?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Finn caught one this morning. You might too."
+      },
+      {
+        "speaker": "finn",
+        "line": "It's the coolest thing ever, Bear. You'll love it."
+      },
+      {
+        "speaker": "cole",
+        "line": "Patience. The fish listen to a quiet rod."
+      },
+      {
+        "speaker": "bear",
+        "line": "Really? The fish are listening?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Try again. Gentle and smooth."
+      },
+      {
+        "speaker": "finn",
+        "line": "That was good! That was really good!"
+      },
+      {
+        "speaker": "bear",
+        "line": "Did I do it right this time?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That cast was better. You're learning fast."
+      },
+      {
+        "speaker": "cole",
+        "line": "Three brothers at the creek. Not bad for day five."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come eat in an hour! Fresh salmon and everything!"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You hear that? Your first catch, cooked by Mom."
+      },
+      {
+        "speaker": "finn",
+        "line": "She's making those roasted salmon things again!"
+      },
+      {
+        "speaker": "bear",
+        "line": "Wait—can I keep trying? Please?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "One more round. Then we head in."
+      },
+      {
+        "speaker": "cole",
+        "line": "Work, patience, and dinner earned. That's the real catch."
+      }
+    ],
+    "timestamp": "2026-06-13T15:02:16.031211"
   }
 ]
