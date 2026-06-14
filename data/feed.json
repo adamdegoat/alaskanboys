@@ -4913,5 +4913,200 @@
       }
     ],
     "timestamp": "2026-06-14T07:03:40.593139"
+  },
+  {
+    "day": 6,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "Cole descends from assessing the roof, the damage clear in his eyes, and stands with Maggie to plan the next moves.",
+    "thought": "Patch today, supplies tomorrow. We can do this.",
+    "location": {
+      "waypoint": "cabin_side",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-14T11:32:38.146587"
+  },
+  {
+    "day": 6,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "Maggie counts the last food stores and sketches a supply list, calculating what forty dollars can stretch into a week.",
+    "thought": "The roof matters more than full bellies right now.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-14T11:32:38.146587"
+  },
+  {
+    "day": 6,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "Sawyer listens to the plan, then quietly gathers the supplies Cole will need for the roof patch—rope, tarps, whatever they have left.",
+    "thought": "He's calling me to the real work. Finally.",
+    "location": {
+      "waypoint": "cabin_side",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "serious",
+    "timestamp": "2026-06-14T11:32:38.146587"
+  },
+  {
+    "day": 6,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "Finn fidgets during the family talk, understanding the safety caution but frustrated at watching from the sidelines while his shoulder still aches.",
+    "thought": "I could help. Why does healing take so long?",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-14T11:32:38.146587"
+  },
+  {
+    "day": 6,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "Bear helps Maggie write the shopping list, joking about what treats they'll get and keeping the mood light even as the cupboards show empty.",
+    "thought": "Maggie's got a plan. Everything's gonna be okay.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "playful",
+    "timestamp": "2026-06-14T11:32:38.146587"
+  },
+  {
+    "day": 6,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Midday reckoning on the cabin porch and yard: the bare cupboards and visible roof decay have collided into a hard decision. Cole is mapping out the patch work with Sawyer; Maggie is calculating supplies for a town run; Finn watches restlessly; Bear cracks jokes to hold the mood.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Roof's worse than I thought. Three shingles gone, tar peeling fast."
+      },
+      {
+        "speaker": "maggie",
+        "line": "The cupboards are worse. That's the last of the oats in that pot."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "So what do we do?"
+      },
+      {
+        "speaker": "cole",
+        "line": "We patch what we can today. Sawyer, you and me on the climb."
+      },
+      {
+        "speaker": "finn",
+        "line": "I can help. I'm not that sore anymore."
+      },
+      {
+        "speaker": "cole",
+        "line": "You are sore, and that roof is steep. Rest today. That's the call."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Someone goes to town tomorrow. Food, supplies, whatever we can stretch from forty."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can skip lessons and help with the roof instead."
+      },
+      {
+        "speaker": "cole",
+        "line": "You are. That's the whole plan. You ready?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Which means I'm driving first light. Solo, quick, back by midday."
+      },
+      {
+        "speaker": "cole",
+        "line": "You're still hurt, Maggie."
+      },
+      {
+        "speaker": "maggie",
+        "line": "I'm bruised, not broken. An hour in the truck beats sitting here worrying."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I come with you?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Next time, buddy. Today you stay and help Finn."
+      },
+      {
+        "speaker": "finn",
+        "line": "Help with what?"
+      },
+      {
+        "speaker": "bear",
+        "line": "We can build something while everyone else works. We're a team!"
+      },
+      {
+        "speaker": "cole",
+        "line": "And we've got a solid plan. Patch, then supplies, then we breathe easier."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long will the patch hold?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Long enough to see us through winter if we're smart. That's all we need."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Garden's coming in soon. The creek's full of fish. We'll make it."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sawyer, grab the supplies—tarps, rope, anything we've got left. We eat quick and climb."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "On it, Dad."
+      },
+      {
+        "speaker": "finn",
+        "line": "Be careful up there, you two."
+      },
+      {
+        "speaker": "cole",
+        "line": "Always. We're not taking chances."
+      },
+      {
+        "speaker": "bear",
+        "line": "And we'll make something cool while you work!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You sure will, buddy."
+      }
+    ],
+    "timestamp": "2026-06-14T11:32:38.146587"
   }
 ]
