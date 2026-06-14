@@ -1,6 +1,6 @@
 {
   "day": 6,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "summer",
@@ -8,8 +8,8 @@
   },
   "resources": {
     "food": 0,
-    "water": 0,
-    "wood": 54,
+    "water": 10,
+    "wood": 52,
     "medicine": 0,
     "materials": 0,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 9,
+      "condition": 7,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 44,
+      "condition": 42,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,12 +46,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 8
+    "fuel": 14
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 63
+    "progress": 71
   },
   "truck": {
     "present": true,
@@ -61,26 +61,27 @@
     "present": false
   },
   "last_run_date": "2026-06-14",
-  "pulse": "Sawyer steps up, Maggie readies for the run, the family holds steady—shelter first, three weeks of light remain.",
-  "scene": "As evening light fades to long twilight, the family gathers around the cabin porch after a day of patching work; Maggie plans tomorrow's run, Cole reviews the roof with Sawyer, all hungry, all hopeful.",
+  "pulse": "Five tired, hungry people gathered as summer twilight held, proud of what they'd built and braced for what tomorrow would bring.",
+  "scene": "As long twilight holds, the family gathers around the cabin porch: Cole and Maggie map tomorrow's crucial route, Sawyer brings in the day's tools, Finn rests on the steps, and Bear dozes against his mother, sick but safe.",
   "resources_prev": {
     "food": 0,
-    "water": 3,
-    "wood": 55,
+    "water": 0,
+    "wood": 54,
     "medicine": 0,
-    "materials": 1,
+    "materials": 0,
     "money": 60,
-    "power": 16
+    "power": 14
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-14:evening",
+  "last_cycle_key": "2026-06-14:night",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
     "3": "Day 3 brought the family's first salmon—Finn caught them with pride; Cole's water system came online, spring flowing clean. Exhausted but settling in, they know they're not just surviving now. Finn is sick and drained, but the day drew them closer; tonight they rest whole.",
     "4": "Day 4 broke: Cole, Sawyer, Finn, and Bear fished the creek and landed salmon—their first real meal. As evening settles, the family gathers warm by the stove, fed and hopeful, the strain easing. Tomorrow Cole will push the roof patch while weather holds.",
-    "5": "Day 5 brought the first real catch—three fish pulled from the creek, Sawyer teaching with patience he didn't know he had, Finn proud of his own hook, and Bear gleeful in the work. With real food in their bellies and the cabin warm, the family faces nightfall stronger than in days."
+    "5": "Day 5 brought the first real catch—three fish pulled from the creek, Sawyer teaching with patience he didn't know he had, Finn proud of his own hook, and Bear gleeful in the work. With real food in their bellies and the cabin warm, the family faces nightfall stronger than in days.",
+    "6": "Day 6's patching moved the cabin to 71%—Cole, Sawyer, and injured Finn pushing hard in endless light, while Maggie readied tomorrow's crucial town run. The family is exhausted and hungry but held by genuine progress. Sawyer felt his father's real trust for the first time, and something changed."
   },
   "lean": {
     "id": "patch_roof",

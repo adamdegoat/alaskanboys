@@ -5506,5 +5506,216 @@
       }
     ],
     "timestamp": "2026-06-14T18:41:46.856743"
+  },
+  {
+    "day": 6,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Reviews the afternoon's roof progress with Maggie at the porch table while the family gathers near the warm cabin.",
+    "thought": "Building something real. One day at a time.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-14T22:32:17.766482"
+  },
+  {
+    "day": 6,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Checks her supply list one final time as Bear rests against her, fevered and slow from his sickness.",
+    "thought": "Sixty dollars. Make it stretch like always.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-14T22:32:17.766482"
+  },
+  {
+    "day": 6,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Returns from the work site with scattered tools, ready to rest after a day of real work alongside his father.",
+    "thought": "Dad trusts me. That changes everything.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-14T22:32:17.766482"
+  },
+  {
+    "day": 6,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Stretches carefully on the porch steps, watching the patched roof in the lengthening twilight, proud despite his healing soreness.",
+    "thought": "I helped today. My body will catch up.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "tired",
+    "timestamp": "2026-06-14T22:32:17.766482"
+  },
+  {
+    "day": 6,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Dozes against his mother, warm and feverish, listening to the adults plan and the older boys settle in for the night.",
+    "thought": "Mom always makes it better somehow.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "drowsy",
+    "timestamp": "2026-06-14T22:32:17.766482"
+  },
+  {
+    "day": 6,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The family clusters around the porch as twilight fades: Cole and Maggie plan tomorrow's run, Sawyer finishes the day's tools, Finn rests watching their work, and Bear dozes fever-warm against his mother.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "The roof's looking good. You felt the difference today, Sawyer."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I felt a lot of things. Tired mostly."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the good kind of tired. You earned it."
+      },
+      {
+        "speaker": "finn",
+        "line": "I helped too, even just holding boards."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You both did. Everyone did what they could."
+      },
+      {
+        "speaker": "bear",
+        "line": "We're a real team now."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Seventy-one percent, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Seventy-one. Another day like today, and we hit eighty."
+      },
+      {
+        "speaker": "maggie",
+        "line": "I'll be back before dark with supplies. The roof will keep."
+      },
+      {
+        "speaker": "cole",
+        "line": "The truck ready?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Tank's clean, route's mapped. We'll be fine."
+      },
+      {
+        "speaker": "finn",
+        "line": "Don't forget salt. And honey."
+      },
+      {
+        "speaker": "bear",
+        "line": "Honey's important."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Never forget the honey."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Sixty dollars is tight."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sixty dollars and five hungry people. It works."
+      },
+      {
+        "speaker": "maggie",
+        "line": "It always works."
+      },
+      {
+        "speaker": "finn",
+        "line": "Because we make it work."
+      },
+      {
+        "speaker": "bear",
+        "line": "Mom's magic."
+      },
+      {
+        "speaker": "cole",
+        "line": "Mom's not magic. She's just relentless."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Same thing up here."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Come on, Bear. Let's get you inside by the stove."
+      },
+      {
+        "speaker": "bear",
+        "line": "With Mom?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come on, buddy. Inside where it's warm."
+      },
+      {
+        "speaker": "cole",
+        "line": "I'll bring in more wood before bed."
+      },
+      {
+        "speaker": "finn",
+        "line": "I can help with that."
+      },
+      {
+        "speaker": "cole",
+        "line": "Your foot needs rest. Let me and Sawyer handle it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I've got it, Dad."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Good night, all of you. Tomorrow's early."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sleep well. We've earned it."
+      }
+    ],
+    "timestamp": "2026-06-14T22:32:17.766482"
   }
 ]
