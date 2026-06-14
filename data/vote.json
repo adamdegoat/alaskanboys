@@ -1,32 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-14",
+    "id": "2026-06-15",
     "closes": "tonight",
-    "question": "Sawyer's teaching the boys they're capable. But Cole knows the cabin won't finish itself. Does the family fish the creek again tomorrow, or get back to the build before w",
+    "question": "As evening settles, Maggie plans her early town run. Should Cole and Sawyer:",
     "options": [
       {
-        "id": "creek_day",
-        "label": "One more day fishing",
-        "desc": "Let Sawyer teach; the boys need this, and we need the food"
+        "id": "early_work",
+        "label": "Rise early, work",
+        "desc": "The roof knack is hot—keep the momentum rolling toward winter"
       },
       {
-        "id": "cabin_push",
-        "label": "Back to the build",
-        "desc": "Winter's coming; shelter's the real priority now"
+        "id": "rest_morning",
+        "label": "Slow morning together",
+        "desc": "Day 7 is strained—everyone might need a quiet, easy start"
       },
       {
-        "id": "split_crew",
-        "label": "Cole builds, Sawyer fishes",
-        "desc": "Both things matter—send them both their way"
+        "id": "both",
+        "label": "Work at dawn, then slow",
+        "desc": "Get the early hours while sharp, then breakfast together before she leaves"
       }
     ]
   },
   "in_play": {
-    "id": "patch_roof",
-    "label": "Patch the roof",
-    "desc": "Winter won't wait. Shelter before anything else.",
-    "decided": "2026-06-14",
+    "id": "creek_day",
+    "label": "One more day fishing",
+    "desc": "Let Sawyer teach; the boys need this, and we need the food",
+    "decided": "2026-06-15",
     "votes": 0,
     "tally": {}
   }

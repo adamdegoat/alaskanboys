@@ -5717,5 +5717,177 @@
       }
     ],
     "timestamp": "2026-06-14T22:32:17.766482"
+  },
+  {
+    "day": 7,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Cole fills water bottles and checks the fishing lines, practical and calm.",
+    "thought": "Fish are the answer. We can do this.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-15T07:02:48.785274"
+  },
+  {
+    "day": 7,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "Maggie tends Bear's fever, speaking quietly with Cole, then pulls on her boots to head down to the creek.",
+    "thought": "Bear's hot. But the water will help us.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-15T07:02:48.785274"
+  },
+  {
+    "day": 7,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Sawyer lays out three fishing lines on the porch rail, checking each while watching Finn, ready to teach.",
+    "thought": "They're counting on me to teach them right.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-15T07:02:48.785274"
+  },
+  {
+    "day": 7,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Finn bounces nearby help-eager, healing rib tender as he watches Sawyer work the lines.",
+    "thought": "My body's slow but I can catch fish.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-15T07:02:48.785274"
+  },
+  {
+    "day": 7,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Bear sits on the porch step wrapped in his blanket, feverish but watching, determined to come along.",
+    "thought": "I'm so hungry. But I want to try.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "quiet",
+    "timestamp": "2026-06-15T07:02:48.785274"
+  },
+  {
+    "day": 7,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "bear"
+    ],
+    "description": "The cupboard bare and Bear feverish, the family gathers on the cabin porch for a quick counsel—no food left, but a clear plan: fish before noon, eat supper.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "The stores are gone, folks. Breakfast is river water and hope."
+      },
+      {
+        "speaker": "cole",
+        "line": "We've caught twenty before in a morning. We can do it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can show Finn and Bear how to hold the line right."
+      },
+      {
+        "speaker": "finn",
+        "line": "I've watched you a hundred times, Saw. I can do this."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I come even though I feel kind of terrible?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You stay close to me, bud. Watch from the bank."
+      },
+      {
+        "speaker": "cole",
+        "line": "Everyone drinks water first. Thirst makes you make mistakes."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The run should be good this time of year."
+      },
+      {
+        "speaker": "finn",
+        "line": "I can feel the fish out there already, I know it."
+      },
+      {
+        "speaker": "maggie",
+        "line": "We get them in by noon, I can make a proper supper."
+      },
+      {
+        "speaker": "bear",
+        "line": "A supper? Like really supper?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Fresh fish, clear water, full bellies. That's the goal today."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I'll teach you both careful. No fancy stuff, just steady."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Sawyer, you're a good son. Thank you for this."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "It's what we do. We look out for each other."
+      },
+      {
+        "speaker": "finn",
+        "line": "Let's go get them. Let's go right now."
+      },
+      {
+        "speaker": "cole",
+        "line": "Gear first, enthusiasm second—you know the way."
+      },
+      {
+        "speaker": "bear",
+        "line": "Finn's so excited he might scare the fish."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Okay, boots on. Let's get to the creek."
+      },
+      {
+        "speaker": "cole",
+        "line": "Stay together. Water's cold but the light is long."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Come on, brothers. We've got fish to catch today."
+      }
+    ],
+    "timestamp": "2026-06-15T07:02:48.785274"
   }
 ]
