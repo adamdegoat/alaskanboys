@@ -5295,5 +5295,216 @@
       }
     ],
     "timestamp": "2026-06-14T15:02:04.093725"
+  },
+  {
+    "day": 6,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Cole sits on the cabin porch with Maggie, watching the family gather as evening light fades, quietly proud of the day's work and Sawyer's growing capability.",
+    "thought": "Sawyer's got the knack for this.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-14T18:41:46.856743"
+  },
+  {
+    "day": 6,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Maggie sits beside Cole, her town-run list in hand, calmly talking through supplies and priorities with the boys settling around the porch.",
+    "thought": "Sixty dollars, and we make it stretch.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-14T18:41:46.856743"
+  },
+  {
+    "day": 6,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Sawyer sits nearby listening to the evening talk, feeling the quiet pride of a full day's work on the roof patch alongside Cole.",
+    "thought": "Dad trusts me with real work now.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-14T18:41:46.856743"
+  },
+  {
+    "day": 6,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Finn sits on the front steps with Bear, restless with wanting to do more despite his healing ribs, eager for the evening's talk.",
+    "thought": "I could do real work if I wasn't healing.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-14T18:41:46.856743"
+  },
+  {
+    "day": 6,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Bear sits on the steps with Finn, cracking jokes to keep the mood light and listening to the plans for tomorrow's town run.",
+    "thought": "Mom's coming back with food tomorrow.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "bright",
+    "timestamp": "2026-06-14T18:41:46.856743"
+  },
+  {
+    "day": 6,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "As evening light fades to long twilight, the family gathers around the cabin porch after a day of solid patching work; Maggie plans tomorrow's crucial town run, Cole reviews the roof progress with Sawyer, all hungry, all hopeful.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "First light tomorrow. Fuel first, then food."
+      },
+      {
+        "speaker": "cole",
+        "line": "We'll have you moving by five."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The south side of the roof—is it waterproof now?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Solid enough. We've got sixty percent of the whole patch done."
+      },
+      {
+        "speaker": "finn",
+        "line": "I want to help more when you get back."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Your ribs are still healing. You're doing plenty."
+      },
+      {
+        "speaker": "cole",
+        "line": "He brought every board up today. That's real work."
+      },
+      {
+        "speaker": "finn",
+        "line": "It doesn't feel like real work."
+      },
+      {
+        "speaker": "bear",
+        "line": "Real work is anything that matters. I'm helping too!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're keeping us laughing. Don't discount that."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How much money do we have?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Sixty. Stretching it as far as it goes."
+      },
+      {
+        "speaker": "cole",
+        "line": "We've done more with less."
+      },
+      {
+        "speaker": "maggie",
+        "line": "True. But I won't risk a breakdown out there."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long will you be gone?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "There and back in one cycle, if the road's clear."
+      },
+      {
+        "speaker": "finn",
+        "line": "What if it's not?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Then I call the house phone and we figure it out."
+      },
+      {
+        "speaker": "cole",
+        "line": "She'll be back. She's done this before."
+      },
+      {
+        "speaker": "bear",
+        "line": "And she's coming back with FOOD."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Assuming the store isn't picked over."
+      },
+      {
+        "speaker": "cole",
+        "line": "What are you hoping for?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Flour, salt, sugar, eggs if they have fresh ones."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "And something green?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "If the garden isn't producing yet, yes."
+      },
+      {
+        "speaker": "finn",
+        "line": "The lettuce is close."
+      },
+      {
+        "speaker": "cole",
+        "line": "Another week and we'll have fresh salad."
+      },
+      {
+        "speaker": "bear",
+        "line": "Salad is how you know spring won."
+      },
+      {
+        "speaker": "cole",
+        "line": "Summer, actually. But I see your point."
+      },
+      {
+        "speaker": "maggie",
+        "line": "All right, boys. Kitchen in the morning before I leave."
+      }
+    ],
+    "timestamp": "2026-06-14T18:41:46.856743"
   }
 ]
