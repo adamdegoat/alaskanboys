@@ -1,6 +1,6 @@
 {
   "day": 6,
-  "cycle": "midday",
+  "cycle": "afternoon",
   "weather": "clear",
   "season": {
     "name": "summer",
@@ -8,10 +8,10 @@
   },
   "resources": {
     "food": 0,
-    "water": 8,
-    "wood": 50,
+    "water": 3,
+    "wood": 55,
     "medicine": 0,
-    "materials": 2,
+    "materials": 1,
     "money": 60,
     "power": 16
   },
@@ -22,7 +22,7 @@
       "id": "cabin",
       "type": "cabin",
       "level": 1,
-      "condition": 13,
+      "condition": 11,
       "x": 56,
       "y": 40,
       "builder": "cole",
@@ -35,7 +35,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 48,
+      "condition": 46,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,12 +46,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 14
+    "fuel": 2
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 52
+    "progress": 59
   },
   "truck": {
     "present": true,
@@ -61,20 +61,20 @@
     "present": false
   },
   "last_run_date": "2026-06-14",
-  "pulse": "With food gone and the roof rotting, Cole and Sawyer climb to patch it while Maggie plots the supply run—the family's plan takes clear shape.",
-  "scene": "Midday on the cabin porch and yard: the bare cupboards and visible roof decay force a hard choice. Cole is assessing the climb; Maggie is calculating supplies; Sawyer is ready; Finn watches restlessly; Bear is keeping the mood light.",
+  "pulse": "Sawyer steps into real work while Finn burns with purpose; Cole teaches and Maggie plans the run that's now overdue.",
+  "scene": "Cole and Sawyer patch the cabin's south side while Finn brings boards and Bear shouts from below; Maggie tends water on the porch, her town-run list at hand—the family spread but unified, the afternoon bent toward one urgent job.",
   "resources_prev": {
     "food": 0,
-    "water": 14,
+    "water": 8,
     "wood": 50,
     "medicine": 0,
-    "materials": 5,
+    "materials": 2,
     "money": 60,
     "power": 16
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-14:midday",
+  "last_cycle_key": "2026-06-14:afternoon",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",

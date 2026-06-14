@@ -5108,5 +5108,192 @@
       }
     ],
     "timestamp": "2026-06-14T11:32:38.146587"
+  },
+  {
+    "day": 6,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Cole directs Sawyer on the roof while teaching proper technique for removing soft wood and securing new framing.",
+    "thought": "Sawyer's got the knack for this. Trust him.",
+    "location": {
+      "waypoint": "cabin_side",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-14T15:02:04.093725"
+  },
+  {
+    "day": 6,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Maggie sits on the porch with water bottles and a pencil, calculating supplies for the town run she knows can't wait past tomorrow.",
+    "thought": "Food won't wait. We leave at first light.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "practical",
+    "timestamp": "2026-06-14T15:02:04.093725"
+  },
+  {
+    "day": 6,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Sawyer climbs the makeshift frame with Cole, watching where rot has weakened the beam and learning to feel his way through the repair.",
+    "thought": "Dad trusts me. I can feel the difference.",
+    "location": {
+      "waypoint": "cabin_side",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-14T15:02:04.093725"
+  },
+  {
+    "day": 6,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finn races back and forth between the cabin's side and the supplies, hauling boards, asking questions, burning off months of restlessness in real work.",
+    "thought": "Real work, finally. This is what I needed.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "energized",
+    "timestamp": "2026-06-14T15:02:04.093725"
+  },
+  {
+    "day": 6,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Bear hangs close, keeping the nail count steady, fetching water, and calling up jokes to keep the mood buoyant despite the afternoon's heat and hunger.",
+    "thought": "Big kids work is amazing. I'm helping real.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "playful",
+    "timestamp": "2026-06-14T15:02:04.093725"
+  },
+  {
+    "day": 6,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "sawyer",
+      "finn",
+      "maggie",
+      "bear"
+    ],
+    "description": "Cole and Sawyer patch the cabin's south side while Finn brings boards and Bear shouts from below; Maggie tends water on the porch, her town-run list at hand—the family spread but unified, the afternoon bent toward one urgent job.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Hold it steady. You've got the angle right."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "This whole section's soft. What do we do?"
+      },
+      {
+        "speaker": "cole",
+        "line": "We remove the bad and shore it underneath. You're watching right."
+      },
+      {
+        "speaker": "finn",
+        "line": "How many more boards? I'll grab them!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Water break in five, boys."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm the official keeper of nails up here."
+      },
+      {
+        "speaker": "finn",
+        "line": "You've been holding the same handful the whole time."
+      },
+      {
+        "speaker": "bear",
+        "line": "Best handful in the whole territory."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Cole, should the frame sit a little higher?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Good question. Actually lower—better support underneath."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come drink. All of you. Now."
+      },
+      {
+        "speaker": "bear",
+        "line": "I like being told what to do when water's involved."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can't we keep going? We're on such a roll!"
+      },
+      {
+        "speaker": "cole",
+        "line": "You burn out, you're no good to me. Drink."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Will we finish the whole section today?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Part of it is progress. Tomorrow we make town for more."
+      },
+      {
+        "speaker": "cole",
+        "line": "The roof's the priority. Everything else waits."
+      },
+      {
+        "speaker": "finn",
+        "line": "How much longer until it's solid?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Few more hours of good light. We'll be solid past halfway."
+      },
+      {
+        "speaker": "bear",
+        "line": "My arms are tired and I like the feeling."
+      },
+      {
+        "speaker": "finn",
+        "line": "That's how you know you did something real."
+      },
+      {
+        "speaker": "maggie",
+        "line": "That's exactly right. Come on, eat something small."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can feel where the work needs to happen now."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the real skill. Let's get back to it."
+      }
+    ],
+    "timestamp": "2026-06-14T15:02:04.093725"
   }
 ]
