@@ -1,10 +1,10 @@
 {
-  "day": 5,
-  "text": "Overnight frost threatens the garden and Cole gathers Sawyer, Finn, and Bear to harvest.",
-  "flavor": "the weather turns",
-  "cycle": "morning",
-  "happens_at": "7am",
+  "day": 6,
+  "text": "Finn pushes through the hardest work-day yet and discovers he belongs out here.",
+  "flavor": "a kid struggles",
+  "cycle": "night",
+  "happens_at": "11pm",
   "status": "upcoming",
-  "revealed_at": "2026-06-14T00:00:32.209636",
+  "revealed_at": "2026-06-15T00:00:44.173608",
   "activated_at": null
 }
