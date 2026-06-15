@@ -1,6 +1,6 @@
 {
   "day": 7,
-  "cycle": "afternoon",
+  "cycle": "evening",
   "weather": "clear",
   "season": {
     "name": "summer",
@@ -9,33 +9,22 @@
   "resources": {
     "food": 0,
     "water": 0,
-    "wood": 59,
+    "wood": 63,
     "medicine": 0,
     "materials": 0,
     "money": 60,
     "power": 14
   },
-  "pending_events": [],
+  "pending_events": [
+    "The Cabin collapsed from neglect/weather."
+  ],
   "started": "2026-06-09",
   "structures": [
-    {
-      "id": "cabin",
-      "type": "cabin",
-      "level": 1,
-      "condition": 1,
-      "x": 56,
-      "y": 40,
-      "builder": "cole",
-      "day": 1,
-      "label": "The Cabin",
-      "stage": "weathered",
-      "baked": true
-    },
     {
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 36,
+      "condition": 34,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -46,7 +35,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 14
+    "fuel": 2
   },
   "build": {
     "project": "cabin_repair",
@@ -61,12 +50,12 @@
     "present": false
   },
   "last_run_date": "2026-06-15",
-  "pulse": "Sawyer's steady words and patient hands turn his brothers into fishermen; Finn lands his first catch, Bear wades in despite the fever, and the family begins to eat.",
-  "scene": "Afternoon at the sun-bright creek: Sawyer steadies Finn through his first good catch, Bear wades in despite the fever with Maggie close, Cole works the shallows steady, and the family tastes success.",
+  "pulse": "The family's hunger breaks tonight: Sawyer taught, Finn caught, the creek gave, and everyone gathers in warmth and hope.",
+  "scene": "Evening brings the Wilders together around warmth: the day's catch is simmering inside, Maggie and sick Bear rest by the stove while Cole settles on the porch with Sawyer and Finn, the family finally gathered to eat.",
   "resources_prev": {
     "food": 0,
     "water": 0,
-    "wood": 58,
+    "wood": 59,
     "medicine": 0,
     "materials": 0,
     "money": 60,
@@ -74,7 +63,7 @@
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-15:afternoon",
+  "last_cycle_key": "2026-06-15:evening",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",

@@ -6303,5 +6303,193 @@
       }
     ],
     "timestamp": "2026-06-15T15:02:05.335969"
+  },
+  {
+    "day": 7,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Cole rested on the cabin porch after processing the day's catch, watching the boys recover from hard work.",
+    "thought": "Three days' eating, maybe even four.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-15T18:33:59.191627"
+  },
+  {
+    "day": 7,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Maggie tended the broth and stew inside the cabin, her hands warm by the stove as she settled feverish Bear nearby.",
+    "thought": "Real food tonight. We're going to be OK.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-15T18:33:59.191627"
+  },
+  {
+    "day": 7,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Sawyer rested on the porch beside Finn, both boys bone-tired but proud, knowing they'd done something important today.",
+    "thought": "They listened. I taught them real.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-15T18:33:59.191627"
+  },
+  {
+    "day": 7,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Finn sat beside Sawyer on the porch, his arms aching but his chest full, unable to stop thinking about that first catch.",
+    "thought": "I caught one myself. Sawyer taught me good.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-15T18:33:59.191627"
+  },
+  {
+    "day": 7,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Bear rested by the warm stove inside the cabin, wrapped up and feverish but smiling at the smell of dinner.",
+    "thought": "I cast it myself. I'm doing this.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "quiet",
+    "timestamp": "2026-06-15T18:33:59.191627"
+  },
+  {
+    "day": 7,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "sawyer",
+      "finn"
+    ],
+    "description": "Evening gathers the Wilders around warmth: the day's catch is simmering inside as Maggie tends both the broth and Bear, while Sawyer and Finn rest on the porch, all tired and finally full after a hard, hopeful day.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "That's three solid fish—we can eat tonight and dry some for tomorrow."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Water's hot. I'll get the broth going."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Finn's hook didn't tangle once today. He's getting it."
+      },
+      {
+        "speaker": "finn",
+        "line": "My arms are dead, but—yeah, I'm getting it."
+      },
+      {
+        "speaker": "bear",
+        "line": "Sawyer said I cast it perfect."
+      },
+      {
+        "speaker": "cole",
+        "line": "You all did perfect."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Cole, bring those inside? Oven's ready."
+      },
+      {
+        "speaker": "cole",
+        "line": "Coming."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Bear, you want to sit by the stove?"
+      },
+      {
+        "speaker": "bear",
+        "line": "Yeah. I'm cold."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Here, let's get you warm."
+      },
+      {
+        "speaker": "finn",
+        "line": "Tomorrow we fish again?"
+      },
+      {
+        "speaker": "cole",
+        "line": "If the light holds and Bear's better."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'll be better by tomorrow."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Rest does that."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Finn, there's a deep spot on the far bank."
+      },
+      {
+        "speaker": "finn",
+        "line": "Yeah? We should try it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "If Cole says it's safe, we could."
+      },
+      {
+        "speaker": "cole",
+        "line": "The broth smells like home."
+      },
+      {
+        "speaker": "maggie",
+        "line": "It really does. First time in weeks."
+      },
+      {
+        "speaker": "finn",
+        "line": "How long until dinner?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Twenty minutes. Wash up, you're all scales."
+      },
+      {
+        "speaker": "bear",
+        "line": "I can smell it from here."
+      },
+      {
+        "speaker": "cole",
+        "line": "Tonight, we eat together. That matters most."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come on. Dinner's nearly ready."
+      }
+    ],
+    "timestamp": "2026-06-15T18:33:59.191627"
   }
 ]
