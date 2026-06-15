@@ -6491,5 +6491,189 @@
       }
     ],
     "timestamp": "2026-06-15T18:33:59.191627"
+  },
+  {
+    "day": 7,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Cole settles on the porch with tea, watching the night and thinking about the day's small victories.",
+    "thought": "The boys are learning. That's what matters.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-15T22:32:44.794318"
+  },
+  {
+    "day": 7,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Maggie sits by the warm stove, checking Bear's forehead and keeping him close as he fights sleep.",
+    "thought": "He's warm. We're going to be okay.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-15T22:32:44.794318"
+  },
+  {
+    "day": 7,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Sawyer rests on the porch beside Cole, quietly proud of how his brothers listened and learned today.",
+    "thought": "I taught them something real. They listened.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-15T22:32:44.794318"
+  },
+  {
+    "day": 7,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Finn sprawls beside Sawyer and Cole on the porch, exhausted but grinning about his own catch.",
+    "thought": "I caught one myself. I can do this.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-15T22:32:44.794318"
+  },
+  {
+    "day": 7,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Bear leans against Maggie by the warm stove, eyes heavy but a small smile on his face.",
+    "thought": "I caught one. I'm really doing this.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "quiet",
+    "timestamp": "2026-06-15T22:32:44.794318"
+  },
+  {
+    "day": 7,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "bear"
+    ],
+    "description": "After a day of teaching and learning, the Wilders settle warm and full around the glowing stove, tired but hopeful, Maggie tending sick Bear while Cole and the boys rest nearby.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "How's your shoulder, bud? Any better?"
+      },
+      {
+        "speaker": "bear",
+        "line": "Yeah. Warm now."
+      },
+      {
+        "speaker": "cole",
+        "line": "You did good out there, Sawyer. Real good."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "They listened. That's the thing."
+      },
+      {
+        "speaker": "finn",
+        "line": "I caught one! All myself!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You both did. Eat slow though—we'll make it last."
+      },
+      {
+        "speaker": "cole",
+        "line": "This'll get us through a few more days."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Maybe a week if we're careful."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we go again tomorrow?"
+      },
+      {
+        "speaker": "cole",
+        "line": "One day at a time, bud."
+      },
+      {
+        "speaker": "bear",
+        "line": "I cast it myself, did you see?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "I saw. You're a natural."
+      },
+      {
+        "speaker": "cole",
+        "line": "The boy's got talent."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Just needed to learn the motion."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can you teach me more tomorrow, Sawyer?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "If the fish are still biting."
+      },
+      {
+        "speaker": "maggie",
+        "line": "For now, sleep. It's been a long day."
+      },
+      {
+        "speaker": "cole",
+        "line": "Best kind of long day."
+      },
+      {
+        "speaker": "bear",
+        "line": "Yeah..."
+      },
+      {
+        "speaker": "finn",
+        "line": "My arms feel like jelly."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Good jelly."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's exhaustion, son. And it's earned."
+      },
+      {
+        "speaker": "maggie",
+        "line": "All of you, rest. Tomorrow will come soon enough."
+      },
+      {
+        "speaker": "cole",
+        "line": "She's right. We did good. Real good."
+      }
+    ],
+    "timestamp": "2026-06-15T22:32:44.794318"
   }
 ]
