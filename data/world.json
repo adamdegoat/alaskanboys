@@ -1,10 +1,10 @@
 {
-  "day": 7,
-  "cycle": "night",
+  "day": 8,
+  "cycle": "morning",
   "weather": "clear",
   "season": {
     "name": "summer",
-    "day_in_season": 7
+    "day_in_season": 8
   },
   "resources": {
     "food": 0,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 32,
+      "condition": 30,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -33,12 +33,12 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 8
+    "fuel": 14
   },
   "build": {
     "project": "cabin_repair",
     "label": "Patching up the cabin",
-    "progress": 72
+    "progress": 78
   },
   "truck": {
     "present": true,
@@ -47,21 +47,21 @@
   "snowmachine": {
     "present": false
   },
-  "last_run_date": "2026-06-15",
-  "pulse": "The Wilders settle warm and full tonight, the strain easing as pride and exhaustion mix into quiet hope.",
-  "scene": "The cabin glows warm from the stove; Maggie sits with sick Bear inside while Cole, Sawyer, and Finn rest on the porch, voices soft and easy.",
+  "last_run_date": "2026-06-16",
+  "pulse": "The family eats, then the roof calls: Cole and Sawyer start the work, Maggie steadies the day, Finn everywhere.",
+  "scene": "Summer Day 8 dawns clear and endless; Maggie rations yesterday's catch while Cole and Sawyer assess the cabin roof (72% patched), Finn fills the water bucket, and Bear warms by the stove before the work begins.",
   "resources_prev": {
     "food": 0,
     "water": 0,
-    "wood": 63,
+    "wood": 62,
     "medicine": 0,
     "materials": 0,
     "money": 60,
-    "power": 14
+    "power": 13
   },
   "camp_climate": "strained",
   "discoveries": [],
-  "last_cycle_key": "2026-06-15:night",
+  "last_cycle_key": "2026-06-16:morning",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -72,8 +72,8 @@
     "7": "Day seven brought the Wilders their first real harvest: Sawyer taught the boys to fish and they caught enough for a full meal. The cabin glows warm now, exhaustion mixing with satisfaction as Maggie tends sick Bear and the others rest. For the first time in days, the family breathes easier."
   },
   "lean": {
-    "id": "creek_day",
-    "label": "One more day fishing",
-    "desc": "Let Sawyer teach; the boys need this, and we need the food"
+    "id": "early_work",
+    "label": "Rise early, work",
+    "desc": "The roof knack is hot—keep the momentum rolling toward winter"
   }
 }

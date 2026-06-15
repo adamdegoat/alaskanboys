@@ -6675,5 +6675,212 @@
       }
     ],
     "timestamp": "2026-06-15T22:32:44.794318"
+  },
+  {
+    "day": 8,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Up before full light, checks the roof patching and plans the day's work with a steady eye toward winter.",
+    "thought": "This roof won't last another winter.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-16T07:03:13.896375"
+  },
+  {
+    "day": 8,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "Nurses her shoulder while rationing the last of yesterday's catch into a thin breakfast for five hungry people.",
+    "thought": "Make it stretch. Keep them moving.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-16T07:03:13.896375"
+  },
+  {
+    "day": 8,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Wakes ready to work, joins Cole at the roof to assess the north section before eating breakfast.",
+    "thought": "I can help finish this. I'm ready.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-16T07:03:13.896375"
+  },
+  {
+    "day": 8,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Bounces out of bed and fills the water bucket from the creek, then circles the porch looking for something to help with.",
+    "thought": "Keep moving, keep going, that's the way.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "energetic",
+    "timestamp": "2026-06-16T07:03:13.896375"
+  },
+  {
+    "day": 8,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Slow morning waking, gravitates to the warm stove and settles against Maggie while eating the thin breakfast she's made.",
+    "thought": "Warm and food. That's enough right now.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "quiet",
+    "timestamp": "2026-06-16T07:03:13.896375"
+  },
+  {
+    "day": 8,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "cole",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Summer Day 8 breaks clear and endless; Maggie rations the last of yesterday's catch while Cole and Sawyer eye the roof, Finn fills the water bucket, and Bear leans into the stove's warmth.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Come eat while it's warm."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sawyer, let's see that north corner before we move anything."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "It's still solid wood underneath—should hold another patch."
+      },
+      {
+        "speaker": "finn",
+        "line": "Dad, I filled the bucket from the creek!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Good man. Set it by the stove."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm cold again."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come here, then."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long will this section take us?"
+      },
+      {
+        "speaker": "cole",
+        "line": "A day, maybe two if we do it right. No rushing."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I help? Can I hammer?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Everyone eats first. You're all fading."
+      },
+      {
+        "speaker": "cole",
+        "line": "She's right. We work better on a full belly."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Is there enough?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "It's enough. It has to be."
+      },
+      {
+        "speaker": "bear",
+        "line": "Mom, this is the same as yesterday."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Same fish, different day. Still good."
+      },
+      {
+        "speaker": "finn",
+        "line": "I like it anyway!"
+      },
+      {
+        "speaker": "cole",
+        "line": "You sitting down?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "After I see they're fed."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sit now. I can watch them."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Just for a minute."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Your shoulder hurting?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Old news. We've got work to do."
+      },
+      {
+        "speaker": "cole",
+        "line": "The roof first. Water and wood after."
+      },
+      {
+        "speaker": "finn",
+        "line": "And fishing? Can we fish?"
+      },
+      {
+        "speaker": "cole",
+        "line": "After the roof. Let's not build two projects at once."
+      },
+      {
+        "speaker": "bear",
+        "line": "The roof's more important anyway, right?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Winter doesn't wait."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Neither does hunger, so eat."
+      }
+    ],
+    "timestamp": "2026-06-16T07:03:13.896375"
   }
 ]

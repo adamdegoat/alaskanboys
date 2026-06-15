@@ -1,32 +1,27 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-15",
+    "id": "2026-06-16",
     "closes": "tonight",
-    "question": "As evening settles, Maggie plans her early town run. Should Cole and Sawyer:",
+    "question": "The cabin needs three more days before winter. Bear's fever broke, the creek is calling, and Finn's learning fast. Cole has tomorrow—does he build the walls with clear ey",
     "options": [
       {
-        "id": "early_work",
-        "label": "Rise early, work",
-        "desc": "The roof knack is hot—keep the momentum rolling toward winter"
+        "id": "build_cabin",
+        "label": "Build the walls",
+        "desc": "Winter won't wait. Three days of solid work brings them closer to shelter and peace."
       },
       {
-        "id": "rest_morning",
-        "label": "Slow morning together",
-        "desc": "Day 7 is strained—everyone might need a quiet, easy start"
-      },
-      {
-        "id": "both",
-        "label": "Work at dawn, then slow",
-        "desc": "Get the early hours while sharp, then breakfast together before she leaves"
+        "id": "creek_day",
+        "label": "Fish with the family",
+        "desc": "They're learning, they're confident, they're hungry. Maggie tends home. One more day of success could change everything."
       }
     ]
   },
   "in_play": {
-    "id": "creek_day",
-    "label": "One more day fishing",
-    "desc": "Let Sawyer teach; the boys need this, and we need the food",
-    "decided": "2026-06-15",
+    "id": "early_work",
+    "label": "Rise early, work",
+    "desc": "The roof knack is hot—keep the momentum rolling toward winter",
+    "decided": "2026-06-16",
     "votes": 0,
     "tally": {}
   }
