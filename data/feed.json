@@ -5889,5 +5889,200 @@
       }
     ],
     "timestamp": "2026-06-15T07:02:48.785274"
+  },
+  {
+    "day": 7,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "Cole wades into the creek shallows, showing Sawyer and Finn where the salmon pools gather in the current.",
+    "thought": "Fish are the answer. We can do this.",
+    "location": {
+      "waypoint": "creek",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-15T11:31:46.334162"
+  },
+  {
+    "day": 7,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "Maggie keeps Bear close at the creek's edge, her hand steady on his shoulder, watching the water and his fever alike.",
+    "thought": "Bear's hot. But the water will help us.",
+    "location": {
+      "waypoint": "creek",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-15T11:31:46.334162"
+  },
+  {
+    "day": 7,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "Sawyer stands hip-deep in the creek, coaching Finn on casting angle and line tension while keeping an eye on Bear.",
+    "thought": "They're counting on me to teach them right.",
+    "location": {
+      "waypoint": "creek",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-15T11:31:46.334162"
+  },
+  {
+    "day": 7,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "Finn stands in the shallows, rod ready, body aching but focus sharp on the water where the salmon move.",
+    "thought": "My body's slow but I can catch fish.",
+    "location": {
+      "waypoint": "creek",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-15T11:31:46.334162"
+  },
+  {
+    "day": 7,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "Bear wades carefully into the creek with Cole's steadying hand, determined to help fish despite the fever heat in his chest.",
+    "thought": "I'm so hungry. But I want to try.",
+    "location": {
+      "waypoint": "creek",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "quiet",
+    "timestamp": "2026-06-15T11:31:46.334162"
+  },
+  {
+    "day": 7,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "At the creek in bright afternoon sun, the Wilders fish for supper—Cole steady in the shallows, Sawyer coaching Finn, Maggie keeping watch over feverish Bear, all focused and hungry and hopeful.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Easy on the cast—let the water do the work."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Finn, see how Dad keeps the line loose?"
+      },
+      {
+        "speaker": "finn",
+        "line": "I got it—there's one! Wait, no—"
+      },
+      {
+        "speaker": "bear",
+        "line": "Did you see it? Did you see it?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're getting close, buddy."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the idea. This part takes patience."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Watch the current—they rest there."
+      },
+      {
+        "speaker": "finn",
+        "line": "My arms are tired already."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's alright. We have time."
+      },
+      {
+        "speaker": "bear",
+        "line": "I can feel one, I think?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're doing great, Bear. Rest a moment if you need."
+      },
+      {
+        "speaker": "bear",
+        "line": "No, I want to catch one too."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Then you will. Like this—see?"
+      },
+      {
+        "speaker": "cole",
+        "line": "How's the water feel, Finn?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Cold. Really cold. It's good though."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Watch Dad's feet—he knows the bottom."
+      },
+      {
+        "speaker": "cole",
+        "line": "This spot here's good. Right where the current breaks."
+      },
+      {
+        "speaker": "bear",
+        "line": "There! There's a big one!"
+      },
+      {
+        "speaker": "finn",
+        "line": "Where? Where?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Easy, we've got all afternoon."
+      },
+      {
+        "speaker": "cole",
+        "line": "Slow and steady wins the day, boys."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You feeling it, Finn?"
+      },
+      {
+        "speaker": "finn",
+        "line": "I think—maybe—yes! I caught one!"
+      },
+      {
+        "speaker": "bear",
+        "line": "You did! You did!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "That's supper right there."
+      },
+      {
+        "speaker": "cole",
+        "line": "One down. Let's get another."
+      }
+    ],
+    "timestamp": "2026-06-15T11:31:46.334162"
   }
 ]
