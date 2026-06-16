@@ -1,10 +1,10 @@
 {
-  "day": 7,
-  "text": "Cole and Maggie lead the boys through framing the cabin, finally in sync.",
+  "day": 8,
+  "text": "Cole guides the family through sealing the main cabin against the freeze.",
   "flavor": "the family pulls together",
-  "cycle": "morning",
-  "happens_at": "7am",
+  "cycle": "evening",
+  "happens_at": "6pm",
   "status": "upcoming",
-  "revealed_at": "2026-06-16T00:00:46.770894",
+  "revealed_at": "2026-06-17T00:00:49.095153",
   "activated_at": null
 }
