@@ -7306,5 +7306,208 @@
       }
     ],
     "timestamp": "2026-06-16T15:02:00.971301"
+  },
+  {
+    "day": 8,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Fits the final beams of the day on the roof in the long evening light, Sawyer working steadily beside him.",
+    "thought": "This roof's the spine. Nearly there.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-16T18:32:46.490998"
+  },
+  {
+    "day": 8,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Stretches foraged greens and berries into a thin, warm dinner at the porch, Bear close by and hungry.",
+    "thought": "Making nothing into warmth tonight.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-16T18:32:46.490998"
+  },
+  {
+    "day": 8,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Works alongside Cole on the final roof beams, arms tired but focused, learning the finish that matters.",
+    "thought": "This roof's teaching me something real.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-16T18:32:46.490998"
+  },
+  {
+    "day": 8,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Hauls materials from the build site down to the porch, arriving breathless to help Maggie with the meal prep.",
+    "thought": "We're so close now. Can feel it.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "energetic",
+    "timestamp": "2026-06-16T18:32:46.490998"
+  },
+  {
+    "day": 8,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Waits hungry and restless at the porch, helping Maggie stir and prep while stealing glances at the nearly-ready food.",
+    "thought": "When do we finally get to eat?",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-16T18:32:46.490998"
+  },
+  {
+    "day": 8,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "As the last light stretches long, Cole and Sawyer finish the final roof beams while Maggie and Bear prepare a thin, warm dinner at the porch, Finn helping—the family converging on the meal that holds them.",
+    "dialogue": [
+      {
+        "speaker": "sawyer",
+        "line": "This the last one for today?"
+      },
+      {
+        "speaker": "cole",
+        "line": "The last good beam. We're nearly there."
+      },
+      {
+        "speaker": "finn",
+        "line": "How many more days till it's done?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Two more days like today. Then we're weathered."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Two days? I can live with that."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "My shoulders are screaming, but I like it."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the sign you're learning something real."
+      },
+      {
+        "speaker": "finn",
+        "line": "Dad, why's it feel different? Like, real?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Because you're building something that matters. Your hands are proof."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we eat now? My stomach's eating itself."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Five minutes, little man. I'm stretching this as far as it goes."
+      },
+      {
+        "speaker": "finn",
+        "line": "Maggie, this smells incredible. What is this?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Foraged greens, berries, some smoked fish. Thin, but warm."
+      },
+      {
+        "speaker": "bear",
+        "line": "You're magic. I've decided. You're magic."
+      },
+      {
+        "speaker": "cole",
+        "line": "Come on, Sawyer. Light's soft now. We're done."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Yeah. Yeah, I need to rest."
+      },
+      {
+        "speaker": "cole",
+        "line": "You worked like a man today. That's real."
+      },
+      {
+        "speaker": "finn",
+        "line": "We're almost there. All of us."
+      },
+      {
+        "speaker": "cole",
+        "line": "Here's the day: roof's nearly done, we're all here, Maggie made warmth from almost nothing."
+      },
+      {
+        "speaker": "maggie",
+        "line": "We're more than standing. We're building something."
+      },
+      {
+        "speaker": "bear",
+        "line": "This is the best thing ever."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You say that every time you're hungry."
+      },
+      {
+        "speaker": "finn",
+        "line": "But he's right this time."
+      },
+      {
+        "speaker": "cole",
+        "line": "He's not wrong."
+      },
+      {
+        "speaker": "bear",
+        "line": "Tomorrow we finish?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Two more days. Rise early, work steady."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We will. We have to."
+      },
+      {
+        "speaker": "cole",
+        "line": "We will because we want to. That's what makes it ours."
+      }
+    ],
+    "timestamp": "2026-06-16T18:32:46.490998"
   }
 ]
