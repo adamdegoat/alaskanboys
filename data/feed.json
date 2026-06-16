@@ -7099,5 +7099,212 @@
       }
     ],
     "timestamp": "2026-06-16T11:32:28.439346"
+  },
+  {
+    "day": 8,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Cole works the roofline with Sawyer, measuring and fitting the final beams while the afternoon light holds steady and endless.",
+    "thought": "This beam's the right one. We're almost there.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-16T15:02:00.971301"
+  },
+  {
+    "day": 8,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Maggie readies a meager dinner at the cabin porch, stretching fresh fish with garden greens while keeping one eye on the work.",
+    "thought": "Make it fill them. Make it count.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-16T15:02:00.971301"
+  },
+  {
+    "day": 8,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Sawyer steadies each new beam while Cole guides him, learning to feel how the frame sits and holds true.",
+    "thought": "I'm getting this. I really am.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-16T15:02:00.971301"
+  },
+  {
+    "day": 8,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finn hauls material bundles up to the roofline, eager and bouncing with energy despite the afternoon heat and hunger.",
+    "thought": "We're building something real. Right now.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "energetic",
+    "timestamp": "2026-06-16T15:02:00.971301"
+  },
+  {
+    "day": 8,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Bear trails Maggie at the porch, watching dinner prep and bouncing with restless hunger, too wound up to sit still.",
+    "thought": "When can we eat? I'm so hungry.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-16T15:02:00.971301"
+  },
+  {
+    "day": 8,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "sawyer",
+      "finn",
+      "maggie",
+      "bear"
+    ],
+    "description": "The roof work locks in; Cole and Sawyer measuring beams while Finn hauls below bouncing with effort, and Maggie preps thin dinner at the porch with Bear close beside her, hungry and hopeful.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "This beam's solid. Nice work, Saw."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "It's starting to feel right, Dad."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the feeling you keep chasing."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I nail that one?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Already set, bud. Grab that bundle for me?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Folks, dinner's coming up soon."
+      },
+      {
+        "speaker": "bear",
+        "line": "Mom, when's dinner? I'm starving."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Twenty minutes or so, sweetie."
+      },
+      {
+        "speaker": "cole",
+        "line": "We'll wrap this in time, Mag."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How much longer till this is done?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Another session like this. Maybe two. Then we're solid for winter."
+      },
+      {
+        "speaker": "finn",
+        "line": "Then we can sleep in, right?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "No such luck. Winter's got its own work."
+      },
+      {
+        "speaker": "bear",
+        "line": "I don't like winter. It's so cold."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Winter keeps us safe, buddy. Come help me?"
+      },
+      {
+        "speaker": "bear",
+        "line": "What do you need me to do?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Wash these greens. Use the cold water from the bucket."
+      },
+      {
+        "speaker": "cole",
+        "line": "Finn, that bundle on the left."
+      },
+      {
+        "speaker": "finn",
+        "line": "Got it! This roof's gonna be amazing."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "One beam at a time, Finn."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's how all buildings happen, Saw. One at a time."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Bear, dry your hands. Help me tear this fish."
+      },
+      {
+        "speaker": "bear",
+        "line": "Is it the one I saw this morning?"
+      },
+      {
+        "speaker": "finn",
+        "line": "I caught it! Right in the pool!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You sure did. Now let's cook it right."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I eat it raw?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Gross, Bear."
+      },
+      {
+        "speaker": "cole",
+        "line": "We'll cook it proper. Maggie knows best."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Just a few more minutes, everyone. Hang tight."
+      }
+    ],
+    "timestamp": "2026-06-16T15:02:00.971301"
   }
 ]
