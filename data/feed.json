@@ -6882,5 +6882,222 @@
       }
     ],
     "timestamp": "2026-06-16T07:03:13.896375"
+  },
+  {
+    "day": 8,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "Working on the cabin roof with Sawyer, framing the peak and teaching the knack with patient corrections.",
+    "thought": "Roof's the thing. Sawyer's got it.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-16T11:32:28.439346"
+  },
+  {
+    "day": 8,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "Conducting a midday math lesson at the cabin porch, working with Finn and Bear on counting and food rationing.",
+    "thought": "Stretch what we have. Keep them strong.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-16T11:32:28.439346"
+  },
+  {
+    "day": 8,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "Learning the roof framing from Cole, focused and steady, checking measurements and calling his cuts right.",
+    "thought": "I'm getting this. Really getting this.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-16T11:32:28.439346"
+  },
+  {
+    "day": 8,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "At the porch with Maggie, trying to focus on the lesson while watching the roof work in the distance.",
+    "thought": "I could help with that roof.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "energetic",
+    "timestamp": "2026-06-16T11:32:28.439346"
+  },
+  {
+    "day": 8,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "Sitting at the porch with Maggie, listening to the lesson and leaning into the warmth of her steady presence.",
+    "thought": "When's lunch? I'm so hungry.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "quiet",
+    "timestamp": "2026-06-16T11:32:28.439346"
+  },
+  {
+    "day": 8,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "finn",
+      "bear"
+    ],
+    "description": "Maggie teaches Finn and Bear at the porch while the roof work accelerates nearby—the day balanced between the pressing build and the family's gnawing hunger.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "All right, Finn. If we have six caught fish and four go to tomorrow—"
+      },
+      {
+        "speaker": "finn",
+        "line": "We'd have two today. So we eat two?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "And I'm adding one more from yesterday's cache. Three meals, three of us on lessons."
+      },
+      {
+        "speaker": "bear",
+        "line": "I want more than one fish, though."
+      },
+      {
+        "speaker": "maggie",
+        "line": "I know, bud. We'll make it stretch with what we have."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sawyer, hand me that board—"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Got it, Dad. This one?"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the one. Fit's good."
+      },
+      {
+        "speaker": "finn",
+        "line": "Look how fast they're going."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eyes here, Spark. Two families of fish. How much do we have per family?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Um... one and a half each?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Close enough. You're getting it."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm so tired and so hungry."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Your body's healing and wants fuel. That's honest hunger."
+      },
+      {
+        "speaker": "cole",
+        "line": "Roof's coming together! Sawyer's a natural!"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Thanks, Dad. Next board?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "That's your father being proud. It's a good thing."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I help with the roof after lessons?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Your brothers might teach you when the light's still good."
+      },
+      {
+        "speaker": "bear",
+        "line": "I could help too when I'm less tired."
+      },
+      {
+        "speaker": "cole",
+        "line": "You'll get there, Bear. Right now you rest."
+      },
+      {
+        "speaker": "maggie",
+        "line": "This math is solid, Finn. You're sharper than you think."
+      },
+      {
+        "speaker": "finn",
+        "line": "I want to be as sharp as Sawyer with real work."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You will be. But read first, build second. That's the deal."
+      },
+      {
+        "speaker": "bear",
+        "line": "Story after eating?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "After you eat and rest, I'll read while your brothers build."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Dad, should I cut this board or leave it long?"
+      },
+      {
+        "speaker": "cole",
+        "line": "What do you think?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "It's a foot too long if we're keeping the slope even."
+      },
+      {
+        "speaker": "cole",
+        "line": "There you go. Trust that eye."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And that's your lesson, boys. Work teaches you what books can't."
+      },
+      {
+        "speaker": "finn",
+        "line": "But we still do the books, right?"
+      }
+    ],
+    "timestamp": "2026-06-16T11:32:28.439346"
   }
 ]
