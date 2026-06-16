@@ -7509,5 +7509,200 @@
       }
     ],
     "timestamp": "2026-06-16T18:32:46.490998"
+  },
+  {
+    "day": 8,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Tends the fire, checking the stove's draft and the cabin's warmth as the day's work settles into evening.",
+    "thought": "One more day. The roof holds us through winter.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-16T22:32:43.905161"
+  },
+  {
+    "day": 8,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Sits at the porch with Bear bundled close, keeping him warm as the light fades and the day's exhaustion settles in.",
+    "thought": "They're nearly there. Just don't break yet.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-16T22:32:43.905161"
+  },
+  {
+    "day": 8,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Lingers at the porch, riding the high of the roof work, asking Cole about tomorrow's plans and what comes after.",
+    "thought": "I'm learning how to build something real.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-16T22:32:43.905161"
+  },
+  {
+    "day": 8,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Leans against the cabin wall, restless with the day's buzz still alive in him, watching the light drain from the sky.",
+    "thought": "One more day and the roof is ours.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-16T22:32:43.905161"
+  },
+  {
+    "day": 8,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Settles into Maggie's lap as the day fades, tired and hungry, watching the fire's glow soften into dusk.",
+    "thought": "When do we get real food again?",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "drowsy",
+    "timestamp": "2026-06-16T22:32:43.905161"
+  },
+  {
+    "day": 8,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The family gathers as the last light fades: Cole at the fire, Maggie and Bear at the porch with Sawyer nearby asking Cole about tomorrow, and Finn against the cabin wall; warm, exhausted, and one day from their winter shelter.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "That roof's nearly there. One more day."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat while it's warm. We did good today."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "One more big push and the spine is done?"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's it. Then we winterize the walls."
+      },
+      {
+        "speaker": "finn",
+        "line": "Will we have time for a greenhouse?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "One thing at a time, bud. Eat."
+      },
+      {
+        "speaker": "bear",
+        "line": "When do we get real food again?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "When we go to town. You did good today, buddy."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How many days till the next run?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Three, maybe four if the weather holds."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we start the walls tomorrow?"
+      },
+      {
+        "speaker": "cole",
+        "line": "The beams have to cure first. We'll prep."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're all running on fumes. Rest soon."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm not running. I'm sitting. And hungry."
+      },
+      {
+        "speaker": "finn",
+        "line": "You're always hungry, Bear."
+      },
+      {
+        "speaker": "bear",
+        "line": "Because I actually am hungry!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Fair point. Maggie, what's for breakfast?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Oats and the last of the honey."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That'll hold us till the next town run?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "It'll have to. We're making it work."
+      },
+      {
+        "speaker": "finn",
+        "line": "I love this. Building with all of you."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We're almost done with the hard part."
+      },
+      {
+        "speaker": "cole",
+        "line": "This is the hard part. But you're holding steady."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I go to sleep now?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Soon, honey. Drink some water first."
+      },
+      {
+        "speaker": "cole",
+        "line": "Tomorrow's the day. Rest well, all of you."
+      }
+    ],
+    "timestamp": "2026-06-16T22:32:43.905161"
   }
 ]
