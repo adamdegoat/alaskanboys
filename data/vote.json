@@ -1,27 +1,27 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-16",
+    "id": "2026-06-17",
     "closes": "tonight",
-    "question": "The cabin needs three more days before winter. Bear's fever broke, the creek is calling, and Finn's learning fast. Cole has tomorrow—does he build the walls with clear ey",
+    "question": "The roof is DONE tomorrow if Cole and Sawyer push hard. Or does Maggie call a rest day—hunt and fish with Finn and Bear, let everyone eat real food, and finish the roof r",
     "options": [
       {
-        "id": "build_cabin",
-        "label": "Build the walls",
-        "desc": "Winter won't wait. Three days of solid work brings them closer to shelter and peace."
+        "id": "finish_push",
+        "label": "Push and finish",
+        "desc": "One more day locks it in. The roof holds through winter."
       },
       {
-        "id": "creek_day",
-        "label": "Fish with the family",
-        "desc": "They're learning, they're confident, they're hungry. Maggie tends home. One more day of success could change everything."
+        "id": "rest_first",
+        "label": "Rest and restock",
+        "desc": "Pause tomorrow. Hunt and rebuild morale. The roof waits one more day."
       }
     ]
   },
   "in_play": {
-    "id": "early_work",
-    "label": "Rise early, work",
-    "desc": "The roof knack is hot—keep the momentum rolling toward winter",
-    "decided": "2026-06-16",
+    "id": "build_cabin",
+    "label": "Build the walls",
+    "desc": "Winter won't wait. Three days of solid work brings them closer to shelter and peace.",
+    "decided": "2026-06-17",
     "votes": 0,
     "tally": {}
   }

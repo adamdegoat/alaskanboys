@@ -7704,5 +7704,200 @@
       }
     ],
     "timestamp": "2026-06-16T22:32:43.905161"
+  },
+  {
+    "day": 9,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Steps out into the endless morning light, eyes on the roof beams catching the sun, then comes to the porch where Maggie's made breakfast.",
+    "thought": "One day. We finish it today.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-17T07:02:48.046524"
+  },
+  {
+    "day": 9,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "At the porch, she pours hot water over dried berries and stretches the last bannock, making something warm enough for five hungry people.",
+    "thought": "Feed them, then send them out.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-17T07:02:48.046524"
+  },
+  {
+    "day": 9,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Rising early from his bedroll, he steps onto the porch already mentally walking through the roof sequence, his hands unconsciously testing their strength.",
+    "thought": "Today we finish this thing.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-17T07:02:48.046524"
+  },
+  {
+    "day": 9,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Wakes still fighting the tail end of his cold, shakes it off, and stumbles to the porch drawn by hot breakfast and the work waiting outside.",
+    "thought": "I can work today. I have to.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-17T07:02:48.046524"
+  },
+  {
+    "day": 9,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Stumbles out drowsy and hungry, favoring his injured foot as he makes his way to the porch where warmth and food wait.",
+    "thought": "When do we eat? When do we eat?",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "drowsy",
+    "timestamp": "2026-06-17T07:02:48.046524"
+  },
+  {
+    "day": 9,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "cole",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "On summer's final morning, Cole checks the roof and reports it's ready; Maggie makes a thin breakfast; the family gathers at the porch, understanding without words that today determines everything.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Roof's ready for us. Clear light all day."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And breakfast's ready too."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How much time do we need?"
+      },
+      {
+        "speaker": "cole",
+        "line": "One good day. Maybe less if we push."
+      },
+      {
+        "speaker": "finn",
+        "line": "We finish today?"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the goal."
+      },
+      {
+        "speaker": "bear",
+        "line": "What about eating before we start?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "This is your breakfast."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We've done harder."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'm ready to go."
+      },
+      {
+        "speaker": "cole",
+        "line": "Finn, how's the cold?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Better. Ready to work."
+      },
+      {
+        "speaker": "bear",
+        "line": "Better than me, probably."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Drink the tea. Both of you."
+      },
+      {
+        "speaker": "cole",
+        "line": "One day. Then we winterize. But first we finish."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can work the whole day."
+      },
+      {
+        "speaker": "cole",
+        "line": "I'm counting on that."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'll keep up."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You two on beams, Finn and Bear moving materials?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Exactly."
+      },
+      {
+        "speaker": "bear",
+        "line": "Even if I drop things?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You won't drop them today."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Drink up. We need to move."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "One roof. One day."
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's earn it."
+      },
+      {
+        "speaker": "finn",
+        "line": "Let's earn it."
+      }
+    ],
+    "timestamp": "2026-06-17T07:02:48.046524"
   }
 ]
