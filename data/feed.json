@@ -8098,5 +8098,188 @@
       }
     ],
     "timestamp": "2026-06-17T11:33:07.911976"
+  },
+  {
+    "day": 9,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "On the roof with Sawyer, Cole secures the final shingles while fighting off a cough, pausing only to check each seam before they move to the next.",
+    "thought": "One more section and we're home.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-17T15:06:18.171352"
+  },
+  {
+    "day": 9,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Maggie stands at the porch with the water jug, watching the boys work and timing the final push, ready to call them in when the light starts to fail.",
+    "thought": "One more day. We can hold.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-17T15:06:18.171352"
+  },
+  {
+    "day": 9,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Sawyer mirrors Cole's work, driving nails with steady focus, his young shoulders squared against the weight of finishing what they started.",
+    "thought": "I won't let Dad down today.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-17T15:06:18.171352"
+  },
+  {
+    "day": 9,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finn sits below the roof staging materials and shingles up to Cole and Sawyer, coughing but moving steadily, refusing to sit out the final afternoon.",
+    "thought": "Staying till it's done, no matter what.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-17T15:06:18.171352"
+  },
+  {
+    "day": 9,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Bear scurries across the yard gathering fallen scraps and keeping the work area clear, hungry and chattering about the roof nearly being done.",
+    "thought": "The roof is almost finished! Almost!",
+    "location": {
+      "waypoint": "yard_mid",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "hopeful",
+    "timestamp": "2026-06-17T15:06:18.171352"
+  },
+  {
+    "day": 9,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "sawyer",
+      "finn",
+      "bear",
+      "maggie"
+    ],
+    "description": "On the final afternoon, Cole and Sawyer race the roof while Finn stages shingles despite a cough, Bear ferries scraps, and Maggie watches from the porch. One day left.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "One more section, Sawyer. We've got this."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The corners are holding. We're close."
+      },
+      {
+        "speaker": "finn",
+        "line": "Bundle's ready. Take your time, I'm good."
+      },
+      {
+        "speaker": "bear",
+        "line": "When do we eat? I'm so hungry."
+      },
+      {
+        "speaker": "maggie",
+        "line": "After we finish, buddy. One more push."
+      },
+      {
+        "speaker": "cole",
+        "line": "Bear, grab those fallen shingles by the sawhorse."
+      },
+      {
+        "speaker": "bear",
+        "line": "Already did! The pile's super clean."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Dad, this seam—should I double-seal it?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Good eye. Yeah. Make it tight."
+      },
+      {
+        "speaker": "finn",
+        "line": "You guys are so close. I can feel it."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Water, everybody. Drink while you're moving."
+      },
+      {
+        "speaker": "cole",
+        "line": "Smart. Sawyer, drink with me. Two minutes."
+      },
+      {
+        "speaker": "bear",
+        "line": "The roof is almost done! The roof is almost done!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "It is, sweetheart. Your brothers are finishing it."
+      },
+      {
+        "speaker": "finn",
+        "line": "Last bundle coming up. You ready?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Ready. Hand it here."
+      },
+      {
+        "speaker": "cole",
+        "line": "Finn, sit down if you need to. No heroics."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'm fine. I want to see it done."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I nail something? Anything?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Not today, buddy. But you're doing great."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Thirty minutes of good light left. You've got it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Last corner. Dad, we're almost done."
+      },
+      {
+        "speaker": "cole",
+        "line": "Almost done. That's right."
+      }
+    ],
+    "timestamp": "2026-06-17T15:06:18.171352"
   }
 ]
