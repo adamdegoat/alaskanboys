@@ -8281,5 +8281,192 @@
       }
     ],
     "timestamp": "2026-06-17T15:06:18.171352"
+  },
+  {
+    "day": 9,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Hangs the last shingle as the light fades, then walks the porch railing to check the seals one final time before settling on the steps.",
+    "thought": "Roof's tight. We made it through.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-17T18:32:15.305781"
+  },
+  {
+    "day": 9,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Dishes a thin but steaming stew into bowls on the porch bench, using the last of the stock and the fish Sawyer pulled from the creek this morning.",
+    "thought": "Enough to hold. Enough to be home.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "tender",
+    "timestamp": "2026-06-17T18:32:15.305781"
+  },
+  {
+    "day": 9,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Sets down his hammer in the toolbox and joins Cole on the porch steps, shoulders loose with a quiet sense of done.",
+    "thought": "I didn't let him down today.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-17T18:32:15.305781"
+  },
+  {
+    "day": 9,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Coughs twice, then curls up on a log bench by the stove's warmth, watching everyone settle and feeling the day finally leave his bones.",
+    "thought": "Finally done. I can finally rest.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "relieved",
+    "timestamp": "2026-06-17T18:32:15.305781"
+  },
+  {
+    "day": 9,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Plops down on the porch floor next to Maggie's bench, swinging his legs happily despite his hunger, excited to eat and to be still.",
+    "thought": "We finished it! The roof is done!",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "hopeful",
+    "timestamp": "2026-06-17T18:32:15.305781"
+  },
+  {
+    "day": 9,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The roof is sealed; dusk settles on Day Nine. Cole and Sawyer rest on the porch steps while Maggie dishes a thin but steaming stew, Finn curls by the stove's glow, and Bear sits close, all of them quiet with exhaustion but whole.",
+    "dialogue": [
+      {
+        "speaker": "bear",
+        "line": "Roof is done! We're weatherproof, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "All sealed. Winter won't find a gap in this one."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Stew's ready. Come and eat while it's warm."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How much longer till we can sleep?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Eat, rest. That's all for tonight."
+      },
+      {
+        "speaker": "finn",
+        "line": "My hands are done. My whole self is done."
+      },
+      {
+        "speaker": "bear",
+        "line": "But we DID it. We actually did it."
+      },
+      {
+        "speaker": "maggie",
+        "line": "You did. All of you. I saw it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How are you feeling, Dad?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Tired, sick, and proud. Three out of three."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I eat in here by the fire?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Yes. Bring your bowl inside."
+      },
+      {
+        "speaker": "bear",
+        "line": "Tomorrow we build the walls, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "We do. But tonight, we rest and eat."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The cabin's actually going to be a real house."
+      },
+      {
+        "speaker": "maggie",
+        "line": "It already is. You made it one."
+      },
+      {
+        "speaker": "finn",
+        "line": "This stew tastes better than anything I've eaten."
+      },
+      {
+        "speaker": "bear",
+        "line": "Because we earned it!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Because your mom made it with love."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And because you all worked until the light ran out."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We should sleep before anything breaks."
+      },
+      {
+        "speaker": "cole",
+        "line": "Already fixed. Now we eat, then the cabin."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we stay up just a little?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat first. Then we'll see."
+      }
+    ],
+    "timestamp": "2026-06-17T18:32:15.305781"
   }
 ]
