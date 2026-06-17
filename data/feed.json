@@ -8675,5 +8675,208 @@
       }
     ],
     "timestamp": "2026-06-17T22:31:57.212779"
+  },
+  {
+    "day": 10,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Stokes the fire and surveys the day—the roof held overnight, and there's the woodshed to plan.",
+    "thought": "Roof held. Now the real work begins.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-18T07:07:52.277129"
+  },
+  {
+    "day": 10,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "Dishes eggs and checks on the three boys, wrapping Sawyer in a warmed shirt against the cough.",
+    "thought": "Boys are healing. We've earned this rest.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-18T07:07:52.277129"
+  },
+  {
+    "day": 10,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Eats slowly, chest sore from coughing, but helps stack breakfast plates with quiet pride in the roof.",
+    "thought": "Chest aches, but the roof is solid.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-18T07:07:52.277129"
+  },
+  {
+    "day": 10,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Bounces on the porch steps, restless with energy, asking what's next before breakfast is even cleared.",
+    "thought": "So much to build. Can't wait to start.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-18T07:07:52.277129"
+  },
+  {
+    "day": 10,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Huddles by the stove, coughing but smiling, watching everyone move and warming his small hands on the hot mug.",
+    "thought": "Warm cabin, my family, and the day.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "hopeful",
+    "timestamp": "2026-06-18T07:07:52.277129"
+  },
+  {
+    "day": 10,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Morning warmth: stove crackles, roof held overnight, three boys coughing but healing, and Cole's already eyeing the woodshed while Maggie dishes eggs.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Coffee's hot. Sleep okay?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "All three still coughing, but warm enough."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "My chest is sore from coughing, not the work."
+      },
+      {
+        "speaker": "finn",
+        "line": "What's the plan today? Woodshed?"
+      },
+      {
+        "speaker": "cole",
+        "line": "One step at a time, bud."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm ready to help! I'm strong now!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat first, hero. You need the fuel."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Roof held overnight. That's what matters."
+      },
+      {
+        "speaker": "cole",
+        "line": "It did. Team effort."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we start framing the shed today?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "School first. Then we'll see."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we do math by the fire?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Maybe. Finish your eggs."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can work light today. Stack wood?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Yeah. Easy pace. No rushing."
+      },
+      {
+        "speaker": "finn",
+        "line": "School is so slow right now."
+      },
+      {
+        "speaker": "maggie",
+        "line": "It keeps your brain sharp."
+      },
+      {
+        "speaker": "bear",
+        "line": "My brain is plenty sharp. I knew the roof would hold!"
+      },
+      {
+        "speaker": "cole",
+        "line": "That was the four of us who built it, buddy."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Sawyer, drink something warm for that cough."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I'm okay. Really."
+      },
+      {
+        "speaker": "maggie",
+        "line": "I know. But humor me."
+      },
+      {
+        "speaker": "finn",
+        "line": "So when does the woodshed actually start?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Today, if we finish clearing the site."
+      },
+      {
+        "speaker": "bear",
+        "line": "The woodshed! The big one by the creek?"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the plan."
+      },
+      {
+        "speaker": "maggie",
+        "line": "One day at a time, team."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We can do it. Roof's already proof."
+      }
+    ],
+    "timestamp": "2026-06-18T07:07:52.277129"
   }
 ]

@@ -1,16 +1,16 @@
 {
-  "day": 9,
-  "cycle": "night",
+  "day": 10,
+  "cycle": "morning",
   "weather": "clear",
   "season": {
-    "name": "summer",
-    "day_in_season": 9
+    "name": "fall",
+    "day_in_season": 1
   },
   "resources": {
-    "food": 64,
-    "water": 76,
-    "wood": 73,
-    "medicine": 10,
+    "food": 76,
+    "water": 100,
+    "wood": 76,
+    "medicine": 7,
     "materials": 0,
     "money": 60,
     "power": 10
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 12,
+      "condition": 10,
       "x": 58,
       "y": 50,
       "builder": "cole",
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 14
+    "fuel": 2
   },
   "build": {
     "project": null,
@@ -47,21 +47,21 @@
   "snowmachine": {
     "present": false
   },
-  "last_run_date": "2026-06-17",
-  "pulse": "After the roof's sealed, the family rests together on the porch—exhausted, hungry, three of them sick, but whole and proud.",
-  "scene": "Night falls soft on Day Nine. Cole and Sawyer rest on the porch with stew, Bear bounces with pride nearby, Maggie tends the sick boys, and Finn rests inside by the warm stove.",
+  "last_run_date": "2026-06-18",
+  "pulse": "Roof done, family warming, and the next build—the woodshed—calls them forward.",
+  "scene": "The cabin is warm; three boys are coughing but healing at the stove, Maggie dishes breakfast, and Cole is already surveying the woodshed site. School waits, then the work resumes.",
   "resources_prev": {
-    "food": 50,
-    "water": 50,
-    "wood": 74,
-    "medicine": 14,
+    "food": 64,
+    "water": 76,
+    "wood": 73,
+    "medicine": 10,
     "materials": 0,
     "money": 60,
     "power": 10
   },
   "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-17:night",
+  "last_cycle_key": "2026-06-18:morning",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -74,8 +74,8 @@
     "9": "The family raced the roof to completion in a single daylong push, sealing the cabin against weather just as summer's endless light began to fade. Cole, Sawyer, and Finn pushed through coughs while Maggie kept them fed and warm; Bear ran scraps with fierce pride. By nightfall the roof was done, the stove glowed, and though three boys were sick and the pantry was thin, the family was home—safe, together, and ready for what winter would demand."
   },
   "lean": {
-    "id": "build_cabin",
-    "label": "Build the walls",
-    "desc": "Winter won't wait. Three days of solid work brings them closer to shelter and peace."
+    "id": "finish_push",
+    "label": "Push and finish",
+    "desc": "One more day locks it in. The roof holds through winter."
   }
 }

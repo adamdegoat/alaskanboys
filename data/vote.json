@@ -1,27 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-17",
+    "id": "2026-06-18",
     "closes": "tonight",
-    "question": "The roof is DONE tomorrow if Cole and Sawyer push hard. Or does Maggie call a rest day—hunt and fish with Finn and Bear, let everyone eat real food, and finish the roof r",
+    "question": "The roof is done. Three boys are coughing. What should Cole and Maggie choose for tomorrow?",
     "options": [
       {
-        "id": "finish_push",
-        "label": "Push and finish",
-        "desc": "One more day locks it in. The roof holds through winter."
+        "id": "rest_day",
+        "label": "Rest the family",
+        "desc": "The roof earned it. Let the boys recover and the family celebrate together."
       },
       {
-        "id": "rest_first",
-        "label": "Rest and restock",
-        "desc": "Pause tomorrow. Hunt and rebuild morale. The roof waits one more day."
+        "id": "town_run",
+        "label": "Head to town",
+        "desc": "Medicine for the coughs, supplies for winter. Practical care and preparation now."
+      },
+      {
+        "id": "light_work",
+        "label": "Start on storage",
+        "desc": "Keep warm momentum. Build something together gently. Winter prep calls steady."
       }
     ]
   },
   "in_play": {
-    "id": "build_cabin",
-    "label": "Build the walls",
-    "desc": "Winter won't wait. Three days of solid work brings them closer to shelter and peace.",
-    "decided": "2026-06-17",
+    "id": "finish_push",
+    "label": "Push and finish",
+    "desc": "One more day locks it in. The roof holds through winter.",
+    "decided": "2026-06-18",
     "votes": 0,
     "tally": {}
   }
