@@ -8468,5 +8468,212 @@
       }
     ],
     "timestamp": "2026-06-17T18:32:15.305781"
+  },
+  {
+    "day": 9,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Rests on the porch steps with a warm bowl, watching the cabin glow and listening to the family settle.",
+    "thought": "The roof will hold. We made it.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-17T22:31:57.212779"
+  },
+  {
+    "day": 9,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Carries a small pot of reheated stew to the porch, checking each of her sick boys as she moves.",
+    "thought": "Three down with cough. I'll keep them warm tonight.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "tender",
+    "timestamp": "2026-06-17T22:31:57.212779"
+  },
+  {
+    "day": 9,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Sits on the porch with his bowl, eating slowly, too tired to move much.",
+    "thought": "The roof is done. Dad's proud of me.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-17T22:31:57.212779"
+  },
+  {
+    "day": 9,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Rests on blankets inside the cabin near the warm stove, coughing quietly, finally still.",
+    "thought": "So tired. The roof is finished. Done.",
+    "location": {
+      "waypoint": "cabin_inside",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "relieved",
+    "timestamp": "2026-06-17T22:31:57.212779"
+  },
+  {
+    "day": 9,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Sits close to Maggie on the porch, eating his share and bouncing with tired pride about the finished roof.",
+    "thought": "We did it. The roof is real.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "hopeful",
+    "timestamp": "2026-06-17T22:31:57.212779"
+  },
+  {
+    "day": 9,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "bear",
+      "finn"
+    ],
+    "description": "With the roof sealed tight, the family settles on the porch and around the warm cabin—three boys heavy-eyed with cough, Maggie moving between them with quiet care.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Everyone gets a bowl. Even you, Sawyer."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I'm okay, Mom. I can eat."
+      },
+      {
+        "speaker": "maggie",
+        "line": "I know. You're all okay. That's the miracle."
+      },
+      {
+        "speaker": "cole",
+        "line": "Finn's resting inside. Good call."
+      },
+      {
+        "speaker": "bear",
+        "line": "But the roof! We actually finished it!"
+      },
+      {
+        "speaker": "cole",
+        "line": "We did. Because of you too, buddy."
+      },
+      {
+        "speaker": "bear",
+        "line": "Really? I was just running around."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You kept the scraps moving. That's the job."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat while it's warm. Tomorrow's a new day."
+      },
+      {
+        "speaker": "cole",
+        "line": "A day without hammers on my head, at least."
+      },
+      {
+        "speaker": "bear",
+        "line": "What are we building next?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Walls, probably. Before winter comes."
+      },
+      {
+        "speaker": "maggie",
+        "line": "First we rest. And eat more. Food's too low."
+      },
+      {
+        "speaker": "cole",
+        "line": "Town run's due Monday maybe."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I come?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Depends on who's still coughing."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can help with the next build."
+      },
+      {
+        "speaker": "cole",
+        "line": "I know you can. But tonight, just rest."
+      },
+      {
+        "speaker": "bear",
+        "line": "My cough's not so bad!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat your stew, Bear."
+      },
+      {
+        "speaker": "bear",
+        "line": "But we're gonna build walls, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Walls, a real door, maybe some windows."
+      },
+      {
+        "speaker": "finn",
+        "line": "—from inside— Did someone say windows?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Finn, rest. You're still fighting that cough."
+      },
+      {
+        "speaker": "cole",
+        "line": "Light'll pour in. Maggie can choose where."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That'll make it feel more like a home."
+      },
+      {
+        "speaker": "maggie",
+        "line": "It's already a home. But I like where you're headed."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can windows have a view of the moose?"
+      },
+      {
+        "speaker": "cole",
+        "line": "If the moose cooperates, sure."
+      }
+    ],
+    "timestamp": "2026-06-17T22:31:57.212779"
   }
 ]
