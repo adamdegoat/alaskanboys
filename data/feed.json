@@ -7899,5 +7899,204 @@
       }
     ],
     "timestamp": "2026-06-17T07:02:48.046524"
+  },
+  {
+    "day": 9,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "Eats quickly despite his fever, checking on Finn between bites, then stands ready to head back to the build site.",
+    "thought": "Eight hours of work. Then we're weatherproof.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "determined",
+    "timestamp": "2026-06-17T11:33:07.911976"
+  },
+  {
+    "day": 9,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "Manages the thin lunch, making sure everyone eats and gets water from the bucket, then stands at the porch edge watching her family.",
+    "thought": "They'll hold till nightfall. They have to.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "resolute",
+    "timestamp": "2026-06-17T11:33:07.911976"
+  },
+  {
+    "day": 9,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "Eats quickly, asks about the afternoon plan, nods when Cole entrusts the west side to him, feeling the weight and pride of real responsibility.",
+    "thought": "He's counting on me. I can lead this.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-17T11:33:07.911976"
+  },
+  {
+    "day": 9,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "Eats what he can despite nausea, restless and frustrated at being held back from the work, but quiet and trusting his dad's judgment.",
+    "thought": "Just one more day. I can rest.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-17T11:33:07.911976"
+  },
+  {
+    "day": 9,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "Eats his portion, makes jokes to lighten the mood, understands his job is morale and supplies, and tags along to the build site ready to help.",
+    "thought": "I'm helping. I'm part of this.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "hopeful",
+    "timestamp": "2026-06-17T11:33:07.911976"
+  },
+  {
+    "day": 9,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "A thin lunch at the porch on the final day: Cole and Sawyer brace for the afternoon push, Finn fights sickness and restlessness, Bear jokes despite hunger, and Maggie holds them all to the finish line.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Quick lunch, everyone. Eat what you can."
+      },
+      {
+        "speaker": "bear",
+        "line": "Is it... more than yesterday?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "It's what we have, bear. Make it count."
+      },
+      {
+        "speaker": "cole",
+        "line": "How you holding up, buddy?"
+      },
+      {
+        "speaker": "finn",
+        "line": "I'm fine. Can we work after?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You rest today. Doctor's orders."
+      },
+      {
+        "speaker": "cole",
+        "line": "Your mom's right. One afternoon push, then we're done."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The roof's so close, though."
+      },
+      {
+        "speaker": "cole",
+        "line": "Couple hours of solid work. That's all we need."
+      },
+      {
+        "speaker": "bear",
+        "line": "Then we can build the walls, right?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Then we winterize. One thing at a time, buddy."
+      },
+      {
+        "speaker": "finn",
+        "line": "At least the sun's still here."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "This roof before the cold comes. That's the whole game."
+      },
+      {
+        "speaker": "cole",
+        "line": "You've got the right idea. Lead the west side this afternoon?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Yeah. I can do that."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I help?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You hand up supplies. Keep morale alive. That's your job."
+      },
+      {
+        "speaker": "finn",
+        "line": "I should be up there."
+      },
+      {
+        "speaker": "cole",
+        "line": "Finn, I need you sharp for winter. Rest now."
+      },
+      {
+        "speaker": "bear",
+        "line": "At least we're not hungry for long—we'll be too tired to eat."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Bear, that's not the encouragement I was aiming for."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How much of the day do we have left?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Good eight hours of light. More than enough."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Then finish your food and get back there."
+      },
+      {
+        "speaker": "finn",
+        "line": "Tonight we'll have a roof over us for the first time."
+      },
+      {
+        "speaker": "bear",
+        "line": "A real roof. Not the tarp."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the thought. Let's hold it."
+      }
+    ],
+    "timestamp": "2026-06-17T11:33:07.911976"
   }
 ]
