@@ -10,10 +10,10 @@
       "ambition": 100,
       "loneliness": 0,
       "resilience": 98,
-      "health": 0,
-      "hunger": 3,
-      "thirst": 15,
-      "energy": 0
+      "health": 95,
+      "hunger": 72,
+      "thirst": 72,
+      "energy": 72
     },
     "mood": "satisfied",
     "where": "home",
@@ -88,10 +88,10 @@
       "ambition": 64,
       "loneliness": 0,
       "resilience": 99,
-      "health": 0,
-      "hunger": 3,
-      "thirst": 15,
-      "energy": 0
+      "health": 95,
+      "hunger": 72,
+      "thirst": 72,
+      "energy": 72
     },
     "mood": "tender",
     "where": "home",
@@ -161,10 +161,10 @@
       "ambition": 97,
       "loneliness": 0,
       "resilience": 78,
-      "health": 0,
-      "hunger": 3,
-      "thirst": 15,
-      "energy": 0
+      "health": 95,
+      "hunger": 72,
+      "thirst": 72,
+      "energy": 72
     },
     "mood": "proud",
     "where": "home",
@@ -227,10 +227,10 @@
       "ambition": 78,
       "loneliness": 0,
       "resilience": 52,
-      "health": 0,
-      "hunger": 3,
-      "thirst": 15,
-      "energy": 0
+      "health": 95,
+      "hunger": 72,
+      "thirst": 72,
+      "energy": 72
     },
     "mood": "relieved",
     "where": "home",
@@ -297,10 +297,10 @@
       "ambition": 41,
       "loneliness": 0,
       "resilience": 69,
-      "health": 0,
-      "hunger": 3,
-      "thirst": 15,
-      "energy": 0
+      "health": 95,
+      "hunger": 72,
+      "thirst": 72,
+      "energy": 72
     },
     "mood": "hopeful",
     "where": "home",
