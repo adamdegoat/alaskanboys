@@ -9500,5 +9500,217 @@
       }
     ],
     "timestamp": "2026-06-18T18:36:56.923497"
+  },
+  {
+    "day": 10,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Settles beside the fire with a long breath, watching clear stars form in the darkening sky.",
+    "thought": "The roof held. We're locking it in.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-18T22:32:27.134827"
+  },
+  {
+    "day": 10,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Brings warm tea to the fire, settles on the porch bench with Bear tucked against her side.",
+    "thought": "Everyone's here, safe, and warm. This is enough.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-18T22:32:27.134827"
+  },
+  {
+    "day": 10,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Sits near the fire with his knees drawn up, watching the flames and listening to Dad talk.",
+    "thought": "I helped build something real. Dad saw that.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "reflective",
+    "timestamp": "2026-06-18T22:32:27.134827"
+  },
+  {
+    "day": 10,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Curls up near the fire, warming his hands and watching embers glow, fighting off sleep.",
+    "thought": "Tomorrow we finish the north side.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "drowsy",
+    "timestamp": "2026-06-18T22:32:27.134827"
+  },
+  {
+    "day": 10,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Nestles against Maggie's side, warm and mesmerized by the fire's glow and the safe feeling.",
+    "thought": "Fire's warm. Everyone's happy. I'm safe.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-18T22:32:27.134827"
+  },
+  {
+    "day": 10,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "bear"
+    ],
+    "description": "After the roof held all day, the family gathers at the clear-night fire, warm and content; Cole and Sawyer stand together while Bear nestles against Maggie, Finn drowsy, watching stars climb.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "That clear sky means stars tonight."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Cold tomorrow, I'd guess. Good day to finish what we started."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The roof really held the whole day, didn't it?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Didn't sag an inch. You did solid work, Saw."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Thanks, Dad."
+      },
+      {
+        "speaker": "bear",
+        "line": "I helped too! I carried branches!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You carried the biggest ones, buddy. Don't you forget it."
+      },
+      {
+        "speaker": "finn",
+        "line": "Tomorrow the north side's next, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "If the weather holds. But tonight, we rest."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And eat. Are you all warm?"
+      },
+      {
+        "speaker": "bear",
+        "line": "Warmest place in the world is right here by this fire."
+      },
+      {
+        "speaker": "finn",
+        "line": "Warmer than the cabin?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Almost. The stove keeps the cabin at a good heat."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We'll seal the leaks next week, Dad said."
+      },
+      {
+        "speaker": "maggie",
+        "line": "One job at a time. Tonight, just be warm and full."
+      },
+      {
+        "speaker": "bear",
+        "line": "I like full and warm."
+      },
+      {
+        "speaker": "finn",
+        "line": "Me too."
+      },
+      {
+        "speaker": "cole",
+        "line": "So do I, buddy. So do I."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Do you think we'll finish before the real cold comes?"
+      },
+      {
+        "speaker": "cole",
+        "line": "One more week like today? We lock it in."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And if the weather shifts, we adapt. That's what we do."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That's true."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm getting sleepy."
+      },
+      {
+        "speaker": "maggie",
+        "line": "That's the day catching up with you. Sleep comes easy when you've earned it."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we stay out a little longer?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Soon as you finish your tea."
+      },
+      {
+        "speaker": "bear",
+        "line": "The stars are coming out."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I can see Polaris from here."
+      },
+      {
+        "speaker": "cole",
+        "line": "Good eyes, son. You know what that means."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We're true north. Home."
+      },
+      {
+        "speaker": "maggie",
+        "line": "That's exactly right."
+      }
+    ],
+    "timestamp": "2026-06-18T22:32:27.134827"
   }
 ]
