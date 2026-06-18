@@ -9090,5 +9090,204 @@
       }
     ],
     "timestamp": "2026-06-18T11:37:19.813743"
+  },
+  {
+    "day": 10,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Cole directs the woodpile reorganization from the site, pointing out where to clear and how to stack, working alongside Sawyer to move larger logs into a tighter configuration.",
+    "thought": "The roof held. Now we winterize.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "purposeful",
+    "timestamp": "2026-06-18T15:05:55.294858"
+  },
+  {
+    "day": 10,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Maggie watches from the porch, speaking up when Finn or Bear overreach, keeping the afternoon's rhythm steady while the boys learn what their healing bodies can manage.",
+    "thought": "Boys are healing. The rhythm works.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-18T15:05:55.294858"
+  },
+  {
+    "day": 10,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Sawyer works shoulder-to-shoulder with Cole, hauling the longer logs and asking questions about the next build stage, his chest aching but his mind sharp on the work.",
+    "thought": "Dad trusts my ideas. That's growth.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "engaged",
+    "timestamp": "2026-06-18T15:05:55.294858"
+  },
+  {
+    "day": 10,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finn gathers fallen branches and hands them off to the stacking pile, moving carefully and quietly, pleased to feel his chest hurt less with each gentle exertion.",
+    "thought": "Helping while healing. I'm getting better.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-18T15:05:55.294858"
+  },
+  {
+    "day": 10,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Bear bounces between the woodpile and the yard, finding sticks and fallen wood with his eyes lit up, calling out each discovery like a hunter bringing home the prize.",
+    "thought": "I'm strong enough to help here!",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "spirited",
+    "timestamp": "2026-06-18T15:05:55.294858"
+  },
+  {
+    "day": 10,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Afternoon light slants across the homestead as Cole directs a full woodpile reorganization—Sawyer hauling larger logs alongside him, Finn and Bear gathering branches with quiet determination—while Maggie watches from the porch, calling out when to rest, and the family moves through the work with the easy rhythm of people who've found their groove.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Easy, you two—still getting your strength back, remember."
+      },
+      {
+        "speaker": "bear",
+        "line": "But Mom, I found so much wood already!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Light work is good for them. Listen to your mom."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "If we clear this end, the pile gets way tighter."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's smart thinking. Show me what you mean."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I hand off branches? My arms feel okay."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Perfect, Finn. Passing, not heavy lifting."
+      },
+      {
+        "speaker": "bear",
+        "line": "More branches! There's so much wood out here!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Easy, buddy. We're building a system, not racing."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long until the woodshed is full?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Few more days at this pace. But we're getting there."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And look—both boys are stronger already."
+      },
+      {
+        "speaker": "finn",
+        "line": "My chest doesn't hurt as bad when I move."
+      },
+      {
+        "speaker": "bear",
+        "line": "Mine either! I'm getting better!"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's what healing looks like. Keep it steady."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Dad, should we ask about shed materials on the next town run?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Good thinking. We'll need to. For now, organize this."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Which means rest time is coming up soon."
+      },
+      {
+        "speaker": "bear",
+        "line": "Aw, come on—"
+      },
+      {
+        "speaker": "maggie",
+        "line": "No arguing. Dinner's in an hour anyway."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we sit by the stove after, when it's warm?"
+      },
+      {
+        "speaker": "cole",
+        "line": "If the cough settles down, sure thing."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Let's see how they sound by then."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The roof held through the night. That's what matters."
+      },
+      {
+        "speaker": "cole",
+        "line": "It did. One big thing locked in. Now we finish the rest."
+      },
+      {
+        "speaker": "bear",
+        "line": "And we're helping! All of us helping!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "We are, bear. All of us, together."
+      }
+    ],
+    "timestamp": "2026-06-18T15:05:55.294858"
   }
 ]
