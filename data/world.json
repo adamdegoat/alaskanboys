@@ -1,39 +1,41 @@
 {
-  "day": 10,
-  "cycle": "night",
+  "day": 11,
+  "cycle": "morning",
   "weather": "clear",
   "season": {
     "name": "fall",
-    "day_in_season": 1
+    "day_in_season": 2
   },
   "resources": {
-    "food": 56,
-    "water": 100,
-    "wood": 85,
+    "food": 64,
+    "water": 76,
+    "wood": 88,
     "medicine": 1,
     "materials": 0,
     "money": 60,
-    "power": 9
+    "power": 8
   },
-  "pending_events": [],
+  "pending_events": [
+    "Wood Stove collapsed from neglect/weather."
+  ],
   "started": "2026-06-09",
   "structures": [
     {
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 2,
-      "x": 58,
-      "y": 50,
-      "builder": "cole",
-      "day": 1,
+      "condition": 100,
+      "x": 50,
+      "y": 55,
+      "builder": null,
+      "day": 11,
       "label": "Wood Stove",
       "baked": true
     }
   ],
   "fire": {
     "lit": true,
-    "fuel": 8
+    "fuel": 30
   },
   "build": {
     "project": null,
@@ -47,21 +49,21 @@
   "snowmachine": {
     "present": false
   },
-  "last_run_date": "2026-06-18",
-  "pulse": "After the roof held firm, the family settles by the fire to rest and reflect, stars clear above.",
-  "scene": "After the roof held all day, the family gathers at the clear-night fire, warm and content; Cole and Sawyer stand together while Bear nestles against Maggie, Finn drowsy, watching stars climb.",
+  "last_run_date": "2026-06-19",
+  "pulse": "The roof earned rest—the family moves slowly together, warm and whole, before winter's final push begins.",
+  "scene": "Cole checks the roof and finds no leaks through the night; the family settles warm by the fire for breakfast in the clear fall morning.",
   "resources_prev": {
-    "food": 80,
-    "water": 86,
-    "wood": 87,
+    "food": 56,
+    "water": 100,
+    "wood": 85,
     "medicine": 1,
     "materials": 0,
     "money": 60,
     "power": 9
   },
-  "camp_climate": "content",
+  "camp_climate": "steady",
   "discoveries": [],
-  "last_cycle_key": "2026-06-18:night",
+  "last_cycle_key": "2026-06-19:morning",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -75,8 +77,8 @@
     "10": "Day 10: the roof held through daylong work, and the family moved through wood reorganization with earned confidence. Sawyer stepped into real build responsibility and earned Cole's affirmation; the younger boys pushed through the work with growing strength. By nightfall, they gathered at the fire, warm and closer—one more week like this locks in winter-readiness."
   },
   "lean": {
-    "id": "finish_push",
-    "label": "Push and finish",
-    "desc": "One more day locks it in. The roof holds through winter."
+    "id": "rest_day",
+    "label": "Rest the family",
+    "desc": "The roof earned it. Let the boys recover and the family celebrate together."
   }
 }

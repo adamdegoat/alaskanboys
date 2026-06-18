@@ -9712,5 +9712,224 @@
       }
     ],
     "timestamp": "2026-06-18T22:32:27.134827"
+  },
+  {
+    "day": 11,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Settles warm by the fire for breakfast after checking the cabin's corners, finding no water damage anywhere in the clear morning light.",
+    "thought": "The roof held strong through the night.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-19T07:03:06.194243"
+  },
+  {
+    "day": 11,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "Stokes the stove and brings warm bread and smoked fish to the fire, calling everyone to gather and eat.",
+    "thought": "Everyone's fed, safe, here with me.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-19T07:03:06.194243"
+  },
+  {
+    "day": 11,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Eats breakfast with Cole, talking about taking a lighter day and walking the north fence line slowly after the roof work.",
+    "thought": "Yesterday's work was real and honest.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "reflective",
+    "timestamp": "2026-06-19T07:03:06.194243"
+  },
+  {
+    "day": 11,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Bounces between the fire and the cabin front, eating quickly while asking about fishing and what the day holds.",
+    "thought": "Can we fish? Please, can we fish?",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-19T07:03:06.194243"
+  },
+  {
+    "day": 11,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Stays close to Maggie while eating, warm and drowsy, content to listen to the adults while the fire crackles.",
+    "thought": "Warm food, warm stove, everyone here.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-19T07:03:06.194243"
+  },
+  {
+    "day": 11,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The roof held through the clear night with no leaks; the family gathers warm by the stove and fire for breakfast, slow and easy together.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Stove's warm. Come eat, everyone—bread's fresh."
+      },
+      {
+        "speaker": "cole",
+        "line": "No leaks in the north corner. Roof held beautiful."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Even with the frost last night?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Especially with the frost. Good work yesterday, son."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we fish today instead of building?"
+      },
+      {
+        "speaker": "bear",
+        "line": "I want to see if there's snow up high."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat first, boys—you need fuel for anything."
+      },
+      {
+        "speaker": "cole",
+        "line": "After yesterday's push, I'm thinking we take it slower."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Just maintenance and checks?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Maintenance, walk the perimeter, maybe some wood. Nothing heavy."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Rest earned, I'd say."
+      },
+      {
+        "speaker": "bear",
+        "line": "Does the roof rest too?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Roofs don't rest, Bear."
+      },
+      {
+        "speaker": "cole",
+        "line": "But this one's earned a quiet day."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We could walk the north fence line."
+      },
+      {
+        "speaker": "cole",
+        "line": "Good idea. But take your time—no rush today."
+      },
+      {
+        "speaker": "maggie",
+        "line": "More bread, Finn?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Yes, please—I'm starving."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm hungrier than you."
+      },
+      {
+        "speaker": "cole",
+        "line": "You're always hungry, buddy."
+      },
+      {
+        "speaker": "bear",
+        "line": "Because I'm strong."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Strong at eating, anyway."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Yesterday felt good. Really good."
+      },
+      {
+        "speaker": "cole",
+        "line": "It did. You boys did solid work."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And nobody got hurt. That's what matters."
+      },
+      {
+        "speaker": "finn",
+        "line": "When's the first snow, do you think?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Few weeks yet. We'll see signs first."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We'll need more firewood before then."
+      },
+      {
+        "speaker": "cole",
+        "line": "We will. But today, we just rest."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I help carry wood later?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "After lessons, maybe. For now, eat."
+      },
+      {
+        "speaker": "cole",
+        "line": "Good morning, all. Really good morning."
+      }
+    ],
+    "timestamp": "2026-06-19T07:03:06.194243"
   }
 ]
