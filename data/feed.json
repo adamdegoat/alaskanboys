@@ -9289,5 +9289,216 @@
       }
     ],
     "timestamp": "2026-06-18T15:05:55.294858"
+  },
+  {
+    "day": 10,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Stands at the fire's edge as dusk settles, checking the sky for aurora and planning the woodshed frame with Sawyer, the roof's success giving him quiet certainty.",
+    "thought": "The roof held. We're steady.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "confident",
+    "timestamp": "2026-06-18T18:36:56.923497"
+  },
+  {
+    "day": 10,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Sets out bowls of stew and dried vegetables on the porch table, then calls the boys to gather while Finn helps carry plates toward the warmth.",
+    "thought": "Everyone's here, whole, healing together.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-18T18:36:56.923497"
+  },
+  {
+    "day": 10,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Joins Cole at the fire, talking through the weatherization plan for the woodshed—measurements, frame pitch, timeline—his tired energy sharpening into focus.",
+    "thought": "Dad sees the plan in my head.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "engaged",
+    "timestamp": "2026-06-18T18:36:56.923497"
+  },
+  {
+    "day": 10,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Carries dishes from the porch toward the fire, helping Maggie with an eagerness that shows he's healing fast, then settles close to the warmth with a full belly.",
+    "thought": "I'm strong again. I can help build.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-18T18:36:56.923497"
+  },
+  {
+    "day": 10,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Settles by the fire with his bowl, warming his small frame in the glow and listening to the big talk while eating, his eyes following the smoke toward the darkening sky.",
+    "thought": "The fire is warm. We're safe here.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-18T18:36:56.923497"
+  },
+  {
+    "day": 10,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "cole",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The roof held through the day, and as evening falls clear and cool, the family gathers at the fire—Maggie bringing food from the porch, Cole and Sawyer planning the next build, and Finn and Bear warming themselves close to the flames.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Alright, boys—dinner's ready. Come to the fire."
+      },
+      {
+        "speaker": "bear",
+        "line": "Is it the stew? I smell stew!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Your mom's been simmering that since noon. Come on."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The roof really held, Dad. I checked the rafters again."
+      },
+      {
+        "speaker": "cole",
+        "line": "Solid work. Both of you. I'd stake the winter on that join."
+      },
+      {
+        "speaker": "finn",
+        "line": "Does that mean we're gonna build more stuff?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "One thing at a time, Finn. Eat first."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we build a chicken coop? Chickens are cool."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We need to weatherize first. Close up the gaps."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's right. And get the woodshed roof on before the snow."
+      },
+      {
+        "speaker": "maggie",
+        "line": "How much firewood do we need to feel safe?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Another cord, maybe two. We've got time."
+      },
+      {
+        "speaker": "finn",
+        "line": "I can split wood! I'm getting strong again."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm the best wood finder. I found that big one."
+      },
+      {
+        "speaker": "cole",
+        "line": "You did. That oak's solid. Good eye."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Sawyer's been thinking about the shed design, haven't you?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Yeah. Simple frame, roof pitch for snow load. We could start tomorrow."
+      },
+      {
+        "speaker": "cole",
+        "line": "Materials are tight, but the frame's doable with what we've got."
+      },
+      {
+        "speaker": "finn",
+        "line": "We have so many branches behind the treeline!"
+      },
+      {
+        "speaker": "bear",
+        "line": "And Dad's got nails in the truck!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Everyone's thinking like builders. That's how you know it's working."
+      },
+      {
+        "speaker": "cole",
+        "line": "The roof held because we got it right and worked it solid."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "So tomorrow we measure the shed site?"
+      },
+      {
+        "speaker": "cole",
+        "line": "First light. You and me."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I come?"
+      },
+      {
+        "speaker": "cole",
+        "line": "We'll need everyone. You and Bear gather good straight poles."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I use the axe?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "The hatchet, Bear. You're careful, but not that careful yet."
+      },
+      {
+        "speaker": "bear",
+        "line": "Okay, the hatchet. I'm really careful now."
+      },
+      {
+        "speaker": "cole",
+        "line": "I know you are, buddy."
+      }
+    ],
+    "timestamp": "2026-06-18T18:36:56.923497"
   }
 ]
