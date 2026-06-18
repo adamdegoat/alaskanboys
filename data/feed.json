@@ -8878,5 +8878,217 @@
       }
     ],
     "timestamp": "2026-06-18T07:07:52.277129"
+  },
+  {
+    "day": 10,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "After confirming the roof held overnight, Cole walks the woodshed site and gathers the boys to assess it before lunch.",
+    "thought": "The roof held. Now shoring up before winter.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-18T11:37:19.813743"
+  },
+  {
+    "day": 10,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "Maggie wraps the morning lessons at the porch table, sets out bread and cheese for lunch, and watches Cole return with the boys from the site.",
+    "thought": "School done, boys healing, the rhythm is working.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-18T11:37:19.813743"
+  },
+  {
+    "day": 10,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "Sawyer coughs through the last problem, then eagerly follows Cole and his brothers out to the woodshed site, chest aching but pride warming him.",
+    "thought": "Dad sees the roof work I did. That matters.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-18T11:37:19.813743"
+  },
+  {
+    "day": 10,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "Finn bounces through the last math problem and races out to the site with Cole and Sawyer, already tumbling with ideas about framing.",
+    "thought": "Building again! There's so much we can make.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-18T11:37:19.813743"
+  },
+  {
+    "day": 10,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "Bear finishes his lesson early and darts ahead toward the woodshed site, coughing but first to scope the salvage wood and open space.",
+    "thought": "I can help build! I'm the wood finder.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "hopeful",
+    "timestamp": "2026-06-18T11:37:19.813743"
+  },
+  {
+    "day": 10,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie"
+    ],
+    "description": "Maggie calls the boys to lunch at the porch as Cole returns from checking the woodshed site, three recovering kids at his heels, already eager about the next big build.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "One more problem, Finn, then you're done."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can't we just skip math and build?"
+      },
+      {
+        "speaker": "cole",
+        "line": "That's not how it works, bud."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Can we look at the woodshed now?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "After lessons. You're still healing."
+      },
+      {
+        "speaker": "bear",
+        "line": "But I'm feeling better!"
+      },
+      {
+        "speaker": "cole",
+        "line": "One more day. Then we build."
+      },
+      {
+        "speaker": "finn",
+        "line": "We're allowed to look though, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Looking is free. That's planning."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long for the project?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Three, four days if salvage wood works."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And if it doesn't?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Then we figure it out. We always do."
+      },
+      {
+        "speaker": "finn",
+        "line": "There's salvage on the property?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Pallets, fallen logs, all over."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "So we're not buying materials?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Can't afford to right now. We use what we have."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I find the wood?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're naturally good at that."
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's go look. Maggie's got lunch ready soon."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Let's see this site."
+      },
+      {
+        "speaker": "finn",
+        "line": "Come on, Bear! Come on!"
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm right here! I'm coming!"
+      },
+      {
+        "speaker": "cole",
+        "line": "The woodshed goes right here."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That's a big space. How much will it hold?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Six cords of wood, maybe eight."
+      },
+      {
+        "speaker": "bear",
+        "line": "That's huge!"
+      },
+      {
+        "speaker": "finn",
+        "line": "We can build that. Easy."
+      },
+      {
+        "speaker": "cole",
+        "line": "Three days of work. Four if it rains."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "The roof took longer, and that was bigger."
+      },
+      {
+        "speaker": "cole",
+        "line": "True. You're ready for this. Let's head back for lunch."
+      }
+    ],
+    "timestamp": "2026-06-18T11:37:19.813743"
   }
 ]
