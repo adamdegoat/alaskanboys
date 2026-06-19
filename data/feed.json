@@ -1,217 +1,6 @@
 [
   {
     "day": 1,
-    "cycle": "midday",
-    "character": "cole",
-    "action": "Cole knelt at the spring, running cold water over his hands, already planning the tank and filter lines.",
-    "thought": "Water changes everything. Now we build.",
-    "location": {
-      "waypoint": "creek",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "content",
-    "timestamp": "2026-06-09T16:02:59.777618"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "maggie",
-    "action": "Maggie came down from the cabin with empty buckets, watching her family muddy and grinning at the spring.",
-    "thought": "One good thing on day one—really good.",
-    "location": {
-      "waypoint": "creek",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "warm",
-    "timestamp": "2026-06-09T16:02:59.777618"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "sawyer",
-    "action": "Sawyer crouched beside Cole, running the logistics through his head: filter, tank, gravity feed.",
-    "thought": "This means no more haul days for water.",
-    "location": {
-      "waypoint": "creek",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "steady",
-    "timestamp": "2026-06-09T16:02:59.777618"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "finn",
-    "action": "Finn stood grinning over the trickle of water, vindicated and buzzing with plans.",
-    "thought": "I knew it! I actually knew it!",
-    "location": {
-      "waypoint": "creek",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "buzzing",
-    "timestamp": "2026-06-09T16:02:59.777618"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "character": "bear",
-    "action": "Bear splashed his hands in the icy water, laughing at how cold it was, soaking his sleeves.",
-    "thought": "This is the best cold water ever!",
-    "location": {
-      "waypoint": "creek",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "delighted",
-    "timestamp": "2026-06-09T16:02:59.777618"
-  },
-  {
-    "day": 1,
-    "cycle": "midday",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "finn",
-      "sawyer",
-      "maggie",
-      "bear"
-    ],
-    "description": "The spring breaks through on the ridge where Finn urged them to dig, and the family gathers muddy and grinning—Cole assessing the flow, Sawyer thinking logistics, Finn vindicated, Bear splashing, Maggie arriving from the cabin with buckets.",
-    "dialogue": [
-      {
-        "speaker": "cole",
-        "line": "Finn, you absolute legend. You called this."
-      },
-      {
-        "speaker": "finn",
-        "line": "I told you! I TOLD you it'd be here!"
-      },
-      {
-        "speaker": "bear",
-        "line": "It's so cold! Put your hand here, put your hand here!"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "This changes everything. We won't have to haul water."
-      },
-      {
-        "speaker": "maggie",
-        "line": "How far's the cabin from here?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Fifty, sixty yards uphill. We can gravity-feed to a tank."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "You'd need PVC and a pump, yeah?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Maybe just gravity and a simple filter first. We'll rig it."
-      },
-      {
-        "speaker": "finn",
-        "line": "Can we dig deeper? Make it bigger?"
-      },
-      {
-        "speaker": "cole",
-        "line": "We could, but let's not mess with nature here. This is good."
-      },
-      {
-        "speaker": "bear",
-        "line": "Is it safe to drink?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "We should boil it first, test it. But yes, this is real."
-      },
-      {
-        "speaker": "cole",
-        "line": "For now we collect and boil. Come fall, we'll build proper."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "How much can we use a day?"
-      },
-      {
-        "speaker": "cole",
-        "line": "As much as comes. Seems pretty steady. Good find, Finn."
-      },
-      {
-        "speaker": "finn",
-        "line": "We should make it a place. Like, a water spot."
-      },
-      {
-        "speaker": "bear",
-        "line": "With a bucket!"
-      },
-      {
-        "speaker": "maggie",
-        "line": "We'll need containers, anyway. This is good work today."
-      },
-      {
-        "speaker": "cole",
-        "line": "Everyone helped dig. This was a team thing."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We should mark the path, keep it clear."
-      },
-      {
-        "speaker": "finn",
-        "line": "And protect it from animals."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can bears drink from it?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "They do. That's fine. It's their land too."
-      },
-      {
-        "speaker": "cole",
-        "line": "Alright. Bring some buckets up here before dinner. Let's fill them."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "On it."
-      },
-      {
-        "speaker": "bear",
-        "line": "I'll help carry!"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Good. Water for tonight, and we'll keep containers full."
-      },
-      {
-        "speaker": "cole",
-        "line": "First win of the season. Not bad for day one."
-      },
-      {
-        "speaker": "finn",
-        "line": "Told you so."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Yes, you did. Come on, everyone—let's get water before lunch."
-      }
-    ],
-    "timestamp": "2026-06-09T16:02:59.777618"
-  },
-  {
-    "day": 1,
     "cycle": "evening",
     "character": "cole",
     "action": "Settles at the table with a warm cup, watching his family gather as the long light fades golden outside.",
@@ -9931,5 +9720,208 @@
       }
     ],
     "timestamp": "2026-06-19T07:03:06.194243"
+  },
+  {
+    "day": 11,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "stands back from the cabin to study the roof line, nodding at its solid angle, then settles on the porch with a cup of coffee to keep an eye on the boys.",
+    "thought": "That roof will hold the winter.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-19T11:31:57.671157"
+  },
+  {
+    "day": 11,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "spreads the homeschool books across a bench on the porch, settling the boys with arithmetic problems while she keeps the midday meal simmering in the stove.",
+    "thought": "Rest day. They've earned it. We all have.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-19T11:31:57.671157"
+  },
+  {
+    "day": 11,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "works through his math lessons at the porch bench, pencil steady, glancing up now and then at the roof his own hands helped hold.",
+    "thought": "We built that. We really built it.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-19T11:31:57.671157"
+  },
+  {
+    "day": 11,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "sits restless at the bench, fidgeting through fractions, eyes drifting toward the creek where he swears the salmon are jumping.",
+    "thought": "Can we fish? Can we fish yet?",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-19T11:31:57.671157"
+  },
+  {
+    "day": 11,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "sprawls on the porch rug with his letters, playing with the shapes while half-listening to Maggie explain addition to the bigger boys.",
+    "thought": "Warm porch, warm stove. Safe and quiet.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-19T11:31:57.671157"
+  },
+  {
+    "day": 11,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "cole",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "Lessons stretch into quiet midday on the porch—everyone fed, everyone steady, the roof's hold giving permission to simply be together.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Sawyer, you're up. Fractions on the board."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Three-quarters of twenty is fifteen, right?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Exactly. Finn, you next?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Um. Half of sixteen?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eight. Good. Bear, what's two plus three?"
+      },
+      {
+        "speaker": "bear",
+        "line": "Five! I got it!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You did. We're making real progress."
+      },
+      {
+        "speaker": "cole",
+        "line": "Roof didn't leak once last night. That's good building."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We all did that together, though. Every one of us."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's right. You all did."
+      },
+      {
+        "speaker": "finn",
+        "line": "Dad, can we fish after school? Please?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Finish your lessons first. Then we'll see."
+      },
+      {
+        "speaker": "finn",
+        "line": "Mom always says 'we'll see.' That means no."
+      },
+      {
+        "speaker": "maggie",
+        "line": "It means 'if you finish your work, maybe yes.'"
+      },
+      {
+        "speaker": "bear",
+        "line": "I like this better than building, actually."
+      },
+      {
+        "speaker": "maggie",
+        "line": "What's 'this,' buddy?"
+      },
+      {
+        "speaker": "bear",
+        "line": "Everyone here. No one worried. Just... quiet."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Me too. We needed quiet."
+      },
+      {
+        "speaker": "cole",
+        "line": "The work earned us that. The real work earns rest."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "What's next? After the roof is... done?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Winterize. Seal cracks. The woodshed, if we can."
+      },
+      {
+        "speaker": "maggie",
+        "line": "One project at a time. Right now, school."
+      },
+      {
+        "speaker": "finn",
+        "line": "Then fishing?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Then we'll talk about fishing."
+      },
+      {
+        "speaker": "bear",
+        "line": "I finished my letters!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Show me. Very good, Bear."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That roof was worth the work, though."
+      },
+      {
+        "speaker": "cole",
+        "line": "It was. We're going to make it through winter."
+      }
+    ],
+    "timestamp": "2026-06-19T11:31:57.671157"
   }
 ]
