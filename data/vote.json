@@ -1,27 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-19",
+    "id": "2026-06-20",
     "closes": "tonight",
-    "question": "Cole's ready to finish the north side tomorrow while the weather holds and everyone's strong. Maggie's quietly suggesting something different: a day away—fishing, town, o",
+    "question": "Cole's ready to push hard on the woodshed before the weather turns. Maggie watches Finn glow by the fire with his first catch and wonders if the family needs a few lighte",
     "options": [
       {
-        "id": "push_roof_finish",
-        "label": "Push the roof",
-        "desc": "Trust the momentum and the clear skies; winter's waiting"
+        "id": "race_winter",
+        "label": "Race the winter",
+        "desc": "Momentum and clear days are precious—push the big projects hard now while the weather holds."
       },
       {
-        "id": "take_rest_day",
-        "label": "Take a day off",
-        "desc": "Rest and regroup; Maggie knows pacing matters for the long run"
+        "id": "rest_first",
+        "label": "Lighter days",
+        "desc": "The family needs more of what Finn's feeling tonight—fishing, exploring, breathing together."
+      },
+      {
+        "id": "rhythm",
+        "label": "Work and rest days",
+        "desc": "Alternate work days and lighter days—keeps progress rolling while leaving room for the crew to breathe."
       }
     ]
   },
   "in_play": {
-    "id": "rest_day",
-    "label": "Rest the family",
-    "desc": "The roof earned it. Let the boys recover and the family celebrate together.",
-    "decided": "2026-06-19",
+    "id": "push_roof_finish",
+    "label": "Push the roof",
+    "desc": "Trust the momentum and the clear skies; winter's waiting",
+    "decided": "2026-06-20",
     "votes": 0,
     "tally": {}
   }

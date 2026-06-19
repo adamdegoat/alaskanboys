@@ -1,193 +1,6 @@
 [
   {
     "day": 2,
-    "cycle": "midday",
-    "character": "cole",
-    "action": "Cole marks the water line from the spring toward the cabin, checking elevation and distance, moving steadily with Sawyer at his side.",
-    "thought": "One day for the lines, two for the catch.",
-    "location": {
-      "waypoint": "creek",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "satisfied",
-    "timestamp": "2026-06-10T11:32:26.762387"
-  },
-  {
-    "day": 2,
-    "cycle": "midday",
-    "character": "maggie",
-    "action": "Maggie clears the school books from the table and sets out bread, cheese, and fish for the midday meal.",
-    "thought": "Finish lessons, feed them, send them back out.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "warm",
-    "timestamp": "2026-06-10T11:32:26.762387"
-  },
-  {
-    "day": 2,
-    "cycle": "midday",
-    "character": "sawyer",
-    "action": "Sawyer follows Cole's instructions carefully, learning the water line slope and marking distances with attention and thoughtful small questions.",
-    "thought": "I'm actually building this with Dad.",
-    "location": {
-      "waypoint": "creek",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "proud",
-    "timestamp": "2026-06-10T11:32:26.762387"
-  },
-  {
-    "day": 2,
-    "cycle": "midday",
-    "character": "finn",
-    "action": "Finn finishes his last math problem and darts outside toward the water work, eager to help and already thinking of ways to speed things up.",
-    "thought": "This is way cooler than math.",
-    "location": {
-      "waypoint": "creek",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "buzzing",
-    "timestamp": "2026-06-10T11:32:26.762387"
-  },
-  {
-    "day": 2,
-    "cycle": "midday",
-    "character": "bear",
-    "action": "Bear helps Maggie set the table, carrying the bread and asking what's for lunch, eager to eat and get back outside.",
-    "thought": "Help Mom, eat fast, go outside.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "cheerful",
-    "timestamp": "2026-06-10T11:32:26.762387"
-  },
-  {
-    "day": 2,
-    "cycle": "midday",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "maggie",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "At midday, Cole and Sawyer mark the water line from the spring toward the cabin while Finn joins them from lessons; back at the cabin porch, Maggie and Bear set the table with lunch, the endless summer light warming the whole homestead.",
-    "dialogue": [
-      {
-        "speaker": "cole",
-        "line": "Water won't wait. The run is steeper than I thought."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Lunch first, water later?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Smart. Sawyer, you getting the lay of it?"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Yeah. The drop from the spring to the cabin is about forty feet?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Close enough. That's good gravity."
-      },
-      {
-        "speaker": "cole",
-        "line": "Finn, you figure we can have the lines run by tomorrow?"
-      },
-      {
-        "speaker": "finn",
-        "line": "Like, actual water flowing to the cabin?"
-      },
-      {
-        "speaker": "cole",
-        "line": "That's the idea. Gravity and wood for now, beats hauling buckets."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can I help dig?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "After your letters are done, you can."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "What about the cabin patching though?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Two things at once. Water's the urgent one."
-      },
-      {
-        "speaker": "finn",
-        "line": "Can we use the pipes from the truck bed?"
-      },
-      {
-        "speaker": "cole",
-        "line": "No. I want those for later. Using what's on site."
-      },
-      {
-        "speaker": "maggie",
-        "line": "What about the weather holding?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Clear for four days at least. We've got time."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can moose drink from our water system?"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "That's... actually a good question."
-      },
-      {
-        "speaker": "cole",
-        "line": "It'll run downhill away from the cabin. We'll be fine."
-      },
-      {
-        "speaker": "finn",
-        "line": "So tomorrow we test it all?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Get the lines done today, test it, seal the leaks, build a catch tank."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Eat now, work steady, dinner's ready by sundown."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Can I work the water with you the whole time?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Absolutely. You're my lead on this."
-      }
-    ],
-    "timestamp": "2026-06-10T11:32:26.762387"
-  },
-  {
-    "day": 2,
     "cycle": "afternoon",
     "character": "cole",
     "action": "Cole crouches by the spring with Sawyer, clearing stones and marking where the intake line will dive into clean water.",
@@ -9951,5 +9764,176 @@
       }
     ],
     "timestamp": "2026-06-19T22:32:43.262124"
+  },
+  {
+    "day": 12,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Cole stands at the porch edge with morning coffee, surveying the finished roof line as the cool autumn air clears his head.",
+    "thought": "Roof will hold. Now for the next priority.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-20T07:02:12.425560"
+  },
+  {
+    "day": 12,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "Maggie moves between the breakfast setup and the schoolwork table, keeping the boys fed and on task with the day's lessons.",
+    "thought": "They need this rhythm. School, then work.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-20T07:02:12.425560"
+  },
+  {
+    "day": 12,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Sawyer sits at the school table with a plate of food, already thinking through the next build project and what materials they'll need.",
+    "thought": "We did the hard part. What's next matters.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-20T07:02:12.425560"
+  },
+  {
+    "day": 12,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Finn eats quickly, barely able to sit still, already planning the next build and asking questions about the day ahead.",
+    "thought": "Woodshed next—huge one. I'll help build it.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "happy",
+    "timestamp": "2026-06-20T07:02:12.425560"
+  },
+  {
+    "day": 12,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Bear sits close to his mom, eating slowly and watching the morning action, secure and content in the warm cabin with his family.",
+    "thought": "This is the best. Warm food, everyone here.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "happy",
+    "timestamp": "2026-06-20T07:02:12.425560"
+  },
+  {
+    "day": 12,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The cabin is warm and the roof overhead is solid; Cole stands on the porch with coffee while Maggie herds the boys to the breakfast table and school lesson, and the family's energy is high—the roof is secure, and Cole's already thinking ahead to the next project before winter closes in.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Come on, you three—breakfast is getting cold."
+      },
+      {
+        "speaker": "cole",
+        "line": "Roof looks solid. We did that right."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Three days of actual rain wouldn't bother it now."
+      },
+      {
+        "speaker": "cole",
+        "line": "No, it wouldn't. You did real work up there."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we build a woodshed next? Something huge?"
+      },
+      {
+        "speaker": "bear",
+        "line": "I want to help carry the big logs."
+      },
+      {
+        "speaker": "maggie",
+        "line": "School first, builders second. Math on the table."
+      },
+      {
+        "speaker": "cole",
+        "line": "Woodshed's smart. We'll talk it through after lessons."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We need materials though, right? And we've got—"
+      },
+      {
+        "speaker": "cole",
+        "line": "Forty dollars left. Yeah. We'll need a town run soon."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Not this week. Fuel's expensive and we've got food."
+      },
+      {
+        "speaker": "finn",
+        "line": "But the firewood—"
+      },
+      {
+        "speaker": "cole",
+        "line": "Firewood's fine. We're at ninety-four percent. We gather what we need."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "What about power? The battery's getting low."
+      },
+      {
+        "speaker": "cole",
+        "line": "Solar panels, eventually. For now, we keep the stove going and use daylight."
+      },
+      {
+        "speaker": "bear",
+        "line": "The cabin's already warm."
+      },
+      {
+        "speaker": "maggie",
+        "line": "It is. And that's the stove, not much else."
+      },
+      {
+        "speaker": "cole",
+        "line": "We'll solve it. One thing at a time, and we start with school."
+      },
+      {
+        "speaker": "finn",
+        "line": "Then woodshed?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Then woodshed. Now eat."
+      }
+    ],
+    "timestamp": "2026-06-20T07:02:12.425560"
   }
 ]
