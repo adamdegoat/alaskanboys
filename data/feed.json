@@ -1,193 +1,6 @@
 [
   {
     "day": 1,
-    "cycle": "evening",
-    "character": "cole",
-    "action": "Settles at the table with a warm cup, watching his family gather as the long light fades golden outside.",
-    "thought": "The land gave us what we came for.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "content",
-    "timestamp": "2026-06-09T18:01:47.281303"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "maggie",
-    "action": "Brings the pot from the stove and starts serving bowls of soup, calling everyone in from the evening.",
-    "thought": "This is how we build a home here.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "warm",
-    "timestamp": "2026-06-09T18:01:47.281303"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "sawyer",
-    "action": "Washes his hands at the basin and pulls up a seat at the table, still thinking about the day's work.",
-    "thought": "A good day. We're actually doing this.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "steady",
-    "timestamp": "2026-06-09T18:01:47.281303"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "finn",
-    "action": "Sits down with barely-contained energy, already talking about tomorrow's plans for the water collection system.",
-    "thought": "I knew it. The spot was perfect.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "buzzing",
-    "timestamp": "2026-06-09T18:01:47.281303"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "character": "bear",
-    "action": "Climbs into a chair next to Maggie, rubbing his eyes tiredly but grinning, muddy from head to toe.",
-    "thought": "Warm cabin, full belly, family here.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "delighted",
-    "timestamp": "2026-06-09T18:01:47.281303"
-  },
-  {
-    "day": 1,
-    "cycle": "evening",
-    "type": "interaction",
-    "characters": [
-      "maggie",
-      "cole",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "The spring flows cold and clear on the ridge where Finn found it; now evening settles, and all five gather warm in the cabin over steaming soup, muddy and grinning, all together.",
-    "dialogue": [
-      {
-        "speaker": "maggie",
-        "line": "Hands washed, everyone? You're all still covered in mud."
-      },
-      {
-        "speaker": "bear",
-        "line": "Do I have to? I want to eat NOW!"
-      },
-      {
-        "speaker": "finn",
-        "line": "Hands, dude. Then we talk about the spring."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Finn was right about where to dig. Good call."
-      },
-      {
-        "speaker": "cole",
-        "line": "Better than good. He nailed it."
-      },
-      {
-        "speaker": "finn",
-        "line": "I KNEW it. The land wanted us to find it."
-      },
-      {
-        "speaker": "maggie",
-        "line": "The land and your instinct. Come on, everyone."
-      },
-      {
-        "speaker": "bear",
-        "line": "What's for dinner? I'm starving!"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Soup and fresh bread. Nothing fancy but warm."
-      },
-      {
-        "speaker": "cole",
-        "line": "Fancy enough after today."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We did good work, all of us."
-      },
-      {
-        "speaker": "maggie",
-        "line": "You did. And you'll do more tomorrow."
-      },
-      {
-        "speaker": "finn",
-        "line": "Tomorrow we build the collection box, right?"
-      },
-      {
-        "speaker": "cole",
-        "line": "We start on it. Needs to hold water all winter."
-      },
-      {
-        "speaker": "bear",
-        "line": "All winter? The spring freezes?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "We'll figure that out when it gets close."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "How much time do we have?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Nine weeks, give or take. Plenty to work with."
-      },
-      {
-        "speaker": "finn",
-        "line": "We can patch the whole cabin in nine weeks!"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Maybe. If we focus and don't get stuck."
-      },
-      {
-        "speaker": "maggie",
-        "line": "One step at a time. Eat now. Plan later."
-      },
-      {
-        "speaker": "cole",
-        "line": "Smart woman. Come on, boys, dig in."
-      },
-      {
-        "speaker": "bear",
-        "line": "Is it hot?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Straight from the stove. Be careful."
-      }
-    ],
-    "timestamp": "2026-06-09T18:01:47.281303"
-  },
-  {
-    "day": 1,
     "cycle": "night",
     "character": "cole",
     "action": "He settles at the table with his rough sketch of tomorrow's water-system layout, pencil in hand.",
@@ -9923,5 +9736,216 @@
       }
     ],
     "timestamp": "2026-06-19T11:31:57.671157"
+  },
+  {
+    "day": 11,
+    "cycle": "afternoon",
+    "character": "cole",
+    "action": "Spends the afternoon stacking firewood with Sawyer, teaching him how to arrange it so the wood seasons properly through the fall.",
+    "thought": "That roof won't let us down now.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-19T15:02:00.617842"
+  },
+  {
+    "day": 11,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Keeps the cabin warm and bread rising, then settles on the porch watching the boys work and play, content in the ease of the day.",
+    "thought": "This rest is what we're building toward.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-19T15:02:00.617842"
+  },
+  {
+    "day": 11,
+    "cycle": "afternoon",
+    "character": "sawyer",
+    "action": "Helps his dad organize and stack the firewood with care, learning how to arrange it tight to the outside for proper seasoning.",
+    "thought": "I'm actually getting how this works.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-19T15:02:00.617842"
+  },
+  {
+    "day": 11,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finally drags Bear to the creek and spends the afternoon fishing in the clear water, catching his first real fish of the season.",
+    "thought": "I actually caught one. Actually caught one!",
+    "location": {
+      "waypoint": "creek",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "happy",
+    "timestamp": "2026-06-19T15:02:00.617842"
+  },
+  {
+    "day": 11,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Follows Finn to the creek and explores around the rocks, poking for crayfish and watching his brother fish, content to be part of the day.",
+    "thought": "Finn finds the best places to explore.",
+    "location": {
+      "waypoint": "creek",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "happy",
+    "timestamp": "2026-06-19T15:02:00.617842"
+  },
+  {
+    "day": 11,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "With the roof secure and the day clear, Cole and Sawyer work the firewood stack while Maggie keeps the cabin warm and Finn finally gets his wish to fish at the creek with Bear.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "That roof held strong. We did good work."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Everyone earned a quieter day after that push."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Should I organize this stack or cut more?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Organize. We've got plenty cut. Just needs stacking right."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can Bear and I go to the creek, Dad?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Stay out of the deep parts. You know the rule."
+      },
+      {
+        "speaker": "bear",
+        "line": "We know! Finn says the fish are real close today."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Go on. Just check in before dinner."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Is this how you want it? Tight on the outside?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Exactly. Air moves through the middle and dries it faster."
+      },
+      {
+        "speaker": "maggie",
+        "line": "How much more do we need before winter?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Another cord, maybe. We've got time while it's clear."
+      },
+      {
+        "speaker": "bear",
+        "line": "Finn! There's a crayfish under that rock!"
+      },
+      {
+        "speaker": "finn",
+        "line": "Don't grab it—they pinch. Just look."
+      },
+      {
+        "speaker": "bear",
+        "line": "It's neat! Can we keep it?"
+      },
+      {
+        "speaker": "finn",
+        "line": "No, it lives here. Come on, there's a fishing spot—"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Dad, why does the wood season? I don't get it."
+      },
+      {
+        "speaker": "cole",
+        "line": "Wet wood doesn't burn hot. Seasoning lets the water out."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long does that take?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Months. So we cut in summer, stack in fall, burn in winter."
+      },
+      {
+        "speaker": "finn",
+        "line": "Fish! I got one! Actually got one!"
+      },
+      {
+        "speaker": "bear",
+        "line": "That's huge! It's huge, Finn!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "That's wonderful!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Bring it here when you're done. That's dinner."
+      },
+      {
+        "speaker": "finn",
+        "line": "Really? I caught dinner?"
+      },
+      {
+        "speaker": "bear",
+        "line": "Finn caught dinner! We're the hunter guys!"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "That's how it works. You fish, you eat."
+      },
+      {
+        "speaker": "cole",
+        "line": "Honest work pays back, every time."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come on up when you're tired. I've got bread ready."
+      },
+      {
+        "speaker": "cole",
+        "line": "And Finn can learn to clean that fish."
+      }
+    ],
+    "timestamp": "2026-06-19T15:02:00.617842"
   }
 ]
