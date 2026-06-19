@@ -1,10 +1,10 @@
 {
-  "day": 10,
-  "text": "A strange silence falls over the island — something is coming",
-  "flavor": "unknown",
+  "day": 11,
+  "text": "the water system freezes overnight, forcing Cole and Sawyer to thaw pipes together.",
+  "flavor": "a system fails",
   "cycle": "night",
   "happens_at": "11pm",
   "status": "upcoming",
-  "revealed_at": "2026-06-19T00:01:00.218730",
+  "revealed_at": "2026-06-20T00:00:40.360618",
   "activated_at": null
 }
