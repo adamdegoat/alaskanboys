@@ -1,19 +1,19 @@
 {
   "day": 11,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "fall",
     "day_in_season": 2
   },
   "resources": {
-    "food": 45,
-    "water": 86,
-    "wood": 96,
+    "food": 67,
+    "water": 100,
+    "wood": 94,
     "medicine": 1,
     "materials": 0,
     "money": 60,
-    "power": 8
+    "power": 7
   },
   "pending_events": [],
   "started": "2026-06-09",
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 94,
+      "condition": 92,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 12
+    "fuel": 18
   },
   "build": {
     "project": null,
@@ -48,20 +48,20 @@
     "present": false
   },
   "last_run_date": "2026-06-19",
-  "pulse": "The roof holds, the evening is warm, and the family rests—satisfied with what they've built and ready for what comes.",
-  "scene": "Evening settles cool over the homestead as the family gathers on the cabin porch—the roof secure, the wood stove glowing warm inside, dinner ready, and the day's hard work earned. Cole and Maggie sit together; Sawyer helps with the meal; Finn and Bear tumble in full of the creek and the day.",
+  "pulse": "With the roof done and Finn's first fish caught, the family finally has room to breathe—and the aurora is dancing.",
+  "scene": "The roof is secure, Finn's first catch is cooking, and the family gathers on the porch as the aurora begins its dance across the clear fall sky. Behind them, the warm cabin glows—a night of rest earned.",
   "resources_prev": {
-    "food": 61,
+    "food": 45,
     "water": 86,
-    "wood": 97,
+    "wood": 96,
     "medicine": 1,
     "materials": 0,
     "money": 60,
     "power": 8
   },
-  "camp_climate": "steady",
+  "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-19:evening",
+  "last_cycle_key": "2026-06-19:night",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -72,7 +72,8 @@
     "7": "Day seven brought the Wilders their first real harvest: Sawyer taught the boys to fish and they caught enough for a full meal. The cabin glows warm now, exhaustion mixing with satisfaction as Maggie tends sick Bear and the others rest. For the first time in days, the family breathes easier.",
     "8": "Day 8: Cole and Sawyer locked in roof beams while Finn hauled and Maggie made thin dinner at the porch—the family running on fumes but warm, and one day from the shelter that'll carry them through winter. Tired, hungry, and still believing.",
     "9": "The family raced the roof to completion in a single daylong push, sealing the cabin against weather just as summer's endless light began to fade. Cole, Sawyer, and Finn pushed through coughs while Maggie kept them fed and warm; Bear ran scraps with fierce pride. By nightfall the roof was done, the stove glowed, and though three boys were sick and the pantry was thin, the family was home—safe, together, and ready for what winter would demand.",
-    "10": "Day 10: the roof held through daylong work, and the family moved through wood reorganization with earned confidence. Sawyer stepped into real build responsibility and earned Cole's affirmation; the younger boys pushed through the work with growing strength. By nightfall, they gathered at the fire, warm and closer—one more week like this locks in winter-readiness."
+    "10": "Day 10: the roof held through daylong work, and the family moved through wood reorganization with earned confidence. Sawyer stepped into real build responsibility and earned Cole's affirmation; the younger boys pushed through the work with growing strength. By nightfall, they gathered at the fire, warm and closer—one more week like this locks in winter-readiness.",
+    "11": "Day 11 brought the family their first real rest—the roof now secure and Finn catching his first fish at the creek. By evening they gathered on the porch as the aurora danced, tired but whole and looking forward to winter with newfound confidence."
   },
   "lean": {
     "id": "rest_day",
