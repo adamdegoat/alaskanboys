@@ -1,213 +1,6 @@
 [
   {
     "day": 3,
-    "cycle": "morning",
-    "character": "cole",
-    "action": "Cole wakes to endless light, checks the weather, and begins organizing the day's water-line work with Sawyer.",
-    "thought": "Mountain water running by noon today.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "focused",
-    "timestamp": "2026-06-11T07:02:27.476666"
-  },
-  {
-    "day": 3,
-    "cycle": "morning",
-    "character": "maggie",
-    "action": "Maggie opens the empty pantry and turns to rally the family with a plan: forage, work the water, fish this afternoon.",
-    "thought": "Empty pantry, full hard day ahead.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "pragmatic",
-    "timestamp": "2026-06-11T07:02:27.476666"
-  },
-  {
-    "day": 3,
-    "cycle": "morning",
-    "character": "sawyer",
-    "action": "Sawyer listens to Cole's plan, nods seriously, and readies himself for the water-line work ahead.",
-    "thought": "Dad trusts me with this work.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "determined",
-    "timestamp": "2026-06-11T07:02:27.476666"
-  },
-  {
-    "day": 3,
-    "cycle": "morning",
-    "character": "finn",
-    "action": "Finn hears the day's plan and bounces with barely-contained energy, afternoon fishing already filling his mind.",
-    "thought": "I'm fishing salmon this afternoon.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "eager",
-    "timestamp": "2026-06-11T07:02:27.476666"
-  },
-  {
-    "day": 3,
-    "cycle": "morning",
-    "character": "bear",
-    "action": "Bear wakes hungry and shuffles to the breakfast table, his stomach rumbling as he hears the day's work begin.",
-    "thought": "Stomach's empty but legs are moving.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "hungry",
-    "timestamp": "2026-06-11T07:02:27.476666"
-  },
-  {
-    "day": 3,
-    "cycle": "morning",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "maggie",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "The endless morning light floods the cabin as Maggie discovers an empty pantry—food is gone—and Cole gathers the boys to plan: the water line Finn found is first, fishing this afternoon will fill bellies, school fits in between.",
-    "dialogue": [
-      {
-        "speaker": "maggie",
-        "line": "The pantry's empty. We ate the last three meals."
-      },
-      {
-        "speaker": "cole",
-        "line": "Yep. Today's the day we fix that."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "What do we do?"
-      },
-      {
-        "speaker": "cole",
-        "line": "The water line Finn found. We run it while weather's clear."
-      },
-      {
-        "speaker": "maggie",
-        "line": "How long does that take?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Morning and into afternoon if we push hard."
-      },
-      {
-        "speaker": "finn",
-        "line": "And then I fish?"
-      },
-      {
-        "speaker": "cole",
-        "line": "You help this morning, then fish this afternoon. Salmon are waiting."
-      },
-      {
-        "speaker": "bear",
-        "line": "But I'm hungry now."
-      },
-      {
-        "speaker": "maggie",
-        "line": "We forage for breakfast—berries and hardtack. Not much, but something."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "That won't fill anyone up."
-      },
-      {
-        "speaker": "maggie",
-        "line": "No. But work tastes better on an empty stomach."
-      },
-      {
-        "speaker": "cole",
-        "line": "Sawyer, I need your steady hands on that water line."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "I can do that."
-      },
-      {
-        "speaker": "finn",
-        "line": "How far is it exactly?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Forty feet from the spring intake down to the cabin. Gravity does the work."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Running water by tonight?"
-      },
-      {
-        "speaker": "cole",
-        "line": "If we stay focused. Then we fish tomorrow's meals."
-      },
-      {
-        "speaker": "bear",
-        "line": "Will it be cold?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Cold and clean. Straight from the mountain."
-      },
-      {
-        "speaker": "finn",
-        "line": "I want to help dig the trench."
-      },
-      {
-        "speaker": "cole",
-        "line": "You help dig, then fish. That's the trade."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "What about patching the cabin?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Small work between fishing and water. We fit it in."
-      },
-      {
-        "speaker": "maggie",
-        "line": "And lessons this morning for you two."
-      },
-      {
-        "speaker": "finn",
-        "line": "But the water line—"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Math first, then help your dad. That's the deal."
-      },
-      {
-        "speaker": "finn",
-        "line": "Okay, okay. When do we start?"
-      },
-      {
-        "speaker": "cole",
-        "line": "After we eat. Let's move."
-      }
-    ],
-    "timestamp": "2026-06-11T07:02:27.476666"
-  },
-  {
-    "day": 3,
     "cycle": "midday",
     "character": "cole",
     "action": "He gathers the pressure-line fittings and heads to the creek with Sawyer, moving steadily toward the spring Finn found two days ago.",
@@ -9911,5 +9704,200 @@
       }
     ],
     "timestamp": "2026-06-20T22:32:07.624984"
+  },
+  {
+    "day": 13,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "stokes the wood stove at pre-dawn, then moves to the truck to load empty fuel cans and check the route one last time.",
+    "thought": "Clear roads. We can do this.",
+    "location": {
+      "waypoint": "truck",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-21T07:04:21.571770"
+  },
+  {
+    "day": 13,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "puts hot breakfast on the table, then steps outside to watch the boys load the truck and waves them away.",
+    "thought": "Five hours. They'll be back by noon.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-21T07:04:21.571770"
+  },
+  {
+    "day": 13,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "helps Cole secure the fuel cans in the truck bed, checking each tie-down twice the way his father taught him.",
+    "thought": "This matters. I'll do it right.",
+    "location": {
+      "waypoint": "truck",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-21T07:04:21.571770"
+  },
+  {
+    "day": 13,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "bounces between helping load the cans and asking a dozen questions about the route, the town, and what they'll find there.",
+    "thought": "We're going to town! Finally, finally!",
+    "location": {
+      "waypoint": "truck",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "excited",
+    "timestamp": "2026-06-21T07:04:21.571770"
+  },
+  {
+    "day": 13,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "eats oatmeal by the warm stove, watches the truck being loaded, then climbs into Maggie's lap with a sigh.",
+    "thought": "I want to go too, so bad.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "wistful",
+    "timestamp": "2026-06-21T07:04:21.571770"
+  },
+  {
+    "day": 13,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "bear",
+      "cole",
+      "sawyer",
+      "finn"
+    ],
+    "description": "Cole and the boys load the truck for town while Maggie and Bear watch from the cabin, breakfast cleared and the day split between the road and a quiet homeschool morning.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Cans are loaded. Roads are clear. We're good."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Map says ninety minutes if we take the ridge cut."
+      },
+      {
+        "speaker": "finn",
+        "line": "Is the ridge cut open this time of year?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Should be. We'll check on the radio first."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Hot breakfast is inside if anyone's hungry before you go."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I come?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You're with me today, buddy. Math and firewood."
+      },
+      {
+        "speaker": "bear",
+        "line": "Firewood's not as fun as town."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We'll bring back something good, Bear."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we get candy?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Fuel first. Extras after."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Bundle up, all three. It's cold."
+      },
+      {
+        "speaker": "cole",
+        "line": "Already planned. We've got layers."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I have the list—fuel, parts, hinges, nails."
+      },
+      {
+        "speaker": "finn",
+        "line": "And the axe handle!"
+      },
+      {
+        "speaker": "bear",
+        "line": "Don't forget the axe handle!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Already written. We're not forgetting anything."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Drive safe. If ice, take it slow."
+      },
+      {
+        "speaker": "cole",
+        "line": "Always."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Truck's running. We're good?"
+      },
+      {
+        "speaker": "cole",
+        "line": "We're good. Let's move."
+      },
+      {
+        "speaker": "finn",
+        "line": "Let's go, let's go!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Five hours. We'll see you at lunch."
+      },
+      {
+        "speaker": "cole",
+        "line": "Maybe sooner if town's quick."
+      },
+      {
+        "speaker": "bear",
+        "line": "Bring something cool!"
+      },
+      {
+        "speaker": "cole",
+        "line": "You got it, bud."
+      }
+    ],
+    "timestamp": "2026-06-21T07:04:21.571770"
   }
 ]

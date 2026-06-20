@@ -1,15 +1,15 @@
 {
-  "day": 12,
-  "cycle": "night",
+  "day": 13,
+  "cycle": "morning",
   "weather": "clear",
   "season": {
     "name": "fall",
-    "day_in_season": 3
+    "day_in_season": 4
   },
   "resources": {
-    "food": 59,
-    "water": 100,
-    "wood": 96,
+    "food": 41,
+    "water": 76,
+    "wood": 93,
     "medicine": 1,
     "materials": 0,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 84,
+      "condition": 82,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 6
+    "fuel": 12
   },
   "build": {
     "project": null,
@@ -47,21 +47,21 @@
   "snowmachine": {
     "present": false
   },
-  "last_run_date": "2026-06-20",
-  "pulse": "The roof's done, power's critical, but tonight the family gathers warm and planning by stove light, the sky beginning to shimmer with aurora.",
-  "scene": "Night falls clear and cool; the family gathers warm at the cabin—Cole reviewing the fuel run by lamplight, Sawyer listening close, Finn bouncing with woodshed talk, Maggie settling Bear inside toward sleep as the first aurora shimmers above the treeline.",
+  "last_run_date": "2026-06-21",
+  "pulse": "Clear skies and urgency merge—the family splits for the fuel run, calm and coordinated, each taking their piece of the morning.",
+  "scene": "Cole and the boys load the truck for town while Maggie and Bear watch from the cabin, breakfast cleared and the day split between the road and a quiet homeschool morning.",
   "resources_prev": {
-    "food": 46,
-    "water": 86,
-    "wood": 94,
+    "food": 59,
+    "water": 100,
+    "wood": 96,
     "medicine": 1,
     "materials": 0,
     "money": 60,
-    "power": 5
+    "power": 3
   },
   "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-20:night",
+  "last_cycle_key": "2026-06-21:morning",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -77,8 +77,8 @@
     "12": "The roof was completed as power dwindled to six percent, spurring an early town run tomorrow for fuel. The family planned the next phase: the woodshed, with Sawyer asked to help frame it from scratch. By nightfall they gathered warm around hot stew, spirits high and the aurora beginning to dance above the treeline."
   },
   "lean": {
-    "id": "push_roof_finish",
-    "label": "Push the roof",
-    "desc": "Trust the momentum and the clear skies; winter's waiting"
+    "id": "race_winter",
+    "label": "Race the winter",
+    "desc": "Momentum and clear days are precious—push the big projects hard now while the weather holds."
   }
 }

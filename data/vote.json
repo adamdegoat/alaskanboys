@@ -1,32 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-20",
+    "id": "2026-06-21",
     "closes": "tonight",
-    "question": "Cole's ready to push hard on the woodshed before the weather turns. Maggie watches Finn glow by the fire with his first catch and wonders if the family needs a few lighte",
+    "question": "Tomorrow at 5:30 with clear skies—should the family tackle the woodshed frame while the light peaks, or make the fuel run the priority and keep the shed pace easier?",
     "options": [
       {
-        "id": "race_winter",
-        "label": "Race the winter",
-        "desc": "Momentum and clear days are precious—push the big projects hard now while the weather holds."
+        "id": "frame_first",
+        "label": "Frame first, fuel after",
+        "desc": "Cole leads framing at first light. Fuel run once the frame is up. Ride the momentum."
       },
       {
-        "id": "rest_first",
-        "label": "Lighter days",
-        "desc": "The family needs more of what Finn's feeling tonight—fishing, exploring, breathing together."
+        "id": "fuel_first",
+        "label": "Fuel first, frame second",
+        "desc": "Get the solar charged. Framing by mid-morning. Steadier rhythm for tired bones."
       },
       {
-        "id": "rhythm",
-        "label": "Work and rest days",
-        "desc": "Alternate work days and lighter days—keeps progress rolling while leaving room for the crew to breathe."
+        "id": "split_day",
+        "label": "Split the day",
+        "desc": "Early fuel run, Cole back by mid-morning, then full framing push."
       }
     ]
   },
   "in_play": {
-    "id": "push_roof_finish",
-    "label": "Push the roof",
-    "desc": "Trust the momentum and the clear skies; winter's waiting",
-    "decided": "2026-06-20",
+    "id": "race_winter",
+    "label": "Race the winter",
+    "desc": "Momentum and clear days are precious—push the big projects hard now while the weather holds.",
+    "decided": "2026-06-21",
     "votes": 0,
     "tally": {}
   }
