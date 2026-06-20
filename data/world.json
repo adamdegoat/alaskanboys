@@ -1,15 +1,15 @@
 {
   "day": 12,
-  "cycle": "morning",
+  "cycle": "midday",
   "weather": "clear",
   "season": {
     "name": "fall",
     "day_in_season": 3
   },
   "resources": {
-    "food": 50,
-    "water": 76,
-    "wood": 97,
+    "food": 64,
+    "water": 86,
+    "wood": 96,
     "medicine": 1,
     "materials": 0,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 90,
+      "condition": 88,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 6
+    "fuel": 12
   },
   "build": {
     "project": null,
@@ -48,20 +48,20 @@
     "present": false
   },
   "last_run_date": "2026-06-20",
-  "pulse": "The roof is secure and the family's energy pivots toward the next project; Cole's already planning while the boys eat and dream of building.",
-  "scene": "The cabin's warm and the roof overhead is solid. Cole stands on the porch with coffee surveying their work, while Maggie gets the boys to the breakfast table and school lessons—and everyone's already thinking about what comes next.",
+  "pulse": "Power's almost gone but the momentum is high: Cole's already planning the woodshed while the family steps up to make the next build real.",
+  "scene": "Cole checks the solar and finds it at 6%, signaling tomorrow's fuel run; Maggie wraps lessons and the family gathers at the cabin to plan the woodshed.",
   "resources_prev": {
-    "food": 67,
-    "water": 100,
-    "wood": 94,
+    "food": 50,
+    "water": 76,
+    "wood": 97,
     "medicine": 1,
     "materials": 0,
     "money": 60,
-    "power": 7
+    "power": 6
   },
-  "camp_climate": "content",
+  "camp_climate": "steady",
   "discoveries": [],
-  "last_cycle_key": "2026-06-20:morning",
+  "last_cycle_key": "2026-06-20:midday",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",

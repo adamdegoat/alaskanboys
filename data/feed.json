@@ -1,193 +1,6 @@
 [
   {
     "day": 2,
-    "cycle": "afternoon",
-    "character": "cole",
-    "action": "Cole crouches by the spring with Sawyer, clearing stones and marking where the intake line will dive into clean water.",
-    "thought": "Water first, then food catches up.",
-    "location": {
-      "waypoint": "creek",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "focused",
-    "timestamp": "2026-06-10T15:02:12.756821"
-  },
-  {
-    "day": 2,
-    "cycle": "afternoon",
-    "character": "maggie",
-    "action": "Maggie spreads the remaining stores on the porch table, counting rations and planning how to stretch them through tomorrow.",
-    "thought": "Three days left. Then Finn fishes.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "calm",
-    "timestamp": "2026-06-10T15:02:12.756821"
-  },
-  {
-    "day": 2,
-    "cycle": "afternoon",
-    "character": "sawyer",
-    "action": "Sawyer follows Cole's lead, learning where the water flows fastest and how to position the intake for clean, cold supply.",
-    "thought": "Dad trusts me. I can do this work.",
-    "location": {
-      "waypoint": "creek",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "proud",
-    "timestamp": "2026-06-10T15:02:12.756821"
-  },
-  {
-    "day": 2,
-    "cycle": "afternoon",
-    "character": "finn",
-    "action": "Finn splashes downstream from the intake, calling back findings and pulling back willows that block the line's path.",
-    "thought": "Fish are here. I know they are.",
-    "location": {
-      "waypoint": "creek",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "buzzing",
-    "timestamp": "2026-06-10T15:02:12.756821"
-  },
-  {
-    "day": 2,
-    "cycle": "afternoon",
-    "character": "bear",
-    "action": "Bear sorts through the supply box for cordage and helps Maggie check the dry goods and cans, asking when dinner is.",
-    "thought": "There's always something to do out here.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "cheerful",
-    "timestamp": "2026-06-10T15:02:12.756821"
-  },
-  {
-    "day": 2,
-    "cycle": "afternoon",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "sawyer",
-      "finn",
-      "maggie",
-      "bear"
-    ],
-    "description": "Cole and Sawyer work the spring intake by the creek while Finn helps clear willows downstream; at the cabin, Maggie sits on the porch with the stores laid out, counting meals left, Bear nearby sorting tools.",
-    "dialogue": [
-      {
-        "speaker": "cole",
-        "line": "Water flows good here. We can dig down."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "How deep do we need to go?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Just below the surface. Keep it clean, let gravity do the work."
-      },
-      {
-        "speaker": "finn",
-        "line": "There's shadows down here. Fish, I think."
-      },
-      {
-        "speaker": "cole",
-        "line": "That's your dinner, friend. Be patient."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Cole, we're down to three days of stores."
-      },
-      {
-        "speaker": "cole",
-        "line": "I know. Finn's going to fish. You good?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "We're good. Just need to be efficient now."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Like that time you caught trout at the North Fork?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Similar idea. Slow, patient, let the creek provide."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can I fish too?"
-      },
-      {
-        "speaker": "finn",
-        "line": "You fall in every time."
-      },
-      {
-        "speaker": "bear",
-        "line": "So?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "After we eat, buddy. Before dark."
-      },
-      {
-        "speaker": "cole",
-        "line": "All of you are learning where home feeds itself."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "That's weird and cool at the same time."
-      },
-      {
-        "speaker": "finn",
-        "line": "It's just cool."
-      },
-      {
-        "speaker": "cole",
-        "line": "Give it time, Saw. Weird becomes normal fast."
-      },
-      {
-        "speaker": "maggie",
-        "line": "The cans we brought will help us through next week."
-      },
-      {
-        "speaker": "cole",
-        "line": "By then the garden's up. Finn catches fish."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "What about before the garden's big?"
-      },
-      {
-        "speaker": "cole",
-        "line": "The land around here is generous. We just have to be smart."
-      },
-      {
-        "speaker": "bear",
-        "line": "Is it dark yet?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Still hours of light, buddy. Help me with the water barrel."
-      }
-    ],
-    "timestamp": "2026-06-10T15:02:12.756821"
-  },
-  {
-    "day": 2,
     "cycle": "evening",
     "character": "cole",
     "action": "Cole sits on the cabin porch, reviewing the day's spring intake work with Sawyer and watching Maggie set out dinner.",
@@ -9935,5 +9748,184 @@
       }
     ],
     "timestamp": "2026-06-20T07:02:12.425560"
+  },
+  {
+    "day": 12,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "Checks the solar readout and realizes power is down to 6%, confirming a fuel run is needed tomorrow, then gathers with the family at the cabin to plan the next steps.",
+    "thought": "Power's down. Woodshed next, but town run first.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-20T11:32:24.949297"
+  },
+  {
+    "day": 12,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "Wraps up the midday school lessons with the boys and transitions the family to lunch and planning mode as the afternoon work begins.",
+    "thought": "Roof's done. Now what, and with what?",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-20T11:32:24.949297"
+  },
+  {
+    "day": 12,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "Listens to his parents' discussion of the power situation and immediately volunteers to help inventory materials and supplies for the woodshed build.",
+    "thought": "If we're building it, I should know what we need.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-20T11:32:24.949297"
+  },
+  {
+    "day": 12,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "Bounces with energy as the woodshed is mentioned and peppers Cole with questions about the size and scope of the next big build.",
+    "thought": "Woodshed next? I'm framing it all!",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "happy",
+    "timestamp": "2026-06-20T11:32:24.949297"
+  },
+  {
+    "day": 12,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "Declares he wants to help with the woodshed and sticks close to Finn, ready to tag along wherever the day takes the family next.",
+    "thought": "I'm helping with the big woodshed!",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "happy",
+    "timestamp": "2026-06-20T11:32:24.949297"
+  },
+  {
+    "day": 12,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "As Cole discovers the solar is nearly depleted at 6%, the family gathers at the cabin to plan tomorrow's fuel run and the woodshed that waits beyond.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Solar's at six percent. We need a fuel run tomorrow."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Makes sense. How's the cabin temp?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Still good. The stove's holding fine."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "So... what's next? The woodshed?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Yeah. But we need materials first."
+      },
+      {
+        "speaker": "maggie",
+        "line": "And more food. We're running low."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sawyer, after lunch let's do a full count."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "What are we counting?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Everything. Materials, tools, what we're short on."
+      },
+      {
+        "speaker": "maggie",
+        "line": "So we know what to buy in town."
+      },
+      {
+        "speaker": "finn",
+        "line": "How big's the woodshed going to be?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Maybe sixteen by twenty, if the lumber's right."
+      },
+      {
+        "speaker": "finn",
+        "line": "That's HUGE. I'm totally framing it."
+      },
+      {
+        "speaker": "bear",
+        "line": "I want to help build it too!"
+      },
+      {
+        "speaker": "cole",
+        "line": "We'll all help. One step at a time."
+      },
+      {
+        "speaker": "maggie",
+        "line": "First, lunch. Fire or table?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Fire. It's a good day for it."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We can talk through the inventory while we eat."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Good thinking. Come on, boys."
+      },
+      {
+        "speaker": "finn",
+        "line": "This woodshed's gonna be epic."
+      },
+      {
+        "speaker": "bear",
+        "line": "The best ever!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Let's make it so. Come on."
+      }
+    ],
+    "timestamp": "2026-06-20T11:32:24.949297"
   }
 ]

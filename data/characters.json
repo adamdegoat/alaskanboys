@@ -6,14 +6,14 @@
     "color": "#9a3b2e",
     "scores": {
       "trust": 100,
-      "openness": 85,
+      "openness": 86,
       "ambition": 100,
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 94
+      "energy": 88
     },
     "mood": "satisfied",
     "where": "home",
@@ -31,7 +31,7 @@
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 63,
+        "tension": 62,
         "attraction": 0
       },
       "finn": {
@@ -88,9 +88,9 @@
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 94
+      "energy": 88
     },
     "mood": "warm",
     "where": "home",
@@ -161,9 +161,9 @@
       "loneliness": 0,
       "resilience": 86,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "proud",
     "where": "home",
@@ -176,7 +176,7 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 63,
+        "tension": 62,
         "attraction": 0
       },
       "maggie": {
@@ -208,8 +208,8 @@
       "boots": "#34281c"
     },
     "interaction": {
-      "with": "finn",
-      "state": "sitting_together"
+      "with": "cole",
+      "state": "talking"
     },
     "memories": [],
     "condition": "healthy"
@@ -226,9 +226,9 @@
       "loneliness": 0,
       "resilience": 63,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 78
+      "energy": 72
     },
     "mood": "happy",
     "where": "home",
@@ -298,9 +298,9 @@
       "loneliness": 0,
       "resilience": 78,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "happy",
     "where": "home",
@@ -346,7 +346,7 @@
       "boots": "#34281c"
     },
     "interaction": {
-      "with": "maggie",
+      "with": "finn",
       "state": "sitting_together"
     },
     "memories": [
