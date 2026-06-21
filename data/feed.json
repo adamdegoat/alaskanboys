@@ -3,217 +3,6 @@
     "day": 3,
     "cycle": "evening",
     "character": "cole",
-    "action": "Cole tends the cooked salmon over the warm stove, his shoulders finally relaxing as the family gathers inside.",
-    "thought": "Water flows. The plan works. We're really here.",
-    "location": {
-      "waypoint": "cabin_inside",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "satisfied",
-    "timestamp": "2026-06-11T18:32:41.734350"
-  },
-  {
-    "day": 3,
-    "cycle": "evening",
-    "character": "maggie",
-    "action": "Maggie fills plates and watches Finn settle heavily by the stove, her attention divided between feeding everyone and monitoring her tired son.",
-    "thought": "He gave everything he had. He needs rest.",
-    "location": {
-      "waypoint": "cabin_inside",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "attentive",
-    "timestamp": "2026-06-11T18:32:41.734350"
-  },
-  {
-    "day": 3,
-    "cycle": "evening",
-    "character": "sawyer",
-    "action": "Sawyer sits at the table, his hands still callused from gripping tools, listening to Cole recount the day with quiet pride.",
-    "thought": "I did the work right. Dad trusted me.",
-    "location": {
-      "waypoint": "cabin_inside",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "proud",
-    "timestamp": "2026-06-11T18:32:41.734350"
-  },
-  {
-    "day": 3,
-    "cycle": "evening",
-    "character": "finn",
-    "action": "Finn eats mechanically, the day's triumph fading as exhaustion settles into his bones, his eyes half-closed.",
-    "thought": "I caught them. I actually did it.",
-    "location": {
-      "waypoint": "cabin_inside",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "drained",
-    "timestamp": "2026-06-11T18:32:41.734350"
-  },
-  {
-    "day": 3,
-    "cycle": "evening",
-    "character": "bear",
-    "action": "Bear devours his salmon with the single-minded focus of a starving kid, his questions about tomorrow spilling out between bites.",
-    "thought": "We have food. We have water. We're safe.",
-    "location": {
-      "waypoint": "cabin_inside",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "joyful",
-    "timestamp": "2026-06-11T18:32:41.734350"
-  },
-  {
-    "day": 3,
-    "cycle": "evening",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "maggie",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "The family sits down to eat their first salmon as the water line ticks quietly outside—Cole and Maggie settle the boys, Finn pale but present.",
-    "dialogue": [
-      {
-        "speaker": "cole",
-        "line": "Alright. First salmon supper on the homestead."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Come on, boys. Set yourselves down."
-      },
-      {
-        "speaker": "bear",
-        "line": "I'm so hungry I could eat a moose."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "A moose would eat YOU first."
-      },
-      {
-        "speaker": "bear",
-        "line": "Not if Dad was with me."
-      },
-      {
-        "speaker": "cole",
-        "line": "Let's start with the salmon, buddy."
-      },
-      {
-        "speaker": "finn",
-        "line": "It's hot."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Eat some, honey. You need it."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "The water from the tap is so cold."
-      },
-      {
-        "speaker": "cole",
-        "line": "Cold and clear. Good water."
-      },
-      {
-        "speaker": "maggie",
-        "line": "And fast—we got it done in a day."
-      },
-      {
-        "speaker": "finn",
-        "line": "Because Sawyer did the math right."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "And Dad showed me how."
-      },
-      {
-        "speaker": "cole",
-        "line": "You both did the work."
-      },
-      {
-        "speaker": "bear",
-        "line": "This is so good."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Don't talk with your mouth full."
-      },
-      {
-        "speaker": "bear",
-        "line": "But it IS good."
-      },
-      {
-        "speaker": "cole",
-        "line": "It is."
-      },
-      {
-        "speaker": "maggie",
-        "line": "You're pale, sweetheart. How are you feeling?"
-      },
-      {
-        "speaker": "finn",
-        "line": "Just tired. Really tired."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Eat what you can. Then you rest."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Tomorrow we patch the cabin inside?"
-      },
-      {
-        "speaker": "cole",
-        "line": "If the weather holds. And if Finn rests."
-      },
-      {
-        "speaker": "finn",
-        "line": "I can still—"
-      },
-      {
-        "speaker": "maggie",
-        "line": "No. Tomorrow you rest. That's final."
-      },
-      {
-        "speaker": "cole",
-        "line": "The work'll be here. We're not in a rush."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can we have salmon again tomorrow?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "If Finn keeps fishing, we can."
-      },
-      {
-        "speaker": "cole",
-        "line": "And if he rests first."
-      },
-      {
-        "speaker": "finn",
-        "line": "I'll sleep."
-      }
-    ],
-    "timestamp": "2026-06-11T18:32:41.734350"
-  },
-  {
-    "day": 3,
-    "cycle": "evening",
-    "character": "cole",
     "action": "Checks the water line one final time, satisfied it's running clean, then settles by the fire with Bear and a long, satisfied sigh.",
     "thought": "Water flows. The plan works. We're here.",
     "location": {
@@ -9898,5 +9687,184 @@
       }
     ],
     "timestamp": "2026-06-21T15:07:10.831766"
+  },
+  {
+    "day": 13,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Settled at the warming firepit with the family after a day of framing, the clear sky and fire drawing them close for an evening meal.",
+    "thought": "Clear nights like this are gift time.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-21T18:32:37.159140"
+  },
+  {
+    "day": 13,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Brought out a simple dinner to the warming firepit where the family gathered, settling with Cole and the boys to share the meal and evening.",
+    "thought": "Food stretched. Everyone warm and full.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-21T18:32:37.159140"
+  },
+  {
+    "day": 13,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Came to the firepit with Dad and the boys after the day's framing work, hungry and proud, settling by the warmth to eat and watch the sky.",
+    "thought": "That wall is coming up solid.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-21T18:32:37.159140"
+  },
+  {
+    "day": 13,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Bounded out to the firepit where the family was gathering, eager for dinner and even more eager to stay up and watch for the aurora lights.",
+    "thought": "I hope we see the lights tonight.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "excited",
+    "timestamp": "2026-06-21T18:32:37.159140"
+  },
+  {
+    "day": 13,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Followed everyone out to the firepit, drawn to the warmth of the fire and the family gathered close, settling in for dinner and the promise of evening.",
+    "thought": "Everyone's here. The sky's so clear.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-21T18:32:37.159140"
+  },
+  {
+    "day": 13,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The family gathered at the warming firepit as darkness fell over the interior, Maggie's careful meal before them and the clear autumn sky above, the day's framing work done and the aurora a whispered possibility.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Generator's still quiet. Fuel run's coming up."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Day or two if this weather holds."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Let's stretch what we've got tonight."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "When do we go in? Soon as possible?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Weather's clear. Two, three days maybe."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we get more food at once?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "We can try, sparks. We'll see."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sky like this won't last, but it's good now."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Long enough to push the framing forward."
+      },
+      {
+        "speaker": "cole",
+        "line": "You're coming into your own with that work, Saw."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I learned from the best."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I help more with the building tomorrow?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You already are, sparks. All afternoon."
+      },
+      {
+        "speaker": "finn",
+        "line": "But tomorrow I want to help design—"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Finn, eat. Mouth full, no talking."
+      },
+      {
+        "speaker": "finn",
+        "line": "Okay okay okay."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can we see the lights tonight?"
+      },
+      {
+        "speaker": "cole",
+        "line": "If we're lucky, buddy. Sky's clear enough."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can we stay up and watch?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "A little bit. Not too late."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "To remember a day like this."
+      },
+      {
+        "speaker": "cole",
+        "line": "To remember we're getting it right."
+      }
+    ],
+    "timestamp": "2026-06-21T18:32:37.159140"
   }
 ]
