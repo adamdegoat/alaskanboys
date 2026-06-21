@@ -1,10 +1,10 @@
 {
-  "day": 12,
-  "text": "Cole's relentless pace and Sawyer's resistance are grinding the camp into a harder rhythm.",
-  "flavor": "the daily grind",
-  "cycle": "morning",
-  "happens_at": "7am",
+  "day": 13,
+  "text": "Overnight snow falls early, and Cole sends Sawyer and Bear to winterize the smokehouse.",
+  "flavor": "the weather turns",
+  "cycle": "evening",
+  "happens_at": "6pm",
   "status": "upcoming",
-  "revealed_at": "2026-06-21T00:00:57.302780",
+  "revealed_at": "2026-06-22T00:00:37.972568",
   "activated_at": null
 }
