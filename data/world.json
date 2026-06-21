@@ -1,15 +1,15 @@
 {
   "day": 13,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "fall",
     "day_in_season": 4
   },
   "resources": {
-    "food": 48,
-    "water": 86,
-    "wood": 93,
+    "food": 34,
+    "water": 100,
+    "wood": 92,
     "medicine": 1,
     "materials": 0,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 76,
+      "condition": 74,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 12
+    "fuel": 18
   },
   "build": {
     "project": null,
@@ -48,20 +48,20 @@
     "present": false
   },
   "last_run_date": "2026-06-21",
-  "pulse": "The family raced a clear evening's gift—strong framing work and a warm meal stretched, settling by the fire to watch for the aurora.",
-  "scene": "As darkness fell and the clear sky promised the lights, the family gathered at the firepit with Maggie's careful meal, the day's work done and winter drawing closer.",
+  "pulse": "Clear autumn night brings the family to the fire, eyes on the sky, hope in the air—watching together for a glimpse of the lights.",
+  "scene": "Night of Day 13: the family gathered at the firepit under clear skies, watching for the aurora. Cole tended the fire, Maggie close beside him with tea, the boys gazing upward, the cabin glowing warm behind them all.",
   "resources_prev": {
-    "food": 37,
+    "food": 48,
     "water": 86,
-    "wood": 95,
+    "wood": 93,
     "medicine": 1,
     "materials": 0,
     "money": 60,
     "power": 0
   },
-  "camp_climate": "steady",
+  "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-21:evening",
+  "last_cycle_key": "2026-06-21:night",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -74,7 +74,8 @@
     "9": "The family raced the roof to completion in a single daylong push, sealing the cabin against weather just as summer's endless light began to fade. Cole, Sawyer, and Finn pushed through coughs while Maggie kept them fed and warm; Bear ran scraps with fierce pride. By nightfall the roof was done, the stove glowed, and though three boys were sick and the pantry was thin, the family was home—safe, together, and ready for what winter would demand.",
     "10": "Day 10: the roof held through daylong work, and the family moved through wood reorganization with earned confidence. Sawyer stepped into real build responsibility and earned Cole's affirmation; the younger boys pushed through the work with growing strength. By nightfall, they gathered at the fire, warm and closer—one more week like this locks in winter-readiness.",
     "11": "Day 11 brought the family their first real rest—the roof now secure and Finn catching his first fish at the creek. By evening they gathered on the porch as the aurora danced, tired but whole and looking forward to winter with newfound confidence.",
-    "12": "The roof was completed as power dwindled to six percent, spurring an early town run tomorrow for fuel. The family planned the next phase: the woodshed, with Sawyer asked to help frame it from scratch. By nightfall they gathered warm around hot stew, spirits high and the aurora beginning to dance above the treeline."
+    "12": "The roof was completed as power dwindled to six percent, spurring an early town run tomorrow for fuel. The family planned the next phase: the woodshed, with Sawyer asked to help frame it from scratch. By nightfall they gathered warm around hot stew, spirits high and the aurora beginning to dance above the treeline.",
+    "13": "The day held steady: framing advanced, lessons finished, and Maggie stretched the food for a warm afternoon tea. Cole and Sawyer mapped the woodshed site, and by evening the family gathered at the firepit under clear autumn skies, watching for the northern lights with quiet hope."
   },
   "lean": {
     "id": "race_winter",
