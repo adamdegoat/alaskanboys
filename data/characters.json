@@ -11,14 +11,14 @@
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 94
+      "energy": 88
     },
     "mood": "focused",
     "where": "home",
     "location": {
-      "waypoint": "truck",
+      "waypoint": "build_site",
       "x": 44,
       "y": 52
     },
@@ -26,22 +26,22 @@
     "relationships": {
       "maggie": {
         "closeness": 100,
-        "tension": 72,
+        "tension": 71,
         "attraction": 0
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 58,
+        "tension": 56,
         "attraction": 0
       },
       "finn": {
         "closeness": 100,
-        "tension": 84,
+        "tension": 83,
         "attraction": 0
       },
       "bear": {
-        "closeness": 96,
-        "tension": 85,
+        "closeness": 98,
+        "tension": 84,
         "attraction": 0
       }
     },
@@ -83,14 +83,14 @@
     "color": "#3f7d6e",
     "scores": {
       "trust": 100,
-      "openness": 95,
+      "openness": 96,
       "ambition": 64,
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 94
+      "energy": 88
     },
     "mood": "warm",
     "where": "home",
@@ -103,22 +103,22 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 72,
+        "tension": 71,
         "attraction": 0
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 84,
+        "tension": 83,
         "attraction": 0
       },
       "finn": {
-        "closeness": 99,
-        "tension": 85,
+        "closeness": 100,
+        "tension": 84,
         "attraction": 0
       },
       "bear": {
         "closeness": 100,
-        "tension": 80,
+        "tension": 79,
         "attraction": 0
       }
     },
@@ -138,7 +138,7 @@
     },
     "interaction": {
       "with": "bear",
-      "state": "sitting_together"
+      "state": "working_together"
     },
     "memories": [
       {
@@ -156,19 +156,19 @@
     "color": "#2f5d8a",
     "scores": {
       "trust": 100,
-      "openness": 81,
+      "openness": 82,
       "ambition": 100,
       "loneliness": 0,
-      "resilience": 86,
+      "resilience": 87,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 94
+      "energy": 88
     },
     "mood": "proud",
     "where": "home",
     "location": {
-      "waypoint": "truck",
+      "waypoint": "build_site",
       "x": 30,
       "y": 58
     },
@@ -176,22 +176,22 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 58,
+        "tension": 56,
         "attraction": 0
       },
       "maggie": {
         "closeness": 100,
-        "tension": 84,
-        "attraction": 0
-      },
-      "finn": {
-        "closeness": 95,
         "tension": 83,
         "attraction": 0
       },
+      "finn": {
+        "closeness": 98,
+        "tension": 82,
+        "attraction": 0
+      },
       "bear": {
-        "closeness": 79,
-        "tension": 86,
+        "closeness": 82,
+        "tension": 85,
         "attraction": 0
       }
     },
@@ -220,20 +220,20 @@
     "archetype": "spark",
     "color": "#c9772e",
     "scores": {
-      "trust": 87,
+      "trust": 88,
       "openness": 100,
-      "ambition": 81,
+      "ambition": 82,
       "loneliness": 0,
-      "resilience": 63,
+      "resilience": 64,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 94
+      "energy": 88
     },
     "mood": "excited",
     "where": "home",
     "location": {
-      "waypoint": "truck",
+      "waypoint": "cabin_front",
       "x": 78,
       "y": 60
     },
@@ -241,22 +241,22 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 84,
-        "attraction": 0
-      },
-      "maggie": {
-        "closeness": 99,
-        "tension": 85,
-        "attraction": 0
-      },
-      "sawyer": {
-        "closeness": 95,
         "tension": 83,
         "attraction": 0
       },
+      "maggie": {
+        "closeness": 100,
+        "tension": 84,
+        "attraction": 0
+      },
+      "sawyer": {
+        "closeness": 98,
+        "tension": 82,
+        "attraction": 0
+      },
       "bear": {
-        "closeness": 88,
-        "tension": 89,
+        "closeness": 91,
+        "tension": 88,
         "attraction": 0
       }
     },
@@ -273,10 +273,7 @@
       "pants": "#3a4450",
       "boots": "#34281c"
     },
-    "interaction": {
-      "with": "sawyer",
-      "state": "helping"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -292,17 +289,17 @@
     "archetype": "wild one",
     "color": "#caa83a",
     "scores": {
-      "trust": 99,
+      "trust": 100,
       "openness": 100,
       "ambition": 41,
       "loneliness": 0,
-      "resilience": 79,
+      "resilience": 80,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 94
+      "energy": 88
     },
-    "mood": "wistful",
+    "mood": "eager",
     "where": "home",
     "location": {
       "waypoint": "cabin_porch",
@@ -312,23 +309,23 @@
     "shelter": "cabin",
     "relationships": {
       "cole": {
-        "closeness": 96,
-        "tension": 85,
+        "closeness": 98,
+        "tension": 84,
         "attraction": 0
       },
       "maggie": {
         "closeness": 100,
-        "tension": 80,
+        "tension": 79,
         "attraction": 0
       },
       "sawyer": {
-        "closeness": 79,
-        "tension": 86,
+        "closeness": 82,
+        "tension": 85,
         "attraction": 0
       },
       "finn": {
-        "closeness": 88,
-        "tension": 89,
+        "closeness": 91,
+        "tension": 88,
         "attraction": 0
       }
     },
@@ -347,7 +344,7 @@
     },
     "interaction": {
       "with": "maggie",
-      "state": "sitting_together"
+      "state": "working_together"
     },
     "memories": [
       {
