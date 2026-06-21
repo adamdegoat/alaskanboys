@@ -1,220 +1,5 @@
 [
   {
-    "day": 3,
-    "cycle": "night",
-    "character": "cole",
-    "action": "Cole tends the fire as night falls, watching the boys settle, the day's work and their effort still warm in his chest.",
-    "thought": "We built something real today here.",
-    "location": {
-      "waypoint": "firepit_out",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "satisfied",
-    "timestamp": "2026-06-11T22:32:47.506048"
-  },
-  {
-    "day": 3,
-    "cycle": "night",
-    "character": "maggie",
-    "action": "Maggie settles Finn near the stove's warmth with a blanket, checking his temperature, her hands gentle and sure.",
-    "thought": "He'll sleep and heal. We're safe.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "attentive",
-    "timestamp": "2026-06-11T22:32:47.506048"
-  },
-  {
-    "day": 3,
-    "cycle": "night",
-    "character": "sawyer",
-    "action": "Sawyer stacks a few more pieces of wood by the stove and settles with his family, too tired to do more, too alive to sleep yet.",
-    "thought": "Dad trusted me. I got it right.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "proud",
-    "timestamp": "2026-06-11T22:32:47.506048"
-  },
-  {
-    "day": 3,
-    "cycle": "night",
-    "character": "finn",
-    "action": "Finn eats quietly at the porch edge, pale but present, his exhaustion a weight he can finally set down.",
-    "thought": "I caught fish. Everything's going dark.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "drained",
-    "timestamp": "2026-06-11T22:32:47.506048"
-  },
-  {
-    "day": 3,
-    "cycle": "night",
-    "character": "bear",
-    "action": "Bear bounces near the fire with Cole, still flushed with the day's excitement, his joy a counterweight to everyone else's tiredness.",
-    "thought": "Best day ever. I'm not tired!",
-    "location": {
-      "waypoint": "firepit_out",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "joyful",
-    "timestamp": "2026-06-11T22:32:47.506048"
-  },
-  {
-    "day": 3,
-    "cycle": "night",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "maggie",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "As night falls, the family gathers by firelight—Cole and Bear at the fire, Maggie with Finn, Sawyer settling in, the day's salmon eaten, their water line running solid.",
-    "dialogue": [
-      {
-        "speaker": "maggie",
-        "line": "How are you holding up, Finn?"
-      },
-      {
-        "speaker": "finn",
-        "line": "Tired. But I caught them, Mom."
-      },
-      {
-        "speaker": "maggie",
-        "line": "You did. Rest now."
-      },
-      {
-        "speaker": "cole",
-        "line": "The water line's running solid tonight."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We got the joints sealed right."
-      },
-      {
-        "speaker": "cole",
-        "line": "You did that work right, Sawyer."
-      },
-      {
-        "speaker": "bear",
-        "line": "I found the spot! Remember?"
-      },
-      {
-        "speaker": "finn",
-        "line": "I caught them, not you."
-      },
-      {
-        "speaker": "bear",
-        "line": "But I was there, cheering!"
-      },
-      {
-        "speaker": "maggie",
-        "line": "You both did your part."
-      },
-      {
-        "speaker": "cole",
-        "line": "Tomorrow that line holds steady. Tonight, rest."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We could push the cabin patching further?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "One thing at a time, love."
-      },
-      {
-        "speaker": "finn",
-        "line": "Sorry, I'm about done."
-      },
-      {
-        "speaker": "cole",
-        "line": "That's what rest looks like."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can we fish again tomorrow?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "If the salmon keep running, maybe."
-      },
-      {
-        "speaker": "cole",
-        "line": "For now, we sleep."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "It's cold out past the porch."
-      },
-      {
-        "speaker": "maggie",
-        "line": "The stove's holding the cabin warm."
-      },
-      {
-        "speaker": "bear",
-        "line": "I like sleeping by the fire."
-      },
-      {
-        "speaker": "cole",
-        "line": "Fire, family, and a full belly. That's everything."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Come on. Let's get to sleep."
-      },
-      {
-        "speaker": "finn",
-        "line": "I could sleep for days."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Your body's asking for it."
-      },
-      {
-        "speaker": "cole",
-        "line": "Tomorrow we make the water backup better."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Sleep first. Work after."
-      },
-      {
-        "speaker": "bear",
-        "line": "And more fish?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "We'll see what the creek offers."
-      },
-      {
-        "speaker": "cole",
-        "line": "We held it together today."
-      },
-      {
-        "speaker": "maggie",
-        "line": "All of us did. All of us."
-      }
-    ],
-    "timestamp": "2026-06-11T22:32:47.506048"
-  },
-  {
     "day": 4,
     "cycle": "morning",
     "character": "cole",
@@ -9842,5 +9627,198 @@
       }
     ],
     "timestamp": "2026-06-21T22:39:51.576351"
+  },
+  {
+    "day": 14,
+    "cycle": "morning",
+    "character": "cole",
+    "action": "Cole gathers his framing tools and heads to the build site before the morning light dims, energized and clear-headed about the day's work.",
+    "thought": "Frame first, fuel after. Get this up today.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-22T07:08:30.359395"
+  },
+  {
+    "day": 14,
+    "cycle": "morning",
+    "character": "maggie",
+    "action": "Maggie stretches out breakfast for all five from yesterday's stores, rationing carefully, then settles at the porch with a mug of coffee and the day's plan.",
+    "thought": "Food's tightening. Fuel run has to happen.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "steady",
+    "timestamp": "2026-06-22T07:08:30.359395"
+  },
+  {
+    "day": 14,
+    "cycle": "morning",
+    "character": "sawyer",
+    "action": "Sawyer eats quickly and follows his dad to the build site, eager to learn the framing work and prove he can handle a real structural piece.",
+    "thought": "Dad's teaching me this. I can do it.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "earnest",
+    "timestamp": "2026-06-22T07:08:30.359395"
+  },
+  {
+    "day": 14,
+    "cycle": "morning",
+    "character": "finn",
+    "action": "Finn bolts his breakfast down and races after Cole and Sawyer to the build site, already asking a dozen questions about the frame and what comes next.",
+    "thought": "Real frame work today. I'm so ready.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "energized",
+    "timestamp": "2026-06-22T07:08:30.359395"
+  },
+  {
+    "day": 14,
+    "cycle": "morning",
+    "character": "bear",
+    "action": "Bear sits close by Maggie on the porch, warming his hands on her coffee mug and asking if he can help with the food or the day's tasks.",
+    "thought": "Mom's here. Warm. What can I do?",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-22T07:08:30.359395"
+  },
+  {
+    "day": 14,
+    "cycle": "morning",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "sawyer",
+      "finn"
+    ],
+    "description": "Cole and the boys raise the first frame section together, the structure taking shape as morning spreads across the build site and the real work begins.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Sawyer, keep that corner steady. Finn, watch where the joints sit."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Got it. This one fits tight."
+      },
+      {
+        "speaker": "finn",
+        "line": "Is this going to be the whole wall?"
+      },
+      {
+        "speaker": "cole",
+        "line": "First section. Then the next piece. Like we planned."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long do you think framing takes?"
+      },
+      {
+        "speaker": "cole",
+        "line": "On good days, couple cycles if we keep moving and materials hold."
+      },
+      {
+        "speaker": "finn",
+        "line": "Then we do the roof, right?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Not today, buddy. One thing at a time."
+      },
+      {
+        "speaker": "cole",
+        "line": "Finn's got the long view, though. That's good thinking."
+      },
+      {
+        "speaker": "finn",
+        "line": "The roof matters. Cold will come."
+      },
+      {
+        "speaker": "cole",
+        "line": "It will. So this frame has to be solid first."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Is this the last on-site material we've got?"
+      },
+      {
+        "speaker": "cole",
+        "line": "For now. Your mom and I are talking about a town run this afternoon for more."
+      },
+      {
+        "speaker": "finn",
+        "line": "Town? Today?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Fuel and materials, probably. Power's running low."
+      },
+      {
+        "speaker": "cole",
+        "line": "You two stay here with the frame. I'll come back after the run."
+      },
+      {
+        "speaker": "finn",
+        "line": "But you're teaching us."
+      },
+      {
+        "speaker": "cole",
+        "line": "I'm teaching you NOW. Watch how this sets. You'll know what comes next."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We can do the next section if you mark it."
+      },
+      {
+        "speaker": "cole",
+        "line": "Mark it after lunch. Maggie's got school for you two first."
+      },
+      {
+        "speaker": "finn",
+        "line": "School? We're framing."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Both, I think. One after the other."
+      },
+      {
+        "speaker": "cole",
+        "line": "Home isn't just building. It's knowing things too."
+      },
+      {
+        "speaker": "finn",
+        "line": "Math and the frame—same thing though, right?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Pretty close, yeah."
+      },
+      {
+        "speaker": "cole",
+        "line": "Exactly. Alright, watch. I'm going to show you how the next angle works."
+      }
+    ],
+    "timestamp": "2026-06-22T07:08:30.359395"
   }
 ]

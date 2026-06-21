@@ -1,32 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-21",
+    "id": "2026-06-22",
     "closes": "tonight",
-    "question": "Tomorrow at 5:30 with clear skies—should the family tackle the woodshed frame while the light peaks, or make the fuel run the priority and keep the shed pace easier?",
+    "question": "The walls are solid, the weather's holding clear. Should we push the framing higher before winter locks in, or shift to stacking the firewood that keeps calling to us?",
     "options": [
       {
-        "id": "frame_first",
-        "label": "Frame first, fuel after",
-        "desc": "Cole leads framing at first light. Fuel run once the frame is up. Ride the momentum."
+        "id": "finish_walls",
+        "label": "Push the framing",
+        "desc": "Get the house sealed before the snow hits. Winter tests what we build."
       },
       {
-        "id": "fuel_first",
-        "label": "Fuel first, frame second",
-        "desc": "Get the solar charged. Framing by mid-morning. Steadier rhythm for tired bones."
+        "id": "stack_fuel",
+        "label": "Stack the firewood",
+        "desc": "Warmth won't wait. Shift to securing what keeps us alive."
       },
       {
-        "id": "split_day",
-        "label": "Split the day",
-        "desc": "Early fuel run, Cole back by mid-morning, then full framing push."
+        "id": "split_days",
+        "label": "Work both, pace it",
+        "desc": "Mornings on framing, afternoons to firewood. The family needs the rhythm too."
       }
     ]
   },
   "in_play": {
-    "id": "race_winter",
-    "label": "Race the winter",
-    "desc": "Momentum and clear days are precious—push the big projects hard now while the weather holds.",
-    "decided": "2026-06-21",
+    "id": "frame_first",
+    "label": "Frame first, fuel after",
+    "desc": "Cole leads framing at first light. Fuel run once the frame is up. Ride the momentum.",
+    "decided": "2026-06-22",
     "votes": 0,
     "tally": {}
   }
