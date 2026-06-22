@@ -1,181 +1,6 @@
 [
   {
     "day": 4,
-    "cycle": "evening",
-    "character": "cole",
-    "action": "He sits heavily on the cabin porch, watching the boys with quiet gratitude, his sick body demanding rest.",
-    "thought": "We made it through today. That's something.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "determined",
-    "timestamp": "2026-06-12T18:32:04.107286"
-  },
-  {
-    "day": 4,
-    "cycle": "evening",
-    "character": "maggie",
-    "action": "She works the stove inside, turning the day's catch into hot food, keeping her family alive another day.",
-    "thought": "They're holding on. We're holding on.",
-    "location": {
-      "waypoint": "cabin_inside",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "pragmatic",
-    "timestamp": "2026-06-12T18:32:04.107286"
-  },
-  {
-    "day": 4,
-    "cycle": "evening",
-    "character": "sawyer",
-    "action": "He helps Maggie with cooking prep, steady despite the injury, proving to himself and his father that he can.",
-    "thought": "My side hurts, but we caught fish.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "steadfast",
-    "timestamp": "2026-06-12T18:32:04.107286"
-  },
-  {
-    "day": 4,
-    "cycle": "evening",
-    "character": "finn",
-    "action": "He buzzes between the cabin and the yard, animated and hungry, still alight from the creek work.",
-    "thought": "I did it. I actually helped catch them.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "eager",
-    "timestamp": "2026-06-12T18:32:04.107286"
-  },
-  {
-    "day": 4,
-    "cycle": "evening",
-    "character": "bear",
-    "action": "He recounts the creek day with animated pride, hovering near Maggie's cooking, caught between hunger and joy.",
-    "thought": "That was so cool. I spotted one!",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "cheerful",
-    "timestamp": "2026-06-12T18:32:04.107286"
-  },
-  {
-    "day": 4,
-    "cycle": "evening",
-    "type": "interaction",
-    "characters": [
-      "maggie",
-      "cole",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "As evening light circles the horizon, Maggie prepares the day's catch by the warm stove while Cole and the boys gather on the porch, hungry and spent, the fishing haul now their lifeline.",
-    "dialogue": [
-      {
-        "speaker": "bear",
-        "line": "Dad, did you see when I spotted that big one?"
-      },
-      {
-        "speaker": "cole",
-        "line": "You were our eyes out there, buddy."
-      },
-      {
-        "speaker": "finn",
-        "line": "How much longer? I'm starving!"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Fish is coming. Five more minutes."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Want me to set the plates?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Yes. And grab the water jug."
-      },
-      {
-        "speaker": "bear",
-        "line": "I'm hungry like a moose!"
-      },
-      {
-        "speaker": "cole",
-        "line": "Let's hope you don't eat like one."
-      },
-      {
-        "speaker": "finn",
-        "line": "Can we fish again tomorrow?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Let's eat first. We'll see."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Here. Hot and fresh."
-      },
-      {
-        "speaker": "bear",
-        "line": "That smells so good."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "My arms are dead."
-      },
-      {
-        "speaker": "finn",
-        "line": "This is the best thing I've ever eaten."
-      },
-      {
-        "speaker": "cole",
-        "line": "You did good today."
-      },
-      {
-        "speaker": "maggie",
-        "line": "We all did. Every one of us."
-      },
-      {
-        "speaker": "bear",
-        "line": "Tomorrow same thing?"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "If the fish are still there."
-      },
-      {
-        "speaker": "cole",
-        "line": "One day at a time."
-      },
-      {
-        "speaker": "finn",
-        "line": "Right now is pretty good."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Yes. It really is."
-      }
-    ],
-    "timestamp": "2026-06-12T18:32:04.107286"
-  },
-  {
-    "day": 4,
     "cycle": "night",
     "character": "cole",
     "action": "Sits on the cabin porch with arms crossed, watching the evening light fade over the tree line.",
@@ -9762,5 +9587,184 @@
       }
     ],
     "timestamp": "2026-06-22T18:40:15.895889"
+  },
+  {
+    "day": 14,
+    "cycle": "night",
+    "character": "cole",
+    "action": "Watches the fire cool and settle with satisfaction, already planning tomorrow's anchoring work with quiet confidence.",
+    "thought": "Tomorrow we anchor it all down strong.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-22T22:32:33.608356"
+  },
+  {
+    "day": 14,
+    "cycle": "night",
+    "character": "maggie",
+    "action": "Guides a drowsy Bear toward the cabin porch, wrapping him in warmth and the promise of rest by the stove.",
+    "thought": "He's so tired. Safe and fed and warm.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-22T22:32:33.608356"
+  },
+  {
+    "day": 14,
+    "cycle": "night",
+    "character": "sawyer",
+    "action": "Sits quietly by the firepit with Cole, watching the aurora and turning over the day's work in his mind.",
+    "thought": "I'm learning to trust my own hands now.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-22T22:32:33.608356"
+  },
+  {
+    "day": 14,
+    "cycle": "night",
+    "character": "finn",
+    "action": "Bounces restlessly at the edge of the firelit circle, too tired to admit it, too wired to settle.",
+    "thought": "Tomorrow we actually build the real walls.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-22T22:32:33.608356"
+  },
+  {
+    "day": 14,
+    "cycle": "night",
+    "character": "bear",
+    "action": "Leans into Maggie's side, eyes half-closed, but still tilting his head back to catch the green aurora dancing overhead.",
+    "thought": "The sky is singing. And I'm so sleepy.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "drowsy",
+    "timestamp": "2026-06-22T22:32:33.608356"
+  },
+  {
+    "day": 14,
+    "cycle": "night",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "sawyer",
+      "finn",
+      "maggie",
+      "bear"
+    ],
+    "description": "As the aurora pale and green dances overhead, Cole and Sawyer settle by the fire while restless Finn bounces nearby; Maggie guides drowsy Bear toward the warm cabin for sleep.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "That frame's going to stand solid once we anchor it tomorrow."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "We really got it done."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can't wait to actually build the walls!"
+      },
+      {
+        "speaker": "cole",
+        "line": "One step at a time, Finn."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come on, buddy—let's get you warm inside."
+      },
+      {
+        "speaker": "bear",
+        "line": "But the stars are so cool tonight!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Stars will still be there—you'll see them better rested."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'm not even tired yet."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You're literally swaying, Finn."
+      },
+      {
+        "speaker": "finn",
+        "line": "That's the wind, not me."
+      },
+      {
+        "speaker": "cole",
+        "line": "There's no wind tonight, buddy."
+      },
+      {
+        "speaker": "bear",
+        "line": "Did you see that green one up there?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Beautiful. Now let's get inside—the stove's still warm."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "I'm heading in too."
+      },
+      {
+        "speaker": "finn",
+        "line": "But tomorrow we build the walls!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Tomorrow we anchor and frame. For now, sleep."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come, Bear—curl up by the heat."
+      },
+      {
+        "speaker": "bear",
+        "line": "Will you stay till I sleep?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Always, sweetie."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Tomorrow's bigger. You'll want your rest, Finn."
+      },
+      {
+        "speaker": "finn",
+        "line": "Fine. But you're all missing the show."
+      },
+      {
+        "speaker": "cole",
+        "line": "The fire was the show tonight, Finn."
+      }
+    ],
+    "timestamp": "2026-06-22T22:32:33.608356"
   }
 ]
