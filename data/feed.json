@@ -1,197 +1,6 @@
 [
   {
     "day": 4,
-    "cycle": "afternoon",
-    "character": "cole",
-    "action": "Leads the boys down to the creek with fishing gear, moving with quiet determination despite the exhaustion pressing on him.",
-    "thought": "Fish first. Everything else follows after.",
-    "location": {
-      "waypoint": "creek",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "determined",
-    "timestamp": "2026-06-12T15:02:11.707725"
-  },
-  {
-    "day": 4,
-    "cycle": "afternoon",
-    "character": "maggie",
-    "action": "Settles on the cabin porch with the kindling pile, splitting wood slowly while keeping watch on the boys at the creek below.",
-    "thought": "Keep them safe. Bring them home full.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "pragmatic",
-    "timestamp": "2026-06-12T15:02:11.707725"
-  },
-  {
-    "day": 4,
-    "cycle": "afternoon",
-    "character": "sawyer",
-    "action": "Moves carefully down the path to the creek, favoring his uninjured side, but every step is steady and sure.",
-    "thought": "I can do this. Dad's counting on me.",
-    "location": {
-      "waypoint": "creek",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "focused",
-    "timestamp": "2026-06-12T15:02:11.707725"
-  },
-  {
-    "day": 4,
-    "cycle": "afternoon",
-    "character": "finn",
-    "action": "Bounces alongside his brothers toward the creek, the prospect of fishing energizing him despite the bone-deep tiredness.",
-    "thought": "Come on, salmon. Please be here today.",
-    "location": {
-      "waypoint": "creek",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "eager",
-    "timestamp": "2026-06-12T15:02:11.707725"
-  },
-  {
-    "day": 4,
-    "cycle": "afternoon",
-    "character": "bear",
-    "action": "Trails behind toward the creek, his high spirits undiminished by hunger, ready to spot fish for his older brothers.",
-    "thought": "I'm the spotter! I'm really helping!",
-    "location": {
-      "waypoint": "creek",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "cheerful",
-    "timestamp": "2026-06-12T15:02:11.707725"
-  },
-  {
-    "day": 4,
-    "cycle": "afternoon",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "maggie",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "The creek is the day's only hope: Cole wades into the shallows with Sawyer and Finn, Bear spots from the bank, and Maggie keeps watch from the porch.",
-    "dialogue": [
-      {
-        "speaker": "cole",
-        "line": "Gear's sorted. Who's taking which stretch of bank?"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "I'll work the left side. Finn can take the middle."
-      },
-      {
-        "speaker": "finn",
-        "line": "What about Bear? Can he fish too?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Bear's our spotter. Eyes on the runs. Right, buddy?"
-      },
-      {
-        "speaker": "bear",
-        "line": "I'm really really good at spotting!"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Bring dinner home, you four. We need it."
-      },
-      {
-        "speaker": "cole",
-        "line": "That's the whole plan."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Water's cold today. But that's good, right?"
-      },
-      {
-        "speaker": "finn",
-        "line": "Is it too cold? For fish?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Salmon love cold water. They're hunting, same as us."
-      },
-      {
-        "speaker": "bear",
-        "line": "What if they're all sleeping?"
-      },
-      {
-        "speaker": "finn",
-        "line": "Fish don't sleep, dummy."
-      },
-      {
-        "speaker": "bear",
-        "line": "They close their eyes sometimes!"
-      },
-      {
-        "speaker": "cole",
-        "line": "Fair point, Bear. But they're moving. Count on it."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "I'm wading out. Slow and steady."
-      },
-      {
-        "speaker": "finn",
-        "line": "Can I try the deep pool first? Two minutes?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Good instinct. You've got two. Then Sawyer goes."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can I get in the water and help?"
-      },
-      {
-        "speaker": "cole",
-        "line": "You stay on the bank. Signal when you see them running."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Water first, fish second. Don't get dehydrated out there."
-      },
-      {
-        "speaker": "cole",
-        "line": "Will do. Boys, we need two fish for tonight. Focus."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We'll get it done, Dad."
-      },
-      {
-        "speaker": "finn",
-        "line": "I can feel it. They're coming. I know it."
-      },
-      {
-        "speaker": "bear",
-        "line": "I see something! Wait—that's just a rock."
-      },
-      {
-        "speaker": "cole",
-        "line": "That's the spotter job right there, buddy. Keep looking."
-      }
-    ],
-    "timestamp": "2026-06-12T15:02:11.707725"
-  },
-  {
-    "day": 4,
     "cycle": "evening",
     "character": "cole",
     "action": "He sits heavily on the cabin porch, watching the boys with quiet gratitude, his sick body demanding rest.",
@@ -9762,5 +9571,196 @@
       }
     ],
     "timestamp": "2026-06-22T15:05:52.880535"
+  },
+  {
+    "day": 14,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Cole settles by the firepit as dusk deepens, reviewing the day's frame marks and planning tomorrow's rise.",
+    "thought": "Posts are true. Tomorrow's the real test.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "settled",
+    "timestamp": "2026-06-22T18:40:15.895889"
+  },
+  {
+    "day": 14,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Maggie brings the warm pot of dinner out to the porch, making sure everyone is fed and warm.",
+    "thought": "Everyone's warm, fed, safe. That's the day.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-22T18:40:15.895889"
+  },
+  {
+    "day": 14,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Sawyer joins his dad by the fire, tired but satisfied, watching the aurora bloom while his arms rest.",
+    "thought": "I'm learning to build. Dad trusts me.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-22T18:40:15.895889"
+  },
+  {
+    "day": 14,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Finn settles by the firepit with his brothers, sore arms forgotten as he points out the growing aurora.",
+    "thought": "Sore, tired, ready. Tomorrow we actually build.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-22T18:40:15.895889"
+  },
+  {
+    "day": 14,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Bear bounces between the fire with his brothers and Mom at the cabin, full of questions about the dancing sky.",
+    "thought": "The sky is dancing, and we're home.",
+    "location": {
+      "waypoint": "firepit_out",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "wonder",
+    "timestamp": "2026-06-22T18:40:15.895889"
+  },
+  {
+    "day": 14,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "With the aurora pale and dancing overhead, the family gathers at the firepit and cabin porch for dinner, the day's frame-marking done and tomorrow's real building waiting.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Posts marked true today. That's solid."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Didn't think we'd get all four done."
+      },
+      {
+        "speaker": "finn",
+        "line": "Tomorrow we actually build, though. Real building."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Come on inside, dinner's hot."
+      },
+      {
+        "speaker": "bear",
+        "line": "Dad, do posts dream about being a house?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Starting now, they do."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How long to raise the full frame?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Five days if the weather holds."
+      },
+      {
+        "speaker": "finn",
+        "line": "My arms are sore but I don't even care."
+      },
+      {
+        "speaker": "bear",
+        "line": "Mine are tiny, but they're mighty sore too."
+      },
+      {
+        "speaker": "cole",
+        "line": "Every builder earns it. That's the work."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "It's different than school. This is real."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Real and cold. Eat while it's warm."
+      },
+      {
+        "speaker": "finn",
+        "line": "Is that the aurora starting up there?"
+      },
+      {
+        "speaker": "bear",
+        "line": "It's green! It's dancing!"
+      },
+      {
+        "speaker": "cole",
+        "line": "Clear night. We've earned the view."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat, you wild things."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Today felt short and long at once."
+      },
+      {
+        "speaker": "finn",
+        "line": "Good kind of tired, though."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'm hungry AND tired at the same exact time."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the day. Honest work."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Eat slow. There's no rush."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can't eat slow, too hungry."
+      },
+      {
+        "speaker": "bear",
+        "line": "S'good, Mom."
+      },
+      {
+        "speaker": "maggie",
+        "line": "My wild, hardworking boys."
+      }
+    ],
+    "timestamp": "2026-06-22T18:40:15.895889"
   }
 ]
