@@ -1,14 +1,14 @@
 {
-  "day": 14,
-  "cycle": "night",
+  "day": 15,
+  "cycle": "morning",
   "weather": "clear",
   "season": {
     "name": "fall",
-    "day_in_season": 5
+    "day_in_season": 6
   },
   "resources": {
-    "food": 48,
-    "water": 100,
+    "food": 32,
+    "water": 76,
     "wood": 96,
     "medicine": 1,
     "materials": 0,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 64,
+      "condition": 62,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 12
+    "fuel": 18
   },
   "build": {
     "project": null,
@@ -47,13 +47,13 @@
   "snowmachine": {
     "present": false
   },
-  "last_run_date": "2026-06-22",
-  "pulse": "The day's work done well, the family settles tired and proud—tomorrow brings the real building, and they're ready.",
-  "scene": "Frame posts stand true after a full day of careful building. Cole and Sawyer rest by the firepit watching pale aurora; restless Finn bounces nearby; Maggie guides drowsy Bear toward the warm cabin for sleep.",
+  "last_run_date": "2026-06-23",
+  "pulse": "The posts held true overnight—Cole opens the framing day with Sawyer at his side, Finn burns to build, and the cabin finally rises.",
+  "scene": "Early morning at the porch stove where Maggie sets out breakfast warm—Cole and Sawyer discuss the framing plan, Bear munches eagerly nearby, and Finn circles the build site with barely-contained energy.",
   "resources_prev": {
-    "food": 33,
-    "water": 86,
-    "wood": 99,
+    "food": 48,
+    "water": 100,
+    "wood": 96,
     "medicine": 1,
     "materials": 0,
     "money": 60,
@@ -61,7 +61,7 @@
   },
   "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-22:night",
+  "last_cycle_key": "2026-06-23:morning",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -79,8 +79,8 @@
     "14": "Frame posts went up all day under Cole's steady hand, Sawyer learning and Finn burning with pride. The family stayed warm and fed as aurora danced overhead. By nightfall the frame stands true and everyone settles satisfied, tired but ready—winter closing in, foundation solid."
   },
   "lean": {
-    "id": "frame_first",
-    "label": "Frame first, fuel after",
-    "desc": "Cole leads framing at first light. Fuel run once the frame is up. Ride the momentum."
+    "id": "finish_walls",
+    "label": "Push the framing",
+    "desc": "Get the house sealed before the snow hits. Winter tests what we build."
   }
 }
