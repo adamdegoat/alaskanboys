@@ -1,193 +1,6 @@
 [
   {
     "day": 4,
-    "cycle": "morning",
-    "character": "cole",
-    "action": "He walks toward the build site, mentally mapping the foundation footprint, Sawyer following close.",
-    "thought": "Eight weeks of light. We move now.",
-    "location": {
-      "waypoint": "build_site",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "focused",
-    "timestamp": "2026-06-12T07:03:07.135709"
-  },
-  {
-    "day": 4,
-    "cycle": "morning",
-    "character": "maggie",
-    "action": "She clears breakfast from the table, tracking who's tired and who's ready, already planning the day ahead.",
-    "thought": "Full bellies first. Everything else follows.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "attentive",
-    "timestamp": "2026-06-12T07:03:07.135709"
-  },
-  {
-    "day": 4,
-    "cycle": "morning",
-    "character": "sawyer",
-    "action": "He trails Cole toward the build site, alert and growing taller with purpose, ready for real work.",
-    "thought": "This is it. The real foundation. Ready.",
-    "location": {
-      "waypoint": "build_site",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "determined",
-    "timestamp": "2026-06-12T07:03:07.135709"
-  },
-  {
-    "day": 4,
-    "cycle": "morning",
-    "character": "finn",
-    "action": "He lingers at the breakfast table, moving slowly, energy depleted but holding steady.",
-    "thought": "So tired. But we have to fish.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "drained",
-    "timestamp": "2026-06-12T07:03:07.135709"
-  },
-  {
-    "day": 4,
-    "cycle": "morning",
-    "character": "bear",
-    "action": "He bounces around the cabin front, full of morning energy, waiting to be tasked, undaunted by hunger.",
-    "thought": "Something big is happening. I feel it.",
-    "location": {
-      "waypoint": "cabin_front",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "joyful",
-    "timestamp": "2026-06-12T07:03:07.135709"
-  },
-  {
-    "day": 4,
-    "cycle": "morning",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "maggie",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "Clear morning energizes Cole and Sawyer to walk the foundation line while Maggie clears breakfast, checks on exhausted Finn, and Bear bounds restlessly around the yard.",
-    "dialogue": [
-      {
-        "speaker": "maggie",
-        "line": "Stove's warm, coffee's ready. Boys, boots on."
-      },
-      {
-        "speaker": "cole",
-        "line": "Food situation?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Gone. We're fishing after school."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "I can start today—you said we're building?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Weather's perfect. Eight weeks of good light."
-      },
-      {
-        "speaker": "bear",
-        "line": "I'm hungry. Are we making something?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "If the boys catch fish, we eat well."
-      },
-      {
-        "speaker": "cole",
-        "line": "Sawyer, you and I scout the foundation this morning."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "The real foundation? The anchor work?"
-      },
-      {
-        "speaker": "cole",
-        "line": "The real foundation. Show me how you think."
-      },
-      {
-        "speaker": "finn",
-        "line": "I'll fish after school, Mom."
-      },
-      {
-        "speaker": "maggie",
-        "line": "You and me and Bear, buddy."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "I'm ready. I've been ready."
-      },
-      {
-        "speaker": "cole",
-        "line": "I know. That's why I'm asking."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can I carry the fishing rods?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "You can. They're heavy—we need you strong."
-      },
-      {
-        "speaker": "cole",
-        "line": "By tonight: food in our bellies, foundation begun."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "And tomorrow?"
-      },
-      {
-        "speaker": "cole",
-        "line": "We keep building. One day at a time."
-      },
-      {
-        "speaker": "maggie",
-        "line": "With rest at night. Real, long rest."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can we sleep under the stars?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Maybe. If we've earned it."
-      },
-      {
-        "speaker": "finn",
-        "line": "We will."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Let's go scout the foundation then, Dad."
-      }
-    ],
-    "timestamp": "2026-06-12T07:03:07.135709"
-  },
-  {
-    "day": 4,
     "cycle": "midday",
     "character": "cole",
     "action": "He's at the foundation line measuring corner posts with Sawyer, working through the fever, pushing to mark the north edge before lunch.",
@@ -9820,5 +9633,142 @@
       }
     ],
     "timestamp": "2026-06-22T07:08:30.359395"
+  },
+  {
+    "day": 14,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "Walks the marked posts with Sawyer and Finn, checking angles and laying out the next frame section's route.",
+    "thought": "Steady work, steady pace. The land responds well.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-22T11:45:38.912673"
+  },
+  {
+    "day": 14,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "Dishes out a warm, modest midday meal at the cabin porch, Bear close by helping with the serving.",
+    "thought": "Stretch it, keep it warm. That's my job.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "steady",
+    "timestamp": "2026-06-22T11:45:38.912673"
+  },
+  {
+    "day": 14,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "Stands with Cole at the frame site, checking angles and taking careful measurements for the vertical posts.",
+    "thought": "Dad trusts me with this now.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "earnest",
+    "timestamp": "2026-06-22T11:45:38.912673"
+  },
+  {
+    "day": 14,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "Keeps the saw blade sharp and the cutting marks clear, bouncing on his toes, ready to start.",
+    "thought": "Real building. This is what I came for.",
+    "location": {
+      "waypoint": "build_site",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "energized",
+    "timestamp": "2026-06-22T11:45:38.912673"
+  },
+  {
+    "day": 14,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "Helps Maggie carry dishes and bread to the porch table, eager to feed the builders coming in soon.",
+    "thought": "I'm helping Mom keep the big guys fed.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-22T11:45:38.912673"
+  },
+  {
+    "day": 14,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "sawyer",
+      "finn"
+    ],
+    "description": "Cole and his sons mark and measure the frame posts at the build site, reading angles and planning the week's work in the clear fall air.",
+    "dialogue": [
+      {
+        "speaker": "cole",
+        "line": "Alright. This corner post goes flush with the line. See?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Like the section we raised yesterday."
+      },
+      {
+        "speaker": "cole",
+        "line": "Exactly. You're reading the angles right."
+      },
+      {
+        "speaker": "finn",
+        "line": "Saw blade's sharp. No wasted cuts today."
+      },
+      {
+        "speaker": "cole",
+        "line": "That's the spirit. Sawyer, you check angles. Finn, you cut. I'll nail 'em."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "What if the materials don't hold for the whole thing?"
+      },
+      {
+        "speaker": "cole",
+        "line": "We use what we've got. Make the next town run count."
+      },
+      {
+        "speaker": "finn",
+        "line": "How many braces are we doing total?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Twelve posts, then the crossbraces lock it in. Two a day, and we're solid."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Mom's got lunch ready soon?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Yep. Quick meal, then back here. Fuel run comes after the frame goes up."
+      },
+      {
+        "speaker": "finn",
+        "line": "Let's build something real."
+      }
+    ],
+    "timestamp": "2026-06-22T11:45:38.912673"
   }
 ]
