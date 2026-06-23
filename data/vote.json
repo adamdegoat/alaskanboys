@@ -1,32 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-23",
+    "id": "2026-06-24",
     "closes": "tonight",
-    "question": "Tomorrow the walls go up—should Cole wake Sawyer and Finn at first light for a full day's push, or let them sleep in after the big framing week?",
+    "question": "Tomorrow's clear and the frame's half up—should Cole push the crew hard while Sawyer's finding his stride and winter's ticking closer, or give everyone a real rest day to",
     "options": [
       {
-        "id": "early_push",
-        "label": "First light, all day",
-        "desc": "Get the walls rising while weather holds and momentum's high"
+        "id": "strike_while_hot",
+        "label": "Push tomorrow",
+        "desc": "Sawyer's confident, weather's holding, winter's close. Strike while the iron's hot."
       },
       {
-        "id": "slow_start",
-        "label": "Sleep in, steady pace",
-        "desc": "The frame's true—let them rest and pace for the long haul"
+        "id": "rest_day",
+        "label": "Give them rest",
+        "desc": "Even builders need recovery. A full day off now means better work tomorrow."
       },
       {
-        "id": "fish_first",
-        "label": "Fish first, build after",
-        "desc": "One sunrise morning with the boys before the real week begins"
+        "id": "half_day",
+        "label": "Morning work, then off",
+        "desc": "A few hours to keep momentum, then the crew rests. Best of both."
       }
     ]
   },
   "in_play": {
-    "id": "finish_walls",
-    "label": "Push the framing",
-    "desc": "Get the house sealed before the snow hits. Winter tests what we build.",
-    "decided": "2026-06-23",
+    "id": "early_push",
+    "label": "First light, all day",
+    "desc": "Get the walls rising while weather holds and momentum's high",
+    "decided": "2026-06-24",
     "votes": 0,
     "tally": {}
   }
