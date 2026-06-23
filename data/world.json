@@ -1,13 +1,13 @@
 {
   "day": 15,
-  "cycle": "afternoon",
+  "cycle": "evening",
   "weather": "clear",
   "season": {
     "name": "fall",
     "day_in_season": 6
   },
   "resources": {
-    "food": 34,
+    "food": 51,
     "water": 86,
     "wood": 96,
     "medicine": 1,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 58,
+      "condition": 56,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 12
+    "fuel": 18
   },
   "build": {
     "project": null,
@@ -48,20 +48,20 @@
     "present": false
   },
   "last_run_date": "2026-06-23",
-  "pulse": "The family's pushing the frame up, spirits high—winter coming into focus as the walls take shape.",
-  "scene": "Afternoon light slopes across the frame as Cole, Sawyer, and Finn work the headers while Bear carries nails—Maggie arrives with water, and the crew gathers to see the structure coming together.",
+  "pulse": "The frame climbs, the kids are learning, and the family gathers as the aurora rises—a day's work settling into warm evening.",
+  "scene": "The family gathers at the cabin porch as dusk deepens, the frame's progress evident behind them; above the treeline, the aurora begins to show.",
   "resources_prev": {
-    "food": 50,
+    "food": 34,
     "water": 86,
-    "wood": 100,
+    "wood": 96,
     "medicine": 1,
     "materials": 0,
     "money": 60,
     "power": 0
   },
-  "camp_climate": "content",
+  "camp_climate": "steady",
   "discoveries": [],
-  "last_cycle_key": "2026-06-23:afternoon",
+  "last_cycle_key": "2026-06-23:evening",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
