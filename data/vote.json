@@ -1,32 +1,27 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-24",
+    "id": "2026-06-25",
     "closes": "tonight",
-    "question": "Tomorrow's clear and the frame's half up—should Cole push the crew hard while Sawyer's finding his stride and winter's ticking closer, or give everyone a real rest day to",
+    "question": "Autumn light's precious and walls are rising faster than expected. Tomorrow: does Cole push hard to finish the frame before winter shadows deepen? Or does the crew ease t",
     "options": [
       {
-        "id": "strike_while_hot",
-        "label": "Push tomorrow",
-        "desc": "Sawyer's confident, weather's holding, winter's close. Strike while the iron's hot."
+        "id": "push_before_winter",
+        "label": "Race the frame up",
+        "desc": "Full effort tomorrow—beat the darkening days and winter's creep."
       },
       {
-        "id": "rest_day",
-        "label": "Give them rest",
-        "desc": "Even builders need recovery. A full day off now means better work tomorrow."
-      },
-      {
-        "id": "half_day",
-        "label": "Morning work, then off",
-        "desc": "A few hours to keep momentum, then the crew rests. Best of both."
+        "id": "steady_and_rest",
+        "label": "Pace and tend",
+        "desc": "Keep steady work while Maggie gathers wood with the boys—rest matters too."
       }
     ]
   },
   "in_play": {
-    "id": "early_push",
-    "label": "First light, all day",
-    "desc": "Get the walls rising while weather holds and momentum's high",
-    "decided": "2026-06-24",
+    "id": "strike_while_hot",
+    "label": "Push tomorrow",
+    "desc": "Sawyer's confident, weather's holding, winter's close. Strike while the iron's hot.",
+    "decided": "2026-06-25",
     "votes": 0,
     "tally": {}
   }
