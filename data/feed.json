@@ -1,217 +1,6 @@
 [
   {
     "day": 6,
-    "cycle": "morning",
-    "character": "cole",
-    "action": "Eyes the weathered roof corners in early light, running through repairs and materials in his mind.",
-    "thought": "This roof won't make it through winter.",
-    "location": {
-      "waypoint": "cabin_side",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "focused",
-    "timestamp": "2026-06-14T07:03:40.593139"
-  },
-  {
-    "day": 6,
-    "cycle": "morning",
-    "character": "maggie",
-    "action": "Portions oats and yesterday's fish into five bowls by the warm stove, moving with quiet purpose.",
-    "thought": "Four hungry kids, and almost nothing left.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "warm",
-    "timestamp": "2026-06-14T07:03:40.593139"
-  },
-  {
-    "day": 6,
-    "cycle": "morning",
-    "character": "sawyer",
-    "action": "Clears breakfast bowls and sets the porch table for lessons, keeping an eye on the roof.",
-    "thought": "Roof's getting worse. We need to fix it.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "serious",
-    "timestamp": "2026-06-14T07:03:40.593139"
-  },
-  {
-    "day": 6,
-    "cycle": "morning",
-    "character": "finn",
-    "action": "Bounces between tasks with stomach growling, itching to help with something real instead of lessons.",
-    "thought": "I want to do real work, not lessons.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "restless",
-    "timestamp": "2026-06-14T07:03:40.593139"
-  },
-  {
-    "day": 6,
-    "cycle": "morning",
-    "character": "bear",
-    "action": "Grins at his small bowl and cracks jokes, then settles at the porch table to wait for school.",
-    "thought": "Even oats taste good when everyone's here.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "playful",
-    "timestamp": "2026-06-14T07:03:40.593139"
-  },
-  {
-    "day": 6,
-    "cycle": "morning",
-    "type": "interaction",
-    "characters": [
-      "maggie",
-      "cole",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "The cabin porch glows with early light: Maggie rations thin bowls of oats, Cole assesses the weathering roof, Sawyer tidies for school, Finn fidgets, Bear jokes. The stove is warm, but the cabin's decay is pressing into focus.",
-    "dialogue": [
-      {
-        "speaker": "maggie",
-        "line": "Alright — oats and preserved fish this morning."
-      },
-      {
-        "speaker": "bear",
-        "line": "Oats again? Why not pancakes?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Pancakes need flour and eggs, bud. We don't have either."
-      },
-      {
-        "speaker": "finn",
-        "line": "We could fish again! I want to catch more."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We should think about the roof before winter."
-      },
-      {
-        "speaker": "maggie",
-        "line": "One thing at a time, Sawyer. Eat first."
-      },
-      {
-        "speaker": "cole",
-        "line": "Corner's already starting to show wear."
-      },
-      {
-        "speaker": "bear",
-        "line": "I don't see anything."
-      },
-      {
-        "speaker": "finn",
-        "line": "Roofs are boring."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Roofs keep the rain out. Very boring and very important."
-      },
-      {
-        "speaker": "cole",
-        "line": "We patch it after school, if we have the materials."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "What do we need?"
-      },
-      {
-        "speaker": "cole",
-        "line": "More than we've got. We'll figure something out."
-      },
-      {
-        "speaker": "maggie",
-        "line": "One bowl each. Make it stretch."
-      },
-      {
-        "speaker": "bear",
-        "line": "Mine's smaller than Finn's."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Everyone's bowl is the same size, Bear. Fair's fair."
-      },
-      {
-        "speaker": "finn",
-        "line": "Actually, this tastes pretty good."
-      },
-      {
-        "speaker": "cole",
-        "line": "Your mom's a magician with a stove."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We could check the shed for scrap wood?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Good thinking. After lessons."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Finish eating. School in an hour."
-      },
-      {
-        "speaker": "bear",
-        "line": "Do I get math today?"
-      },
-      {
-        "speaker": "finn",
-        "line": "You always do."
-      },
-      {
-        "speaker": "cole",
-        "line": "Help your mom clear these bowls."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "I'll get water from the creek."
-      },
-      {
-        "speaker": "maggie",
-        "line": "Cold as you can get it."
-      },
-      {
-        "speaker": "cole",
-        "line": "Look at this family. Still moving right."
-      },
-      {
-        "speaker": "bear",
-        "line": "Even when we're eating boring oats?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "Especially then, buddy."
-      },
-      {
-        "speaker": "cole",
-        "line": "That's it exactly."
-      }
-    ],
-    "timestamp": "2026-06-14T07:03:40.593139"
-  },
-  {
-    "day": 6,
     "cycle": "midday",
     "character": "cole",
     "action": "Cole descends from assessing the roof, the damage clear in his eyes, and stands with Maggie to plan the next moves.",
@@ -9784,5 +9573,220 @@
       }
     ],
     "timestamp": "2026-06-24T07:03:54.173257"
+  },
+  {
+    "day": 16,
+    "cycle": "midday",
+    "character": "cole",
+    "action": "He scans the prepared logs at the cabin's edge, calculating what the frame will need this afternoon.",
+    "thought": "We've got what we need. Push hard today.",
+    "location": {
+      "waypoint": "cabin_front",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "focused",
+    "timestamp": "2026-06-24T11:32:26.798797"
+  },
+  {
+    "day": 16,
+    "cycle": "midday",
+    "character": "maggie",
+    "action": "She guides Sawyer, Finn, and Bear through their school lessons at the cabin porch, keeping the morning structure tight.",
+    "thought": "Keep them focused. The work can wait.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "patient",
+    "timestamp": "2026-06-24T11:32:26.798797"
+  },
+  {
+    "day": 16,
+    "cycle": "midday",
+    "character": "sawyer",
+    "action": "He sits sharp at the school table, working through the math, but his eyes drift toward the logs and the sawhorse.",
+    "thought": "I can do better. I want to build.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "restless",
+    "timestamp": "2026-06-24T11:32:26.798797"
+  },
+  {
+    "day": 16,
+    "cycle": "midday",
+    "character": "finn",
+    "action": "He squirms through his math problems at the porch table, barely able to sit still, eager for the afternoon work.",
+    "thought": "Sit still, sit still... please hurry up.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-24T11:32:26.798797"
+  },
+  {
+    "day": 16,
+    "cycle": "midday",
+    "character": "bear",
+    "action": "He bounces on the bench next to Maggie, answering questions and asking his own, full of curiosity and play.",
+    "thought": "Math is weird but Maggie makes it fun.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "playful",
+    "timestamp": "2026-06-24T11:32:26.798797"
+  },
+  {
+    "day": 16,
+    "cycle": "midday",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear",
+      "cole"
+    ],
+    "description": "At the cabin porch, Maggie's lessons anchor the morning while Cole—just at the cabin's edge—surveys the day's work ahead: four eager minds and a frame that's half-built.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "Alright, eight times six."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Forty-eight."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Good. Finn, what's eight times six?"
+      },
+      {
+        "speaker": "finn",
+        "line": "Um... forty-eight?"
+      },
+      {
+        "speaker": "bear",
+        "line": "I can do four times two!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You can. How'd you know, Finn?"
+      },
+      {
+        "speaker": "finn",
+        "line": "I remembered. Can we do the lumber problem?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Not yet. But your mother's building something up."
+      },
+      {
+        "speaker": "maggie",
+        "line": "We are. Eight logs per wall, two walls—how many logs total?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Sixteen."
+      },
+      {
+        "speaker": "bear",
+        "line": "Sixteen!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Right. And if each log weighs eight pounds?"
+      },
+      {
+        "speaker": "finn",
+        "line": "One-twenty-eight pounds. Did I get it?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You did. And that's just two walls."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Does that mean we're building more walls?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Walls first, then we see what comes after."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I help this afternoon? With the saw?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You have to finish school first."
+      },
+      {
+        "speaker": "maggie",
+        "line": "He's right. Let's do one more page, then lunch."
+      },
+      {
+        "speaker": "bear",
+        "line": "Then the work?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Then the work. Light's good today."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How much progress can we make?"
+      },
+      {
+        "speaker": "cole",
+        "line": "One step at a time. You don't rush the frame."
+      },
+      {
+        "speaker": "finn",
+        "line": "But we already did half!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Which means the other half matters more. Focus here."
+      },
+      {
+        "speaker": "bear",
+        "line": "Is my half the bottom?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Something like that."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Last problem, Sawyer. If we need sixteen logs and cut twelve, how many more?"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Four. And we have them, right?"
+      },
+      {
+        "speaker": "cole",
+        "line": "We do. So by tonight, we'll know where we stand."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Now finish that and we'll eat."
+      }
+    ],
+    "timestamp": "2026-06-24T11:32:26.798797"
   }
 ]
