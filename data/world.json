@@ -1,15 +1,15 @@
 {
   "day": 16,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "fall",
     "day_in_season": 7
   },
   "resources": {
-    "food": 41,
-    "water": 86,
-    "wood": 96,
+    "food": 50,
+    "water": 100,
+    "wood": 95,
     "medicine": 1,
     "materials": 0,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 46,
+      "condition": 44,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 12
+    "fuel": 18
   },
   "build": {
     "project": null,
@@ -48,20 +48,20 @@
     "present": false
   },
   "last_run_date": "2026-06-24",
-  "pulse": "Cole's steady, Sawyer's proud, Finn won't stop asking, and the woodshed is ready to rise.",
-  "scene": "At the cabin porch on a clear autumn evening, Cole and Sawyer study tomorrow's frame while Maggie serves dinner and the boys settle close—the work done, rest beginning.",
+  "pulse": "Tired and warm, the Wilders cluster by the stove's glow talking frames and tomorrow, momentum building as the walls take shape.",
+  "scene": "Dinner cleared, the family settles on the cabin porch—Cole by the door planning tomorrow's frame, Maggie with Bear tucked close, Sawyer and Finn nearby, all watching stars as the clear night deepens.",
   "resources_prev": {
-    "food": 56,
+    "food": 41,
     "water": 86,
-    "wood": 100,
+    "wood": 96,
     "medicine": 1,
     "materials": 0,
     "money": 60,
     "power": 0
   },
-  "camp_climate": "steady",
+  "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-24:evening",
+  "last_cycle_key": "2026-06-24:night",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -77,7 +77,8 @@
     "12": "The roof was completed as power dwindled to six percent, spurring an early town run tomorrow for fuel. The family planned the next phase: the woodshed, with Sawyer asked to help frame it from scratch. By nightfall they gathered warm around hot stew, spirits high and the aurora beginning to dance above the treeline.",
     "13": "The day held steady: framing advanced, lessons finished, and Maggie stretched the food for a warm afternoon tea. Cole and Sawyer mapped the woodshed site, and by evening the family gathered at the firepit under clear autumn skies, watching for the northern lights with quiet hope.",
     "14": "Frame posts went up all day under Cole's steady hand, Sawyer learning and Finn burning with pride. The family stayed warm and fed as aurora danced overhead. By nightfall the frame stands true and everyone settles satisfied, tired but ready—winter closing in, foundation solid.",
-    "15": "Day 15 was all frame work: Cole led the boys from morning into evening, and the structure is now half-built and visible on the land. Everyone is exhausted but proud, and as the clear fall night brings aurora, the race becomes real—six weeks until winter, they need the house sealed."
+    "15": "Day 15 was all frame work: Cole led the boys from morning into evening, and the structure is now half-built and visible on the land. Everyone is exhausted but proud, and as the clear fall night brings aurora, the race becomes real—six weeks until winter, they need the house sealed.",
+    "16": "Day 16 brought solid foundation work on the woodshed and a full day of family effort. By evening, Cole and Sawyer had the frame planned, the boys were eager for tomorrow, and Maggie kept everyone fed and warm. Clear skies and a gathered family make for good rest tonight."
   },
   "lean": {
     "id": "early_push",
