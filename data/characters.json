@@ -11,14 +11,14 @@
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "focused",
     "where": "home",
     "location": {
-      "waypoint": "cabin_front",
+      "waypoint": "build_site",
       "x": 44,
       "y": 52
     },
@@ -31,7 +31,7 @@
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 35,
+        "tension": 34,
         "attraction": 0
       },
       "finn": {
@@ -64,8 +64,8 @@
       "beard": true
     },
     "interaction": {
-      "with": "maggie",
-      "state": "talking"
+      "with": "sawyer",
+      "state": "working_together"
     },
     "memories": [
       {
@@ -85,12 +85,12 @@
       "trust": 100,
       "openness": 100,
       "ambition": 66,
-      "loneliness": 0,
+      "loneliness": 3,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "patient",
     "where": "home",
@@ -136,10 +136,7 @@
         "apron"
       ]
     },
-    "interaction": {
-      "with": "sawyer",
-      "state": "sitting_together"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -156,19 +153,19 @@
     "color": "#2f5d8a",
     "scores": {
       "trust": 100,
-      "openness": 85,
+      "openness": 86,
       "ambition": 100,
       "loneliness": 0,
       "resilience": 91,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
-    "mood": "restless",
+    "mood": "proud",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "build_site",
       "x": 30,
       "y": 58
     },
@@ -176,7 +173,7 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 35,
+        "tension": 34,
         "attraction": 0
       },
       "maggie": {
@@ -208,8 +205,8 @@
       "boots": "#34281c"
     },
     "interaction": {
-      "with": "maggie",
-      "state": "sitting_together"
+      "with": "cole",
+      "state": "working_together"
     },
     "memories": [],
     "condition": "healthy"
@@ -222,18 +219,18 @@
     "scores": {
       "trust": 89,
       "openness": 100,
-      "ambition": 89,
-      "loneliness": 1,
+      "ambition": 90,
+      "loneliness": 0,
       "resilience": 66,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "eager",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "build_site",
       "x": 78,
       "y": 60
     },
@@ -274,8 +271,8 @@
       "boots": "#34281c"
     },
     "interaction": {
-      "with": "maggie",
-      "state": "sitting_together"
+      "with": "cole",
+      "state": "helping"
     },
     "memories": [
       {
@@ -298,14 +295,14 @@
       "loneliness": 0,
       "resilience": 87,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "playful",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "build_site",
       "x": 54,
       "y": 64
     },
@@ -346,8 +343,8 @@
       "boots": "#34281c"
     },
     "interaction": {
-      "with": "maggie",
-      "state": "sitting_together"
+      "with": "cole",
+      "state": "helping"
     },
     "memories": [
       {
