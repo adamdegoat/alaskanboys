@@ -1,27 +1,32 @@
 {
   "world": "alaskanboys",
   "poll": {
-    "id": "2026-06-25",
+    "id": "2026-06-26",
     "closes": "tonight",
-    "question": "Autumn light's precious and walls are rising faster than expected. Tomorrow: does Cole push hard to finish the frame before winter shadows deepen? Or does the crew ease t",
+    "question": "Cole's eager to push the frame to completion while weather holds and Sawyer's sharp. Maggie knows a hunting day would fill winter stores and give Finn—and everyone—a need",
     "options": [
       {
-        "id": "push_before_winter",
-        "label": "Race the frame up",
-        "desc": "Full effort tomorrow—beat the darkening days and winter's creep."
+        "id": "push_frame",
+        "label": "Finish the frame",
+        "desc": "Ride the momentum and good weather—shelter comes first."
       },
       {
-        "id": "steady_and_rest",
-        "label": "Pace and tend",
-        "desc": "Keep steady work while Maggie gathers wood with the boys—rest matters too."
+        "id": "hunt_day",
+        "label": "Take the hunt",
+        "desc": "Fill stores and let the family reset before the final push."
+      },
+      {
+        "id": "hunt_then_build",
+        "label": "Hunt, then build",
+        "desc": "Morning hunt for winter food, afternoon back to the frame—both are pressing."
       }
     ]
   },
   "in_play": {
-    "id": "strike_while_hot",
-    "label": "Push tomorrow",
-    "desc": "Sawyer's confident, weather's holding, winter's close. Strike while the iron's hot.",
-    "decided": "2026-06-25",
+    "id": "push_before_winter",
+    "label": "Race the frame up",
+    "desc": "Full effort tomorrow—beat the darkening days and winter's creep.",
+    "decided": "2026-06-26",
     "votes": 0,
     "tally": {}
   }

@@ -6,19 +6,19 @@
     "color": "#9a3b2e",
     "scores": {
       "trust": 100,
-      "openness": 95,
+      "openness": 96,
       "ambition": 100,
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
-      "thirst": 47,
-      "energy": 100
+      "hunger": 47,
+      "thirst": 55,
+      "energy": 94
     },
-    "mood": "satisfied",
+    "mood": "purposeful",
     "where": "home",
     "location": {
-      "waypoint": "firepit_out",
+      "waypoint": "cabin_porch",
       "x": 44,
       "y": 52
     },
@@ -26,22 +26,22 @@
     "relationships": {
       "maggie": {
         "closeness": 100,
-        "tension": 47,
+        "tension": 46,
         "attraction": 0
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 25,
+        "tension": 23,
         "attraction": 0
       },
       "finn": {
         "closeness": 100,
-        "tension": 63,
+        "tension": 62,
         "attraction": 0
       },
       "bear": {
         "closeness": 100,
-        "tension": 66,
+        "tension": 65,
         "attraction": 0
       }
     },
@@ -63,11 +63,19 @@
       ],
       "beard": true
     },
-    "interaction": null,
+    "interaction": {
+      "with": "maggie",
+      "state": "talking"
+    },
     "memories": [
       {
         "day": 1,
         "text": "Water on day one. The land gives back.",
+        "weight": 2
+      },
+      {
+        "day": 18,
+        "text": "Sawyer's ready. Time to teach him the real work.",
         "weight": 2
       }
     ],
@@ -85,14 +93,14 @@
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
-      "thirst": 47,
-      "energy": 100
+      "hunger": 47,
+      "thirst": 55,
+      "energy": 94
     },
-    "mood": "warm",
+    "mood": "grounded",
     "where": "home",
     "location": {
-      "waypoint": "firepit_out",
+      "waypoint": "cabin_porch",
       "x": 64,
       "y": 46
     },
@@ -100,22 +108,22 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 47,
+        "tension": 46,
         "attraction": 0
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 65,
+        "tension": 64,
         "attraction": 0
       },
       "finn": {
         "closeness": 100,
-        "tension": 70,
+        "tension": 69,
         "attraction": 0
       },
       "bear": {
         "closeness": 100,
-        "tension": 61,
+        "tension": 60,
         "attraction": 0
       }
     },
@@ -134,8 +142,8 @@
       ]
     },
     "interaction": {
-      "with": "finn",
-      "state": "sitting_together"
+      "with": "cole",
+      "state": "talking"
     },
     "memories": [
       {
@@ -153,19 +161,19 @@
     "color": "#2f5d8a",
     "scores": {
       "trust": 100,
-      "openness": 88,
+      "openness": 89,
       "ambition": 100,
       "loneliness": 0,
-      "resilience": 95,
+      "resilience": 96,
       "health": 100,
-      "hunger": 55,
-      "thirst": 47,
-      "energy": 100
+      "hunger": 47,
+      "thirst": 55,
+      "energy": 94
     },
-    "mood": "proud",
+    "mood": "ready",
     "where": "home",
     "location": {
-      "waypoint": "firepit_out",
+      "waypoint": "cabin_porch",
       "x": 30,
       "y": 58
     },
@@ -173,22 +181,22 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 25,
+        "tension": 23,
         "attraction": 0
       },
       "maggie": {
         "closeness": 100,
-        "tension": 65,
+        "tension": 64,
         "attraction": 0
       },
       "finn": {
         "closeness": 100,
-        "tension": 60,
+        "tension": 59,
         "attraction": 0
       },
       "bear": {
         "closeness": 100,
-        "tension": 66,
+        "tension": 65,
         "attraction": 0
       }
     },
@@ -204,8 +212,17 @@
       "pants": "#394150",
       "boots": "#34281c"
     },
-    "interaction": null,
-    "memories": [],
+    "interaction": {
+      "with": "cole",
+      "state": "talking"
+    },
+    "memories": [
+      {
+        "day": 18,
+        "text": "Dad said I could ride with him to town. I'm growing up.",
+        "weight": 2
+      }
+    ],
     "condition": "healthy"
   },
   "finn": {
@@ -216,18 +233,18 @@
     "scores": {
       "trust": 89,
       "openness": 100,
-      "ambition": 95,
+      "ambition": 96,
       "loneliness": 0,
       "resilience": 66,
       "health": 100,
-      "hunger": 55,
-      "thirst": 47,
-      "energy": 100
+      "hunger": 47,
+      "thirst": 55,
+      "energy": 94
     },
     "mood": "excited",
     "where": "home",
     "location": {
-      "waypoint": "firepit_out",
+      "waypoint": "cabin_front",
       "x": 78,
       "y": 60
     },
@@ -235,22 +252,22 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 63,
+        "tension": 62,
         "attraction": 0
       },
       "maggie": {
         "closeness": 100,
-        "tension": 70,
+        "tension": 69,
         "attraction": 0
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 60,
+        "tension": 59,
         "attraction": 0
       },
       "bear": {
         "closeness": 100,
-        "tension": 70,
+        "tension": 69,
         "attraction": 0
       }
     },
@@ -267,10 +284,7 @@
       "pants": "#3a4450",
       "boots": "#34281c"
     },
-    "interaction": {
-      "with": "maggie",
-      "state": "sitting_together"
-    },
+    "interaction": null,
     "memories": [
       {
         "day": 1,
@@ -292,14 +306,14 @@
       "loneliness": 0,
       "resilience": 89,
       "health": 100,
-      "hunger": 55,
-      "thirst": 47,
-      "energy": 100
+      "hunger": 47,
+      "thirst": 55,
+      "energy": 94
     },
-    "mood": "content",
+    "mood": "drowsy",
     "where": "home",
     "location": {
-      "waypoint": "firepit_out",
+      "waypoint": "cabin_porch",
       "x": 54,
       "y": 64
     },
@@ -307,22 +321,22 @@
     "relationships": {
       "cole": {
         "closeness": 100,
-        "tension": 66,
+        "tension": 65,
         "attraction": 0
       },
       "maggie": {
         "closeness": 100,
-        "tension": 61,
+        "tension": 60,
         "attraction": 0
       },
       "sawyer": {
         "closeness": 100,
-        "tension": 66,
+        "tension": 65,
         "attraction": 0
       },
       "finn": {
         "closeness": 100,
-        "tension": 70,
+        "tension": 69,
         "attraction": 0
       }
     },
@@ -339,7 +353,10 @@
       "pants": "#3a4450",
       "boots": "#34281c"
     },
-    "interaction": null,
+    "interaction": {
+      "with": "maggie",
+      "state": "sitting_together"
+    },
     "memories": [
       {
         "day": 1,
