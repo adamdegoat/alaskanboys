@@ -1,225 +1,6 @@
 [
   {
     "day": 7,
-    "cycle": "afternoon",
-    "character": "cole",
-    "action": "Works steady in the shallows, calling quiet tips to Sawyer and watching the boys learn, one eye always on Bear.",
-    "thought": "The boys are learning. That's what matters now.",
-    "location": {
-      "waypoint": "creek",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "determined",
-    "timestamp": "2026-06-15T15:02:05.335969"
-  },
-  {
-    "day": 7,
-    "cycle": "afternoon",
-    "character": "maggie",
-    "action": "Sits on the bank beside Bear, offering cool creek water and watching his fever, steady and close.",
-    "thought": "We're feeding our family. Even like this.",
-    "location": {
-      "waypoint": "creek",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "resolute",
-    "timestamp": "2026-06-15T15:02:05.335969"
-  },
-  {
-    "day": 7,
-    "cycle": "afternoon",
-    "character": "sawyer",
-    "action": "Stands chest-deep, steady hand on Finn's shoulder, coaching Bear into the water, his voice patient and clear.",
-    "thought": "They're listening. I can teach them.",
-    "location": {
-      "waypoint": "creek",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "proud",
-    "timestamp": "2026-06-15T15:02:05.335969"
-  },
-  {
-    "day": 7,
-    "cycle": "afternoon",
-    "character": "finn",
-    "action": "Follows Sawyer's every word, feels his line tug, and whoops as his first fish breaks the surface.",
-    "thought": "I caught one! I actually caught one!",
-    "location": {
-      "waypoint": "creek",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "eager",
-    "timestamp": "2026-06-15T15:02:05.335969"
-  },
-  {
-    "day": 7,
-    "cycle": "afternoon",
-    "character": "bear",
-    "action": "Wades in shallow water near Maggie, tired and fever-light but smiling, trying his line again and again.",
-    "thought": "I cast it myself. I'm doing this.",
-    "location": {
-      "waypoint": "creek",
-      "x": 54,
-      "y": 64
-    },
-    "shelter": "cabin",
-    "mood": "quiet",
-    "timestamp": "2026-06-15T15:02:05.335969"
-  },
-  {
-    "day": 7,
-    "cycle": "afternoon",
-    "type": "interaction",
-    "characters": [
-      "cole",
-      "maggie",
-      "sawyer",
-      "finn",
-      "bear"
-    ],
-    "description": "At the sun-bright creek, Sawyer guides Finn's rod taut; the fish breaks the surface and Finn whoops—Bear cheers from the shallows, Cole nods slow, and Maggie steadies Bear's shoulder.",
-    "dialogue": [
-      {
-        "speaker": "sawyer",
-        "line": "Keep your tip up—there, feel that tug? You got one."
-      },
-      {
-        "speaker": "finn",
-        "line": "I got one! It's so strong!"
-      },
-      {
-        "speaker": "cole",
-        "line": "Hold steady. Let him run if he needs to."
-      },
-      {
-        "speaker": "finn",
-        "line": "It's bending so far!"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "You're doing it. Just keep the line tight."
-      },
-      {
-        "speaker": "maggie",
-        "line": "That's beautiful, Finn. You did it."
-      },
-      {
-        "speaker": "finn",
-        "line": "Is this what you feel every time, Sawyer?"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Every time. And it never gets old. Reel him in."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can I try the big rod?"
-      },
-      {
-        "speaker": "cole",
-        "line": "When you're stronger. Sawyer's rod fits you better."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Come here, Bear. I'll show you the cast."
-      },
-      {
-        "speaker": "bear",
-        "line": "Is the water gonna help me feel better?"
-      },
-      {
-        "speaker": "maggie",
-        "line": "That's exactly what it's doing. Here, drink some."
-      },
-      {
-        "speaker": "bear",
-        "line": "It's so cold and good."
-      },
-      {
-        "speaker": "cole",
-        "line": "Sawyer, teach him the stance like you showed Finn."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Okay, Bear—feet apart, rod back, then smooth and easy."
-      },
-      {
-        "speaker": "bear",
-        "line": "Like this?"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Perfect. Now cast."
-      },
-      {
-        "speaker": "bear",
-        "line": "I did it! Did I do it right?"
-      },
-      {
-        "speaker": "finn",
-        "line": "You cast it way farther than I did the first time."
-      },
-      {
-        "speaker": "cole",
-        "line": "Eyes on your line. Something might be already there."
-      },
-      {
-        "speaker": "bear",
-        "line": "I feel something! It's moving!"
-      },
-      {
-        "speaker": "sawyer",
-        "line": "That's it—reel slow, keep the tip up."
-      },
-      {
-        "speaker": "maggie",
-        "line": "You're doing this, baby. You're doing so good."
-      },
-      {
-        "speaker": "cole",
-        "line": "Six fish by supper, and we eat like kings."
-      },
-      {
-        "speaker": "finn",
-        "line": "We're gonna make it, aren't we? We really are."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "We're already doing it."
-      },
-      {
-        "speaker": "maggie",
-        "line": "One day at a time, and today we're winning."
-      },
-      {
-        "speaker": "bear",
-        "line": "Can we come back tomorrow?"
-      },
-      {
-        "speaker": "cole",
-        "line": "Every day until the run slows, bud. Every day."
-      },
-      {
-        "speaker": "sawyer",
-        "line": "Let's get four more before the light changes."
-      },
-      {
-        "speaker": "finn",
-        "line": "I'm going back in. Come on, Bear!"
-      }
-    ],
-    "timestamp": "2026-06-15T15:02:05.335969"
-  },
-  {
-    "day": 7,
     "cycle": "evening",
     "character": "cole",
     "action": "Cole rested on the cabin porch after processing the day's catch, watching the boys recover from hard work.",
@@ -9839,5 +9620,216 @@
       }
     ],
     "timestamp": "2026-06-25T15:07:21.339630"
+  },
+  {
+    "day": 17,
+    "cycle": "evening",
+    "character": "cole",
+    "action": "Came down from the build site as light faded, resting on the cabin porch and watching the frame's skeleton rise against the darkening sky.",
+    "thought": "Sawyer's becoming a builder. I see it plain now.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 44,
+      "y": 52
+    },
+    "shelter": "cabin",
+    "mood": "satisfied",
+    "timestamp": "2026-06-25T18:36:31.669360"
+  },
+  {
+    "day": 17,
+    "cycle": "evening",
+    "character": "maggie",
+    "action": "Tended the stove and set out a warm supper as the family came in from the evening cold, keeping the fire alive for the cabin's heart.",
+    "thought": "Fed and safe after a long day. That's home.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "warm",
+    "timestamp": "2026-06-25T18:36:31.669360"
+  },
+  {
+    "day": 17,
+    "cycle": "evening",
+    "character": "sawyer",
+    "action": "Helped bring tools down and came in eager for the warmth of supper after a day of learning joinery and real work.",
+    "thought": "Dad's showing me how to build. I'm getting good.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 30,
+      "y": 58
+    },
+    "shelter": "cabin",
+    "mood": "proud",
+    "timestamp": "2026-06-25T18:36:31.669360"
+  },
+  {
+    "day": 17,
+    "cycle": "evening",
+    "character": "finn",
+    "action": "Came racing down from the site, fired up from driving nails straight and hauling timber, already hungry for supper and tomorrow's work.",
+    "thought": "I nailed every single one. I'm so good at this.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "excited",
+    "timestamp": "2026-06-25T18:36:31.669360"
+  },
+  {
+    "day": 17,
+    "cycle": "evening",
+    "character": "bear",
+    "action": "Dragged in from his last haul, grinning about how many heavy logs he moved, ready to crowd in with his brothers for warmth and supper.",
+    "thought": "I'm the strongest hauler. That's my real job.",
+    "location": {
+      "waypoint": "cabin_porch",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "content",
+    "timestamp": "2026-06-25T18:36:31.669360"
+  },
+  {
+    "day": 17,
+    "cycle": "evening",
+    "type": "interaction",
+    "characters": [
+      "cole",
+      "maggie",
+      "sawyer",
+      "finn",
+      "bear"
+    ],
+    "description": "The frame's beams are rising true; as twilight settles, the family gathers at the cabin porch, Maggie setting steaming supper out while Cole and the boys come in cold and hungry from the day.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "That frame's nearly standing—you all earned a good supper tonight."
+      },
+      {
+        "speaker": "cole",
+        "line": "Sawyer earned it most. That joinery's true work."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "You made it look easy yesterday. It's not."
+      },
+      {
+        "speaker": "cole",
+        "line": "It gets easier. You've got the gift for it."
+      },
+      {
+        "speaker": "finn",
+        "line": "I nailed like fifty joints today. My arm's sore!"
+      },
+      {
+        "speaker": "bear",
+        "line": "I hauled the heaviest ones. My legs are tired."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Everyone's sore—tomorrow we rest, or we push again?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Weather's holding. One more day like today and the frame's done."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Then what's next? The roof?"
+      },
+      {
+        "speaker": "cole",
+        "line": "Roof framing, yeah. But finish this first."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I help do the roof?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You'll have a job on the roof. Both of you."
+      },
+      {
+        "speaker": "bear",
+        "line": "What about me? What's my job?"
+      },
+      {
+        "speaker": "cole",
+        "line": "You're the hauler. We need the hauler on the roof."
+      },
+      {
+        "speaker": "maggie",
+        "line": "First, let's eat. This stew won't stay hot long."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "How many servings do we have left?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Enough for tonight and breakfast if we're modest. Town run's Saturday."
+      },
+      {
+        "speaker": "cole",
+        "line": "We can fish the creek again tomorrow. Maybe catch some."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'll fish with you, Dad. I want to try the deep hole."
+      },
+      {
+        "speaker": "cole",
+        "line": "First light if the weather holds. You'll like it."
+      },
+      {
+        "speaker": "bear",
+        "line": "I want to fish too!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Everyone gets supper first. Come on, bowls out."
+      },
+      {
+        "speaker": "sawyer",
+        "line": "This smells incredible, Mom. What's in it?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Venison from the freezer, root vegetables, stock. Everything we have."
+      },
+      {
+        "speaker": "cole",
+        "line": "It smells like home."
+      },
+      {
+        "speaker": "finn",
+        "line": "It tastes like winning."
+      },
+      {
+        "speaker": "bear",
+        "line": "Winning at dinner!"
+      },
+      {
+        "speaker": "sawyer",
+        "line": "Winning at the frame, you mean."
+      },
+      {
+        "speaker": "cole",
+        "line": "Both. We did both today."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Rest while you eat. Tomorrow's early if the weather holds."
+      }
+    ],
+    "timestamp": "2026-06-25T18:36:31.669360"
   }
 ]
