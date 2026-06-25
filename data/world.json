@@ -1,15 +1,15 @@
 {
   "day": 17,
-  "cycle": "evening",
+  "cycle": "night",
   "weather": "clear",
   "season": {
     "name": "fall",
     "day_in_season": 8
   },
   "resources": {
-    "food": 45,
-    "water": 86,
-    "wood": 96,
+    "food": 32,
+    "water": 100,
+    "wood": 94,
     "medicine": 1,
     "materials": 0,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 36,
+      "condition": 34,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 6
+    "fuel": 12
   },
   "build": {
     "project": null,
@@ -48,20 +48,20 @@
     "present": false
   },
   "last_run_date": "2026-06-25",
-  "pulse": "A frame's taking shape under careful hands; Sawyer's learning to build true, Finn's driving nails clean, and one clear day remains before winter's work truly begins.",
-  "scene": "After the afternoon's frame work, everyone's at the cabin porch now as darkness falls—Maggie with hot supper, Cole resting nearby, the boys gathering warmth and food after a day well-earned.",
+  "pulse": "By firelight after a day's building, the family settles—Sawyer quiet and proud, Finn still buzzing, winter close but weather holding.",
+  "scene": "By the firepit on a clear fall night, the family rests after building all day—Sawyer quiet and proud, Finn still animated against Maggie, Bear drowsy on a log. Cole tends the fire as stars emerge.",
   "resources_prev": {
-    "food": 28,
+    "food": 45,
     "water": 86,
-    "wood": 92,
+    "wood": 96,
     "medicine": 1,
     "materials": 0,
     "money": 60,
     "power": 0
   },
-  "camp_climate": "steady",
+  "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-25:evening",
+  "last_cycle_key": "2026-06-25:night",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
@@ -78,7 +78,8 @@
     "13": "The day held steady: framing advanced, lessons finished, and Maggie stretched the food for a warm afternoon tea. Cole and Sawyer mapped the woodshed site, and by evening the family gathered at the firepit under clear autumn skies, watching for the northern lights with quiet hope.",
     "14": "Frame posts went up all day under Cole's steady hand, Sawyer learning and Finn burning with pride. The family stayed warm and fed as aurora danced overhead. By nightfall the frame stands true and everyone settles satisfied, tired but ready—winter closing in, foundation solid.",
     "15": "Day 15 was all frame work: Cole led the boys from morning into evening, and the structure is now half-built and visible on the land. Everyone is exhausted but proud, and as the clear fall night brings aurora, the race becomes real—six weeks until winter, they need the house sealed.",
-    "16": "Day 16 brought solid foundation work on the woodshed and a full day of family effort. By evening, Cole and Sawyer had the frame planned, the boys were eager for tomorrow, and Maggie kept everyone fed and warm. Clear skies and a gathered family make for good rest tonight."
+    "16": "Day 16 brought solid foundation work on the woodshed and a full day of family effort. By evening, Cole and Sawyer had the frame planned, the boys were eager for tomorrow, and Maggie kept everyone fed and warm. Clear skies and a gathered family make for good rest tonight.",
+    "17": "Day 17 was steady building: the woodshed frame rose as Cole taught Sawyer true joinery, Finn drove nails, and Bear hauled timber. By nightfall, the family gathered warm and tired by the fire—Sawyer quiet with new confidence, Finn still buzzing. Winter's days away; the weather holds."
   },
   "lean": {
     "id": "strike_while_hot",
