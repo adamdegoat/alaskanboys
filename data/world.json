@@ -1,15 +1,15 @@
 {
   "day": 18,
-  "cycle": "morning",
+  "cycle": "midday",
   "weather": "clear",
   "season": {
     "name": "fall",
     "day_in_season": 9
   },
   "resources": {
-    "food": 49,
-    "water": 76,
-    "wood": 94,
+    "food": 36,
+    "water": 86,
+    "wood": 99,
     "medicine": 1,
     "materials": 0,
     "money": 60,
@@ -22,7 +22,7 @@
       "id": "wood_stove",
       "type": "wood_stove",
       "level": 1,
-      "condition": 32,
+      "condition": 30,
       "x": 50,
       "y": 55,
       "builder": null,
@@ -33,7 +33,7 @@
   ],
   "fire": {
     "lit": true,
-    "fuel": 18
+    "fuel": 6
   },
   "build": {
     "project": null,
@@ -48,11 +48,11 @@
     "present": false
   },
   "last_run_date": "2026-06-26",
-  "pulse": "On the last morning of fall, Sawyer steps up, Finn buzzes to build, and the family races the frame.",
-  "scene": "At the cabin on the last morning of fall, Cole and Sawyer prepare to leave for town while Maggie and Bear start lessons; Finn waits nearby, eager for the afternoon build.",
+  "pulse": "The generator's dry and winter's closing in—Cole and Sawyer answer the call, stepping up to keep the cabin alive.",
+  "scene": "At the cabin porch at midday, Cole confirms the generator is dry; Maggie counts fuel cost against the budget while Sawyer volunteers for the run, Finn hovers eager to help, and Bear watches quietly.",
   "resources_prev": {
-    "food": 32,
-    "water": 100,
+    "food": 49,
+    "water": 76,
     "wood": 94,
     "medicine": 1,
     "materials": 0,
@@ -61,7 +61,7 @@
   },
   "camp_climate": "content",
   "discoveries": [],
-  "last_cycle_key": "2026-06-26:morning",
+  "last_cycle_key": "2026-06-26:midday",
   "day_summaries": {
     "1": "Day one: Finn's instinct proved right, the spring flows clear on the ridge, and the family's first night settles warm with hot soup and plans. Water changes everything—Cole's already sketching the pipeline for tomorrow. They're exactly where they meant to be.",
     "2": "Day two brought focus: Cole and Sawyer completed the spring intake while the family cleared willows and tended the cabin. Food stores are now empty—but tomorrow Finn fishes, and tonight they rest warm and whole. Foundation work waits next, and their quiet confidence in the land grows each day.",
