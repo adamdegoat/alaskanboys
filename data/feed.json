@@ -2,66 +2,6 @@
   {
     "day": 8,
     "cycle": "midday",
-    "character": "cole",
-    "action": "Working on the cabin roof with Sawyer, framing the peak and teaching the knack with patient corrections.",
-    "thought": "Roof's the thing. Sawyer's got it.",
-    "location": {
-      "waypoint": "build_site",
-      "x": 44,
-      "y": 52
-    },
-    "shelter": "cabin",
-    "mood": "determined",
-    "timestamp": "2026-06-16T11:32:28.439346"
-  },
-  {
-    "day": 8,
-    "cycle": "midday",
-    "character": "maggie",
-    "action": "Conducting a midday math lesson at the cabin porch, working with Finn and Bear on counting and food rationing.",
-    "thought": "Stretch what we have. Keep them strong.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 64,
-      "y": 46
-    },
-    "shelter": "cabin",
-    "mood": "resolute",
-    "timestamp": "2026-06-16T11:32:28.439346"
-  },
-  {
-    "day": 8,
-    "cycle": "midday",
-    "character": "sawyer",
-    "action": "Learning the roof framing from Cole, focused and steady, checking measurements and calling his cuts right.",
-    "thought": "I'm getting this. Really getting this.",
-    "location": {
-      "waypoint": "build_site",
-      "x": 30,
-      "y": 58
-    },
-    "shelter": "cabin",
-    "mood": "eager",
-    "timestamp": "2026-06-16T11:32:28.439346"
-  },
-  {
-    "day": 8,
-    "cycle": "midday",
-    "character": "finn",
-    "action": "At the porch with Maggie, trying to focus on the lesson while watching the roof work in the distance.",
-    "thought": "I could help with that roof.",
-    "location": {
-      "waypoint": "cabin_porch",
-      "x": 78,
-      "y": 60
-    },
-    "shelter": "cabin",
-    "mood": "energetic",
-    "timestamp": "2026-06-16T11:32:28.439346"
-  },
-  {
-    "day": 8,
-    "cycle": "midday",
     "character": "bear",
     "action": "Sitting at the porch with Maggie, listening to the lesson and leaning into the warmth of her steady presence.",
     "thought": "When's lunch? I'm so hungry.",
@@ -9849,5 +9789,160 @@
       }
     ],
     "timestamp": "2026-06-26T11:31:50.038102"
+  },
+  {
+    "day": 18,
+    "cycle": "afternoon",
+    "character": "maggie",
+    "action": "Maggie directs Finn and Bear in gathering and stacking firewood at the woodpile, keeping them moving as the afternoon light fades.",
+    "thought": "The work moves fast when we're all together.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 64,
+      "y": 46
+    },
+    "shelter": "cabin",
+    "mood": "purposeful",
+    "timestamp": "2026-06-26T15:02:44.178606"
+  },
+  {
+    "day": 18,
+    "cycle": "afternoon",
+    "character": "finn",
+    "action": "Finn eagerly carries and stacks wood, asking questions about winter and the frame build, dreaming about tomorrow's real work.",
+    "thought": "Tomorrow the real frame work starts.",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 78,
+      "y": 60
+    },
+    "shelter": "cabin",
+    "mood": "eager",
+    "timestamp": "2026-06-26T15:02:44.178606"
+  },
+  {
+    "day": 18,
+    "cycle": "afternoon",
+    "character": "bear",
+    "action": "Bear stacks wood carefully under Maggie's direction, curious and happy, keeping up with his brothers.",
+    "thought": "When will Dad get back home?",
+    "location": {
+      "waypoint": "woodpile",
+      "x": 54,
+      "y": 64
+    },
+    "shelter": "cabin",
+    "mood": "helpful",
+    "timestamp": "2026-06-26T15:02:44.178606"
+  },
+  {
+    "day": 18,
+    "cycle": "afternoon",
+    "type": "interaction",
+    "characters": [
+      "maggie",
+      "finn",
+      "bear"
+    ],
+    "description": "At the woodpile, Maggie keeps Finn and Bear moving through gathering and stacking wood, their work steady as the cool fall afternoon stretches gold toward evening.",
+    "dialogue": [
+      {
+        "speaker": "maggie",
+        "line": "All right, another load before the light goes."
+      },
+      {
+        "speaker": "finn",
+        "line": "I can carry the big pieces!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Stack them first. Carry later, little speed racer."
+      },
+      {
+        "speaker": "bear",
+        "line": "Can I use the axe?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "No axes for you yet, buddy."
+      },
+      {
+        "speaker": "finn",
+        "line": "But why do we need so much wood?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Winter eats it all. Six months of cold."
+      },
+      {
+        "speaker": "bear",
+        "line": "The stove is like a dragon eating fire."
+      },
+      {
+        "speaker": "maggie",
+        "line": "Smart. A very hungry dragon."
+      },
+      {
+        "speaker": "finn",
+        "line": "I want to cut down that big tree tomorrow and make a giant pile."
+      },
+      {
+        "speaker": "maggie",
+        "line": "One log at a time, Finn. Your dad's getting fuel in town right now."
+      },
+      {
+        "speaker": "bear",
+        "line": "How long 'til he's back?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "Hour there, hour back, plus some time. Before it gets dark."
+      },
+      {
+        "speaker": "finn",
+        "line": "Can I really help with the frame tomorrow?"
+      },
+      {
+        "speaker": "maggie",
+        "line": "If you work like you mean it, yes."
+      },
+      {
+        "speaker": "bear",
+        "line": "I'll work hard!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "You always do. Both of you are good workers."
+      },
+      {
+        "speaker": "finn",
+        "line": "Better than good. We're the best woodpile team ever!"
+      },
+      {
+        "speaker": "bear",
+        "line": "Sawyer's lucky getting to go to town with Dad."
+      },
+      {
+        "speaker": "maggie",
+        "line": "That's what growing up looks like. Real work. Real trust."
+      },
+      {
+        "speaker": "finn",
+        "line": "I'm growing up too!"
+      },
+      {
+        "speaker": "bear",
+        "line": "Show us your muscles, Finn."
+      },
+      {
+        "speaker": "finn",
+        "line": "Look! Huge!"
+      },
+      {
+        "speaker": "maggie",
+        "line": "All right, finish up. Light's going."
+      }
+    ],
+    "timestamp": "2026-06-26T15:02:44.178606"
   }
 ]

@@ -8,12 +8,12 @@
       "trust": 100,
       "openness": 96,
       "ambition": 100,
-      "loneliness": 0,
+      "loneliness": 3,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "purposeful",
     "where": "home",
@@ -93,14 +93,14 @@
       "loneliness": 0,
       "resilience": 100,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
-    "mood": "grounded",
+    "mood": "purposeful",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "woodpile",
       "x": 64,
       "y": 46
     },
@@ -142,8 +142,8 @@
       ]
     },
     "interaction": {
-      "with": "cole",
-      "state": "talking"
+      "with": "finn",
+      "state": "working_together"
     },
     "memories": [
       {
@@ -163,12 +163,12 @@
       "trust": 100,
       "openness": 90,
       "ambition": 100,
-      "loneliness": 0,
+      "loneliness": 3,
       "resilience": 96,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
     "mood": "ready",
     "where": "home",
@@ -237,14 +237,14 @@
       "loneliness": 0,
       "resilience": 66,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
-    "mood": "excited",
+    "mood": "eager",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "woodpile",
       "x": 78,
       "y": 60
     },
@@ -285,8 +285,8 @@
       "boots": "#34281c"
     },
     "interaction": {
-      "with": "cole",
-      "state": "talking"
+      "with": "bear",
+      "state": "working_together"
     },
     "memories": [
       {
@@ -309,14 +309,14 @@
       "loneliness": 0,
       "resilience": 89,
       "health": 100,
-      "hunger": 55,
+      "hunger": 47,
       "thirst": 55,
-      "energy": 88
+      "energy": 82
     },
-    "mood": "drowsy",
+    "mood": "helpful",
     "where": "home",
     "location": {
-      "waypoint": "cabin_porch",
+      "waypoint": "woodpile",
       "x": 54,
       "y": 64
     },
@@ -358,7 +358,7 @@
     },
     "interaction": {
       "with": "maggie",
-      "state": "sitting_together"
+      "state": "working_together"
     },
     "memories": [
       {
